@@ -1,0 +1,99 @@
+{
+  "id": "1-5",
+  "title": { "es": "Falsos amigos", "ca": "Falsos amics" },
+  "goal": {
+    "es": "Las palabras que parecen iguales pero significan otra cosa, o cambian de género entre español y catalán.",
+    "ca": "Paraules que semblen iguals però signifiquen una altra cosa o canvien de gènere."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Palabras totalmente distintas", "ca": "Paraules totalment diferents" },
+      "goal": {
+        "es": "Estas palabras cotidianas no se parecen al español. Aprende cinco esenciales.",
+        "ca": "Aquestes paraules quotidianes no s'assemblen a l'espanyol."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "el got", "es": "el vaso",
+          "note": { "es": "«got» en catalán es lo que en español llamamos «vaso».", "ca": "«got» en català és el «vaso» espanyol." } },
+        { "type": "flashcard", "ca": "la finestra", "es": "la ventana" },
+        { "type": "flashcard", "ca": "el cotxe", "es": "el coche" },
+        { "type": "flashcard", "ca": "el gos", "es": "el perro" },
+        { "type": "flashcard", "ca": "la taula", "es": "la mesa" },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "la ventana", "options": ["la finestra", "la ventana", "la finestra de", "el finestra"], "answer": "la finestra" },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "El perro está en la mesa",
+          "answer": "El gos és a la taula",
+          "bank": ["El", "gos", "és", "a", "la", "taula", "está", "está"] }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "Cambios de género", "ca": "Canvis de gènere" },
+      "goal": {
+        "es": "Algunas palabras existen en ambos idiomas, pero cambian de género. ¡Cuidado con los artículos!",
+        "ca": "Algunes paraules canvien de gènere entre les dues llengües."
+      },
+      "exercises": [
+        { "type": "compare",
+          "es": "la costumbre",
+          "ca": "el costum",
+          "note": { "es": "En catalán es masculino: el costum.", "ca": "En català és masculí: el costum." }
+        },
+        { "type": "compare",
+          "es": "el dolor",
+          "ca": "el dolor",
+          "note": { "es": "Aquí coinciden: ambos masculinos.", "ca": "Aquí coincideixen: tots dos masculins." }
+        },
+        { "type": "compare",
+          "es": "la nariz",
+          "ca": "el nas",
+          "note": { "es": "El catalán «nas» es masculino.", "ca": "El català «nas» és masculí." }
+        },
+        { "type": "compare",
+          "es": "la sal",
+          "ca": "la sal",
+          "note": { "es": "Mismo género: femenino en ambos.", "ca": "Mateix gènere: femení en totes dues." }
+        },
+        { "type": "fill_blank",
+          "sentence": "M'agrada ___ costum.",
+          "translation": "Me gusta esta costumbre.",
+          "options": ["aquest", "aquesta", "el", "la"],
+          "answer": "aquest" },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "la nariz", "options": ["el nas", "la nas", "la nariu", "el nariu"], "answer": "el nas" }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Significado distinto", "ca": "Significat diferent" },
+      "goal": {
+        "es": "Estas palabras existen en español, pero significan otra cosa en catalán.",
+        "ca": "Paraules que existeixen en espanyol però volen dir una altra cosa en català."
+      },
+      "exercises": [
+        { "type": "compare",
+          "es": "estimar (calcular)",
+          "ca": "estimar (querer, amar)",
+          "note": { "es": "En catalán «estimar» significa querer/amar. ¡T'estimo = te quiero!", "ca": "En català «estimar» vol dir voler. T'estimo = te quiero." }
+        },
+        { "type": "flashcard", "ca": "T'estimo", "es": "Te quiero" },
+        { "type": "compare",
+          "es": "tarda (verbo tardar)",
+          "ca": "tarda (la tarde)",
+          "note": { "es": "En catalán «la tarda» es la tarde. «Bona tarda» = buenas tardes.", "ca": "En català «la tarda» és la tarda." }
+        },
+        { "type": "compare",
+          "es": "guapa / chica bonita",
+          "ca": "maca",
+          "note": { "es": "«Maca» en catalán significa guapa o bonita. Muy frecuente.", "ca": "«Maca» en català vol dir guapa o bonica." }
+        },
+        { "type": "multiple_choice", "direction": "ca-es", "prompt": "T'estimo molt", "options": ["Te quiero mucho", "Te aprecio mucho", "Te calculo mucho", "Te admiro mucho"], "answer": "Te quiero mucho" },
+        { "type": "fill_blank",
+          "sentence": "Quina ___ tan maca!",
+          "translation": "¡Qué tarde tan bonita!",
+          "options": ["tarda", "tarde", "tardanza", "tardana"],
+          "answer": "tarda" }
+      ]
+    }
+  ]
+}

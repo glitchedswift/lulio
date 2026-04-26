@@ -1,0 +1,93 @@
+{
+  "id": "1-3",
+  "title": { "es": "Los números", "ca": "Els nombres" },
+  "goal": {
+    "es": "Cuenta del 0 al 100 en catalán y reconoce los patrones de las decenas.",
+    "ca": "Compta del 0 al 100 en català i reconeix els patrons de les desenes."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Del 0 al 10", "ca": "Del 0 al 10" },
+      "goal": {
+        "es": "Aprende los primeros once números. Muchos parecen al español, otros no tanto.",
+        "ca": "Aprèn els primers onze nombres."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "zero", "es": "cero" },
+        { "type": "flashcard", "ca": "u", "es": "uno",
+          "note": { "es": "Como adjetivo se usa «un / una».", "ca": "Com a adjectiu es fa servir «un / una»." } },
+        { "type": "flashcard", "ca": "dos", "es": "dos" },
+        { "type": "flashcard", "ca": "tres", "es": "tres" },
+        { "type": "flashcard", "ca": "quatre", "es": "cuatro" },
+        { "type": "flashcard", "ca": "cinc", "es": "cinco" },
+        { "type": "flashcard", "ca": "sis", "es": "seis" },
+        { "type": "flashcard", "ca": "set", "es": "siete" },
+        { "type": "flashcard", "ca": "vuit", "es": "ocho" },
+        { "type": "flashcard", "ca": "nou", "es": "nueve",
+          "note": { "es": "Cuidado: «nou» también significa «nuevo».", "ca": "Compte: «nou» també vol dir «nou»." } },
+        { "type": "flashcard", "ca": "deu", "es": "diez" },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "ocho", "options": ["vuit", "huit", "ocho", "uit"], "answer": "vuit" },
+        { "type": "listen", "ca": "quatre", "options": ["quatre", "catre", "cuatre"] }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "Del 11 al 20", "ca": "Del 11 al 20" },
+      "goal": {
+        "es": "Aquí los números cambian más respecto al español. Memorízalos uno a uno.",
+        "ca": "Aquí els nombres canvien més respecte de l'espanyol."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "onze", "es": "once" },
+        { "type": "flashcard", "ca": "dotze", "es": "doce" },
+        { "type": "flashcard", "ca": "tretze", "es": "trece" },
+        { "type": "flashcard", "ca": "catorze", "es": "catorce" },
+        { "type": "flashcard", "ca": "quinze", "es": "quince" },
+        { "type": "flashcard", "ca": "setze", "es": "dieciséis" },
+        { "type": "flashcard", "ca": "disset", "es": "diecisiete" },
+        { "type": "flashcard", "ca": "divuit", "es": "dieciocho" },
+        { "type": "flashcard", "ca": "dinou", "es": "diecinueve" },
+        { "type": "flashcard", "ca": "vint", "es": "veinte" },
+        { "type": "compare",
+          "es": "dieciséis",
+          "ca": "setze",
+          "note": { "es": "El catalán usa formas únicas hasta el 16. Después: «di-» + número.", "ca": "El català fa servir formes úniques fins al 16. Després: «di-» + nombre." }
+        },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "diecisiete", "options": ["disset", "decisset", "diciset", "diset"], "answer": "disset" },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "veinte", "options": ["vint", "vente", "vint-i", "veinte"], "answer": "vint" }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Decenas y cien", "ca": "Desenes i cent" },
+      "goal": {
+        "es": "Las decenas siguen un patrón parecido al español, con cambios de raíz.",
+        "ca": "Les desenes segueixen un patró semblant amb canvis d'arrel."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "trenta", "es": "treinta" },
+        { "type": "flashcard", "ca": "quaranta", "es": "cuarenta" },
+        { "type": "flashcard", "ca": "cinquanta", "es": "cincuenta" },
+        { "type": "flashcard", "ca": "seixanta", "es": "sesenta" },
+        { "type": "flashcard", "ca": "setanta", "es": "setenta" },
+        { "type": "flashcard", "ca": "vuitanta", "es": "ochenta" },
+        { "type": "flashcard", "ca": "noranta", "es": "noventa" },
+        { "type": "flashcard", "ca": "cent", "es": "cien" },
+        { "type": "flashcard", "ca": "vint-i-u", "es": "veintiuno",
+          "note": { "es": "Del 21 al 29 se escribe con guiones: vint-i-u, vint-i-dos…", "ca": "Del 21 al 29 s'escriu amb guions." } },
+        { "type": "compare",
+          "es": "treinta y uno",
+          "ca": "trenta-u",
+          "note": { "es": "A partir del 30 también se usa el guion: trenta-u, quaranta-dos…", "ca": "A partir del 30 també es fa servir el guió." }
+        },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "noventa", "options": ["noranta", "noventa", "novanta", "naranta"], "answer": "noranta" },
+        { "type": "fill_blank",
+          "sentence": "Tinc ___ anys.",
+          "translation": "Tengo veinticinco años.",
+          "options": ["vint-i-cinc", "vint i cinco", "vinticinc", "vintciu"],
+          "answer": "vint-i-cinc" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+:root {
+  --font: "Nunito", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  --bg: #fff8ec;
+  --bg-soft: #fffdf6;
+  --ink: #2b1d0e;
+  --ink-soft: #6b5942;
+  --line: #e9dcc1;
+
+  --primary: #58cc02;
+  --primary-dark: #46a302;
+  --primary-soft: #d7f5b1;
+  --accent: #ff9600;
+  --accent-dark: #d57e00;
+  --danger: #ef4444;
+  --info: #1cb0f6;
+  --gold: #ffc800;
+
+  --shadow-sm: 0 2px 0 rgba(0, 0, 0, 0.08);
+  --shadow-btn: 0 4px 0 rgba(0, 0, 0, 0.18);
+  --shadow-card: 0 12px 32px rgba(43, 29, 14, 0.08);
+
+  --radius-sm: 10px;
+  --radius: 16px;
+  --radius-lg: 24px;
+
+  --block-1: #58cc02;
+  --block-2: #1cb0f6;
+  --block-3: #a560e8;
+  --block-4: #ff9600;
+  --block-5: #ff4b4b;
+
+  --block-1-soft: #d7f5b1;
+  --block-2-soft: #c6e9fb;
+  --block-3-soft: #e3d2f7;
+  --block-4-soft: #ffe1b8;
+  --block-5-soft: #ffd2d2;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a160e;
+    --bg-soft: #221d12;
+    --ink: #fff7e6;
+    --ink-soft: #b9a884;
+    --line: #3a2f1c;
+    --shadow-card: 0 12px 32px rgba(0, 0, 0, 0.4);
+  }
+}

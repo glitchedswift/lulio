@@ -1,0 +1,113 @@
+{
+  "id": "1-4",
+  "title": { "es": "Artículos", "ca": "Articles" },
+  "goal": {
+    "es": "Domina los artículos catalanes: el/la/els/les, un/una/uns/unes y la curiosa costumbre de poner artículo delante de los nombres.",
+    "ca": "Domina els articles catalans i el costum de posar article davant dels noms."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "el / la / els / les", "ca": "el / la / els / les" },
+      "goal": {
+        "es": "Los artículos definidos catalanes: «els» (no «los») y «les» (no «las»).",
+        "ca": "Els articles definits catalans."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "el llibre", "es": "el libro" },
+        { "type": "flashcard", "ca": "la casa", "es": "la casa" },
+        { "type": "flashcard", "ca": "els nens", "es": "los niños",
+          "note": { "es": "«els» = los. No existe «los» en catalán estándar.", "ca": "«els» = los. No existeix «los» en català estàndard." } },
+        { "type": "flashcard", "ca": "les cases", "es": "las casas" },
+        { "type": "compare",
+          "es": "los libros",
+          "ca": "els llibres",
+          "note": { "es": "Recuerda: «los» en español → «els» en catalán.", "ca": "Recorda: «los» en espanyol → «els» en català." }
+        },
+        { "type": "fill_blank",
+          "sentence": "___ pares són a casa.",
+          "translation": "Los padres están en casa.",
+          "options": ["Els", "Los", "El", "Les"],
+          "answer": "Els" },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "las niñas", "options": ["les nenes", "las nenes", "els nenes", "la nena"], "answer": "les nenes" }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "un / una / uns / unes", "ca": "un / una / uns / unes" },
+      "goal": {
+        "es": "El plural masculino y femenino son «uns» y «unes», no «unos» y «unas».",
+        "ca": "El plural és «uns» i «unes»."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "un cotxe", "es": "un coche" },
+        { "type": "flashcard", "ca": "una taula", "es": "una mesa" },
+        { "type": "flashcard", "ca": "uns amics", "es": "unos amigos" },
+        { "type": "flashcard", "ca": "unes amigues", "es": "unas amigas" },
+        { "type": "compare",
+          "es": "unos perros",
+          "ca": "uns gossos",
+          "note": { "es": "«uns» en lugar de «unos». Y ojo: perro = «gos».", "ca": "«uns» en lloc de «unos». I gos = perro." }
+        },
+        { "type": "fill_blank",
+          "sentence": "Tinc ___ amigues a Barcelona.",
+          "translation": "Tengo unas amigas en Barcelona.",
+          "options": ["unes", "unas", "uns", "una"],
+          "answer": "unes" },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "un coche y una mesa",
+          "answer": "un cotxe i una taula",
+          "bank": ["un", "cotxe", "i", "una", "taula", "el", "y"] }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Artículos con nombres", "ca": "Articles amb noms" },
+      "goal": {
+        "es": "En catalán es habitual decir «el Joan» o «la Maria». En español no se hace.",
+        "ca": "En català és habitual dir «el Joan» o «la Maria»."
+      },
+      "exercises": [
+        { "type": "compare",
+          "es": "Maria ha llegado",
+          "ca": "La Maria ha arribat",
+          "note": { "es": "El catalán pone artículo (el / la / l') delante de los nombres en el habla cotidiana.", "ca": "El català posa article davant dels noms en la parla quotidiana." }
+        },
+        { "type": "compare",
+          "es": "Juan es mi amigo",
+          "ca": "El Joan és el meu amic",
+          "note": { "es": "Otro patrón típico catalán que sorprende a los hispanohablantes.", "ca": "Un patró que sorprèn els hispanoparlants." }
+        },
+        { "type": "flashcard", "ca": "L'Anna", "es": "Anna",
+          "note": { "es": "Antes de vocal o «h», «la» se convierte en «l'».", "ca": "Davant de vocal o «h», «la» esdevé «l'»." } },
+        { "type": "flashcard", "ca": "L'Òscar", "es": "Óscar" },
+        { "type": "fill_blank",
+          "sentence": "___ Joan és el meu germà.",
+          "translation": "Juan es mi hermano.",
+          "options": ["El", "Lo", "L'", "La"],
+          "answer": "El" },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "Anna llega hoy", "options": ["L'Anna arriba avui", "La Anna arriba avui", "Anna arriba avui", "El Anna arriba avui"], "answer": "L'Anna arriba avui" }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "x1",
+      "title": { "es": "L'apostrofat", "ca": "L'apostrofat" },
+      "goal": {
+        "es": "«El» y «la» se contraen a «l'» antes de vocal o «h»: l'home, l'escola, l'aigua.",
+        "ca": "«El» i «la» es contreuen a «l'» davant de vocal o «h»."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "l'home", "es": "el hombre" },
+        { "type": "flashcard", "ca": "l'escola", "es": "la escuela" },
+        { "type": "flashcard", "ca": "l'aigua", "es": "el agua" },
+        { "type": "fill_blank",
+          "sentence": "Vaig a ___ escola.",
+          "translation": "Voy a la escuela.",
+          "options": ["l'", "la", "el", "les"],
+          "answer": "l'" }
+      ]
+    }
+  ]
+}

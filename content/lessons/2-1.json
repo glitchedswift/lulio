@@ -1,0 +1,108 @@
+{
+  "id": "2-1",
+  "title": { "es": "La familia", "ca": "La família" },
+  "goal": {
+    "es": "Habla de tu familia en catalán: padres, hermanos, abuelos, primos.",
+    "ca": "Parla de la teva família en català: pares, germans, avis, cosins."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Pares y hermanos", "ca": "Pares i germans" },
+      "goal": {
+        "es": "Aprende los miembros más cercanos de la familia.",
+        "ca": "Aprèn els membres més propers de la família."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "el pare", "es": "el padre" },
+        { "type": "flashcard", "ca": "la mare", "es": "la madre" },
+        { "type": "flashcard", "ca": "els pares", "es": "los padres" },
+        { "type": "flashcard", "ca": "el germà", "es": "el hermano",
+          "note": { "es": "Atento al acento: «germà» con acento abierto.", "ca": "Atent a l'accent: «germà»." } },
+        { "type": "flashcard", "ca": "la germana", "es": "la hermana" },
+        { "type": "fill_blank",
+          "sentence": "El meu ___ es diu Pau.",
+          "translation": "Mi hermano se llama Pau.",
+          "options": ["germà", "hermano", "germana", "ger"],
+          "answer": "germà" },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Mis padres están en casa",
+          "answer": "Els meus pares són a casa",
+          "bank": ["Els", "meus", "pares", "són", "a", "casa", "estan", "padres"] }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "Abuelos y nietos", "ca": "Avis i néts" },
+      "goal": {
+        "es": "Las generaciones mayores y menores en catalán.",
+        "ca": "Les generacions més grans i més joves en català."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "l'avi", "es": "el abuelo",
+          "note": { "es": "Recuerda el apóstrofo: l'avi.", "ca": "Recorda l'apòstrof: l'avi." } },
+        { "type": "flashcard", "ca": "l'àvia", "es": "la abuela" },
+        { "type": "flashcard", "ca": "els avis", "es": "los abuelos" },
+        { "type": "flashcard", "ca": "el nét", "es": "el nieto" },
+        { "type": "flashcard", "ca": "la néta", "es": "la nieta" },
+        { "type": "compare",
+          "es": "Mi abuela es muy graciosa",
+          "ca": "La meva àvia és molt graciosa",
+          "note": { "es": "Fíjate en «la meva» (mi, en femenino).", "ca": "Fixa't en «la meva»." }
+        },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "los abuelos", "options": ["els avis", "los avis", "els avi", "les àvies"], "answer": "els avis" },
+        { "type": "listen", "ca": "L'àvia i l'avi", "options": ["L'àvia i l'avi", "La àvia i el avi", "Avia i avi"] }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Tíos y primos", "ca": "Oncles i cosins" },
+      "goal": {
+        "es": "La familia extensa, con un guiño a las diferencias léxicas con el español.",
+        "ca": "La família extensa amb diferències lèxiques."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "l'oncle", "es": "el tío",
+          "note": { "es": "El catalán usa «oncle», más cercano al francés que al español.", "ca": "El català fa servir «oncle»." } },
+        { "type": "flashcard", "ca": "la tia", "es": "la tía" },
+        { "type": "flashcard", "ca": "el cosí", "es": "el primo" },
+        { "type": "flashcard", "ca": "la cosina", "es": "la prima" },
+        { "type": "compare",
+          "es": "Mi tío vive en Girona",
+          "ca": "El meu oncle viu a Girona",
+          "note": { "es": "«Oncle» en lugar de «tío». Y atento: «a Girona», no «en Girona».", "ca": "«Oncle» en lloc de «tio»." }
+        },
+        { "type": "fill_blank",
+          "sentence": "El meu ___ es diu Marc.",
+          "translation": "Mi primo se llama Marc.",
+          "options": ["cosí", "primo", "cosin", "cusí"],
+          "answer": "cosí" },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Mi tía y mi prima",
+          "answer": "La meva tia i la meva cosina",
+          "bank": ["La", "meva", "tia", "i", "cosina", "el", "tio", "prima"] }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "x1",
+      "title": { "es": "Pareja: marit, dona", "ca": "Parella: marit, dona" },
+      "goal": {
+        "es": "El catalán usa «la dona» para «la mujer» y también para «la esposa».",
+        "ca": "El català fa servir «la dona» per «la dona/esposa»."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "el marit", "es": "el marido" },
+        { "type": "flashcard", "ca": "la dona", "es": "la mujer / la esposa",
+          "note": { "es": "«La dona» significa tanto «la mujer» como «la esposa», según contexto.", "ca": "«La dona» pot voler dir «mujer» o «esposa»." } },
+        { "type": "flashcard", "ca": "la parella", "es": "la pareja" },
+        { "type": "compare",
+          "es": "mi mujer / mi esposa",
+          "ca": "la meva dona",
+          "note": { "es": "«La meva dona» equivale a «mi mujer» en español coloquial.", "ca": "«La meva dona» equival a «mi mujer»." }
+        }
+      ]
+    }
+  ]
+}

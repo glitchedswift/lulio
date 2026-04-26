@@ -1,0 +1,119 @@
+{
+  "id": "1-2",
+  "title": { "es": "Sonidos catalanes", "ca": "Sons catalans" },
+  "goal": {
+    "es": "Reconoce los sonidos que diferencian al catalán del español: ny, ll, x, ç y la vocal neutra.",
+    "ca": "Reconeix els sons que diferencien el català de l'espanyol: ny, ll, x, ç i la vocal neutra."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "ny y ll", "ca": "ny i ll" },
+      "goal": {
+        "es": "«ny» suena como la «ñ» española. «ll» suena similar al español, pero más palatal.",
+        "ca": "«ny» sona com la «ñ» espanyola. «ll» sona similar però més palatal."
+      },
+      "exercises": [
+        { "type": "compare",
+          "es": "España",
+          "ca": "Espanya",
+          "note": { "es": "La «ñ» española se escribe «ny» en catalán. Mismo sonido.", "ca": "La «ñ» espanyola s'escriu «ny» en català. Mateix so." }
+        },
+        { "type": "compare",
+          "es": "Cataluña",
+          "ca": "Catalunya",
+          "note": { "es": "Otro ejemplo del mismo patrón.", "ca": "Un altre exemple del mateix patró." }
+        },
+        { "type": "flashcard", "ca": "Any", "es": "Año" },
+        { "type": "flashcard", "ca": "Llet", "es": "Leche",
+          "note": { "es": "«llet» es femenina, igual que «leche».", "ca": "«llet» és femenina, com «leche»." } },
+        { "type": "flashcard", "ca": "Llibre", "es": "Libro" },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "Año", "options": ["Any", "Anyo", "Año", "Anny"], "answer": "Any" },
+        { "type": "listen", "ca": "Espanya", "options": ["Espanya", "España", "Espania"] }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "x y ç", "ca": "x i ç" },
+      "goal": {
+        "es": "«x» suele sonar como «sh» (xocolata). «ç» suena como una «s».",
+        "ca": "«x» sol sonar com «sh» (xocolata). «ç» sona com una «s»."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "Xocolata", "es": "Chocolate",
+          "note": { "es": "«x-» a inicio suele sonar /ʃ/, como «sh» en inglés.", "ca": "«x-» a inici sol sonar /ʃ/, com «sh» en anglès." } },
+        { "type": "flashcard", "ca": "Xai", "es": "Cordero" },
+        { "type": "flashcard", "ca": "Cançó", "es": "Canción",
+          "note": { "es": "La «ç» (ce trencada) suena como «s».", "ca": "La «ç» (ce trencada) sona com una «s»." } },
+        { "type": "flashcard", "ca": "Plaça", "es": "Plaza" },
+        { "type": "compare",
+          "es": "Plaza Cataluña",
+          "ca": "Plaça Catalunya",
+          "note": { "es": "Verás «Plaça» por todas partes en Barcelona.", "ca": "Veuràs «Plaça» per tot Barcelona." }
+        },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "Plaza", "options": ["Plaça", "Plassa", "Plaza", "Plaxa"], "answer": "Plaça" },
+        { "type": "listen", "ca": "Xocolata", "options": ["Xocolata", "Cocolata", "Chocolata"] }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "La vocal neutra", "ca": "La vocal neutra" },
+      "goal": {
+        "es": "Las «a» y «e» átonas en catalán central suenan a una vocal neutra (schwa), como la «a» de «sofá».",
+        "ca": "Les «a» i «e» àtones en català central sonen a vocal neutra (schwa)."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "Casa", "es": "Casa",
+          "note": { "es": "La última «a» se reduce a vocal neutra: «cazə».", "ca": "L'última «a» es redueix a vocal neutra: «cazə»." } },
+        { "type": "flashcard", "ca": "Pare", "es": "Padre",
+          "note": { "es": "La «e» final también se reduce a vocal neutra.", "ca": "La «e» final també es redueix a vocal neutra." } },
+        { "type": "flashcard", "ca": "Mare", "es": "Madre" },
+        { "type": "compare",
+          "es": "padre y madre",
+          "ca": "pare i mare",
+          "note": { "es": "Las «-e» finales suenan como una «a» suave en el catalán central.", "ca": "Les «-e» finals sonen com una «a» suau al català central." }
+        },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "Madre", "options": ["Mare", "Madre", "Mara", "Maire"], "answer": "Mare" },
+        { "type": "listen", "ca": "Pare", "options": ["Pare", "Para", "Pere"] }
+      ]
+    },
+    {
+      "id": "t4",
+      "title": { "es": "La ela geminada (l·l)", "ca": "La ela geminada (l·l)" },
+      "goal": {
+        "es": "El «l·l» se pronuncia como una doble L, ligeramente alargada. Lo verás en palabras cultas.",
+        "ca": "La «l·l» es pronuncia com una doble L, una mica allargada."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "Col·legi", "es": "Colegio",
+          "note": { "es": "El punto volado «·» indica que la L se duplica.", "ca": "El punt volat «·» indica que la L es duplica." } },
+        { "type": "flashcard", "ca": "Pel·lícula", "es": "Película" },
+        { "type": "flashcard", "ca": "Excel·lent", "es": "Excelente" },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "Película", "options": ["Pel·lícula", "Pellícula", "Película", "Pelicula"], "answer": "Pel·lícula" },
+        { "type": "compare",
+          "es": "El colegio es excelente",
+          "ca": "El col·legi és excel·lent",
+          "note": { "es": "Fíjate en los dos puntos volados.", "ca": "Fixa't en els dos punts volats." }
+        }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "x1",
+      "title": { "es": "Vocales abiertas y cerradas", "ca": "Vocals obertes i tancades" },
+      "goal": {
+        "es": "Catalán distingue entre è/é y ò/ó. Empieza por reconocerlas; con tiempo afinarás el oído.",
+        "ca": "El català distingeix entre è/é i ò/ó."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "Cafè", "es": "Café",
+          "note": { "es": "«è» (acento grave) = vocal abierta, casi como la «e» de «perro».", "ca": "«è» (accent greu) = vocal oberta." } },
+        { "type": "flashcard", "ca": "Més", "es": "Más",
+          "note": { "es": "«é» (acento agudo) = vocal cerrada, como la «e» de «mesa».", "ca": "«é» (accent agut) = vocal tancada." } },
+        { "type": "flashcard", "ca": "Cançó", "es": "Canción" },
+        { "type": "flashcard", "ca": "Avui", "es": "Hoy" }
+      ]
+    }
+  ]
+}
