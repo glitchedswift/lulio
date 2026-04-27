@@ -4,6 +4,12 @@
       <stop offset="0%" stop-color="#7be000"/>
       <stop offset="100%" stop-color="#46a302"/>
     </radialGradient>
+    <clipPath id="lc">
+      <ellipse cx="32" cy="76" rx="11" ry="7"/>
+    </clipPath>
+    <clipPath id="rc">
+      <ellipse cx="88" cy="76" rx="11" ry="7"/>
+    </clipPath>
   </defs>
   <ellipse cx="60" cy="100" rx="36" ry="6" fill="rgba(0,0,0,0.12)"/>
   <path d="M60 14 C 88 14 102 38 102 62 C 102 88 86 104 60 104 C 34 104 18 88 18 62 C 18 38 32 14 60 14 Z"
@@ -16,6 +22,20 @@
   <circle cx="50" cy="60" r="2" fill="#fff"/>
   <circle cx="78" cy="60" r="2" fill="#fff"/>
   <path d="M52 80 Q 60 88 68 80" stroke="#1a160e" stroke-width="3" stroke-linecap="round" fill="none"/>
-  <ellipse cx="32" cy="78" rx="5" ry="3" fill="#ffb3c8" opacity="0.7"/>
-  <ellipse cx="88" cy="78" rx="5" ry="3" fill="#ffb3c8" opacity="0.7"/>
+  <!-- Left cheek — Senyera (Catalan flag) -->
+  <ellipse cx="32" cy="76" rx="11" ry="7" fill="#FCDD09" opacity="0.95"/>
+  <g clip-path="url(#lc)" opacity="0.95">
+    <rect x="21" y="70.6" width="22" height="1.6" fill="#DA121A"/>
+    <rect x="21" y="73.7" width="22" height="1.6" fill="#DA121A"/>
+    <rect x="21" y="76.8" width="22" height="1.6" fill="#DA121A"/>
+    <rect x="21" y="79.9" width="22" height="1.6" fill="#DA121A"/>
+  </g>
+  <!-- Right cheek — Senyera (Catalan flag) -->
+  <ellipse cx="88" cy="76" rx="11" ry="7" fill="#FCDD09" opacity="0.95"/>
+  <g clip-path="url(#rc)" opacity="0.95">
+    <rect x="77" y="70.6" width="22" height="1.6" fill="#DA121A"/>
+    <rect x="77" y="73.7" width="22" height="1.6" fill="#DA121A"/>
+    <rect x="77" y="76.8" width="22" height="1.6" fill="#DA121A"/>
+    <rect x="77" y="79.9" width="22" height="1.6" fill="#DA121A"/>
+  </g>
 </svg>
