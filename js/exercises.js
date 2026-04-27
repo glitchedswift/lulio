@@ -45,6 +45,7 @@ export function renderExercise(container, ex) {
     case "listen": return renderListen(container, ex);
     case "fill_blank": return renderFillBlank(container, ex);
     case "compare": return renderCompare(container, ex);
+    case "pattern": return renderPattern(container, ex);
     default:
       container.appendChild(el("div", { class: "card" }, "Tipus d'exercici desconegut: " + ex.type));
       return { check: () => ({ correct: true, expected: "" }) };
@@ -249,6 +250,40 @@ function renderFillBlank(container, ex) {
     },
     canCheck: () => selected != null,
   };
+}
+
+function renderPattern(container, ex) {
+  const lang = getLang();
+  const examplesEl = el("div", { class: "pattern-examples" });
+  (ex.examples || []).forEach((pair) => {
+    const caBtn = el("button", { class: "pattern-tts", type: "button",
+      "aria-label": t("lesson.tap_to_hear") }, pair.ca + " 🔊");
+    caBtn.addEventListener("click", () => speak(pair.ca, "ca-ES"));
+    examplesEl.appendChild(
+      el("div", { class: "pattern-pair" },
+        el("span", { class: "ex-es" }, pair.es),
+        caBtn
+      )
+    );
+  });
+  const card = el("div", { class: "card" },
+    el("div", { class: "prompt" }, t("lesson.pattern")),
+    el("div", { class: "pattern-rule" },
+      el("div", { style: "text-align:center" },
+        el("span", { class: "pattern-lang" }, "ESPAÑOL"),
+        el("div", { class: "pattern-from" }, ex.rule.from)
+      ),
+      el("span", { class: "pattern-arrow" }, "→"),
+      el("div", { style: "text-align:center" },
+        el("span", { class: "pattern-lang" }, "CATALÀ"),
+        el("div", { class: "pattern-to" }, ex.rule.to)
+      )
+    ),
+    examplesEl,
+    ex.note ? el("div", { class: "compare-note" }, ex.note[lang] || ex.note.es || "") : null
+  );
+  container.appendChild(card);
+  return { check: () => ({ correct: true, expected: "" }), autoAccept: true };
 }
 
 function renderCompare(container, ex) {
