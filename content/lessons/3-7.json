@@ -1,0 +1,136 @@
+{
+  "id": "3-7",
+  "title": { "es": "El imperfecto", "ca": "L'imperfet" },
+  "goal": {
+    "es": "El imperfecto catalán se usa para describir el pasado y hablar de acciones habituales. Sus formas son muy regulares y similares al español.",
+    "ca": "L'imperfet s'usa per descriure el passat i parlar d'accions habituals. Les seves formes són molt regulars."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Conjugación del imperfecto", "ca": "Conjugació de l'imperfet" },
+      "goal": {
+        "es": "Las terminaciones para -ar (-ava…) y -er/-ir (-ia…). Muy regulares.",
+        "ca": "Terminacions per a -ar (-ava…) i -er/-ir (-ia…)."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "parlava", "es": "hablaba",
+          "note": { "es": "-ar → -ava, -aves, -ava, -àvem, -àveu, -aven.", "ca": "-ar → -ava, -aves, -ava, -àvem, -àveu, -aven." } },
+        { "type": "flashcard", "ca": "tenia", "es": "tenía",
+          "note": { "es": "-er/-ir → -ia, -ies, -ia, -íem, -íeu, -ien.", "ca": "-er/-ir → -ia, -ies, -ia, -íem, -íeu, -ien." } },
+        { "type": "flashcard", "ca": "era", "es": "era",
+          "note": { "es": "«Ser» es irregular: era, eres, era, érem, éreu, eren.", "ca": "Ser: era, eres, era, érem, éreu, eren." } },
+        { "type": "compare",
+          "es": "Cuando era joven hablaba mucho",
+          "ca": "Quan era jove parlava molt",
+          "note": { "es": "«Era» (ser) + «parlava» (-ar). Estructura igual que en español.", "ca": "Era + parlava: imperfets." }
+        },
+        { "type": "compare",
+          "es": "Antes vivíamos en Tarragona",
+          "ca": "Abans vivíem a Tarragona",
+          "note": { "es": "«Vivíem» (-ir → -íem en 1ª plural). «Abans» = antes.", "ca": "«Vivíem»: 1a plural -ir." }
+        },
+        { "type": "fill_blank",
+          "sentence": "De petit, el meu avi ___ cada dia a la plaça.",
+          "translation": "De pequeño, mi abuelo iba todos los días a la plaza.",
+          "options": ["anava", "va anar", "anirà", "va"],
+          "answer": "anava" },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "tenía", "options": ["tenia", "va tenir", "tindrà", "té"], "answer": "tenia" },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "hablaban", "options": ["parlaven", "van parlar", "parlaran", "parlen"], "answer": "parlaven" }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "Descripción y hábito", "ca": "Descripció i hàbit" },
+      "goal": {
+        "es": "El imperfecto describe cómo eran las cosas y lo que hacías con frecuencia en el pasado.",
+        "ca": "L'imperfet descriu com eren les coses i les accions habituals del passat."
+      },
+      "exercises": [
+        { "type": "compare",
+          "es": "Mi abuela hacía una paella cada domingo",
+          "ca": "La meva àvia feia una paella cada diumenge",
+          "note": { "es": "«Feia» = hacía. Imperfecto de «fer»: feia, feies, feia, fèiem, fèieu, feien.", "ca": "Imperfet de fer: feia, feies, feia…" }
+        },
+        { "type": "compare",
+          "es": "La casa era grande y luminosa",
+          "ca": "La casa era gran i lluminosa",
+          "note": { "es": "Descripción en pasado → imperfecto en ambos idiomas.", "ca": "Descripció passada: imperfet." }
+        },
+        { "type": "flashcard", "ca": "quan era jove", "es": "cuando era joven" },
+        { "type": "flashcard", "ca": "cada dia feia", "es": "cada día hacía" },
+        { "type": "flashcard", "ca": "sempre menjava", "es": "siempre comía" },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Cuando era pequeño vivía en Vic",
+          "answer": "Quan era petit vivia a Vic",
+          "bank": ["Quan", "era", "petit", "vivia", "a", "Vic"],
+          "distractors": ["cuando", "pequeño", "vivía"] },
+        { "type": "fill_blank",
+          "sentence": "De jove, ___ molt al tennis.",
+          "translation": "De joven, jugaba mucho al tenis.",
+          "options": ["jugava", "va jugar", "jugaré", "juga"],
+          "answer": "jugava" },
+        { "type": "multiple_choice", "direction": "ca-es", "prompt": "Cada nit llegia un llibre", "options": ["Cada noche leía un libro", "Cada noche leyó un libro", "Cada noche leerá un libro", "Cada noche leo un libro"], "answer": "Cada noche leía un libro" }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Imperfecto vs pasado perifrástico", "ca": "Imperfet vs passat perifràstic" },
+      "goal": {
+        "es": "El passat perifràstic (vaig + inf.) narra hechos puntuales. El imperfecto describe el fondo o acciones habituales.",
+        "ca": "El passat perifràstic narra fets puntuals. L'imperfet descriu el context o les accions habituals."
+      },
+      "exercises": [
+        { "type": "compare",
+          "es": "Mientras comía (imperfecto), sonó el teléfono (perifrástico)",
+          "ca": "Mentre menjava (imperfet), va sonar el telèfon (perifràstic)",
+          "note": { "es": "«Mentre» + imperfecto = acción de fondo. El hecho puntual usa el perifrástico.", "ca": "«Mentre» + imperfet = fons. Fet puntual: perifràstic." }
+        },
+        { "type": "compare",
+          "es": "Siempre iba en bici (hábito, imperfecto)",
+          "ca": "Sempre anava en bici (hàbit, imperfet)",
+          "note": { "es": "Hábito del pasado → imperfecto.", "ca": "Hàbit: imperfet." }
+        },
+        { "type": "compare",
+          "es": "Ayer fui en bici (hecho concreto, perifrástico)",
+          "ca": "Ahir vaig anar en bici (fet concret, perifràstic)",
+          "note": { "es": "Hecho puntual → passat perifràstic.", "ca": "Fet puntual: perifràstic." }
+        },
+        { "type": "flashcard", "ca": "mentre dormia, va trucar", "es": "mientras dormía, llamó" },
+        { "type": "flashcard", "ca": "cada diumenge anava", "es": "cada domingo iba" },
+        { "type": "fill_blank",
+          "sentence": "Mentre ___ la dutxa, va arribar la mare.",
+          "translation": "Mientras me duchaba, llegó mi madre.",
+          "options": ["em dutxava", "em vaig dutxar", "em dutxaré", "em dutxo"],
+          "answer": "em dutxava" },
+        { "type": "multiple_choice", "direction": "ca-es", "prompt": "Sempre menjava aquí quan era petit", "options": ["Siempre comía aquí cuando era pequeño", "Siempre comió aquí cuando era pequeño", "Siempre comerá aquí cuando era pequeño", "Siempre como aquí cuando era pequeño"], "answer": "Siempre comía aquí cuando era pequeño" },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Mientras llovía, hicimos un café",
+          "answer": "Mentre plovia vam fer un cafè",
+          "bank": ["Mentre", "plovia", "vam", "fer", "un", "cafè"],
+          "distractors": ["mientras", "llovía", "hicimos"] }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "x1",
+      "title": { "es": "Verbos irregulares en imperfecto", "ca": "Verbs irregulars en imperfet" },
+      "goal": {
+        "es": "Solo cuatro raíces irregulares: ser, fer, dir, veure. El resto es completamente regular.",
+        "ca": "Només quatre arrels irregulars: ser, fer, dir, veure. La resta és completament regular."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "era / eren", "es": "era / eran (ser)" },
+        { "type": "flashcard", "ca": "feia / feien", "es": "hacía / hacían (fer)" },
+        { "type": "flashcard", "ca": "deia / deien", "es": "decía / decían (dir)" },
+        { "type": "flashcard", "ca": "veia / veien", "es": "veía / veían (veure)" },
+        { "type": "compare",
+          "es": "Ella decía que era difícil",
+          "ca": "Ella deia que era difícil",
+          "note": { "es": "«Deia» (decía) y «era» (era): los dos irregulares más frecuentes.", "ca": "«Deia» i «era»: els més freqüents." }
+        }
+      ]
+    }
+  ]
+}

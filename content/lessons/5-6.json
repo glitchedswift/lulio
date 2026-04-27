@@ -1,0 +1,178 @@
+{
+  "id": "5-6",
+  "title": { "es": "Conectores del discurso", "ca": "Connectors del discurs" },
+  "goal": {
+    "es": "Los conectores del discurso permiten encadenar ideas con precisión. El catalán tiene conectores propios que no siempre coinciden con los del español: «tanmateix», «per tant», «o sigui»…",
+    "ca": "Els connectors del discurs permeten encadenar idees amb precisió. El català té connectors propis que sovint difereixen del castellà."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Adición y contraste", "ca": "Addició i contrast" },
+      "goal": {
+        "es": "Conectores para sumar ideas (a más, fins i tot) y para oponerlas (però, tanmateix, en canvi, ara bé).",
+        "ca": "Connectors per sumar idees i per oposar-les."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "a més", "es": "además",
+          "note": { "es": "«A més» = además. Puede ir al inicio o en medio de la frase.", "ca": "«A més» = a més a més = además." } },
+        { "type": "flashcard", "ca": "fins i tot", "es": "incluso",
+          "note": { "es": "«Fins i tot» = incluso / hasta. Pone énfasis en lo inesperado.", "ca": "«Fins i tot»: emfàtic, introdueix allò inesperat." } },
+        { "type": "flashcard", "ca": "però", "es": "pero" },
+        { "type": "flashcard", "ca": "tanmateix", "es": "sin embargo / no obstante",
+          "note": { "es": "«Tanmateix» no tiene equivalente directo: es el «sin embargo» o «no obstante» catalán. Más formal que «però».", "ca": "«Tanmateix» = sin embargo. Registre formal." } },
+        { "type": "flashcard", "ca": "en canvi", "es": "en cambio",
+          "note": { "es": "«En canvi» = en cambio. Introduce una idea contrastante.", "ca": "«En canvi»: introdueix contrast." } },
+        { "type": "flashcard", "ca": "ara bé", "es": "ahora bien / sin embargo",
+          "note": { "es": "«Ara bé» = ahora bien. Matiza o pone condiciones a lo dicho antes.", "ca": "«Ara bé»: matixa o condiciona el que s'acaba de dir." } },
+        { "type": "compare",
+          "es": "Me gusta Barcelona; sin embargo, prefiero vivir en un pueblo",
+          "ca": "M'agrada Barcelona; tanmateix, prefereixo viure en un poble",
+          "note": { "es": "«Tanmateix» conecta dos ideas en tensión. Funciona igual que «sin embargo» o «no obstante».", "ca": "«Tanmateix»: connector adversatiu formal." }
+        },
+        { "type": "compare",
+          "es": "Ella trabaja mucho; en cambio, él apenas hace nada",
+          "ca": "Ella treballa molt; en canvi, ell gairebé no fa res",
+          "note": { "es": "«En canvi» señala un contraste entre dos realidades distintas.", "ca": "«En canvi»: contrasta dues realitats." }
+        },
+        { "type": "compare",
+          "es": "Incluso vino cuando llovía",
+          "ca": "Fins i tot va venir quan plovia",
+          "note": { "es": "«Fins i tot» realza lo sorprendente o inesperado.", "ca": "«Fins i tot»: reforça allò sorprenent." }
+        },
+        { "type": "fill_blank",
+          "sentence": "El projecte era difícil; ___, ho vam aconseguir.",
+          "translation": "El proyecto era difícil; sin embargo, lo conseguimos.",
+          "options": ["tanmateix", "per tant", "a més", "en canvi"],
+          "answer": "tanmateix" },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "además de eso", "options": ["a més d'això", "però d'això", "fins d'això", "tanmateix d'això"], "answer": "a més d'això" },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Sin embargo, creo que tienes razón",
+          "answer": "Tanmateix, crec que tens raó",
+          "bank": ["Tanmateix", "crec", "que", "tens", "raó"],
+          "distractors": ["sin embargo", "creo"] }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "Causa y consecuencia", "ca": "Causa i conseqüència" },
+      "goal": {
+        "es": "Conectores causales (com que, ja que, perquè) y consecutivos (per tant, per consegüent, així doncs).",
+        "ca": "Connectors causals i consecutius."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "com que", "es": "como / dado que / puesto que",
+          "note": { "es": "«Com que» introduce la causa, equivale a «dado que» o «puesto que». Va siempre al inicio de la cláusula.", "ca": "«Com que»: introdueix la causa. Sempre davant de la clàusula causal." } },
+        { "type": "flashcard", "ca": "ja que", "es": "ya que / puesto que",
+          "note": { "es": "«Ja que» = ya que. Más flexible en posición que «com que».", "ca": "«Ja que»: posició més flexible que «com que»." } },
+        { "type": "flashcard", "ca": "per tant", "es": "por lo tanto / así que",
+          "note": { "es": "«Per tant» = por lo tanto. El consecutivo más habitual en catalán escrito y oral.", "ca": "«Per tant»: el consecutiu més freqüent." } },
+        { "type": "flashcard", "ca": "per consegüent", "es": "por consiguiente",
+          "note": { "es": "«Per consegüent» = por consiguiente. Más formal que «per tant».", "ca": "«Per consegüent»: consecutiu formal." } },
+        { "type": "flashcard", "ca": "així doncs", "es": "así pues / entonces",
+          "note": { "es": "«Així doncs» = así pues. Resume y extrae una conclusión.", "ca": "«Així doncs»: resumeix i en treu una conclusió." } },
+        { "type": "compare",
+          "es": "Como llueve, no saldremos",
+          "ca": "Com que plou, no sortirem",
+          "note": { "es": "«Como» causal del español → «com que» en catalán. No confundir con «com» comparativo.", "ca": "«Como» causal → «com que». «Com» sol és comparatiu." }
+        },
+        { "type": "compare",
+          "es": "No tenemos tiempo; por lo tanto, cancelamos la reunión",
+          "ca": "No tenim temps; per tant, cancel·lem la reunió",
+          "note": { "es": "«Per tant» es el equivalente exacto de «por lo tanto».", "ca": "«Per tant»: equivalent de «por lo tanto»." }
+        },
+        { "type": "compare",
+          "es": "Ya que estás aquí, puedes ayudarme",
+          "ca": "Ja que ets aquí, pots ajudar-me",
+          "note": { "es": "«Ja que» con sentido de «ya que / puesto que».", "ca": "«Ja que»: causa justificativa." }
+        },
+        { "type": "fill_blank",
+          "sentence": "___ no hi havia bitllets, vam decidir anar amb cotxe.",
+          "translation": "Como no había billetes, decidimos ir en coche.",
+          "options": ["Com que", "Per tant", "Ja que", "Ara bé"],
+          "answer": "Com que" },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "por lo tanto", "options": ["per tant", "per consegüent tant", "per a tant", "ja que"], "answer": "per tant" },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Ya que me preguntas, te lo explico",
+          "answer": "Ja que m'ho preguntes, t'ho explico",
+          "bank": ["Ja", "que", "m'ho", "preguntes", "t'ho", "explico"],
+          "distractors": ["ya que", "preguntas"] }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Reformulación y concreción", "ca": "Reformulació i concreció" },
+      "goal": {
+        "es": "Conectores para reformular (és a dir, o sigui), precisar (pel que fa a, quant a) y ejemplificar (per exemple, de fet).",
+        "ca": "Connectors per reformular, precisar i exemplificar."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "és a dir", "es": "es decir",
+          "note": { "es": "«És a dir» = es decir. Introduce una reformulación o aclaración.", "ca": "«És a dir»: reformulació formal." } },
+        { "type": "flashcard", "ca": "o sigui", "es": "o sea",
+          "note": { "es": "«O sigui» = o sea. Más coloquial que «és a dir». Muy frecuente en catalán oral.", "ca": "«O sigui»: col·loquial, molt freqüent en l'oral." } },
+        { "type": "flashcard", "ca": "pel que fa a", "es": "en cuanto a / respecto a",
+          "note": { "es": "«Pel que fa a» = en cuanto a / respecto a. Introduce el tema del que se va a hablar.", "ca": "«Pel que fa a»: introdueix el tema. «Quant a» és equivalent i més breu." } },
+        { "type": "flashcard", "ca": "de fet", "es": "de hecho",
+          "note": { "es": "«De fet» = de hecho. Refuerza o matiza con información real.", "ca": "«De fet»: reforça amb informació factual." } },
+        { "type": "flashcard", "ca": "per exemple", "es": "por ejemplo" },
+        { "type": "flashcard", "ca": "és a dir que", "es": "o sea que / lo que significa que",
+          "note": { "es": "«És a dir que» + frase: extrae la conclusión de lo dicho.", "ca": "«És a dir que» + frase: conclusió del que s'ha dit." } },
+        { "type": "compare",
+          "es": "Es decir, no vendrá",
+          "ca": "És a dir, no vindrà  ↔  O sigui, no vindrà",
+          "note": { "es": "«És a dir» y «o sigui» son intercambiables; «o sigui» suena más oral.", "ca": "«És a dir» (formal) / «o sigui» (col·loquial)." }
+        },
+        { "type": "compare",
+          "es": "En cuanto a los plazos, hay que revisarlos",
+          "ca": "Pel que fa als terminis, cal revisar-los",
+          "note": { "es": "«Pel que fa a» + el/la/els/les → «pel que fa al», «pel que fa a la», «pel que fa als»…", "ca": "«Pel que fa a» + article → contracció al/als." }
+        },
+        { "type": "compare",
+          "es": "De hecho, ya lo sabíamos",
+          "ca": "De fet, ja ho sabíem",
+          "note": { "es": "«De fet» puede ir al inicio o dentro de la frase, igual que «de hecho».", "ca": "«De fet»: posició flexible." }
+        },
+        { "type": "fill_blank",
+          "sentence": "___ al pressupost, ja ho comentarem demà.",
+          "translation": "En cuanto al presupuesto, ya lo comentaremos mañana.",
+          "options": ["Pel que fa", "Per tant", "O sigui", "De fet"],
+          "answer": "Pel que fa" },
+        { "type": "multiple_choice", "direction": "ca-es", "prompt": "O sigui, no t'agrada", "options": ["O sea, no te gusta", "Es decir que no te gusta", "Por tanto no te gusta", "De hecho no te gusta"], "answer": "O sea, no te gusta" },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "De hecho, es más barato",
+          "answer": "De fet, és més barat",
+          "bank": ["De", "fet", "és", "més", "barat"],
+          "distractors": ["de hecho", "más"] }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "x1",
+      "title": { "es": "Connectors de l'oral vs l'escrit", "ca": "Connectors de l'oral vs l'escrit" },
+      "goal": {
+        "es": "Algunos conectores son claramente formales/escritos; otros son propios del habla coloquial. Conocer la diferencia evita registro incorrecto.",
+        "ca": "Alguns connectors pertanyen al registre formal; d'altres, al col·loquial. Cal conèixer la diferència."
+      },
+      "exercises": [
+        { "type": "compare",
+          "es": "Formal: no obstante / Coloquial: pero",
+          "ca": "Formal: tanmateix / Col·loquial: però",
+          "note": { "es": "«Tanmateix» suena culto; «però» es el conector adversativo de la lengua hablada.", "ca": "«Tanmateix» = registre escrit. «Però» = oral." }
+        },
+        { "type": "compare",
+          "es": "Formal: es decir / Coloquial: o sea",
+          "ca": "Formal: és a dir / Col·loquial: o sigui",
+          "note": { "es": "Mismo significado, distinto registro.", "ca": "Mateix significat, diferent registre." }
+        },
+        { "type": "compare",
+          "es": "Formal: por consiguiente / Coloquial: así que / entonces",
+          "ca": "Formal: per consegüent / Col·loquial: per tant / doncs",
+          "note": { "es": "«Doncs» es el consecutivo más coloquial en catalán hablado (equivale a «pues» o «entonces»).", "ca": "«Doncs»: consecutiu col·loquial molt freqüent." }
+        },
+        { "type": "multiple_choice", "direction": "ca-es", "prompt": "Quin connector és més formal?", "options": ["per consegüent", "doncs", "o sigui", "però"], "answer": "per consegüent" }
+      ]
+    }
+  ]
+}

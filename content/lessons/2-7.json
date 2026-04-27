@@ -1,0 +1,137 @@
+{
+  "id": "2-7",
+  "title": { "es": "El tiempo y las estaciones", "ca": "El temps i les estacions" },
+  "goal": {
+    "es": "Aprende a hablar del tiempo meteorológico, las estaciones y los meses del año en catalán.",
+    "ca": "Aprèn a parlar del temps meteorològic, les estacions i els mesos de l'any en català."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Las estaciones", "ca": "Les estacions" },
+      "goal": {
+        "es": "Las cuatro estaciones del año y cómo situar acciones en ellas.",
+        "ca": "Les quatre estacions de l'any i com situar-hi accions."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "la primavera", "es": "la primavera" },
+        { "type": "flashcard", "ca": "l'estiu", "es": "el verano",
+          "note": { "es": "«L'estiu»: masculino, artículo apostrofado.", "ca": "Masculí: l'estiu." } },
+        { "type": "flashcard", "ca": "la tardor", "es": "el otoño",
+          "note": { "es": "¡Falso amigo! «Tardor» no viene de «tardanza»: es el otoño.", "ca": "«Tardor» = otoño. No és «tardança»." } },
+        { "type": "flashcard", "ca": "l'hivern", "es": "el invierno",
+          "note": { "es": "«L'hivern»: la h es muda. Masculino.", "ca": "La h és muda. Masculí." } },
+        { "type": "compare",
+          "es": "En verano hace mucho calor",
+          "ca": "A l'estiu fa molt de calor",
+          "note": { "es": "«A l'estiu» = en verano. Con estaciones se usa «a» en catalán.", "ca": "«A l'estiu»: preposició «a»." }
+        },
+        { "type": "compare",
+          "es": "En otoño caen las hojas",
+          "ca": "A la tardor cauen les fulles",
+          "note": { "es": "«Fulles» = hojas.", "ca": "«Fulles» = hojas." }
+        },
+        { "type": "fill_blank",
+          "sentence": "A ___ hi ha molta neu als Pirineus.",
+          "translation": "En invierno hay mucha nieve en los Pirineos.",
+          "options": ["l'hivern", "la tardor", "l'estiu", "la primavera"],
+          "answer": "l'hivern" },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "el otoño", "options": ["la tardor", "la tardança", "l'hivern", "l'estiu"], "answer": "la tardor" },
+        { "type": "listen", "ca": "A la primavera plou molt", "options": ["A la primavera plou molt", "A l'estiu plou molt", "A l'hivern plou molt"] }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "El tiempo (meteorológico)", "ca": "El temps (meteorològic)" },
+      "goal": {
+        "es": "Fa sol, plou, neva. Las construcciones básicas para describir el tiempo.",
+        "ca": "Fa sol, plou, neva. Les construccions bàsiques per descriure el temps."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "fa sol", "es": "hace sol" },
+        { "type": "flashcard", "ca": "fa vent", "es": "hace viento" },
+        { "type": "flashcard", "ca": "plou", "es": "llueve" },
+        { "type": "flashcard", "ca": "neva", "es": "nieva" },
+        { "type": "flashcard", "ca": "hi ha núvols", "es": "hay nubes",
+          "note": { "es": "«Núvols» = nubes. Se usa «hi ha» (hay).", "ca": "«Núvols» amb «hi ha»." } },
+        { "type": "flashcard", "ca": "fa bon temps", "es": "hace buen tiempo" },
+        { "type": "flashcard", "ca": "fa mal temps", "es": "hace mal tiempo" },
+        { "type": "compare",
+          "es": "Hace calor y mucho sol",
+          "ca": "Fa calor i molt de sol",
+          "note": { "es": "«Molt de» con sustantivos: molt de sol, molt de fred, molt de vent.", "ca": "«Molt de» + nom." }
+        },
+        { "type": "compare",
+          "es": "Está lloviendo",
+          "ca": "Està plovent",
+          "note": { "es": "Gerundio: «estar + plovent» también es válido.", "ca": "Gerundi: «plovent»." }
+        },
+        { "type": "fill_blank",
+          "sentence": "Avui ___ molt. Porta paraigua!",
+          "translation": "Hoy llueve mucho. ¡Lleva paraguas!",
+          "options": ["plou", "neva", "fa sol", "fa vent"],
+          "answer": "plou" },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "hace viento", "options": ["fa vent", "fa ventosa", "hi ha vent", "plou vent"], "answer": "fa vent" },
+        { "type": "listen", "ca": "Avui fa molt de fred", "options": ["Avui fa molt de fred", "Avui fa molt de calor", "Avui fa molt de vent"] }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Los meses del año", "ca": "Els mesos de l'any" },
+      "goal": {
+        "es": "Los doce meses en catalán. Muchos se parecen al español, pero alguns tienen cambios importantes.",
+        "ca": "Els dotze mesos en català. Molts s'assemblen al castellà però alguns tenen canvis importants."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "gener", "es": "enero" },
+        { "type": "flashcard", "ca": "febrer", "es": "febrero" },
+        { "type": "flashcard", "ca": "març", "es": "marzo" },
+        { "type": "flashcard", "ca": "abril", "es": "abril" },
+        { "type": "flashcard", "ca": "maig", "es": "mayo",
+          "note": { "es": "«Maig» con g final. Muy distinto del español.", "ca": "«Maig»: g final." } },
+        { "type": "flashcard", "ca": "juny", "es": "junio" },
+        { "type": "flashcard", "ca": "juliol", "es": "julio" },
+        { "type": "flashcard", "ca": "agost", "es": "agosto" },
+        { "type": "flashcard", "ca": "setembre", "es": "septiembre" },
+        { "type": "flashcard", "ca": "octubre", "es": "octubre" },
+        { "type": "flashcard", "ca": "novembre", "es": "noviembre" },
+        { "type": "flashcard", "ca": "desembre", "es": "diciembre",
+          "note": { "es": "«Desembre», no «diciembre».", "ca": "«Desembre», no «diciembre»." } },
+        { "type": "compare",
+          "es": "Nací en julio",
+          "ca": "Vaig néixer al juliol",
+          "note": { "es": "«Al juliol» (en julio). Con meses se usa «al» en catalán.", "ca": "«Al juliol»: preposició «a» + article." }
+        },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "diciembre", "options": ["desembre", "desembe", "décembre", "diciembre"], "answer": "desembre" },
+        { "type": "fill_blank",
+          "sentence": "La primavera comença al ___.",
+          "translation": "La primavera empieza en marzo.",
+          "options": ["març", "abril", "febrer", "juny"],
+          "answer": "març" },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "mayo", "options": ["maig", "mayo", "may", "maigs"], "answer": "maig" }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "x1",
+      "title": { "es": "¿Qué tiempo hace?", "ca": "Quin temps fa?" },
+      "goal": {
+        "es": "Preguntar y describir el tiempo con más detalle.",
+        "ca": "Preguntar i descriure el temps amb més detall."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "Quin temps fa?", "es": "¿Qué tiempo hace?" },
+        { "type": "flashcard", "ca": "la pluja", "es": "la lluvia" },
+        { "type": "flashcard", "ca": "la neu", "es": "la nieve",
+          "note": { "es": "«La neu» = nieve. Verbo: «neva».", "ca": "«La neu» → verb: neva." } },
+        { "type": "flashcard", "ca": "el paraigua", "es": "el paraguas" },
+        { "type": "compare",
+          "es": "¿Qué tiempo hará mañana?",
+          "ca": "Quin temps farà demà?",
+          "note": { "es": "«Farà» = hará (futuro de «fer»).", "ca": "Futur de fer: farà." }
+        }
+      ]
+    }
+  ]
+}

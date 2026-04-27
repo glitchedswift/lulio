@@ -1,0 +1,158 @@
+{
+  "id": "4-8",
+  "title": { "es": "Negación catalana", "ca": "Negació catalana" },
+  "goal": {
+    "es": "El catalán usa doble negación como el español, pero con palabras propias: mai (nunca), res (nada), ningú (nadie), cap (ningún). La estructura más habitual es «no + verbo + palabra negativa».",
+    "ca": "El català usa doble negació amb mots propis: mai, res, ningú, cap. L'estructura més habitual és «no + verb + mot negatiu»."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "no…mai · no…res · no…ningú", "ca": "no…mai · no…res · no…ningú" },
+      "goal": {
+        "es": "Los tres negativos indefinidos más frecuentes. Siempre van acompañados de «no» antes del verbo (igual que en español).",
+        "ca": "Els tres negatius indefinits més freqüents."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "mai", "es": "nunca",
+          "note": { "es": "«Mai» = nunca. No confundir con «maig» (mayo) ni con el inglés «my».", "ca": "«Mai» = nunca." } },
+        { "type": "flashcard", "ca": "res", "es": "nada",
+          "note": { "es": "«Res» = nada. En frases afirmativas significa «cosa»: no val res = no vale nada.", "ca": "«Res» = nada. En positiu: res = cosa." } },
+        { "type": "flashcard", "ca": "ningú", "es": "nadie" },
+        { "type": "compare",
+          "es": "No vengo nunca a las fiestas",
+          "ca": "No vinc mai a les festes",
+          "note": { "es": "«No + verbo + mai»: la estructura más habitual en catalán hablado.", "ca": "«No + verb + mai»: estructura oral." }
+        },
+        { "type": "compare",
+          "es": "No digo nada",
+          "ca": "No dic res",
+          "note": { "es": "«Res» va después del verbo igual que «nada» en español.", "ca": "«Res» darrere del verb." }
+        },
+        { "type": "compare",
+          "es": "No ha venido nadie",
+          "ca": "No ha vingut ningú",
+          "note": { "es": "«Ningú» va al final, igual que «nadie» en posición posverbal.", "ca": "«Ningú» al final." }
+        },
+        { "type": "fill_blank",
+          "sentence": "No ___ tard al treball.",
+          "translation": "Nunca llego tarde al trabajo.",
+          "options": ["arribo mai", "mai arribo", "sempre arribo", "no arribo"],
+          "answer": "arribo mai" },
+        { "type": "fill_blank",
+          "sentence": "Avui no vull menjar ___.",
+          "translation": "Hoy no quiero comer nada.",
+          "options": ["res", "nada", "mai", "ningú"],
+          "answer": "res" },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "No he visto a nadie",
+          "answer": "No he vist ningú",
+          "bank": ["No", "he", "vist", "ningú"],
+          "distractors": ["nadie", "visto"] }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "no…cap · tampoc · ni…ni", "ca": "no…cap · tampoc · ni…ni" },
+      "goal": {
+        "es": "«Cap» es el adjetivo negativo (ningún/ninguna). «Tampoc» = tampoco. «Ni…ni» = ni…ni.",
+        "ca": "«Cap» és l'adjectiu negatiu. «Tampoc» = tampoco. «Ni…ni» = ni…ni."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "cap", "es": "ningún / ninguna",
+          "note": { "es": "«Cap» acompaña a sustantivos (adjetivo) o los sustituye (pronombre): no tinc cap amic = no tengo ningún amigo.", "ca": "Adjectiu: no tinc cap amic. Pronom: no n'hi ha cap." } },
+        { "type": "flashcard", "ca": "tampoc", "es": "tampoco" },
+        { "type": "compare",
+          "es": "No tengo ningún problema",
+          "ca": "No tinc cap problema",
+          "note": { "es": "«Cap» concuerda con el sustantivo pero es invariable en género.", "ca": "«Cap» és invariable en gènere: cap problema, cap idea." }
+        },
+        { "type": "compare",
+          "es": "Yo tampoco",
+          "ca": "Jo tampoc",
+          "note": { "es": "«Tampoc» va solo o reforzado con «no»: «jo tampoc hi vaig» = yo tampoco voy.", "ca": "«Jo tampoc»: sol o amb no." }
+        },
+        { "type": "compare",
+          "es": "Ni el pan ni el vino",
+          "ca": "Ni el pa ni el vi",
+          "note": { "es": "«Ni…ni» igual que en español. No necesita «no» adicional cuando va antes del verbo.", "ca": "«Ni…ni»: no cal «no» quan va davant del verb." }
+        },
+        { "type": "flashcard", "ca": "no n'hi ha cap", "es": "no hay ninguno",
+          "note": { "es": "«Cap» como pronombre, con «en» (n'). «N'hi ha cap?» = ¿hay alguno?", "ca": "«Cap» pronom: no n'hi ha cap." } },
+        { "type": "fill_blank",
+          "sentence": "No tinc ___ notícia de ell.",
+          "translation": "No tengo ninguna noticia de él.",
+          "options": ["cap", "ninguna", "mai", "res"],
+          "answer": "cap" },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "Yo tampoco voy", "options": ["Jo tampoc hi vaig", "Jo tampoc vaig", "Jo tampoc no hi vaig", "Jo tampoc y vaig"], "answer": "Jo tampoc hi vaig" },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Ni ella ni él han venido",
+          "answer": "Ni ella ni ell han vingut",
+          "bank": ["Ni", "ella", "ni", "ell", "han", "vingut"],
+          "distractors": ["nadie", "venido"] }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Negación preposada (mai no…)", "ca": "Negació preposada (mai no…)" },
+      "goal": {
+        "es": "Cuando el negativo va ANTES del verbo, «no» se desplaza detrás de él. Esta construcción más enfática y literaria es habitual en escritura formal.",
+        "ca": "Quan el negatiu va DAVANT del verb, «no» es desplaça darrere. Construcció emfàtica, habitual en l'escrit."
+      },
+      "exercises": [
+        { "type": "compare",
+          "es": "Nunca llego tarde",
+          "ca": "No arribo mai tard  ←→  Mai no arribo tard",
+          "note": { "es": "Las dos formas son correctas. «No…mai» es la más oral; «mai no…» es más formal/escrita.", "ca": "«No…mai» = oral. «Mai no…» = formal/escrit." }
+        },
+        { "type": "compare",
+          "es": "Nadie sabe la respuesta",
+          "ca": "No ho sap ningú  ←→  Ningú no ho sap",
+          "note": { "es": "Mismo patrón: preposada = «ningú no + verbo». Muy usada en textos escritos.", "ca": "«Ningú no»: el negatiu davant del verb." }
+        },
+        { "type": "compare",
+          "es": "No digo nada",
+          "ca": "No dic res  ←→  Res no dic",
+          "note": { "es": "«Res no» es muy literario. En conversación siempre «no dic res».", "ca": "«Res no» és molt literari." }
+        },
+        { "type": "flashcard", "ca": "Mai no m'havia passat això", "es": "Nunca me había pasado esto",
+          "note": { "es": "Forma enfática con «mai no». Habitual en textos escritos y narración.", "ca": "Forma emfàtica: mai no." } },
+        { "type": "flashcard", "ca": "Ningú no ho sabia", "es": "Nadie lo sabía",
+          "note": { "es": "«Ningú no»: nadie + no.", "ca": "«Ningú no»: emfàtic." } },
+        { "type": "fill_blank",
+          "sentence": "___ no havia vist res igual.",
+          "translation": "Nunca había visto nada igual.",
+          "options": ["Mai", "Sempre", "Res", "Ningú"],
+          "answer": "Mai" },
+        { "type": "multiple_choice", "direction": "ca-es", "prompt": "Ningú no va dir res", "options": ["Nadie dijo nada", "Nada dijo nadie", "Nunca dijeron nada", "Nadie nunca dijo"], "answer": "Nadie dijo nada" }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "x1",
+      "title": { "es": "Errors típics amb la negació", "ca": "Errors típics amb la negació" },
+      "goal": {
+        "es": "Los errores más habituales de los castellanohablantes con la negación catalana.",
+        "ca": "Errors habituals dels castellanoparlants amb la negació."
+      },
+      "exercises": [
+        { "type": "compare",
+          "es": "No vengo nunca (correcto en español)",
+          "ca": "No vinc mai (no «no vinc nunca»)",
+          "note": { "es": "«Nunca» no existe en catalán. Siempre «mai».", "ca": "«Nunca» no existeix. Sempre «mai»." }
+        },
+        { "type": "compare",
+          "es": "No digo nada (correcto en español)",
+          "ca": "No dic res (no «no dic nada»)",
+          "note": { "es": "«Nada» no es catalán. Siempre «res».", "ca": "«Nada» no és català. Sempre «res»." }
+        },
+        { "type": "fill_blank",
+          "sentence": "No ha trucat ___ avui.",
+          "translation": "No ha llamado nadie hoy.",
+          "options": ["ningú", "nadie", "ninguno", "mai"],
+          "answer": "ningú" }
+      ]
+    }
+  ]
+}

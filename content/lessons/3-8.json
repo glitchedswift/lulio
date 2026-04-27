@@ -1,0 +1,152 @@
+{
+  "id": "3-8",
+  "title": { "es": "Perífrasis verbales", "ca": "Perífrasis verbals" },
+  "goal": {
+    "es": "Tres construcciones de altísima frecuencia: «haver de» (tener que), «poder» (poder), y el presente progresivo «estar + gerundio». Con ellas puedes expresar obligación, posibilidad y acciones en curso.",
+    "ca": "Tres construccions molt freqüents: «haver de» (tenir l'obligació), «poder», i el present progressiu «estar + gerundi»."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Obligación: haver de + inf.", "ca": "Obligació: haver de + inf." },
+      "goal": {
+        "es": "«Haver de + infinitivo» = «tener que + infinitivo». La conjugación sigue el auxiliar «haver».",
+        "ca": "«Haver de + infinitiu» = «tenir que + infinitiu». La conjugació segueix l'auxiliar «haver»."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "he de sortir", "es": "tengo que salir",
+          "note": { "es": "He de / has de / ha de / hem de / heu de / han de + infinitivo.", "ca": "He de / has de / ha de / hem de / heu de / han de + infinitiu." } },
+        { "type": "flashcard", "ca": "has de venir", "es": "tienes que venir" },
+        { "type": "flashcard", "ca": "ha de treballar", "es": "tiene que trabajar" },
+        { "type": "flashcard", "ca": "hem de parlar", "es": "tenemos que hablar" },
+        { "type": "flashcard", "ca": "han de decidir", "es": "tienen que decidir" },
+        { "type": "compare",
+          "es": "Tengo que llamar a mi madre",
+          "ca": "He de trucar la meva mare",
+          "note": { "es": "«He de» = tengo que. Muy frecuente en catalán oral y escrito.", "ca": "«He de»: molt usat en oral i escrit." }
+        },
+        { "type": "compare",
+          "es": "Tenemos que ir a la reunión",
+          "ca": "Hem d'anar a la reunió",
+          "note": { "es": "Ante vocal: «hem d'» (elisión de la «e»). Igual que «de» → «d'».", "ca": "Davant de vocal: «hem d'»." }
+        },
+        { "type": "fill_blank",
+          "sentence": "Demà ___ de bona hora.",
+          "translation": "Mañana tienes que levantarte temprano.",
+          "options": ["has d'aixecar-te", "has aixecar-te", "han d'aixecar-te", "he d'aixecar-te"],
+          "answer": "has d'aixecar-te" },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Tenemos que hablar",
+          "answer": "Hem de parlar",
+          "bank": ["Hem", "de", "parlar"],
+          "distractors": ["tenemos", "hablar", "han"] },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "tienen que estudiar", "options": ["han d'estudiar", "han de estudiar", "hem d'estudiar", "he d'estudiar"], "answer": "han d'estudiar" }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "Posibilidad y capacidad: poder / saber", "ca": "Possibilitat i capacitat: poder / saber" },
+      "goal": {
+        "es": "«Poder» expresa posibilidad o permiso; «saber» expresa habilidad aprendida. Atención: la 1ª persona de «poder» es «puc», no «podo».",
+        "ca": "«Poder» expressa possibilitat o permís; «saber» expressa habilitat apresa. La 1a persona de «poder» és «puc»."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "puc venir", "es": "puedo venir",
+          "note": { "es": "1ª persona: «puc» (no «podo»). Puc / pots / pot / podem / podeu / poden.", "ca": "«Puc»: forma irregular. Puc / pots / pot / podem / podeu / poden." } },
+        { "type": "flashcard", "ca": "pots ajudar-me?", "es": "¿puedes ayudarme?" },
+        { "type": "flashcard", "ca": "no pot venir", "es": "no puede venir" },
+        { "type": "flashcard", "ca": "sé cuinar", "es": "sé cocinar",
+          "note": { "es": "«Saber + infinitivo» = habilidad. Sé / saps / sap / sabem / sabeu / saben.", "ca": "«Saber»: sé / saps / sap / sabem / sabeu / saben." } },
+        { "type": "flashcard", "ca": "no sap conduir", "es": "no sabe conducir" },
+        { "type": "compare",
+          "es": "¿Puedes venir mañana? — No puedo",
+          "ca": "Pots venir demà? — No puc",
+          "note": { "es": "«Puc» y «pots»: las dos formas más usadas del paradigma.", "ca": "«Puc» i «pots»: les més freqüents." }
+        },
+        { "type": "compare",
+          "es": "Sé tocar la guitarra",
+          "ca": "Sé tocar la guitarra",
+          "note": { "es": "¡Igual que en español! «Sé» = sé. La forma de 1ª persona coincide.", "ca": "«Sé»: igual que l'espanyol." }
+        },
+        { "type": "fill_blank",
+          "sentence": "No ___ venir perquè treballo.",
+          "translation": "No puedo venir porque trabajo.",
+          "options": ["puc", "podo", "pots", "pot"],
+          "answer": "puc" },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "¿Saben nadar?", "options": ["Saben nedar?", "Sabem nedar?", "Sé nedar?", "Saben nadar?"], "answer": "Saben nedar?" },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "No puedo ayudarte ahora",
+          "answer": "No puc ajudar-te ara",
+          "bank": ["No", "puc", "ajudar-te", "ara"],
+          "distractors": ["puedo", "ahora"] }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Present progressiu: estar + gerundi", "ca": "Present progressiu: estar + gerundi" },
+      "goal": {
+        "es": "«Estic menjant» = «estoy comiendo». El gerundio catalán acaba en -ant (-ar), -ent (-er/-re) o -int (-ir).",
+        "ca": "«Estic menjant» = «estoy comiendo». El gerundi acaba en -ant, -ent o -int."
+      },
+      "exercises": [
+        {
+          "type": "pattern",
+          "rule": { "from": "-ar / -er / -ir", "to": "-ant / -ent / -int" },
+          "examples": [
+            { "es": "parlar", "ca": "parlant" },
+            { "es": "menjar", "ca": "menjant" },
+            { "es": "veure", "ca": "veient" },
+            { "es": "beure", "ca": "bevent" },
+            { "es": "sortir", "ca": "sortint" },
+            { "es": "llegir", "ca": "llegint" }
+          ],
+          "note": {
+            "es": "Irregulares frecuentes: fer → fent, dir → dient, ser → sent. La estructura es siempre «estic/estàs/està… + gerundio».",
+            "ca": "Irregulars: fer → fent, dir → dient, ser → sent. Estructura: estic/estàs/està… + gerundi."
+          }
+        },
+        { "type": "compare",
+          "es": "Estoy leyendo",
+          "ca": "Estic llegint",
+          "note": { "es": "«Estic llegint»: estructura idéntica al español.", "ca": "Idèntic a l'espanyol." }
+        },
+        { "type": "compare",
+          "es": "¿Qué estás haciendo?",
+          "ca": "Què estàs fent?",
+          "note": { "es": "«Fer» → «fent» (irregular). Muy frecuente.", "ca": "Fer → fent (irregular)." }
+        },
+        { "type": "flashcard", "ca": "estic treballant", "es": "estoy trabajando" },
+        { "type": "flashcard", "ca": "està plovent", "es": "está lloviendo" },
+        { "type": "fill_blank",
+          "sentence": "Un moment, ___ per telèfon.",
+          "translation": "Un momento, estoy hablando por teléfono.",
+          "options": ["estic parlant", "estic parlar", "estic parla", "sóc parlant"],
+          "answer": "estic parlant" },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "Están comiendo", "options": ["Estan menjant", "Estan menjar", "Estaven menjant", "Estant menjant"], "answer": "Estan menjant" },
+        { "type": "listen", "ca": "Estic estudiant per a l'examen", "options": ["Estic estudiant per a l'examen", "Estic estudiar per a l'examen", "Estava estudiant per a l'examen"] }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "x1",
+      "title": { "es": "Necessitar · pensar · acabar de", "ca": "Necessitar · pensar · acabar de" },
+      "goal": {
+        "es": "Tres perífrasis más para ampliar el repertorio: necessitar (necesitar), pensar + inf. (pensar hacer algo), acabar de + inf. (acabar de).",
+        "ca": "Tres perífrasis per ampliar el repertori."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "necessito descansar", "es": "necesito descansar" },
+        { "type": "flashcard", "ca": "penso anar-hi demà", "es": "pienso ir mañana",
+          "note": { "es": "«Pensar + inf.» = tener intención de. Igual que en español.", "ca": "«Pensar + inf.»: intenció." } },
+        { "type": "flashcard", "ca": "acabo de menjar", "es": "acabo de comer",
+          "note": { "es": "«Acabar de + inf.» = acabar de. Exactamente igual al español.", "ca": "«Acabar de + inf.»: igual a l'espanyol." } },
+        { "type": "compare",
+          "es": "Acabo de llegar",
+          "ca": "Acabo d'arribar",
+          "note": { "es": "«D'arribar» con elisión. Muy usada para indicar que algo ocurrió hace muy poco.", "ca": "«D'arribar»: elisió davant vocal." }
+        }
+      ]
+    }
+  ]
+}
