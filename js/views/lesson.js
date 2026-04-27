@@ -2,6 +2,7 @@ import { t } from "../i18n.js";
 import { loadIndex, loadLesson } from "../content.js";
 import { renderExercise } from "../exercises.js";
 import { getLang, markTopicComplete, markLessonComplete } from "../state.js";
+import { playCorrect, playWrong } from "../sfx.js";
 
 export async function renderLesson(el, params) {
   const lessonId = params.id;
@@ -79,6 +80,7 @@ export async function renderLesson(el, params) {
       <div class="goal" id="goal"></div>
       <div id="exercise-mount"></div>
       <div class="lesson-footer">
+        <button class="btn btn-secondary lesson-prev" id="prev" type="button" aria-label="${t("lesson.previous")}" disabled>←</button>
         <button class="btn btn-ghost" id="skip" type="button">${t("lesson.skip")}</button>
         <button class="btn" id="check" type="button" disabled>${t("lesson.check")}</button>
       </div>
@@ -88,6 +90,7 @@ export async function renderLesson(el, params) {
   const $ = (id) => el.querySelector("#" + id);
   $("back").addEventListener("click", () => { location.hash = "#/roadmap"; });
   $("skip").addEventListener("click", () => nextTopic(true));
+  $("prev").addEventListener("click", () => previousExercise());
 
   const titleEl = $("lesson-title");
   const goalEl = $("goal");
@@ -96,6 +99,7 @@ export async function renderLesson(el, params) {
   const mount = $("exercise-mount");
   const checkBtn = $("check");
   const skipBtn = $("skip");
+  const prevBtn = $("prev");
 
   // Static lesson title.
   const lessonTitle = (data.title && (data.title[lang] || data.title.es)) || lessonId;
@@ -112,6 +116,10 @@ export async function renderLesson(el, params) {
   }
 
   function showExercise() {
+    // Always make sure the footer is visible — even after a wrong answer's
+    // feedback panel hid it.
+    el.querySelector(".lesson-footer").style.display = "";
+
     const topic = topics[topicIndex];
     const ex = topic.exercises[exerciseIndex];
     pill.textContent = `${topic.isExtra ? t("lesson.extra") : t("lesson.topic")} · ${(topic.title && (topic.title[lang] || topic.title.es)) || ""}`;
@@ -129,6 +137,22 @@ export async function renderLesson(el, params) {
       checkBtn.textContent = t("lesson.check");
       checkBtn.disabled = !(currentApi.canCheck && currentApi.canCheck());
     }
+    prevBtn.disabled = topicIndex === 0 && exerciseIndex === 0;
+  }
+
+  function previousExercise() {
+    // Drop any visible feedback from a previous attempt.
+    const fb = document.querySelector(".feedback");
+    if (fb) fb.remove();
+    if (exerciseIndex > 0) {
+      exerciseIndex -= 1;
+    } else if (topicIndex > 0) {
+      topicIndex -= 1;
+      exerciseIndex = topics[topicIndex].exercises.length - 1;
+    } else {
+      return;
+    }
+    showExercise();
   }
 
   // Refresh the canCheck enable state on every click within the exercise area.
@@ -158,7 +182,6 @@ export async function renderLesson(el, params) {
   }
 
   function advance() {
-    el.querySelector(".lesson-footer").style.display = "";
     const topic = topics[topicIndex];
     exerciseIndex += 1;
     if (exerciseIndex >= topic.exercises.length) {
@@ -175,7 +198,6 @@ export async function renderLesson(el, params) {
   }
 
   function nextTopic(skipped) {
-    el.querySelector(".lesson-footer").style.display = "";
     const topic = topics[topicIndex];
     if (!skipped) {
       markTopicComplete(lessonId, topic.id, topic.isExtra, topic.xp || 10);
@@ -216,6 +238,7 @@ export async function renderLesson(el, params) {
     }
     const { correct, expected } = currentApi.check();
     if (!correct) mistakes += 1;
+    if (correct) playCorrect(); else playWrong();
     showFeedback(correct, expected, () => {
       if (correct) {
         advance();
