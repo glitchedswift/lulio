@@ -1,0 +1,137 @@
+{
+  "id": "3-4",
+  "title": { "es": "En el restaurante", "ca": "Al restaurant" },
+  "goal": {
+    "es": "Pide la mesa, la carta, el plato del día y el compte como un nativo.",
+    "ca": "Demana taula, carta, plat del dia i compte com un nadiu."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Llegar y sentarse", "ca": "Arribar i seure" },
+      "goal": {
+        "es": "Reservar, taula, terrassa, dins.",
+        "ca": "Reservar, taula, terrassa, dins."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "una taula per a dos", "es": "una mesa para dos" },
+        { "type": "flashcard", "ca": "tinc reserva", "es": "tengo reserva" },
+        { "type": "flashcard", "ca": "la terrassa", "es": "la terraza" },
+        { "type": "flashcard", "ca": "a dins", "es": "dentro" },
+        { "type": "flashcard", "ca": "a fora", "es": "fuera" },
+        { "type": "compare",
+          "es": "¿Una mesa para cuatro?",
+          "ca": "Una taula per a quatre?",
+          "note": { "es": "«Per a» (formal/escrit) o solo «per» (oral) + número de personas.", "ca": "«Per a» o «per» + nombre." }
+        },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Tengo reserva a las nueve",
+          "answer": "Tinc reserva a les nou",
+          "bank": ["Tinc", "reserva", "a", "les", "nou"],
+          "distractors": ["tengo", "nueve"] },
+        { "type": "fill_blank",
+          "sentence": "Voldríem una taula a la ___.",
+          "translation": "Querríamos una mesa en la terraza.",
+          "options": ["terrassa", "terraza", "fora", "dins"],
+          "answer": "terrassa" },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "una mesa para tres", "options": ["una taula per a tres", "una mesa per a tres", "una taula para tres", "una taula tres"], "answer": "una taula per a tres" }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "Pedir la comida", "ca": "Demanar el menjar" },
+      "goal": {
+        "es": "La carta, el menú, primer plat, segon plat, postres.",
+        "ca": "La carta, el menú i els plats."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "la carta", "es": "la carta",
+          "note": { "es": "Igual en ambos idiomas, pero ojo con «el menú» (suele ser el menú del día).", "ca": "Igual a l'espanyol." } },
+        { "type": "flashcard", "ca": "el menú del dia", "es": "el menú del día" },
+        { "type": "flashcard", "ca": "el primer plat", "es": "el primer plato" },
+        { "type": "flashcard", "ca": "el segon plat", "es": "el segundo plato" },
+        { "type": "flashcard", "ca": "les postres", "es": "el postre",
+          "note": { "es": "Plural en catalán: les postres (femenino).", "ca": "Sempre en plural." } },
+        { "type": "flashcard", "ca": "demanar", "es": "pedir",
+          "note": { "es": "«Demanar» = pedir. NO «pedir» como en español («pidir»), que no existe en catalán.", "ca": "«Demanar» = pedir." } },
+        { "type": "compare",
+          "es": "Voy a pedir el menú del día",
+          "ca": "Demanaré el menú del dia",
+          "note": { "es": "«Demanaré» = pediré (futuro). En oral: «vaig a demanar».", "ca": "Futur o periphrasi." }
+        },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "¿Me trae la carta, por favor?",
+          "answer": "Em pot portar la carta si us plau",
+          "bank": ["Em", "pot", "portar", "la", "carta", "si", "us", "plau"],
+          "distractors": ["traer", "favor", "me"] },
+        { "type": "fill_blank",
+          "sentence": "De segon, ___ peix al forn.",
+          "translation": "De segundo, pediré pescado al horno.",
+          "options": ["demanaré", "pediré", "demano", "demanare"],
+          "answer": "demanaré" },
+        { "type": "multiple_choice", "direction": "ca-es", "prompt": "les postres", "options": ["el postre", "los postres", "los entrantes", "la cena"], "answer": "el postre" }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Pagar y opinar", "ca": "Pagar i opinar" },
+      "goal": {
+        "es": "El compte, propina, era boníssim.",
+        "ca": "El compte, propina, era boníssim."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "el compte", "es": "la cuenta",
+          "note": { "es": "«El compte» (masculino) = la cuenta. ¡Cambia de género!", "ca": "Masculí: el compte." } },
+        { "type": "flashcard", "ca": "la propina", "es": "la propina" },
+        { "type": "flashcard", "ca": "boníssim", "es": "buenísimo",
+          "note": { "es": "Superlativo: bo + íssim. Femenino: boníssima.", "ca": "Superlatiu: -íssim/-íssima." } },
+        { "type": "flashcard", "ca": "molt bo", "es": "muy bueno" },
+        { "type": "flashcard", "ca": "salat", "es": "salado",
+          "note": { "es": "«Salat» (masculino), «salada» (femenino).", "ca": "«Salat» / «salada»." } },
+        { "type": "flashcard", "ca": "dolç", "es": "dulce" },
+        { "type": "compare",
+          "es": "La cuenta, por favor",
+          "ca": "El compte, si us plau",
+          "note": { "es": "Frase clave. Memorízala.", "ca": "Frase clau." }
+        },
+        { "type": "compare",
+          "es": "Estaba buenísimo",
+          "ca": "Era boníssim",
+          "note": { "es": "«Era» o «estava». Catalán prefiere «era» con valoraciones generales.", "ca": "Imperfet: era / estava." }
+        },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "La cuenta, por favor",
+          "answer": "El compte si us plau",
+          "bank": ["El", "compte", "si", "us", "plau"],
+          "distractors": ["la", "cuenta", "por", "favor"] },
+        { "type": "fill_blank",
+          "sentence": "El sopar era ___.",
+          "translation": "La cena estaba buenísima.",
+          "options": ["boníssim", "molt bo", "buenísimo", "millor"],
+          "answer": "boníssim" }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "x1",
+      "title": { "es": "Tapes catalanas", "ca": "Tapes catalanes" },
+      "goal": {
+        "es": "Vocabulario de bar y tapeo: torrada, croqueta, patates braves.",
+        "ca": "Vocabulari de bar i tapes."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "la torrada", "es": "la tostada" },
+        { "type": "flashcard", "ca": "les patates braves", "es": "las patatas bravas" },
+        { "type": "flashcard", "ca": "la truita", "es": "la tortilla",
+          "note": { "es": "«Truita» = tortilla. Pero también «trucha» (pez). Contexto.", "ca": "«Truita» també és peix." } },
+        { "type": "flashcard", "ca": "les croquetes", "es": "las croquetas" },
+        { "type": "compare",
+          "es": "Una tortilla de patatas",
+          "ca": "Una truita de patates",
+          "note": { "es": "Aquí «truita» es la tortilla.", "ca": "«Truita de patates»." }
+        }
+      ]
+    }
+  ]
+}

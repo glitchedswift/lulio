@@ -1,0 +1,127 @@
+{
+  "id": "2-5",
+  "title": { "es": "¿Qué hora es?", "ca": "Quina hora és?" },
+  "goal": {
+    "es": "Aprende a decir y entender la hora en catalán, que tiene un sistema único de cuartos.",
+    "ca": "Aprèn a dir i entendre l'hora en català, que té un sistema únic de quarts."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Preguntar la hora", "ca": "Preguntar l'hora" },
+      "goal": {
+        "es": "Quina hora és? És la una. Són les dues. Atención al singular vs plural.",
+        "ca": "«És la una», «són les dues»: singular vs plural."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "Quina hora és?", "es": "¿Qué hora es?" },
+        { "type": "flashcard", "ca": "És la una", "es": "Es la una",
+          "note": { "es": "Singular: «és la una». A partir de las dos: «són les...».", "ca": "Singular per a la una." } },
+        { "type": "flashcard", "ca": "Són les dues", "es": "Son las dos",
+          "note": { "es": "«Dues» (femenino), porque «hores» es femenino: les dues hores.", "ca": "«Dues» perquè «hores» és femení." } },
+        { "type": "flashcard", "ca": "Són les tres", "es": "Son las tres" },
+        { "type": "flashcard", "ca": "Són les dotze", "es": "Son las doce" },
+        { "type": "compare",
+          "es": "Son las dos en punto",
+          "ca": "Són les dues en punt",
+          "note": { "es": "«En punt» = en punto.", "ca": "«En punt» = exactes." }
+        },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "Son las cuatro", "options": ["Són les quatre", "Son les quatre", "És les quatre", "Són la quatre"], "answer": "Són les quatre" },
+        { "type": "fill_blank",
+          "sentence": "___ la una en punt.",
+          "translation": "Es la una en punto.",
+          "options": ["És", "Són", "Es", "Hi ha"],
+          "answer": "És" },
+        { "type": "listen", "ca": "Són les set", "options": ["Són les set", "Són les sis", "És les set"] }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "Los cuartos catalanes", "ca": "Els quarts catalans" },
+      "goal": {
+        "es": "El catalán tiene un sistema propio: «un quart de», «dos quarts de», «tres quarts de» — referido a la HORA SIGUIENTE.",
+        "ca": "El sistema català: «un quart de», «dos quarts de», «tres quarts de» — referit a l'hora següent."
+      },
+      "exercises": [
+        { "type": "compare",
+          "es": "Las dos y cuarto",
+          "ca": "Un quart de tres",
+          "note": { "es": "¡Sorpresa! Catalán cuenta los cuartos hacia la hora siguiente. «Un quart de tres» = falta un cuarto para las tres = las 2:15.", "ca": "Comptem cap a l'hora següent: un quart de tres = 2:15." }
+        },
+        { "type": "compare",
+          "es": "Las dos y media",
+          "ca": "Dos quarts de tres",
+          "note": { "es": "«Dos quarts de tres» = 2:30. Literalmente: dos cuartos de tres.", "ca": "«Dos quarts de tres» = 2:30." }
+        },
+        { "type": "compare",
+          "es": "Las tres menos cuarto",
+          "ca": "Tres quarts de tres",
+          "note": { "es": "«Tres quarts de tres» = 2:45. Sigue siendo la hora siguiente.", "ca": "«Tres quarts de tres» = 2:45." }
+        },
+        { "type": "flashcard", "ca": "un quart de quatre", "es": "las tres y cuarto (3:15)" },
+        { "type": "flashcard", "ca": "dos quarts de cinc", "es": "las cuatro y media (4:30)" },
+        { "type": "flashcard", "ca": "tres quarts de sis", "es": "las cinco y tres cuartos (5:45)" },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "Las cinco y media", "options": ["Dos quarts de sis", "Dos quarts de cinc", "Cinc i mitja", "Mig sis"], "answer": "Dos quarts de sis" },
+        { "type": "fill_blank",
+          "sentence": "Quedem a ___ de set.",
+          "translation": "Quedamos a las seis y media.",
+          "options": ["dos quarts", "un quart", "tres quarts", "mig"],
+          "answer": "dos quarts" },
+        { "type": "listen", "ca": "Són un quart de cinc", "options": ["Són un quart de cinc", "Són dos quarts de cinc", "Són tres quarts de cinc"] }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Mañana, mediodía, tarde, noche", "ca": "Matí, migdia, tarda, nit" },
+      "goal": {
+        "es": "Cómo precisar el momento del día y un par de expresiones útiles.",
+        "ca": "Com precisar el moment del dia."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "el matí", "es": "la mañana",
+          "note": { "es": "Masculino: «el matí». «Bon dia, bon matí» también se oye.", "ca": "Masculí: el matí." } },
+        { "type": "flashcard", "ca": "el migdia", "es": "el mediodía" },
+        { "type": "flashcard", "ca": "la tarda", "es": "la tarde",
+          "note": { "es": "Femenino: «la tarda». No confundir con el verbo español «tarda».", "ca": "Femení: la tarda." } },
+        { "type": "flashcard", "ca": "el vespre", "es": "el atardecer / la tarde-noche",
+          "note": { "es": "«Vespre» es ese momento entre la tarda y la nit (~19h-22h).", "ca": "Entre la tarda i la nit." } },
+        { "type": "flashcard", "ca": "la nit", "es": "la noche" },
+        { "type": "compare",
+          "es": "Las ocho de la noche",
+          "ca": "Les vuit del vespre",
+          "note": { "es": "Catalán prefiere «del vespre» entre las 19h y las 22h.", "ca": "Entre 19 i 22h, «del vespre»." }
+        },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "Las diez de la mañana", "options": ["Les deu del matí", "Les deu de la matina", "Les deu de la tarda", "Les diez del matí"], "answer": "Les deu del matí" },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Son las cinco de la tarde",
+          "answer": "Són les cinc de la tarda",
+          "bank": ["Són", "les", "cinc", "de", "la", "tarda"],
+          "distractors": ["Son", "tarde", "del"] },
+        { "type": "fill_blank",
+          "sentence": "Sopem a les nou del ___.",
+          "translation": "Cenamos a las nueve de la noche.",
+          "options": ["vespre", "nit", "tarda", "matí"],
+          "answer": "vespre" }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "x1",
+      "title": { "es": "Hora en cifras (24h)", "ca": "Hora amb xifres (24h)" },
+      "goal": {
+        "es": "En contextos formales (transporte, citas), el catalán también usa el sistema de 24h, idéntico al español.",
+        "ca": "En contextos formals també es fa servir el sistema de 24 hores."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "les setze trenta", "es": "las dieciséis treinta (16:30)" },
+        { "type": "flashcard", "ca": "les vint-i-una", "es": "las veintiuna (21:00)" },
+        { "type": "compare",
+          "es": "El tren sale a las 18:45",
+          "ca": "El tren surt a les divuit quaranta-cinc",
+          "note": { "es": "Sistema 24h se usa en horarios oficiales.", "ca": "Sistema oficial: 24h." }
+        }
+      ]
+    }
+  ]
+}

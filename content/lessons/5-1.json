@@ -1,0 +1,128 @@
+{
+  "id": "5-1",
+  "title": { "es": "Historia y cultura", "ca": "Història i cultura" },
+  "goal": {
+    "es": "Vocabulario y referencias culturales para entender Cataluña.",
+    "ca": "Vocabulari i referències culturals per entendre Catalunya."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Fechas y hitos", "ca": "Dates i fites" },
+      "goal": {
+        "es": "La Diada, Sant Jordi, els Castells. Festividades clave.",
+        "ca": "Festes i tradicions principals."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "la Diada", "es": "la Diada (11 de septiembre)",
+          "note": { "es": "11 de septiembre, día nacional. Conmemora la caída de Barcelona en 1714.", "ca": "Onze de setembre. Dia nacional." } },
+        { "type": "flashcard", "ca": "Sant Jordi", "es": "San Jorge (23 de abril)",
+          "note": { "es": "Día del libro y la rosa. Tradición catalana muy arraigada.", "ca": "23 d'abril: llibre i rosa." } },
+        { "type": "flashcard", "ca": "els castells", "es": "los castillos humanos",
+          "note": { "es": "Torres humanas, declaradas Patrimonio Inmaterial UNESCO.", "ca": "Patrimoni de la UNESCO." } },
+        { "type": "flashcard", "ca": "la sardana", "es": "la sardana",
+          "note": { "es": "Danza tradicional catalana en círculo.", "ca": "Dansa tradicional en cercle." } },
+        { "type": "flashcard", "ca": "el Tió", "es": "el Tió (de Nadal)",
+          "note": { "es": "Tronco navideño que «caga» regalos. Una de les tradiciones más curiosas.", "ca": "Tronc nadalenc." } },
+        { "type": "compare",
+          "es": "El 11 de septiembre es la Diada",
+          "ca": "L'onze de setembre és la Diada",
+          "note": { "es": "Atención: «onze» (no «once»).", "ca": "«Onze»." }
+        },
+        { "type": "fill_blank",
+          "sentence": "Per ___ regalem un llibre i una rosa.",
+          "translation": "Por San Jorge regalamos un libro y una rosa.",
+          "options": ["Sant Jordi", "San Jorge", "Sant Jorge", "Sant Jordí"],
+          "answer": "Sant Jordi" },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "los castillos humanos", "options": ["els castells", "los castells", "els castillos", "les castelles"], "answer": "els castells" }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "Geografía catalana", "ca": "Geografia catalana" },
+      "goal": {
+        "es": "Comarques, províncies, els Països Catalans.",
+        "ca": "Comarques, províncies, Països Catalans."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "la comarca", "es": "la comarca" },
+        { "type": "flashcard", "ca": "les terres de l'Ebre", "es": "las tierras del Ebro" },
+        { "type": "flashcard", "ca": "el Pirineu", "es": "el Pirineo" },
+        { "type": "flashcard", "ca": "la costa Brava", "es": "la costa Brava" },
+        { "type": "flashcard", "ca": "els Països Catalans", "es": "los Países Catalanes",
+          "note": { "es": "Concepto cultural-lingüístico que abarca Catalunya, València, les Illes, Andorra, etc.", "ca": "Concepte lingüístic." } },
+        { "type": "compare",
+          "es": "Vivo en una comarca del Pirineo",
+          "ca": "Visc a una comarca del Pirineu",
+          "note": { "es": "«A» en lugar de «en». Recuerda el patrón.", "ca": "«A» amb llocs." }
+        },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "El Pirineo es muy bonito",
+          "answer": "El Pirineu és molt bonic",
+          "bank": ["El", "Pirineu", "és", "molt", "bonic"],
+          "distractors": ["Pirineo", "muy", "bonito"] },
+        { "type": "fill_blank",
+          "sentence": "L'Ebre és el riu més important de les ___ del sud.",
+          "translation": "El Ebro es el río más importante de las tierras del sur.",
+          "options": ["terres", "tierras", "comarques", "terras"],
+          "answer": "terres" },
+        { "type": "multiple_choice", "direction": "ca-es", "prompt": "la comarca del Bages", "options": ["la comarca del Bages", "el municipio del Bages", "la provincia del Bages", "el país del Bages"], "answer": "la comarca del Bages" }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Cultura popular", "ca": "Cultura popular" },
+      "goal": {
+        "es": "Gegants, correfocs, La Mercè, Carnestoltes.",
+        "ca": "Tradicions populars."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "els gegants", "es": "los gigantes (figuras de fiesta)" },
+        { "type": "flashcard", "ca": "el correfoc", "es": "el correfoc",
+          "note": { "es": "«Correfoc» = correr fuego. Espectáculo de pirotecnia y dimonis.", "ca": "Espectacle de foc i dimonis." } },
+        { "type": "flashcard", "ca": "la Mercè", "es": "La Mercè",
+          "note": { "es": "Fiestas grandes de Barcelona, en septiembre.", "ca": "Festes de Barcelona." } },
+        { "type": "flashcard", "ca": "el Carnestoltes", "es": "el Carnaval" },
+        { "type": "flashcard", "ca": "la festa major", "es": "la fiesta mayor (de un pueblo)" },
+        { "type": "compare",
+          "es": "Vamos al correfocs de la Mercè",
+          "ca": "Anem al correfocs de la Mercè",
+          "note": { "es": "Plural: «els correfocs». Es un sustantivo compuesto.", "ca": "«Els correfocs»." }
+        },
+        { "type": "fill_blank",
+          "sentence": "La ___ del meu poble és al juliol.",
+          "translation": "La fiesta mayor de mi pueblo es en julio.",
+          "options": ["festa major", "fiesta mayor", "festa gran", "festa nova"],
+          "answer": "festa major" },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Los gigantes bailan en la plaza",
+          "answer": "Els gegants ballen a la plaça",
+          "bank": ["Els", "gegants", "ballen", "a", "la", "plaça"],
+          "distractors": ["los", "bailan", "en"] },
+        { "type": "multiple_choice", "direction": "ca-es", "prompt": "el Carnestoltes", "options": ["el Carnaval", "el Día de Reyes", "la Cuaresma", "el Carnaval de Tolts"], "answer": "el Carnaval" }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "x1",
+      "title": { "es": "Personajes históricos", "ca": "Personatges històrics" },
+      "goal": {
+        "es": "Pompeu Fabra, Jacint Verdaguer, Mercè Rodoreda. Tres nombres clave.",
+        "ca": "Tres noms clau."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "Pompeu Fabra", "es": "Pompeu Fabra (gramático)",
+          "note": { "es": "Codificó la ortografía catalana moderna a inicios del s. XX.", "ca": "Codificador de l'ortografia." } },
+        { "type": "flashcard", "ca": "Jacint Verdaguer", "es": "Jacint Verdaguer (poeta)" },
+        { "type": "flashcard", "ca": "Mercè Rodoreda", "es": "Mercè Rodoreda (escritora)",
+          "note": { "es": "Autora de «La plaça del Diamant».", "ca": "«La plaça del Diamant»." } },
+        { "type": "compare",
+          "es": "Pompeu Fabra normalizó la ortografía",
+          "ca": "Pompeu Fabra va normalitzar l'ortografia",
+          "note": { "es": "«Va normalitzar»: passat perifràstic.", "ca": "Passat perifràstic." }
+        }
+      ]
+    }
+  ]
+}

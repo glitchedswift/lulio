@@ -80,7 +80,8 @@
         { "type": "translate", "direction": "es-ca",
           "prompt": "Mi tía y mi prima",
           "answer": "La meva tia i la meva cosina",
-          "bank": ["La", "meva", "tia", "i", "cosina", "el", "tio", "prima"] }
+          "bank": ["La", "meva", "tia", "i", "la", "meva", "cosina"],
+          "distractors": ["el", "tiet", "prima"] }
       ]
     }
   ],

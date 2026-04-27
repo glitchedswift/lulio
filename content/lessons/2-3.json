@@ -1,0 +1,136 @@
+{
+  "id": "2-3",
+  "title": { "es": "Comer y beber", "ca": "Menjar i beure" },
+  "goal": {
+    "es": "Vocabulario de comida y bebida, y cómo hablar de las comidas del día.",
+    "ca": "Vocabulari de menjar i beure, i com parlar dels àpats del dia."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Comidas del día", "ca": "Els àpats" },
+      "goal": {
+        "es": "Aprende los nombres de las comidas: esmorzar, dinar, sopar.",
+        "ca": "Aprèn els noms dels àpats."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "l'esmorzar", "es": "el desayuno",
+          "note": { "es": "«Esmorzar» es también el verbo «desayunar». Lo mismo con dinar y sopar.", "ca": "«Esmorzar» també és el verb." } },
+        { "type": "flashcard", "ca": "el dinar", "es": "la comida (mediodía)",
+          "note": { "es": "Cuidado: «dinar» en catalán es la comida del mediodía, no la cena.", "ca": "«Dinar» = el menjar del migdia." } },
+        { "type": "flashcard", "ca": "el sopar", "es": "la cena",
+          "note": { "es": "«Sopar» = cenar. No tiene relación con la sopa («la sopa»).", "ca": "«Sopar» = el menjar de la nit." } },
+        { "type": "flashcard", "ca": "el berenar", "es": "la merienda" },
+        { "type": "compare",
+          "es": "Comemos a las dos",
+          "ca": "Dinem a les dues",
+          "note": { "es": "«Comer» (mediodía) en catalán es «dinar». «Menjar» = comer (acto general).", "ca": "«Dinar» = comer al migdia. «Menjar» = comer en general." }
+        },
+        { "type": "compare",
+          "es": "Cenamos a las nueve",
+          "ca": "Sopem a les nou",
+          "note": { "es": "«Sopar» = cenar. Falso amigo clásico con «sopa» (sopa).", "ca": "«Sopar» = sopar a la nit." }
+        },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "la cena", "options": ["el sopar", "la sopa", "el dinar", "la cena"], "answer": "el sopar" },
+        { "type": "fill_blank",
+          "sentence": "Avui ___ pasta amb tomàquet.",
+          "translation": "Hoy comemos pasta con tomate.",
+          "options": ["dinem", "sopem", "esmorzem", "berenem"],
+          "answer": "dinem" }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "Comida básica", "ca": "Menjar bàsic" },
+      "goal": {
+        "es": "Productos cotidianos: pa, ous, llet, fruita, verdura.",
+        "ca": "Productes quotidians: pa, ous, llet, fruita, verdura."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "el pa", "es": "el pan",
+          "note": { "es": "Una sola sílaba. ¡Y nada de doble n!", "ca": "Una sola síl·laba." } },
+        { "type": "flashcard", "ca": "la llet", "es": "la leche" },
+        { "type": "flashcard", "ca": "els ous", "es": "los huevos",
+          "note": { "es": "Singular: l'ou. Plural: els ous. Sin h, sin v.", "ca": "Singular: l'ou." } },
+        { "type": "flashcard", "ca": "el formatge", "es": "el queso",
+          "note": { "es": "Cuidado: nada que ver con «queso». Recuerda «formatge» (relacionado con «forma»).", "ca": "«Formatge» = queso." } },
+        { "type": "flashcard", "ca": "la fruita", "es": "la fruta" },
+        { "type": "flashcard", "ca": "la verdura", "es": "la verdura" },
+        { "type": "flashcard", "ca": "la carn", "es": "la carne",
+          "note": { "es": "Una sola sílaba: «carn». Sin -e final.", "ca": "Una síl·laba: «carn»." } },
+        { "type": "flashcard", "ca": "el peix", "es": "el pescado",
+          "note": { "es": "«Peix» también significa «pez» (animal vivo). El contexto manda.", "ca": "«Peix» = pez i pescado." } },
+        { "type": "compare",
+          "es": "Quiero pan con queso",
+          "ca": "Vull pa amb formatge",
+          "note": { "es": "«Amb» = con. Se pronuncia /am/.", "ca": "«Amb» es pronuncia /am/." }
+        },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "el queso", "options": ["el formatge", "el queso", "la formatja", "el formatger"], "answer": "el formatge" },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Pan, queso y fruta",
+          "answer": "Pa formatge i fruita",
+          "bank": ["Pa", "formatge", "i", "fruita"],
+          "distractors": ["pan", "queso", "y", "fruta"] }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Bebidas", "ca": "Begudes" },
+      "goal": {
+        "es": "Pide bebidas en un bar catalán: cafè, aigua, vi, cervesa.",
+        "ca": "Demana begudes en un bar."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "l'aigua", "es": "el agua",
+          "note": { "es": "En catalán «aigua» es femenino: l'aigua, una aigua.", "ca": "«Aigua» és femenina." } },
+        { "type": "flashcard", "ca": "el cafè", "es": "el café",
+          "note": { "es": "Acento abierto: cafè (con «è»).", "ca": "Accent obert: cafè." } },
+        { "type": "flashcard", "ca": "el te", "es": "el té",
+          "note": { "es": "En catalán no lleva acento: «te».", "ca": "Sense accent: te." } },
+        { "type": "flashcard", "ca": "el vi", "es": "el vino",
+          "note": { "es": "Una sola letra: «vi». Sin la -no final.", "ca": "Sense la -no final: vi." } },
+        { "type": "flashcard", "ca": "la cervesa", "es": "la cerveza" },
+        { "type": "flashcard", "ca": "el suc", "es": "el zumo",
+          "note": { "es": "«Suc» = zumo. También significa «jugo» (de la carne, p. ej.).", "ca": "«Suc» = zumo." } },
+        { "type": "compare",
+          "es": "Un café con leche, por favor",
+          "ca": "Un cafè amb llet, si us plau",
+          "note": { "es": "«Si us plau» literalmente «si os place». Es la forma estándar de «por favor».", "ca": "«Si us plau» = per favor." }
+        },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Un vino y una cerveza",
+          "answer": "Un vi i una cervesa",
+          "bank": ["Un", "vi", "i", "una", "cervesa"],
+          "distractors": ["vino", "y", "cerveza"] },
+        { "type": "fill_blank",
+          "sentence": "Vull un ___ amb gel.",
+          "translation": "Quiero un zumo con hielo.",
+          "options": ["suc", "zumo", "sucre", "saç"],
+          "answer": "suc" },
+        { "type": "listen", "ca": "Una aigua sense gas", "options": ["Una aigua sense gas", "Una agua sin gas", "Una aigua amb gas"] }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "x1",
+      "title": { "es": "Tomàquet, alvocat y otros productos", "ca": "Tomàquet, alvocat i altres productes" },
+      "goal": {
+        "es": "Algunas frutas y verduras con palabras muy distintas al español.",
+        "ca": "Algunes fruites i verdures amb paraules ben diferents."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "el tomàquet", "es": "el tomate",
+          "note": { "es": "«Tomàquet» con «-quet» final. Se usa también en «pa amb tomàquet».", "ca": "«Tomàquet»: clàssic del «pa amb tomàquet»." } },
+        { "type": "flashcard", "ca": "l'alvocat", "es": "el aguacate" },
+        { "type": "flashcard", "ca": "la maduixa", "es": "la fresa" },
+        { "type": "flashcard", "ca": "la pastanaga", "es": "la zanahoria" },
+        { "type": "compare",
+          "es": "Pan con tomate",
+          "ca": "Pa amb tomàquet",
+          "note": { "es": "Plato icónico de Cataluña.", "ca": "Plat icònic de Catalunya." }
+        }
+      ]
+    }
+  ]
+}

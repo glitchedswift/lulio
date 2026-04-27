@@ -24,7 +24,7 @@
         { "type": "translate", "direction": "es-ca",
           "prompt": "El perro está en la mesa",
           "answer": "El gos és a la taula",
-          "bank": ["El", "gos", "és", "a", "la", "taula", "está", "está"] }
+          "bank": ["El", "gos", "és", "a", "la", "taula", "està"] }
       ]
     },
     {

@@ -1,0 +1,140 @@
+{
+  "id": "5-3",
+  "title": { "es": "Registro formal", "ca": "Registre formal" },
+  "goal": {
+    "es": "Habla y escribe con registro formal: tractament de vostè, fórmules de cortesía, lenguaje administrativo.",
+    "ca": "Parla i escriu amb registre formal."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Tractament de vostè", "ca": "Tractament de vostè" },
+      "goal": {
+        "es": "El catalán usa «vostè» (3ª persona singular) como forma de respeto. Diferente del «usted» en conjugación.",
+        "ca": "«Vostè» = vosté → 3a persona del singular."
+      },
+      "exercises": [
+        { "type": "compare",
+          "es": "¿Cómo está usted?",
+          "ca": "Com està vostè?",
+          "note": { "es": "«Vostè» concuerda en 3ª persona singular: «està».", "ca": "Tercera persona del singular." }
+        },
+        { "type": "compare",
+          "es": "¿Quiere usted un café?",
+          "ca": "Vol un cafè?",
+          "note": { "es": "El «vostè» suele omitirse y se deduce del verbo.", "ca": "«Vostè» sovint sobreentès." }
+        },
+        { "type": "flashcard", "ca": "vostè", "es": "usted" },
+        { "type": "flashcard", "ca": "vostès", "es": "ustedes" },
+        { "type": "flashcard", "ca": "Em diria…?", "es": "¿Me diría…?",
+          "note": { "es": "Condicional + pronombre como fórmula educada.", "ca": "Forma educada." } },
+        { "type": "compare",
+          "es": "Pase, por favor",
+          "ca": "Passi, si us plau",
+          "note": { "es": "Imperativo formal: «passi» (3ª persona, subjuntivo).", "ca": "Imperatiu formal." }
+        },
+        { "type": "fill_blank",
+          "sentence": "Senyor, ___ pot ajudar?",
+          "translation": "Señor, ¿me puede ayudar?",
+          "options": ["em", "me", "te", "li"],
+          "answer": "em" },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Señor, ¿qué desea?",
+          "answer": "Senyor què desitja",
+          "bank": ["Senyor", "què", "desitja"],
+          "distractors": ["señor", "desea", "que"] },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "Disculpe, ¿puedo entrar?", "options": ["Disculpi, puc entrar?", "Disculpe, puc entrar?", "Disculpa, puc entrar?", "Disculpi, puedo entrar?"], "answer": "Disculpi, puc entrar?" }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "Fórmulas de cortesía", "ca": "Fórmules de cortesia" },
+      "goal": {
+        "es": "Si us plau, gràcies, de res, disculpi, perdoni.",
+        "ca": "Cortesia bàsica."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "si us plau", "es": "por favor",
+          "note": { "es": "Literalmente «si os place». Estándar formal.", "ca": "Literal: «si us plau»." } },
+        { "type": "flashcard", "ca": "gràcies", "es": "gracias" },
+        { "type": "flashcard", "ca": "moltes gràcies", "es": "muchas gracias" },
+        { "type": "flashcard", "ca": "de res", "es": "de nada" },
+        { "type": "flashcard", "ca": "disculpi", "es": "disculpe" },
+        { "type": "flashcard", "ca": "perdoni", "es": "perdone" },
+        { "type": "flashcard", "ca": "Que tinguis un bon dia", "es": "Que tengas un buen día" },
+        { "type": "compare",
+          "es": "Le agradezco mucho su ayuda",
+          "ca": "Li agraeixo molt la seva ajuda",
+          "note": { "es": "«Li» = le. «Seva» (femenino concuerda con «ajuda»).", "ca": "«La seva ajuda»." }
+        },
+        { "type": "fill_blank",
+          "sentence": "___, on és la sortida?",
+          "translation": "Disculpe, ¿dónde está la salida?",
+          "options": ["Disculpi", "Disculpe", "Perdo", "Perdoneu"],
+          "answer": "Disculpi" },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Muchas gracias por todo",
+          "answer": "Moltes gràcies per tot",
+          "bank": ["Moltes", "gràcies", "per", "tot"],
+          "distractors": ["muchas", "gracias", "por", "todo"] }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Lenguaje administrativo", "ca": "Llenguatge administratiu" },
+      "goal": {
+        "es": "Saludos y fórmulas de mails y cartas formales.",
+        "ca": "Fórmules de correu i carta formal."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "Benvolgut senyor", "es": "Estimado señor" },
+        { "type": "flashcard", "ca": "Benvolguda senyora", "es": "Estimada señora" },
+        { "type": "flashcard", "ca": "Atentament", "es": "Atentamente" },
+        { "type": "flashcard", "ca": "Cordialment", "es": "Cordialmente" },
+        { "type": "flashcard", "ca": "Adjunto…", "es": "Adjunto…" },
+        { "type": "flashcard", "ca": "Em poso en contacte amb vostè", "es": "Me pongo en contacto con usted" },
+        { "type": "compare",
+          "es": "Quedo a su disposición",
+          "ca": "Quedo a la seva disposició",
+          "note": { "es": "«La seva» = su (formal).", "ca": "«La seva disposició»." }
+        },
+        { "type": "compare",
+          "es": "Atentamente, Joan Pi",
+          "ca": "Atentament, Joan Pi",
+          "note": { "es": "Cierre estándar de correos formales.", "ca": "Tancament estàndard." }
+        },
+        { "type": "fill_blank",
+          "sentence": "___ senyora Garcia,",
+          "translation": "Estimada señora Garcia,",
+          "options": ["Benvolguda", "Bienvolguda", "Estimada", "Cara"],
+          "answer": "Benvolguda" },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Quedo a su disposición",
+          "answer": "Quedo a la seva disposició",
+          "bank": ["Quedo", "a", "la", "seva", "disposició"],
+          "distractors": ["su", "disposición"] },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "Atentamente", "options": ["Atentament", "Atentamente", "Cordial", "Salut"], "answer": "Atentament" }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "x1",
+      "title": { "es": "Imperativo formal", "ca": "Imperatiu formal" },
+      "goal": {
+        "es": "El imperativo de cortesía coincide con el subjuntivo: passi, vingui, segui.",
+        "ca": "Imperatiu formal = subjuntiu."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "Passi", "es": "Pase" },
+        { "type": "flashcard", "ca": "Segui", "es": "Siéntese" },
+        { "type": "flashcard", "ca": "Esperi un moment", "es": "Espere un momento" },
+        { "type": "compare",
+          "es": "Por favor, siéntese",
+          "ca": "Si us plau, segui",
+          "note": { "es": "Imperativo formal sin pronombre reflexivo final.", "ca": "Sense pronom reflexiu final." }
+        }
+      ]
+    }
+  ]
+}

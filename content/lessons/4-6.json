@@ -1,0 +1,139 @@
+{
+  "id": "4-6",
+  "title": { "es": "Subjuntivo", "ca": "Subjuntiu" },
+  "goal": {
+    "es": "Reconoce las formas del subjuntivo presente y úsalo en deseos, dudas y subordinadas.",
+    "ca": "Reconeix el subjuntiu present i fes-lo servir."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Subjuntivo presente", "ca": "Subjuntiu present" },
+      "goal": {
+        "es": "Terminaciones -i / -is / -i / -em / -eu / -in para verbos en -ar. Otros patrones para -er e -ir.",
+        "ca": "Terminacions de subjuntiu present."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "que jo parli", "es": "que (yo) hable" },
+        { "type": "flashcard", "ca": "que tu parlis", "es": "que (tú) hables" },
+        { "type": "flashcard", "ca": "que ell parli", "es": "que (él) hable" },
+        { "type": "flashcard", "ca": "que nosaltres parlem", "es": "que (nosotros) hablemos" },
+        { "type": "flashcard", "ca": "que vosaltres parleu", "es": "que (vosotros) habléis" },
+        { "type": "flashcard", "ca": "que ells parlin", "es": "que (ellos) hablen" },
+        { "type": "compare",
+          "es": "Quiero que vengas",
+          "ca": "Vull que vinguis",
+          "note": { "es": "«Vinguis» = vengas. Subjuntivo de «venir», con la raíz «ving-».", "ca": "Subjuntiu de venir: vingui, vinguis…" }
+        },
+        { "type": "compare",
+          "es": "Es importante que estudies",
+          "ca": "És important que estudiïs",
+          "note": { "es": "Atención al diéresis: «estudiïs», para marcar las dos sílabas «-iïs».", "ca": "Dièresi: estudiïs." }
+        },
+        { "type": "fill_blank",
+          "sentence": "Espero que ___ bé.",
+          "translation": "Espero que estés bien.",
+          "options": ["estiguis", "estés", "estás", "siguis"],
+          "answer": "estiguis" },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "que (yo) coma", "options": ["que mengi", "que como", "que menjo", "que mengo"], "answer": "que mengi" }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "Cuándo usarlo", "ca": "Quan fer-lo servir" },
+      "goal": {
+        "es": "Vull que…, espero que…, és important que…, quan + futuro.",
+        "ca": "Contextos típics."
+      },
+      "exercises": [
+        { "type": "compare",
+          "es": "Cuando llegues, llámame",
+          "ca": "Quan arribis, truca'm",
+          "note": { "es": "«Quan + subjuntivo» para acciones futuras. Igual que en español.", "ca": "Quan + subjuntiu per al futur." }
+        },
+        { "type": "compare",
+          "es": "Espero que tengas suerte",
+          "ca": "Espero que tinguis sort",
+          "note": { "es": "«Tinguis» = tengas. Subjuntivo de «tenir», raíz «ting-».", "ca": "Tenir → tingui, tinguis…" }
+        },
+        { "type": "compare",
+          "es": "Aunque llueva, iremos",
+          "ca": "Encara que plogui, hi anirem",
+          "note": { "es": "«Encara que + subjuntivo». «Hi» recoge el lugar.", "ca": "Encara que + subjuntiu." }
+        },
+        { "type": "flashcard", "ca": "Vull que vinguis", "es": "Quiero que vengas" },
+        { "type": "flashcard", "ca": "És important que ho sàpigues", "es": "Es importante que lo sepas",
+          "note": { "es": "«Sàpigues» (saber). Femenino: sàpigues. Acento abierto.", "ca": "Saber → sàpiga, sàpigues." } },
+        { "type": "fill_blank",
+          "sentence": "Quan ___ a casa, dutxa't.",
+          "translation": "Cuando llegues a casa, dúchate.",
+          "options": ["arribis", "arribes", "arribaràs", "arriba"],
+          "answer": "arribis" },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Espero que estés bien",
+          "answer": "Espero que estiguis bé",
+          "bank": ["Espero", "que", "estiguis", "bé"],
+          "distractors": ["espero", "estés", "bien"] },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "Quiero que vengas", "options": ["Vull que vinguis", "Vull que vens", "Vull que vingues", "Vull que venir"], "answer": "Vull que vinguis" }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Subjuntivo imperfecto", "ca": "Subjuntiu imperfet" },
+      "goal": {
+        "es": "Para hipótesis y cortesía: si tingués, voldria que vinguessis.",
+        "ca": "Per a hipòtesi i cortesia."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "que parlés", "es": "que (yo) hablara/hablase" },
+        { "type": "flashcard", "ca": "que tinguessis", "es": "que (tú) tuvieras/tuvieses" },
+        { "type": "flashcard", "ca": "que vingués", "es": "que (él) viniera/viniese" },
+        { "type": "flashcard", "ca": "que fóssim", "es": "que (nosotros) fuéramos/fuésemos",
+          "note": { "es": "«Fóssim» (de ser). También se usa «fóssim» o «fóssim», con acento.", "ca": "Ser → fóssim." } },
+        { "type": "compare",
+          "es": "Si fueras tú, lo entenderías",
+          "ca": "Si fossis tu, ho entendries",
+          "note": { "es": "«Si fossis» (subj. imp.) + «entendries» (condicional).", "ca": "Si + subjuntiu imperfet + condicional." }
+        },
+        { "type": "compare",
+          "es": "Querría que vinieras",
+          "ca": "Voldria que vinguessis",
+          "note": { "es": "Combinación clásica: condicional + subj. imp.", "ca": "Condicional + subjuntiu imperfet." }
+        },
+        { "type": "fill_blank",
+          "sentence": "Si ___ temps, aniríem al teatre.",
+          "translation": "Si tuviéramos tiempo, iríamos al teatro.",
+          "options": ["tinguéssim", "teníem", "tindríem", "tinguem"],
+          "answer": "tinguéssim" },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Si pudieras, vendrías",
+          "answer": "Si poguessis vindries",
+          "bank": ["Si", "poguessis", "vindries"],
+          "distractors": ["pudieras", "vendrías"] },
+        { "type": "multiple_choice", "direction": "ca-es", "prompt": "M'agradaria que ho fessis", "options": ["Me gustaría que lo hicieras", "Me gustaría que lo hagas", "Me gustó que lo hicieras", "Quiero que lo hagas"], "answer": "Me gustaría que lo hicieras" }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "x1",
+      "title": { "es": "Verbos con cambio de raíz", "ca": "Verbs amb canvi d'arrel" },
+      "goal": {
+        "es": "Ser, anar, fer, voler, poder. Las raíces irregulares más frecuentes.",
+        "ca": "Verbs irregulars freqüents."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "que jo sigui", "es": "que (yo) sea" },
+        { "type": "flashcard", "ca": "que jo vagi", "es": "que (yo) vaya" },
+        { "type": "flashcard", "ca": "que jo faci", "es": "que (yo) haga" },
+        { "type": "flashcard", "ca": "que jo vulgui", "es": "que (yo) quiera" },
+        { "type": "flashcard", "ca": "que jo pugui", "es": "que (yo) pueda" },
+        { "type": "fill_blank",
+          "sentence": "Vull que ___ feliç.",
+          "translation": "Quiero que seas feliz.",
+          "options": ["siguis", "ets", "ser", "sigues"],
+          "answer": "siguis" }
+      ]
+    }
+  ]
+}

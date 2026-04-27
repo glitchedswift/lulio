@@ -1,0 +1,144 @@
+{
+  "id": "4-5",
+  "title": { "es": "Futuro y condicional", "ca": "Futur i condicional" },
+  "goal": {
+    "es": "Conjuga el futuro simple y el condicional, dos tiempos muy regulares en catalán.",
+    "ca": "Futur simple i condicional, dos temps regulars."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Futuro simple", "ca": "Futur simple" },
+      "goal": {
+        "es": "Infinitivo + terminaciones: -é, -às, -à, -em, -eu, -an. Casi como el español.",
+        "ca": "Infinitiu + terminacions: -é, -às, -à, -em, -eu, -an."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "parlaré", "es": "hablaré" },
+        { "type": "flashcard", "ca": "parlaràs", "es": "hablarás" },
+        { "type": "flashcard", "ca": "parlarà", "es": "hablará" },
+        { "type": "flashcard", "ca": "parlarem", "es": "hablaremos" },
+        { "type": "flashcard", "ca": "parlareu", "es": "hablaréis" },
+        { "type": "flashcard", "ca": "parlaran", "es": "hablarán" },
+        { "type": "compare",
+          "es": "Mañana iré a Barcelona",
+          "ca": "Demà aniré a Barcelona",
+          "note": { "es": "«Aniré» = iré. Verbo «anar» con futuro irregular: aniré.", "ca": "Anar → aniré (irregular)." }
+        },
+        { "type": "compare",
+          "es": "Lo haremos juntos",
+          "ca": "Ho farem junts",
+          "note": { "es": "«Farem» = haremos. Verbo «fer» (hacer): faré, faràs, farà, farem.", "ca": "Fer → faré, faràs, farà." }
+        },
+        { "type": "fill_blank",
+          "sentence": "Demà ___ pluja a tot Catalunya.",
+          "translation": "Mañana habrá lluvia en toda Cataluña.",
+          "options": ["hi haurà", "habrá", "hi ha", "hi haver"],
+          "answer": "hi haurà" },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "iré", "options": ["aniré", "iré", "anaré", "anirà"], "answer": "aniré" },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Cenaremos a las nueve",
+          "answer": "Soparem a les nou",
+          "bank": ["Soparem", "a", "les", "nou"],
+          "distractors": ["cenaremos", "nueve"] }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "Verbos irregulares clave", "ca": "Verbs irregulars clau" },
+      "goal": {
+        "es": "Anar, fer, tenir, venir, voler, saber. Memoriza la raíz; las terminaciones son las mismas.",
+        "ca": "Arrels irregulars amb terminacions regulars."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "aniré", "es": "iré (anar)" },
+        { "type": "flashcard", "ca": "faré", "es": "haré (fer)" },
+        { "type": "flashcard", "ca": "tindré", "es": "tendré (tenir)" },
+        { "type": "flashcard", "ca": "vindré", "es": "vendré (venir)" },
+        { "type": "flashcard", "ca": "voldré", "es": "querré (voler)" },
+        { "type": "flashcard", "ca": "sabré", "es": "sabré (saber)" },
+        { "type": "flashcard", "ca": "podré", "es": "podré (poder)" },
+        { "type": "compare",
+          "es": "Tendré tiempo mañana",
+          "ca": "Tindré temps demà",
+          "note": { "es": "«Tindré» con «d» eufónica.", "ca": "«Tindré»: forma irregular." }
+        },
+        { "type": "fill_blank",
+          "sentence": "Aquesta nit ___ amb tu.",
+          "translation": "Esta noche vendré contigo.",
+          "options": ["vindré", "vendré", "veniré", "vindra"],
+          "answer": "vindré" },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "haré", "options": ["faré", "haré", "fer", "fereé"], "answer": "faré" },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Sabremos la respuesta mañana",
+          "answer": "Sabrem la resposta demà",
+          "bank": ["Sabrem", "la", "resposta", "demà"],
+          "distractors": ["sabremos", "respuesta"] }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Condicional", "ca": "Condicional" },
+      "goal": {
+        "es": "La misma raíz que el futuro + terminaciones -ria, -ries, -ria, -ríem, -ríeu, -rien.",
+        "ca": "Mateixa arrel que el futur + -ria, -ries, -ria, -ríem, -ríeu, -rien."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "parlaria", "es": "hablaría" },
+        { "type": "flashcard", "ca": "parlaries", "es": "hablarías" },
+        { "type": "flashcard", "ca": "voldria", "es": "querría" },
+        { "type": "flashcard", "ca": "podríem", "es": "podríamos" },
+        { "type": "flashcard", "ca": "tindries", "es": "tendrías" },
+        { "type": "compare",
+          "es": "Querría un café, por favor",
+          "ca": "Voldria un cafè, si us plau",
+          "note": { "es": "«Voldria» es la forma educada para pedir.", "ca": "«Voldria»: forma educada." }
+        },
+        { "type": "compare",
+          "es": "¿Podrías ayudarme?",
+          "ca": "Em podries ajudar?",
+          "note": { "es": "«Em podries» con el pronombre antes. Igual que «me podrías».", "ca": "«Em podries»: pronom davant." }
+        },
+        { "type": "fill_blank",
+          "sentence": "___ un got d'aigua, si us plau.",
+          "translation": "Querría un vaso de agua, por favor.",
+          "options": ["Voldria", "Vull", "Querría", "Volia"],
+          "answer": "Voldria" },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Iría a la playa",
+          "answer": "Aniria a la platja",
+          "bank": ["Aniria", "a", "la", "platja"],
+          "distractors": ["iría", "playa"] },
+        { "type": "multiple_choice", "direction": "ca-es", "prompt": "Em donaries un cop de mà?", "options": ["¿Me echarías una mano?", "¿Me darías la mano?", "¿Te daría una mano?", "¿Me das un golpe?"], "answer": "¿Me echarías una mano?" }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "x1",
+      "title": { "es": "Si + condicional", "ca": "Si + condicional" },
+      "goal": {
+        "es": "Frases hipotéticas: «Si tingués diners, viatjaria.»",
+        "ca": "Frases hipotètiques."
+      },
+      "exercises": [
+        { "type": "compare",
+          "es": "Si tuviera dinero, viajaría",
+          "ca": "Si tingués diners, viatjaria",
+          "note": { "es": "«Tingués» (subjuntivo imperfecto) + «viatjaria» (condicional).", "ca": "Subjuntiu imperfet + condicional." }
+        },
+        { "type": "compare",
+          "es": "Si pudieras, ¿lo harías?",
+          "ca": "Si poguessis, ho faries?",
+          "note": { "es": "Misma estructura: si + subjuntivo imperfecto, condicional.", "ca": "Estructura idèntica." }
+        },
+        { "type": "flashcard", "ca": "Si tingués temps", "es": "Si tuviera tiempo" },
+        { "type": "fill_blank",
+          "sentence": "Si plogués, ___ a casa.",
+          "translation": "Si lloviera, me quedaría en casa.",
+          "options": ["em quedaria", "me quedaría", "em quedo", "em quedaré"],
+          "answer": "em quedaria" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "id": "2-6",
+  "title": { "es": "El verbo anar", "ca": "El verb anar" },
+  "goal": {
+    "es": "El verbo «anar» (ir): conjugación en presente, anar a + lugar, y la construcción del passat perifràstic.",
+    "ca": "El verb «anar»: present, «anar a + lloc» i el passat perifràstic."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Anar en presente", "ca": "Anar en present" },
+      "goal": {
+        "es": "Vaig, vas, va, anem, aneu, van. Memoriza los seis.",
+        "ca": "Vaig, vas, va, anem, aneu, van."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "vaig", "es": "voy" },
+        { "type": "flashcard", "ca": "vas", "es": "vas" },
+        { "type": "flashcard", "ca": "va", "es": "va" },
+        { "type": "flashcard", "ca": "anem", "es": "vamos" },
+        { "type": "flashcard", "ca": "aneu", "es": "vais" },
+        { "type": "flashcard", "ca": "van", "es": "van" },
+        { "type": "compare",
+          "es": "Voy al mercado",
+          "ca": "Vaig al mercat",
+          "note": { "es": "«Vaig» se pronuncia /batʃ/. La «g» final suena casi a «ch».", "ca": "«Vaig» es pronuncia /batʃ/." }
+        },
+        { "type": "fill_blank",
+          "sentence": "Nosaltres ___ a la platja.",
+          "translation": "Nosotros vamos a la playa.",
+          "options": ["anem", "vamos", "anam", "anim"],
+          "answer": "anem" },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "vais", "options": ["aneu", "anau", "vais", "aneis"], "answer": "aneu" },
+        { "type": "listen", "ca": "Van al cinema", "options": ["Van al cinema", "Vénen al cinema", "Anem al cinema"] }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "Anar a + lugar", "ca": "Anar a + lloc" },
+      "goal": {
+        "es": "Catalán usa siempre «a» con destinos: «a Barcelona», «al cine», «a casa», sin excepciones.",
+        "ca": "El català fa servir sempre «a» amb destinacions: a Barcelona, al cinema."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "anar a casa", "es": "ir a casa" },
+        { "type": "flashcard", "ca": "anar al cinema", "es": "ir al cine" },
+        { "type": "flashcard", "ca": "anar a Barcelona", "es": "ir a Barcelona" },
+        { "type": "flashcard", "ca": "anar a la feina", "es": "ir al trabajo",
+          "note": { "es": "«La feina» = el trabajo. «La feina» es femenino.", "ca": "«La feina» és femenina." } },
+        { "type": "compare",
+          "es": "Vivo en Barcelona",
+          "ca": "Visc a Barcelona",
+          "note": { "es": "Catalán usa «a», no «en», con la mayoría de lugares.", "ca": "Català: «a», no «en»." }
+        },
+        { "type": "compare",
+          "es": "Estoy en el trabajo",
+          "ca": "Sóc a la feina",
+          "note": { "es": "Aquí «sóc» = estoy. Recuerda: ubicación con «ser a».", "ca": "Ubicació: «sóc a»." }
+        },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Voy al cine",
+          "answer": "Vaig al cinema",
+          "bank": ["Vaig", "al", "cinema"],
+          "distractors": ["a", "el", "cine", "voy"] },
+        { "type": "fill_blank",
+          "sentence": "Vaig ___ Girona aquest cap de setmana.",
+          "translation": "Voy a Girona este fin de semana.",
+          "options": ["a", "en", "al", "cap"],
+          "answer": "a" },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "Vamos a la playa", "options": ["Anem a la platja", "Vamos a la platja", "Anem en la platja", "Anem la platja"], "answer": "Anem a la platja" }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Avance: passat perifràstic", "ca": "Avançament: passat perifràstic" },
+      "goal": {
+        "es": "Catalán usa «anar» + infinitivo para hablar del pasado, no del futuro: «vaig menjar» = «comí». Esto sorprende, así que lo introducimos aquí.",
+        "ca": "«Anar + infinitiu» en català és passat: vaig menjar = comí."
+      },
+      "exercises": [
+        { "type": "compare",
+          "es": "Comí pasta",
+          "ca": "Vaig menjar pasta",
+          "note": { "es": "Sorprendente: «vaig menjar» = comí. ¡No es futuro como en español!", "ca": "«Vaig menjar» = passat." }
+        },
+        { "type": "compare",
+          "es": "Ayer fui a Barcelona",
+          "ca": "Ahir vaig anar a Barcelona",
+          "note": { "es": "«Vaig anar» suena como «voy a ir», pero significa «fui». Memoriza el patrón.", "ca": "«Vaig anar» = vaig anar (passat)." }
+        },
+        { "type": "flashcard", "ca": "Vaig estudiar", "es": "Estudié" },
+        { "type": "flashcard", "ca": "Vam treballar", "es": "Trabajamos (pasado)",
+          "note": { "es": "Plural: vam/vàrem + infinitivo.", "ca": "Plural: vam (o vàrem) + infinitiu." } },
+        { "type": "flashcard", "ca": "Van arribar", "es": "Llegaron" },
+        { "type": "fill_blank",
+          "sentence": "Ahir ___ sopar a casa de la meva àvia.",
+          "translation": "Ayer cené en casa de mi abuela.",
+          "options": ["vaig", "vam", "vas", "va"],
+          "answer": "vaig" },
+        { "type": "multiple_choice", "direction": "ca-es", "prompt": "Vam veure una pel·lícula", "options": ["Vimos una película", "Vamos a ver una película", "Vais a ver una película", "Veíamos una película"], "answer": "Vimos una película" },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Ayer comí en el restaurante",
+          "answer": "Ahir vaig menjar al restaurant",
+          "bank": ["Ahir", "vaig", "menjar", "al", "restaurant"],
+          "distractors": ["ayer", "comí", "en", "el"] }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "x1",
+      "title": { "es": "Anar de + actividad", "ca": "Anar de + activitat" },
+      "goal": {
+        "es": "Anar de compres, anar de festa, anar de vacances. Patrón frecuente.",
+        "ca": "Anar de compres, anar de festa, anar de vacances."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "anar de compres", "es": "ir de compras" },
+        { "type": "flashcard", "ca": "anar de festa", "es": "ir de fiesta" },
+        { "type": "flashcard", "ca": "anar de vacances", "es": "ir de vacaciones" },
+        { "type": "fill_blank",
+          "sentence": "Aquest agost anem ___ a Mallorca.",
+          "translation": "Este agosto vamos de vacaciones a Mallorca.",
+          "options": ["de vacances", "a vacances", "vacances", "en vacances"],
+          "answer": "de vacances" }
+      ]
+    }
+  ]
+}

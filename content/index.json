@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.0",
   "blocks": [
     {
       "id": 1,
@@ -27,11 +27,11 @@
       },
       "lessons": [
         { "id": 1, "title": { "es": "La familia", "ca": "La família" }, "icon": "👨‍👩‍👧", "topicCount": 3 },
-        { "id": 2, "title": { "es": "En casa", "ca": "A casa" }, "icon": "🏠", "topicCount": 3, "placeholder": true },
-        { "id": 3, "title": { "es": "Comer y beber", "ca": "Menjar i beure" }, "icon": "🍞", "topicCount": 3, "placeholder": true },
-        { "id": 4, "title": { "es": "Mi rutina", "ca": "La meva rutina" }, "icon": "⏰", "topicCount": 3, "placeholder": true },
-        { "id": 5, "title": { "es": "¿Qué hora es?", "ca": "Quina hora és?" }, "icon": "🕒", "topicCount": 3, "placeholder": true },
-        { "id": 6, "title": { "es": "El verbo anar", "ca": "El verb anar" }, "icon": "🚶", "topicCount": 3, "placeholder": true }
+        { "id": 2, "title": { "es": "En casa", "ca": "A casa" }, "icon": "🏠", "topicCount": 3 },
+        { "id": 3, "title": { "es": "Comer y beber", "ca": "Menjar i beure" }, "icon": "🍞", "topicCount": 3 },
+        { "id": 4, "title": { "es": "Mi rutina", "ca": "La meva rutina" }, "icon": "⏰", "topicCount": 3 },
+        { "id": 5, "title": { "es": "¿Qué hora es?", "ca": "Quina hora és?" }, "icon": "🕒", "topicCount": 3 },
+        { "id": 6, "title": { "es": "El verbo anar", "ca": "El verb anar" }, "icon": "🚶", "topicCount": 3 }
       ]
     },
     {
@@ -43,12 +43,12 @@
         "ca": "Direccions, transport, compres i els pronoms hi/en."
       },
       "lessons": [
-        { "id": 1, "title": { "es": "Direcciones", "ca": "Direccions" }, "icon": "🧭", "topicCount": 3, "placeholder": true },
-        { "id": 2, "title": { "es": "Transporte", "ca": "Transport" }, "icon": "🚌", "topicCount": 3, "placeholder": true },
-        { "id": 3, "title": { "es": "De compras", "ca": "De compres" }, "icon": "🛒", "topicCount": 3, "placeholder": true },
-        { "id": 4, "title": { "es": "En el restaurante", "ca": "Al restaurant" }, "icon": "🍽️", "topicCount": 3, "placeholder": true },
-        { "id": 5, "title": { "es": "Pronombres hi/en", "ca": "Pronoms hi/en" }, "icon": "✨", "topicCount": 3, "placeholder": true },
-        { "id": 6, "title": { "es": "Pasado perifrástico", "ca": "Passat perifràstic" }, "icon": "⏳", "topicCount": 3, "placeholder": true }
+        { "id": 1, "title": { "es": "Direcciones", "ca": "Direccions" }, "icon": "🧭", "topicCount": 3 },
+        { "id": 2, "title": { "es": "Transporte", "ca": "Transport" }, "icon": "🚌", "topicCount": 3 },
+        { "id": 3, "title": { "es": "De compras", "ca": "De compres" }, "icon": "🛒", "topicCount": 3 },
+        { "id": 4, "title": { "es": "En el restaurante", "ca": "Al restaurant" }, "icon": "🍽️", "topicCount": 3 },
+        { "id": 5, "title": { "es": "Pronombres hi/en", "ca": "Pronoms hi/en" }, "icon": "✨", "topicCount": 3 },
+        { "id": 6, "title": { "es": "Pasado perifrástico", "ca": "Passat perifràstic" }, "icon": "⏳", "topicCount": 3 }
       ]
     },
     {
@@ -60,12 +60,12 @@
         "ca": "Feina, opinions, emocions, salut i futur/condicional."
       },
       "lessons": [
-        { "id": 1, "title": { "es": "El trabajo", "ca": "La feina" }, "icon": "💼", "topicCount": 3, "placeholder": true },
-        { "id": 2, "title": { "es": "Opiniones", "ca": "Opinions" }, "icon": "💬", "topicCount": 3, "placeholder": true },
-        { "id": 3, "title": { "es": "Emociones", "ca": "Emocions" }, "icon": "💖", "topicCount": 3, "placeholder": true },
-        { "id": 4, "title": { "es": "Salud", "ca": "Salut" }, "icon": "🩺", "topicCount": 3, "placeholder": true },
-        { "id": 5, "title": { "es": "Futuro y condicional", "ca": "Futur i condicional" }, "icon": "🔮", "topicCount": 3, "placeholder": true },
-        { "id": 6, "title": { "es": "Subjuntivo", "ca": "Subjuntiu" }, "icon": "🌀", "topicCount": 3, "placeholder": true }
+        { "id": 1, "title": { "es": "El trabajo", "ca": "La feina" }, "icon": "💼", "topicCount": 3 },
+        { "id": 2, "title": { "es": "Opiniones", "ca": "Opinions" }, "icon": "💬", "topicCount": 3 },
+        { "id": 3, "title": { "es": "Emociones", "ca": "Emocions" }, "icon": "💖", "topicCount": 3 },
+        { "id": 4, "title": { "es": "Salud", "ca": "Salut" }, "icon": "🩺", "topicCount": 3 },
+        { "id": 5, "title": { "es": "Futuro y condicional", "ca": "Futur i condicional" }, "icon": "🔮", "topicCount": 3 },
+        { "id": 6, "title": { "es": "Subjuntivo", "ca": "Subjuntiu" }, "icon": "🌀", "topicCount": 3 }
       ]
     },
     {
@@ -77,11 +77,11 @@
         "ca": "Història, dites, registre i gramàtica avançada."
       },
       "lessons": [
-        { "id": 1, "title": { "es": "Historia y cultura", "ca": "Història i cultura" }, "icon": "🏛️", "topicCount": 3, "placeholder": true },
-        { "id": 2, "title": { "es": "Dichos populares", "ca": "Dites populars" }, "icon": "🗣️", "topicCount": 3, "placeholder": true },
-        { "id": 3, "title": { "es": "Registro formal", "ca": "Registre formal" }, "icon": "✒️", "topicCount": 3, "placeholder": true },
-        { "id": 4, "title": { "es": "Falsos amigos avanzados", "ca": "Falsos amics avançats" }, "icon": "🎭", "topicCount": 3, "placeholder": true },
-        { "id": 5, "title": { "es": "Lengua escrita", "ca": "Llengua escrita" }, "icon": "📚", "topicCount": 3, "placeholder": true }
+        { "id": 1, "title": { "es": "Historia y cultura", "ca": "Història i cultura" }, "icon": "🏛️", "topicCount": 3 },
+        { "id": 2, "title": { "es": "Dichos populares", "ca": "Dites populars" }, "icon": "🗣️", "topicCount": 3 },
+        { "id": 3, "title": { "es": "Registro formal", "ca": "Registre formal" }, "icon": "✒️", "topicCount": 3 },
+        { "id": 4, "title": { "es": "Falsos amigos avanzados", "ca": "Falsos amics avançats" }, "icon": "🎭", "topicCount": 3 },
+        { "id": 5, "title": { "es": "Lengua escrita", "ca": "Llengua escrita" }, "icon": "📚", "topicCount": 3 }
       ]
     }
   ]

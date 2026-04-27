@@ -1,0 +1,152 @@
+{
+  "id": "4-2",
+  "title": { "es": "Opiniones", "ca": "Opinions" },
+  "goal": {
+    "es": "Expresa acuerdo, desacuerdo y matices con frases naturales.",
+    "ca": "Expressa acord, desacord i matisos."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Crec que…", "ca": "Crec que…" },
+      "goal": {
+        "es": "Creo que, pienso que, em sembla que.",
+        "ca": "Crec que, penso que, em sembla que."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "Crec que…", "es": "Creo que…" },
+        { "type": "flashcard", "ca": "Penso que…", "es": "Pienso que…" },
+        { "type": "flashcard", "ca": "Em sembla que…", "es": "Me parece que…",
+          "note": { "es": "«Em sembla» = me parece. La «em» es el «me» catalán.", "ca": "«Em sembla» = me parece." } },
+        { "type": "flashcard", "ca": "Al meu parer", "es": "En mi opinión / a mi parecer" },
+        { "type": "flashcard", "ca": "Segons jo", "es": "Según yo / desde mi punto de vista" },
+        { "type": "compare",
+          "es": "Creo que tienes razón",
+          "ca": "Crec que tens raó",
+          "note": { "es": "«Tens raó» = tienes razón. Sin la «z».", "ca": "«Raó»: amb accent obert." }
+        },
+        { "type": "compare",
+          "es": "Me parece muy interesante",
+          "ca": "Em sembla molt interessant",
+          "note": { "es": "«Em sembla» va con el sujeto pospuesto, igual que en español.", "ca": "«Em sembla» + adjectiu." }
+        },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Creo que es buena idea",
+          "answer": "Crec que és bona idea",
+          "bank": ["Crec", "que", "és", "bona", "idea"],
+          "distractors": ["creo", "buena"] },
+        { "type": "fill_blank",
+          "sentence": "___ sembla que plourà.",
+          "translation": "Me parece que lloverá.",
+          "options": ["Em", "Me", "T'", "Es"],
+          "answer": "Em" },
+        { "type": "multiple_choice", "direction": "ca-es", "prompt": "Al meu parer, és car", "options": ["En mi opinión, es caro", "A mi padre, es caro", "Para mi, es caro", "A mi me importa"], "answer": "En mi opinión, es caro" }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "Acuerdo y desacuerdo", "ca": "Acord i desacord" },
+      "goal": {
+        "es": "Hi estic d'acord, tens raó, no ho crec, no ho veig clar.",
+        "ca": "Acord i desacord."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "Hi estic d'acord", "es": "Estoy de acuerdo",
+          "note": { "es": "«Hi estic d'acord» con «hi» (referido al tema). El «hi» es obligatorio.", "ca": "«Hi» obligatori." } },
+        { "type": "flashcard", "ca": "Tens raó", "es": "Tienes razón" },
+        { "type": "flashcard", "ca": "No ho crec", "es": "No lo creo",
+          "note": { "es": "«Ho» = lo (neutro). Reemplaza una idea o concepto.", "ca": "«Ho» = lo neutre." } },
+        { "type": "flashcard", "ca": "No ho veig clar", "es": "No lo veo claro" },
+        { "type": "flashcard", "ca": "Depèn", "es": "Depende",
+          "note": { "es": "Acento abierto: depèn.", "ca": "Accent obert: depèn." } },
+        { "type": "compare",
+          "es": "Estoy completamente de acuerdo",
+          "ca": "Hi estic completament d'acord",
+          "note": { "es": "«Hi» entre «estic» y «completament».", "ca": "Posició: hi + estic + completament." }
+        },
+        { "type": "compare",
+          "es": "No estoy de acuerdo, lo siento",
+          "ca": "No hi estic d'acord, ho sento",
+          "note": { "es": "«Ho sento» = lo siento. Otro «ho» neutro.", "ca": "«Ho sento» = lo siento." }
+        },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Tienes razón",
+          "answer": "Tens raó",
+          "bank": ["Tens", "raó"],
+          "distractors": ["razón", "tienes"] },
+        { "type": "fill_blank",
+          "sentence": "No ___ crec, em sembla rar.",
+          "translation": "No lo creo, me parece raro.",
+          "options": ["ho", "lo", "el", "li"],
+          "answer": "ho" },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "Estoy de acuerdo", "options": ["Hi estic d'acord", "Estoy d'acord", "Estic acord", "Sóc d'acord"], "answer": "Hi estic d'acord" }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Argumentar", "ca": "Argumentar" },
+      "goal": {
+        "es": "Conectores: per tant, però, en canvi, malgrat.",
+        "ca": "Connectors per argumentar."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "però", "es": "pero",
+          "note": { "es": "«Però» con acento abierto. La «p» y la «r» son sonoras.", "ca": "«Però» amb accent obert." } },
+        { "type": "flashcard", "ca": "en canvi", "es": "en cambio" },
+        { "type": "flashcard", "ca": "per tant", "es": "por (lo) tanto" },
+        { "type": "flashcard", "ca": "malgrat", "es": "a pesar de",
+          "note": { "es": "«Malgrat» o «tot i». Más formal que «encara que».", "ca": "Formal: malgrat." } },
+        { "type": "flashcard", "ca": "perquè", "es": "porque",
+          "note": { "es": "Junto, con acento abierto: perquè. ¡Diferente del español!", "ca": "Tot junt: perquè." } },
+        { "type": "compare",
+          "es": "Quiero ir, pero no puedo",
+          "ca": "Vull anar-hi, però no puc",
+          "note": { "es": "«Anar-hi» = ir (allí). El pronombre «hi» va pegado al infinitivo.", "ca": "«Anar-hi»: pronom enganxat." }
+        },
+        { "type": "compare",
+          "es": "No vino porque estaba enfermo",
+          "ca": "No va venir perquè estava malalt",
+          "note": { "es": "«Perquè» (porque, junto). «Per què» (separado) = ¿por qué?", "ca": "«Perquè» causal vs «per què» interrogatiu." }
+        },
+        { "type": "fill_blank",
+          "sentence": "Plou, ___ portarem paraigua.",
+          "translation": "Llueve, por (lo) tanto traeremos paraguas.",
+          "options": ["per tant", "porque", "en canvi", "i"],
+          "answer": "per tant" },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Vino aunque llovía",
+          "answer": "Va venir malgrat que plovia",
+          "bank": ["Va", "venir", "malgrat", "que", "plovia"],
+          "distractors": ["aunque", "vino"] },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "porque", "options": ["perquè", "porque", "per què", "per que"], "answer": "perquè" }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "x1",
+      "title": { "es": "Per què / Perquè / Per a què", "ca": "Per què / Perquè / Per a què" },
+      "goal": {
+        "es": "Tres formas distintas, tres usos. La trampa más típica del catalán escrito.",
+        "ca": "Tres formes diferents amb usos diferents."
+      },
+      "exercises": [
+        { "type": "compare",
+          "es": "¿Por qué? — Porque sí",
+          "ca": "Per què? — Perquè sí",
+          "note": { "es": "«Per què» (interrogativo, separado). «Perquè» (causal, junto).", "ca": "«Per què» interrogatiu vs «perquè» causal." }
+        },
+        { "type": "compare",
+          "es": "¿Para qué sirve?",
+          "ca": "Per a què serveix?",
+          "note": { "es": "«Per a què» = para qué (finalidad).", "ca": "«Per a què» = finalitat." }
+        },
+        { "type": "fill_blank",
+          "sentence": "Vinc ___ vull veure't.",
+          "translation": "Vengo porque quiero verte.",
+          "options": ["perquè", "per què", "per a què", "perqué"],
+          "answer": "perquè" }
+      ]
+    }
+  ]
+}
