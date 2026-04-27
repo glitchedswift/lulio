@@ -181,6 +181,17 @@ Each topic's `exercises` is an array of objects keyed by `type`.
   "ca": "Espanya",
   "note": { "es": "...", "ca": "..." }
 }
+
+// Pattern — visual rule card showing a morphological/phonological rule with word-pair examples.
+// Always accepted on continue. Each CA word has a TTS button.
+{ "type": "pattern",
+  "rule": { "from": "-ción", "to": "-ció" },   // displayed as: ESPAÑOL -ción → CATALÀ -ció
+  "examples": [
+    { "es": "nación", "ca": "nació" },
+    { "es": "situación", "ca": "situació" }
+  ],
+  "note": { "es": "...", "ca": "..." }           // optional; shown below the examples
+}
 ```
 
 Conventions:

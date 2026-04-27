@@ -1,0 +1,301 @@
+{
+  "id": "1-6",
+  "title": { "es": "Patrones lingüísticos", "ca": "Patrons lingüístics" },
+  "goal": {
+    "es": "El español y el català comparten el mismo origen latino. Muchas palabras siguen reglas predecibles de transformación: si conoces el patrón, puedes deducir el vocabulario.",
+    "ca": "L'espanyol i el català comparteixen el mateix origen llatí. Moltes paraules segueixen regles de transformació predictibles: si coneixes el patró, pots deduir el vocabulari."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "-ción → -ció", "ca": "-ción → -ció" },
+      "goal": {
+        "es": "Casi toda palabra española en -ción tiene un equivalente català en -ció. Es la regla de transferencia más productiva entre los dos idiomas.",
+        "ca": "Quasi tota paraula castellana en -ción té un equivalent català en -ció. És la regla de transferència més productiva entre els dos idiomes."
+      },
+      "xp": 15,
+      "exercises": [
+        {
+          "type": "pattern",
+          "rule": { "from": "-ción", "to": "-ció" },
+          "examples": [
+            { "es": "nación", "ca": "nació" },
+            { "es": "situación", "ca": "situació" },
+            { "es": "comunicación", "ca": "comunicació" },
+            { "es": "estación", "ca": "estació" },
+            { "es": "relación", "ca": "relació" },
+            { "es": "tradición", "ca": "tradició" }
+          ],
+          "note": {
+            "es": "Regla muy productiva. Excepción notable: canción → cançó (la c ante o se convierte en ç). También: acción → acció (la doble c se mantiene simplificada).",
+            "ca": "Regla molt productiva. Excepció notable: canción → cançó (la c davant de o es converteix en ç). També: acción → acció."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "situación",
+          "options": ["situació", "situasió", "situación", "situacció"],
+          "answer": "situació"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "La ___ de tren és aquí.",
+          "translation": "La estación de tren está aquí.",
+          "options": ["estació", "estación", "estacció"],
+          "answer": "estació"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "comunicación",
+          "options": ["comunicació", "comunicasió", "comunicatió", "comunicación"],
+          "answer": "comunicació"
+        },
+        {
+          "type": "translate",
+          "direction": "es-ca",
+          "prompt": "La tradición es importante.",
+          "answer": "La tradició és important.",
+          "bank": ["La", "tradició", "és", "important."],
+          "distractors": ["tradición", "importan"]
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "-dad → -tat", "ca": "-dad → -tat" },
+      "goal": {
+        "es": "Los sustantivos abstractos españoles en -dad corresponden al sufijo -tat en català. El sufijo final cambia, pero la raíz se conserva casi siempre.",
+        "ca": "Els substantius abstractes castellans en -dad corresponen al sufix -tat en català. El sufix final canvia, però l'arrel es conserva gairebé sempre."
+      },
+      "xp": 15,
+      "exercises": [
+        {
+          "type": "pattern",
+          "rule": { "from": "-dad", "to": "-tat" },
+          "examples": [
+            { "es": "ciudad", "ca": "ciutat" },
+            { "es": "libertad", "ca": "llibertat" },
+            { "es": "calidad", "ca": "qualitat" },
+            { "es": "verdad", "ca": "veritat" },
+            { "es": "comunidad", "ca": "comunitat" },
+            { "es": "realidad", "ca": "realitat" }
+          ],
+          "note": {
+            "es": "Fíjate: «libertad» → «llibertat» también muestra otro cambio: la l- inicial se convierte en ll- ante i (pronunciación lateral palatal). Dos patrones en una sola palabra.",
+            "ca": "Fixa't: «libertad» → «llibertat» mostra també un altre canvi: la l- inicial es converteix en ll- davant de i. Dos patrons en una sola paraula."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "ciudad",
+          "options": ["ciutat", "ciudat", "ciudtat", "citytat"],
+          "answer": "ciutat"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Visc a la ___ de Barcelona.",
+          "translation": "Vivo en la ciudad de Barcelona.",
+          "options": ["ciutat", "ciudad", "ciudat"],
+          "answer": "ciutat"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "libertad",
+          "options": ["llibertat", "libertat", "libertad", "liberttat"],
+          "answer": "llibertat"
+        },
+        {
+          "type": "compare",
+          "es": "la verdad",
+          "ca": "la veritat",
+          "note": {
+            "es": "La -d final española desaparece y la -ad se convierte en -at. El mismo patrón vale para: calidad → qualitat, sociedad → societat, amistad → amistat.",
+            "ca": "La -d final castellana desapareix i la -ad es converteix en -at. El mateix patró val per: calidad → qualitat, sociedad → societat, amistad → amistat."
+          }
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "-mente → -ment", "ca": "-ment → -ment" },
+      "goal": {
+        "es": "Los adverbios en -mente tienen una traducción directa en -ment. Este patrón es 100% regular: no hay excepciones.",
+        "ca": "Els adverbis en -mente tenen una traducció directa en -ment. Aquest patró és 100% regular: no hi ha excepcions."
+      },
+      "xp": 15,
+      "exercises": [
+        {
+          "type": "pattern",
+          "rule": { "from": "-mente", "to": "-ment" },
+          "examples": [
+            { "es": "lentamente", "ca": "lentament" },
+            { "es": "claramente", "ca": "clarament" },
+            { "es": "normalmente", "ca": "normalment" },
+            { "es": "rápidamente", "ca": "ràpidament" },
+            { "es": "finalmente", "ca": "finalment" },
+            { "es": "directamente", "ca": "directament" }
+          ],
+          "note": {
+            "es": "Sin excepciones: simplemente quita -mente y añade -ment. El acento puede desplazarse: rápidamente → ràpidament (la à indica la sílaba tónica en català).",
+            "ca": "Sense excepcions: simplement treu -mente i afegeix -ment. L'accent pot desplaçar-se: rápidamente → ràpidament."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "lentamente",
+          "options": ["lentament", "lentamente", "lentment", "lenament"],
+          "answer": "lentament"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Parla ___ si us plau.",
+          "translation": "Habla lentamente, por favor.",
+          "options": ["lentament", "lentamente", "lentment"],
+          "answer": "lentament"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "finalmente",
+          "options": ["finalment", "finalament", "finalyment", "finalmente"],
+          "answer": "finalment"
+        },
+        {
+          "type": "translate",
+          "direction": "es-ca",
+          "prompt": "Normalmente trabajo en casa.",
+          "answer": "Normalment treballo a casa.",
+          "bank": ["Normalment", "treballo", "a", "casa."],
+          "distractors": ["Normalmente", "trabajo"]
+        }
+      ]
+    },
+    {
+      "id": "t4",
+      "title": { "es": "Diptongos que desaparecen", "ca": "Diftongs que desapareixen" },
+      "goal": {
+        "es": "El latín tenía vocales breves que el español convirtió en diptongos (ie, ue), mientras que el català mantuvo la vocal simple. Conocer este patrón te permite reconocer centenares de palabras.",
+        "ca": "El llatí tenia vocals breus que el castellà va convertir en diftongs (ie, ue), mentre que el català va mantenir la vocal simple. Conèixer aquest patró et permet reconèixer centenars de paraules."
+      },
+      "xp": 15,
+      "exercises": [
+        {
+          "type": "pattern",
+          "rule": { "from": "ie", "to": "e" },
+          "examples": [
+            { "es": "tierra", "ca": "terra" },
+            { "es": "tiempo", "ca": "temps" },
+            { "es": "bien", "ca": "bé" },
+            { "es": "piedra", "ca": "pedra" },
+            { "es": "fiebre", "ca": "febre" }
+          ],
+          "note": {
+            "es": "El español convirtió la e breve latina en ie (diptongo). El català conservó la e simple. Así puedes deducir muchas palabras: si el español tiene ie, el català suele tener e.",
+            "ca": "El castellà va convertir la e breu llatina en ie (diftong). El català va conservar la e simple. Així pots deduir moltes paraules."
+          }
+        },
+        {
+          "type": "pattern",
+          "rule": { "from": "ue", "to": "o" },
+          "examples": [
+            { "es": "fuego", "ca": "foc" },
+            { "es": "puerta", "ca": "porta" },
+            { "es": "nuevo", "ca": "nou" },
+            { "es": "pueblo", "ca": "poble" },
+            { "es": "muerto", "ca": "mort" }
+          ],
+          "note": {
+            "es": "El español convirtió la o breve latina en ue. El català conservó la o. Fíjate: «nuevo» → «nou», «bueno» → «bo», «puerta» → «porta».",
+            "ca": "El castellà va convertir la o breu llatina en ue. El català va conservar la o. Fixa't: «nuevo» → «nou», «bueno» → «bo», «puerta» → «porta»."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "tiempo",
+          "options": ["temps", "tiemp", "tiempo", "tiemps"],
+          "answer": "temps"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "puerta",
+          "options": ["porta", "puerta", "pòrta", "poerta"],
+          "answer": "porta"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "La ___ és oberta.",
+          "translation": "La puerta está abierta.",
+          "options": ["porta", "puerta", "pòrta"],
+          "answer": "porta"
+        },
+        {
+          "type": "compare",
+          "es": "tierra · fuego · bien",
+          "ca": "terra · foc · bé",
+          "note": {
+            "es": "Resumen: español ie → català e, español ue → català o. Con estas dos reglas puedes descifrar centenares de palabras nuevas.",
+            "ca": "Resum: castellà ie → català e, castellà ue → català o. Amb aquestes dues regles pots desxifrar centenars de paraules noves."
+          }
+        }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "x1",
+      "title": { "es": "-oso/-osa → -ós/-osa", "ca": "-oso/-osa → -ós/-osa" },
+      "goal": {
+        "es": "Los adjetivos en -oso cambian solo en masculino: -oso → -ós. El femenino -osa es idéntico en ambos idiomas.",
+        "ca": "Els adjectius en -oso canvien només en masculí: -oso → -ós. El femení -osa és idèntic en els dos idiomes."
+      },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "pattern",
+          "rule": { "from": "-oso", "to": "-ós" },
+          "examples": [
+            { "es": "famoso", "ca": "famós" },
+            { "es": "curioso", "ca": "curiós" },
+            { "es": "nervioso", "ca": "nervós" },
+            { "es": "delicioso", "ca": "deliciós" },
+            { "es": "famosa", "ca": "famosa ✓" }
+          ],
+          "note": {
+            "es": "Solo el masculino cambia: -oso → -ós (pierde la o final). El femenino -osa es igual en los dos idiomas. Así «famosa» funciona en español y en català.",
+            "ca": "Només el masculí canvia: -oso → -ós (perd la o final). El femení -osa és igual en els dos idiomes. Així «famosa» funciona en castellà i en català."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "famoso",
+          "options": ["famós", "famos", "famoso", "famòs"],
+          "answer": "famós"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Aquest pastís és molt ___ !",
+          "translation": "¡Este pastel está delicioso!",
+          "options": ["deliciós", "delicioso", "deliciòs"],
+          "answer": "deliciós"
+        },
+        {
+          "type": "compare",
+          "es": "él es curioso / ella es curiosa",
+          "ca": "ell és curiós / ella és curiosa",
+          "note": {
+            "es": "El femenino curiosa es idéntico. Solo el masculino añade el acento: curiós.",
+            "ca": "El femení curiosa és idèntic. Només el masculí afegeix l'accent: curiós."
+          }
+        }
+      ]
+    }
+  ]
+}

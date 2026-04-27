@@ -3,7 +3,7 @@ import { getLang } from "./state.js";
 
 const STRINGS = {
   es: {
-    "home.tagline": "Aprende catalán desde el español, <em class=\"home-em\">sin esfuerzo.</em>",
+    "home.tagline": "Aprende català desde el español, <em class=\"home-em\">sin esfuerzo.</em>",
     "home.start": "Empezar",
     "home.continue": "Empezar",
     "home.badge": "Lecciones de <strong>2 minutos</strong>",
@@ -13,9 +13,9 @@ const STRINGS = {
     "home.fc2.title": "Inteligente",
     "home.fc2.body": "Aprovecha lo que ya sabes.",
     "home.fc3.title": "Efectivo",
-    "home.fc3.body": "Habla catalán en menos tiempo.",
+    "home.fc3.body": "Habla català en menos tiempo.",
     "home.card1.title": "Basado en patrones",
-    "home.card1.body": "Entiende, conecta y aprende de verdad.",
+    "home.card1.body": "Ej.: -ción → -ció. Aprende reglas, no listas.",
     "home.card2.title": "Similitudes claras",
     "home.card2.body": "Ve lo que ya sabes y avanza más rápido.",
     "home.card3.title": "Evita errores típicos",
@@ -37,13 +37,13 @@ const STRINGS = {
     "lesson.next_topic": "Siguiente tema",
     "lesson.finish": "Finalizar",
     "lesson.back": "Volver al mapa",
-    "lesson.translate_es_ca": "Traduce al catalán",
+    "lesson.translate_es_ca": "Traduce al català",
     "lesson.translate_ca_es": "Traduce al español",
     "lesson.choose_correct": "Elige la traducción correcta",
     "lesson.listen_pick": "Escucha y elige lo que oyes",
     "lesson.fill_blank": "Completa la frase",
     "lesson.flashcard": "Aprende esta palabra",
-    "lesson.compare": "Compara español y catalán",
+    "lesson.compare": "Compara español y català",
     "lesson.tap_to_hear": "Toca para escuchar",
     "lesson.correct": "¡Correcto!",
     "lesson.incorrect": "Casi… la respuesta es:",
@@ -54,7 +54,9 @@ const STRINGS = {
     "completion.subtitle": "Vas genial. Continúa con el camino.",
     "completion.back_to_map": "Volver al mapa",
 
-    "tts.no_voice": "Tu navegador no tiene voz catalana instalada; usaremos español como aproximación.",
+    "lesson.pattern": "Patrón lingüístico",
+
+    "tts.no_voice": "Tu navegador no tiene voz en català instalada; usaremos español como aproximación.",
   },
   ca: {
     "home.tagline": "Aprèn català des de l'espanyol, <em class=\"home-em\">sense esforç.</em>",
@@ -69,7 +71,7 @@ const STRINGS = {
     "home.fc3.title": "Efectiu",
     "home.fc3.body": "Parla català en menys temps.",
     "home.card1.title": "Basat en patrons",
-    "home.card1.body": "Entén, connecta i aprèn de debò.",
+    "home.card1.body": "Ex.: -ción → -ció. Aprèn regles, no llistes.",
     "home.card2.title": "Similituds clares",
     "home.card2.body": "Veu el que ja saps i avança més ràpid.",
     "home.card3.title": "Evita errors típics",
@@ -107,6 +109,8 @@ const STRINGS = {
     "completion.title": "Lliçó completada!",
     "completion.subtitle": "Vas molt bé. Segueix el camí.",
     "completion.back_to_map": "Torna al mapa",
+
+    "lesson.pattern": "Patró lingüístic",
 
     "tts.no_voice": "El teu navegador no té veu catalana instal·lada; farem servir l'espanyol com a aproximació.",
   },

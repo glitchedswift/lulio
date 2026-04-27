@@ -1,20 +1,21 @@
 {
-  "version": "0.2.0",
+  "version": "0.3.0",
   "blocks": [
     {
       "id": 1,
       "level": "A1",
       "title": { "es": "Primeros pasos", "ca": "Primers passos" },
       "subtitle": {
-        "es": "Saludos, alfabeto, números y los primeros falsos amigos.",
-        "ca": "Salutacions, alfabet, nombres i els primers falsos amics."
+        "es": "Saludos, alfabeto, números, falsos amigos y patrones clave.",
+        "ca": "Salutacions, alfabet, nombres, falsos amics i patrons clau."
       },
       "lessons": [
         { "id": 1, "title": { "es": "Hola y adiós", "ca": "Hola i adéu" }, "icon": "👋", "topicCount": 3 },
         { "id": 2, "title": { "es": "Sonidos catalanes", "ca": "Sons catalans" }, "icon": "🔤", "topicCount": 4 },
         { "id": 3, "title": { "es": "Los números", "ca": "Els nombres" }, "icon": "🔢", "topicCount": 3 },
         { "id": 4, "title": { "es": "Artículos", "ca": "Articles" }, "icon": "🔖", "topicCount": 3 },
-        { "id": 5, "title": { "es": "Falsos amigos", "ca": "Falsos amics" }, "icon": "🎭", "topicCount": 3 }
+        { "id": 5, "title": { "es": "Falsos amigos", "ca": "Falsos amics" }, "icon": "🎭", "topicCount": 3 },
+        { "id": 6, "title": { "es": "Patrones lingüísticos", "ca": "Patrons lingüístics" }, "icon": "🔁", "topicCount": 4 }
       ]
     },
     {
@@ -22,7 +23,7 @@
       "level": "A1+/A2",
       "title": { "es": "El día a día", "ca": "El dia a dia" },
       "subtitle": {
-        "es": "Familia, casa, comida, rutina y horas en catalán.",
+        "es": "Familia, casa, comida, rutina y horas en català.",
         "ca": "Família, casa, menjar, rutina i hores en català."
       },
       "lessons": [
