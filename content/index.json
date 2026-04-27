@@ -1,5 +1,5 @@
 {
-  "version": "0.4.0",
+  "version": "0.5.0",
   "blocks": [
     {
       "id": 1,
@@ -34,7 +34,8 @@
         { "id": 4, "title": { "es": "Mi rutina", "ca": "La meva rutina" }, "icon": "⏰", "topicCount": 3 },
         { "id": 5, "title": { "es": "¿Qué hora es?", "ca": "Quina hora és?" }, "icon": "🕒", "topicCount": 3 },
         { "id": 6, "title": { "es": "El verbo anar", "ca": "El verb anar" }, "icon": "🚶", "topicCount": 3 },
-        { "id": 7, "title": { "es": "El tiempo y las estaciones", "ca": "El temps i les estacions" }, "icon": "🌦️", "topicCount": 3 }
+        { "id": 7, "title": { "es": "El tiempo y las estaciones", "ca": "El temps i les estacions" }, "icon": "🌦️", "topicCount": 3 },
+        { "id": 8, "title": { "es": "Los posesivos", "ca": "Els possessius" }, "icon": "🔑", "topicCount": 3 }
       ]
     },
     {
@@ -52,7 +53,8 @@
         { "id": 4, "title": { "es": "En el restaurante", "ca": "Al restaurant" }, "icon": "🍽️", "topicCount": 3 },
         { "id": 5, "title": { "es": "Pronombres hi/en", "ca": "Pronoms hi/en" }, "icon": "✨", "topicCount": 3 },
         { "id": 6, "title": { "es": "Pasado perifrástico", "ca": "Passat perifràstic" }, "icon": "⏳", "topicCount": 3 },
-        { "id": 7, "title": { "es": "El imperfecto", "ca": "L'imperfet" }, "icon": "📖", "topicCount": 3 }
+        { "id": 7, "title": { "es": "El imperfecto", "ca": "L'imperfet" }, "icon": "📖", "topicCount": 3 },
+        { "id": 8, "title": { "es": "Perífrasis verbales", "ca": "Perífrasis verbals" }, "icon": "⚙️", "topicCount": 3 }
       ]
     },
     {
@@ -70,7 +72,8 @@
         { "id": 4, "title": { "es": "Salud", "ca": "Salut" }, "icon": "🩺", "topicCount": 3 },
         { "id": 5, "title": { "es": "Futuro y condicional", "ca": "Futur i condicional" }, "icon": "🔮", "topicCount": 3 },
         { "id": 6, "title": { "es": "Subjuntivo", "ca": "Subjuntiu" }, "icon": "🌀", "topicCount": 3 },
-        { "id": 7, "title": { "es": "Comparativos y superlativos", "ca": "Comparatius i superlatius" }, "icon": "📊", "topicCount": 3 }
+        { "id": 7, "title": { "es": "Comparativos y superlativos", "ca": "Comparatius i superlatius" }, "icon": "📊", "topicCount": 3 },
+        { "id": 8, "title": { "es": "Negación catalana", "ca": "Negació catalana" }, "icon": "🚫", "topicCount": 3 }
       ]
     },
     {
@@ -86,7 +89,8 @@
         { "id": 2, "title": { "es": "Dichos populares", "ca": "Dites populars" }, "icon": "🗣️", "topicCount": 3 },
         { "id": 3, "title": { "es": "Registro formal", "ca": "Registre formal" }, "icon": "✒️", "topicCount": 3 },
         { "id": 4, "title": { "es": "Falsos amigos avanzados", "ca": "Falsos amics avançats" }, "icon": "🎭", "topicCount": 3 },
-        { "id": 5, "title": { "es": "Lengua escrita", "ca": "Llengua escrita" }, "icon": "📚", "topicCount": 3 }
+        { "id": 5, "title": { "es": "Lengua escrita", "ca": "Llengua escrita" }, "icon": "📚", "topicCount": 3 },
+        { "id": 6, "title": { "es": "Conectores del discurso", "ca": "Connectors del discurs" }, "icon": "🔗", "topicCount": 3 }
       ]
     }
   ]

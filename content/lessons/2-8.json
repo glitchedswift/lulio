@@ -1,0 +1,143 @@
+{
+  "id": "2-8",
+  "title": { "es": "Los posesivos", "ca": "Els possessius" },
+  "goal": {
+    "es": "Los posesivos catalanes siempre van acompañados del artículo definido cuando preceden al nombre. Este detalle los separa del español y es el error más frecuente entre hispanohablantes.",
+    "ca": "Els possessius catalans sempre van acompanyats de l'article definit quan precedeixen el nom. Aquest detall els separa del castellà."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "meu / teu", "ca": "meu / teu" },
+      "goal": {
+        "es": "Primera y segunda persona del singular. Cuatro formas cada uno según género y número.",
+        "ca": "Primera i segona persona del singular. Quatre formes cadascun."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "el meu germà", "es": "mi hermano",
+          "note": { "es": "Artículo obligatorio: «el meu», no «meu» solo.", "ca": "Article obligatori: «el meu»." } },
+        { "type": "flashcard", "ca": "la meva mare", "es": "mi madre" },
+        { "type": "flashcard", "ca": "els meus amics", "es": "mis amigos" },
+        { "type": "flashcard", "ca": "les meves claus", "es": "mis llaves" },
+        { "type": "flashcard", "ca": "el teu nom", "es": "tu nombre" },
+        { "type": "flashcard", "ca": "la teva feina", "es": "tu trabajo" },
+        { "type": "flashcard", "ca": "els teus fills", "es": "tus hijos" },
+        { "type": "flashcard", "ca": "les teves coses", "es": "tus cosas" },
+        { "type": "compare",
+          "es": "mi coche / tu coche",
+          "ca": "el meu cotxe / el teu cotxe",
+          "note": { "es": "El artículo (el/la/els/les) siempre precede al posesivo. En español va sin artículo.", "ca": "Article sempre davant del possessiu." }
+        },
+        { "type": "fill_blank",
+          "sentence": "Com es diu ___ pare?",
+          "translation": "¿Cómo se llama tu padre?",
+          "options": ["el teu", "teu", "ta", "el tu"],
+          "answer": "el teu" },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "mis llaves", "options": ["les meves claus", "les mes claus", "mis claus", "les meva claus"], "answer": "les meves claus" },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Mi madre y mi hermano",
+          "answer": "La meva mare i el meu germà",
+          "bank": ["La", "meva", "mare", "i", "el", "meu", "germà"],
+          "distractors": ["mi", "madre", "hermano"] }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "seu / nostre / vostre", "ca": "seu / nostre / vostre" },
+      "goal": {
+        "es": "Tercera persona (seu/seva) y los plurales nostre/nostra y vostre/vostra.",
+        "ca": "Tercera persona (seu/seva) i els plurals nostre/nostra i vostre/vostra."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "el seu cotxe", "es": "su coche",
+          "note": { "es": "«Seu/seva» vale tanto para «his», «her» como para «their».", "ca": "«Seu/seva» = his/her/their." } },
+        { "type": "flashcard", "ca": "la seva filla", "es": "su hija" },
+        { "type": "flashcard", "ca": "el nostre pis", "es": "nuestro piso" },
+        { "type": "flashcard", "ca": "la nostra escola", "es": "nuestra escuela" },
+        { "type": "flashcard", "ca": "el vostre projecte", "es": "vuestro proyecto" },
+        { "type": "flashcard", "ca": "la vostra idea", "es": "vuestra idea" },
+        { "type": "compare",
+          "es": "nuestros amigos / vuestros amigos",
+          "ca": "els nostres amics / els vostres amics",
+          "note": { "es": "En plural, «nostres» y «vostres» tienen la misma forma para masculino y femenino.", "ca": "Al plural: nostres/vostres (igual per als dos gèneres)." }
+        },
+        { "type": "fill_blank",
+          "sentence": "La ___ professora és molt bona.",
+          "translation": "Vuestra profesora es muy buena.",
+          "options": ["vostra", "vostre", "vostres", "sua"],
+          "answer": "vostra" },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "su perro (de ellos)", "options": ["el seu gos", "el lor gos", "el de gos", "els seus gossos"], "answer": "el seu gos" },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Nuestra casa es pequeña",
+          "answer": "La nostra casa és petita",
+          "bank": ["La", "nostra", "casa", "és", "petita"],
+          "distractors": ["nuestra", "pequeña"] }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "El artículo obligatorio", "ca": "L'article obligatori" },
+      "goal": {
+        "es": "El artículo siempre precede al posesivo cuando va antes del nombre. Solo desaparece en posición predicativa (después de «ser»).",
+        "ca": "L'article sempre precedeix el possessiu davant del nom. Desapareix en posició predicativa (després de «ser»)."
+      },
+      "exercises": [
+        { "type": "compare",
+          "es": "mi libro",
+          "ca": "el meu llibre",
+          "note": { "es": "Antes del nombre: artículo obligatorio. «Mi» español → «el meu» catalán.", "ca": "Davant del nom: article obligatori." }
+        },
+        { "type": "compare",
+          "es": "Este libro es mío",
+          "ca": "Aquest llibre és meu",
+          "note": { "es": "Después de «ser» (posición predicativa): sin artículo. És meu, és meva, és nostre.", "ca": "Posició predicativa: és meu (sense article)." }
+        },
+        { "type": "compare",
+          "es": "una amiga mía",
+          "ca": "una amiga meva",
+          "note": { "es": "También sin artículo cuando el posesivo sigue al nombre. «Una amiga meva», no «una la meva amiga».", "ca": "Posposat al nom: sense article. Una amiga meva." }
+        },
+        { "type": "flashcard", "ca": "el cotxe és meu", "es": "el coche es mío" },
+        { "type": "flashcard", "ca": "la decisió és nostra", "es": "la decisión es nuestra" },
+        { "type": "fill_blank",
+          "sentence": "Aquesta maleta és ___.",
+          "translation": "Esta maleta es mía.",
+          "options": ["meva", "la meva", "mi", "meves"],
+          "answer": "meva" },
+        { "type": "fill_blank",
+          "sentence": "He perdut ___ mòbil.",
+          "translation": "He perdido mi móvil.",
+          "options": ["el meu", "meu", "mon", "mi"],
+          "answer": "el meu" },
+        { "type": "multiple_choice", "direction": "ca-es", "prompt": "La decisió és vostra", "options": ["La decisión es vuestra", "La decisión vuestra", "Vuestra decisión", "La decisión es vuestros"], "answer": "La decisión es vuestra" },
+        { "type": "listen", "ca": "El meu gat és gris", "options": ["El meu gat és gris", "El teu gat és gris", "La meva gata és grisa"] }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "x1",
+      "title": { "es": "A casa meva / a casa teva", "ca": "A casa meva / a casa teva" },
+      "goal": {
+        "es": "Con «casa» el posesivo va siempre pospuesto y sin artículo. Fórmula fija muy frecuente.",
+        "ca": "Amb «casa» el possessiu va sempre posposat i sense article. Fórmula fixa molt freqüent."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "a casa meva", "es": "en mi casa / a mi casa",
+          "note": { "es": "Forma fija: «a casa meva». El artículo desaparece.", "ca": "Forma fixa: a casa meva." } },
+        { "type": "flashcard", "ca": "a casa teva", "es": "en tu casa / a tu casa" },
+        { "type": "flashcard", "ca": "a casa seva", "es": "en su casa" },
+        { "type": "compare",
+          "es": "Vengo a tu casa",
+          "ca": "Vinc a casa teva",
+          "note": { "es": "«A casa teva»: sin artículo, posesivo al final.", "ca": "«A casa teva»: sense article, possessiu al final." }
+        },
+        { "type": "fill_blank",
+          "sentence": "Quedem a ___ o a ___?",
+          "translation": "¿Quedamos en mi casa o en la tuya?",
+          "options": ["casa meva / casa teva", "la meva casa / la teva", "mon / ton", "mi casa / tu casa"],
+          "answer": "casa meva / casa teva" }
+      ]
+    }
+  ]
+}
