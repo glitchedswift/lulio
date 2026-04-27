@@ -1,0 +1,157 @@
+{
+  "id": "4-7",
+  "title": { "es": "Comparativos y superlativos", "ca": "Comparatius i superlatius" },
+  "goal": {
+    "es": "Expresa comparaciones e intensidades: tan alto como, más rápido que, el más interesante, buenísimo.",
+    "ca": "Expressa comparacions i intensitats."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Más… que / Menos… que", "ca": "Més… que / Menys… que" },
+      "goal": {
+        "es": "La comparación de superioridad e inferioridad. Estructuras muy similares al español.",
+        "ca": "Comparació de superioritat i inferioritat."
+      },
+      "exercises": [
+        { "type": "compare",
+          "es": "Barcelona es más grande que Tarragona",
+          "ca": "Barcelona és més gran que Tarragona",
+          "note": { "es": "Estructura idéntica: subj. + és + més + adj + que.", "ca": "Estructura idèntica." }
+        },
+        { "type": "compare",
+          "es": "Este libro es menos interesante que el otro",
+          "ca": "Aquest llibre és menys interessant que l'altre",
+          "note": { "es": "«Menys + adj + que». Igual que en español.", "ca": "«Menys + adj + que»." }
+        },
+        { "type": "flashcard", "ca": "més alt que", "es": "más alto que" },
+        { "type": "flashcard", "ca": "menys car que", "es": "menos caro que" },
+        { "type": "flashcard", "ca": "més ràpid que mai", "es": "más rápido que nunca" },
+        { "type": "compare",
+          "es": "El catalán es más fácil de lo que parece",
+          "ca": "El català és més fàcil del que sembla",
+          "note": { "es": "Cuando sigue una frase: «més + adj + del que». Con sustantivo o pronombre: «més + adj + que».", "ca": "Davant de frase: «més + adj + del que»." }
+        },
+        { "type": "fill_blank",
+          "sentence": "Avui fa ___ calor que ahir.",
+          "translation": "Hoy hace más calor que ayer.",
+          "options": ["més", "menys", "molt", "tan"],
+          "answer": "més" },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Es más barato que en el centro",
+          "answer": "És més barat que al centre",
+          "bank": ["És", "més", "barat", "que", "al", "centre"],
+          "distractors": ["más", "barato", "en"] },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "menos caro que", "options": ["menys car que", "menos car que", "menys cars que", "menys que car"], "answer": "menys car que" }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "Tan… com / Tant…", "ca": "Tan… com / Tant…" },
+      "goal": {
+        "es": "La comparación de igualdad: tan + adjetivo + com, tant/tanta/tants/tantes + sustantivo + com.",
+        "ca": "Comparació d'igualtat."
+      },
+      "exercises": [
+        { "type": "compare",
+          "es": "Es tan inteligente como su hermano",
+          "ca": "És tan intel·ligent com el seu germà",
+          "note": { "es": "«Tan + adj + com» idéntico al español.", "ca": "«Tan + adj + com»: idèntic." }
+        },
+        { "type": "compare",
+          "es": "Hay tantas personas como ayer",
+          "ca": "Hi ha tantes persones com ahir",
+          "note": { "es": "«Tantes» concuerda con el sustantivo: tantes persones (femenino plural).", "ca": "«Tantes» per femení plural." }
+        },
+        { "type": "flashcard", "ca": "tan gran com", "es": "tan grande como" },
+        { "type": "flashcard", "ca": "tants gossos com", "es": "tantos perros como" },
+        { "type": "flashcard", "ca": "tanta gent com", "es": "tanta gente como" },
+        { "type": "compare",
+          "es": "No es tan difícil como parece",
+          "ca": "No és tan difícil com sembla",
+          "note": { "es": "Con negación: «no és tan + adj + com».", "ca": "Negació: «no és tan + adj + com»." }
+        },
+        { "type": "fill_blank",
+          "sentence": "Ell canta ___ bé com ella.",
+          "translation": "Él canta tan bien como ella.",
+          "options": ["tan", "tant", "tant de", "tanta"],
+          "answer": "tan" },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Tengo tantos libros como tú",
+          "answer": "Tinc tants llibres com tu",
+          "bank": ["Tinc", "tants", "llibres", "com", "tu"],
+          "distractors": ["tantos", "como", "libros"] },
+        { "type": "multiple_choice", "direction": "ca-es", "prompt": "Ella és tan alta com jo", "options": ["Ella es tan alta como yo", "Ella es más alta que yo", "Ella es menos alta que yo", "Ella es muy alta"], "answer": "Ella es tan alta como yo" }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Superlativos", "ca": "Superlatius" },
+      "goal": {
+        "es": "Superlativo relativo (el/la més…) y absoluto (-íssim/-íssima). Más millor/pitjor para irregulares.",
+        "ca": "Superlatiu relatiu (el/la més…) i absolut (-íssim/-íssima)."
+      },
+      "exercises": [
+        { "type": "compare",
+          "es": "El restaurante más caro de la ciudad",
+          "ca": "El restaurant més car de la ciutat",
+          "note": { "es": "Superlativo relativo: «el/la/els/les + més/menys + adj». Igual que en español.", "ca": "Superlatiu relatiu: «el/la + més + adj»." }
+        },
+        { "type": "compare",
+          "es": "Este libro es buenísimo",
+          "ca": "Aquest llibre és boníssim",
+          "note": { "es": "Superlativo absoluto: -ísimo → -íssim/-íssima. Misma raíz que el español.", "ca": "Superlatiu absolut: -íssim/-íssima." }
+        },
+        { "type": "flashcard", "ca": "millor", "es": "mejor (más bueno)",
+          "note": { "es": "«Millor» = mejor. Irregular, como en español.", "ca": "Irregular: millor = mejor." } },
+        { "type": "flashcard", "ca": "pitjor", "es": "peor (más malo)",
+          "note": { "es": "«Pitjor» = peor. Irregular.", "ca": "Irregular: pitjor = peor." } },
+        { "type": "flashcard", "ca": "grandíssim", "es": "grandísimo" },
+        { "type": "flashcard", "ca": "importantíssim", "es": "importantísimo" },
+        { "type": "fill_blank",
+          "sentence": "Avui ha estat el ___ dia de la meva vida.",
+          "translation": "Hoy ha sido el mejor día de mi vida.",
+          "options": ["millor", "pitjor", "més bo", "major"],
+          "answer": "millor" },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "La peor noticia del año",
+          "answer": "La pitjor notícia de l'any",
+          "bank": ["La", "pitjor", "notícia", "de", "l'any"],
+          "distractors": ["peor", "noticia", "del"] },
+        { "type": "multiple_choice", "direction": "ca-es", "prompt": "boníssim", "options": ["buenísimo", "muy bueno", "el mejor", "demasiado bueno"], "answer": "buenísimo" }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "x1",
+      "title": { "es": "Comparativos irregulares", "ca": "Comparatius irregulars" },
+      "goal": {
+        "es": "Bo/millor, dolent/pitjor, gran/major. Irregulares como en español.",
+        "ca": "Bo/millor, dolent/pitjor, gran/major."
+      },
+      "exercises": [
+        { "type": "compare",
+          "es": "bueno → mejor",
+          "ca": "bo → millor",
+          "note": { "es": "«Millor» = mejor. No «més bo» en el habla estándar.", "ca": "«Millor» = comparatiu de bo." }
+        },
+        { "type": "compare",
+          "es": "malo → peor",
+          "ca": "dolent → pitjor",
+          "note": { "es": "«Pitjor» = peor.", "ca": "«Pitjor» = comparatiu de dolent." }
+        },
+        { "type": "compare",
+          "es": "grande → mayor (edad/rango) / más grande (tamaño)",
+          "ca": "gran → major (edat/rang) / més gran (mida)",
+          "note": { "es": "«Major» para edad o rango («el meu germà major»). «Més gran» para tamaño físico.", "ca": "«Major» per edat/rang. «Més gran» per mida." }
+        },
+        { "type": "fill_blank",
+          "sentence": "El meu germà gran és ___ que jo.",
+          "translation": "Mi hermano mayor es mayor que yo.",
+          "options": ["major", "millor", "pitjor", "més gran"],
+          "answer": "major" }
+      ]
+    }
+  ]
+}

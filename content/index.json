@@ -1,5 +1,5 @@
 {
-  "version": "0.3.0",
+  "version": "0.4.0",
   "blocks": [
     {
       "id": 1,
@@ -15,7 +15,8 @@
         { "id": 3, "title": { "es": "Los números", "ca": "Els nombres" }, "icon": "🔢", "topicCount": 3 },
         { "id": 4, "title": { "es": "Artículos", "ca": "Articles" }, "icon": "🔖", "topicCount": 3 },
         { "id": 5, "title": { "es": "Falsos amigos", "ca": "Falsos amics" }, "icon": "🎭", "topicCount": 3 },
-        { "id": 6, "title": { "es": "Patrones lingüísticos", "ca": "Patrons lingüístics" }, "icon": "🔁", "topicCount": 4 }
+        { "id": 6, "title": { "es": "Patrones lingüísticos", "ca": "Patrons lingüístics" }, "icon": "🔁", "topicCount": 4 },
+        { "id": 7, "title": { "es": "Patrón z → s / ç", "ca": "Patró z → s / ç" }, "icon": "🔠", "topicCount": 3 }
       ]
     },
     {
@@ -32,7 +33,8 @@
         { "id": 3, "title": { "es": "Comer y beber", "ca": "Menjar i beure" }, "icon": "🍞", "topicCount": 3 },
         { "id": 4, "title": { "es": "Mi rutina", "ca": "La meva rutina" }, "icon": "⏰", "topicCount": 3 },
         { "id": 5, "title": { "es": "¿Qué hora es?", "ca": "Quina hora és?" }, "icon": "🕒", "topicCount": 3 },
-        { "id": 6, "title": { "es": "El verbo anar", "ca": "El verb anar" }, "icon": "🚶", "topicCount": 3 }
+        { "id": 6, "title": { "es": "El verbo anar", "ca": "El verb anar" }, "icon": "🚶", "topicCount": 3 },
+        { "id": 7, "title": { "es": "El tiempo y las estaciones", "ca": "El temps i les estacions" }, "icon": "🌦️", "topicCount": 3 }
       ]
     },
     {
@@ -49,7 +51,8 @@
         { "id": 3, "title": { "es": "De compras", "ca": "De compres" }, "icon": "🛒", "topicCount": 3 },
         { "id": 4, "title": { "es": "En el restaurante", "ca": "Al restaurant" }, "icon": "🍽️", "topicCount": 3 },
         { "id": 5, "title": { "es": "Pronombres hi/en", "ca": "Pronoms hi/en" }, "icon": "✨", "topicCount": 3 },
-        { "id": 6, "title": { "es": "Pasado perifrástico", "ca": "Passat perifràstic" }, "icon": "⏳", "topicCount": 3 }
+        { "id": 6, "title": { "es": "Pasado perifrástico", "ca": "Passat perifràstic" }, "icon": "⏳", "topicCount": 3 },
+        { "id": 7, "title": { "es": "El imperfecto", "ca": "L'imperfet" }, "icon": "📖", "topicCount": 3 }
       ]
     },
     {
@@ -66,7 +69,8 @@
         { "id": 3, "title": { "es": "Emociones", "ca": "Emocions" }, "icon": "💖", "topicCount": 3 },
         { "id": 4, "title": { "es": "Salud", "ca": "Salut" }, "icon": "🩺", "topicCount": 3 },
         { "id": 5, "title": { "es": "Futuro y condicional", "ca": "Futur i condicional" }, "icon": "🔮", "topicCount": 3 },
-        { "id": 6, "title": { "es": "Subjuntivo", "ca": "Subjuntiu" }, "icon": "🌀", "topicCount": 3 }
+        { "id": 6, "title": { "es": "Subjuntivo", "ca": "Subjuntiu" }, "icon": "🌀", "topicCount": 3 },
+        { "id": 7, "title": { "es": "Comparativos y superlativos", "ca": "Comparatius i superlatius" }, "icon": "📊", "topicCount": 3 }
       ]
     },
     {
