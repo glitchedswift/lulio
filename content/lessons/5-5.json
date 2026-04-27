@@ -1,0 +1,149 @@
+{
+  "id": "5-5",
+  "title": { "es": "Lengua escrita", "ca": "Llengua escrita" },
+  "goal": {
+    "es": "Las particularidades del catalán escrito: acentuación, apostrofación, guiones y «que» enfático.",
+    "ca": "Particularitats del català escrit."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Acentuación", "ca": "Accentuació" },
+      "goal": {
+        "es": "Catalán distingue acento abierto (à è ò) y acento cerrado (é í ó ú). Sigue reglas similares al español, con cambios.",
+        "ca": "Accent obert i tancat."
+      },
+      "exercises": [
+        { "type": "compare",
+          "es": "café (con é cerrada)",
+          "ca": "cafè (con è abierta)",
+          "note": { "es": "Catalán: «cafè» con acento abierto.", "ca": "Accent obert: cafè." }
+        },
+        { "type": "compare",
+          "es": "café — más",
+          "ca": "cafè — més",
+          "note": { "es": "«Més» (más) lleva é cerrada. La distinción importa.", "ca": "«Més»: tancada." }
+        },
+        { "type": "flashcard", "ca": "música", "es": "música" },
+        { "type": "flashcard", "ca": "història", "es": "historia",
+          "note": { "es": "«Història» con acento abierto en la ò.", "ca": "Accent obert: ò." } },
+        { "type": "flashcard", "ca": "atenció", "es": "atención",
+          "note": { "es": "Las palabras agudas acabadas en -ió llevan acento.", "ca": "Agudes en -ió." } },
+        { "type": "fill_blank",
+          "sentence": "L'examen és d'___.",
+          "translation": "El examen es de historia.",
+          "options": ["història", "historia", "histori", "historiar"],
+          "answer": "història" },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "más", "options": ["més", "más", "mes", "méss"], "answer": "més" },
+        { "type": "compare",
+          "es": "té (verbo tener)",
+          "ca": "té (verbo tener)",
+          "note": { "es": "Coincide: «té» = tiene.", "ca": "«Té» (3a pers.)." }
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "Apostrofación y guiones", "ca": "Apostrofació i guionets" },
+      "goal": {
+        "es": "L', d', m', n', s' antes de vocal. Guiones en pronombres pospuestos (dóna-me'l).",
+        "ca": "Apòstrofs i guionets en els pronoms."
+      },
+      "exercises": [
+        { "type": "compare",
+          "es": "el agua",
+          "ca": "l'aigua",
+          "note": { "es": "«La» + vocal → «l'».", "ca": "Elisió: l'." }
+        },
+        { "type": "compare",
+          "es": "de Anna",
+          "ca": "d'Anna",
+          "note": { "es": "«De» + vocal → «d'».", "ca": "Elisió: d'." }
+        },
+        { "type": "compare",
+          "es": "Dámelo",
+          "ca": "Dóna-me'l",
+          "note": { "es": "Pronombres pospuestos con guiones y apóstrofes. Combinación me + el = me'l.", "ca": "Combinació me + el = me'l." }
+        },
+        { "type": "flashcard", "ca": "porta-m'ho", "es": "tráemelo" },
+        { "type": "flashcard", "ca": "explica'ns", "es": "explícanos" },
+        { "type": "fill_blank",
+          "sentence": "___ aigua és freda.",
+          "translation": "El agua está fría.",
+          "options": ["L'", "La", "El", "Lo"],
+          "answer": "L'" },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Tráemelo, por favor",
+          "answer": "Porta-m'ho si us plau",
+          "bank": ["Porta-m'ho", "si", "us", "plau"],
+          "distractors": ["por", "favor", "tráemelo"] },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "explícanos", "options": ["explica'ns", "explica-nos", "explicans", "explica nos"], "answer": "explica'ns" }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Frases especiales del escrito", "ca": "Frases especials de l'escrit" },
+      "goal": {
+        "es": "Que enfàtic, perífrasi d'obligació, cal que.",
+        "ca": "Recursos típics."
+      },
+      "exercises": [
+        { "type": "compare",
+          "es": "¡Qué bonito!",
+          "ca": "Que bonic!",
+          "note": { "es": "«Que» enfàtic, sin acento. NO confundir con «què» (qué interrogativo).", "ca": "«Que» exclamatiu: sense accent." }
+        },
+        { "type": "compare",
+          "es": "Hay que hacerlo",
+          "ca": "Cal fer-ho",
+          "note": { "es": "«Cal + infinitivo» = hay que. Mucho más conciso que «s'ha de fer».", "ca": "«Cal + infinitiu»." }
+        },
+        { "type": "compare",
+          "es": "Es necesario que vengas",
+          "ca": "Cal que vinguis",
+          "note": { "es": "«Cal que + subjuntivo».", "ca": "«Cal que + subjuntiu»." }
+        },
+        { "type": "flashcard", "ca": "Cal estudiar", "es": "Hay que estudiar" },
+        { "type": "flashcard", "ca": "S'ha de fer", "es": "Hay que hacerlo / Se ha de hacer" },
+        { "type": "fill_blank",
+          "sentence": "___ que arribis a temps.",
+          "translation": "Es necesario que llegues a tiempo.",
+          "options": ["Cal", "Hay", "Calle", "Té"],
+          "answer": "Cal" },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Hay que esperar",
+          "answer": "Cal esperar",
+          "bank": ["Cal", "esperar"],
+          "distractors": ["Hay", "que", "esperar"] },
+        { "type": "multiple_choice", "direction": "ca-es", "prompt": "Cal que ho fem ara", "options": ["Hay que hacerlo ahora", "Tenemos hambre ahora", "Calle, lo hacemos ahora", "Hay que hablarlo ahora"], "answer": "Hay que hacerlo ahora" }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "x1",
+      "title": { "es": "Que / què / qué", "ca": "Que / què" },
+      "goal": {
+        "es": "«Que» (sin acento) y «què» (con acento abierto). Cuándo cada uno.",
+        "ca": "«Que» vs «què»."
+      },
+      "exercises": [
+        { "type": "compare",
+          "es": "El libro que leo",
+          "ca": "El llibre que llegeixo",
+          "note": { "es": "«Que» relativo: sin acento.", "ca": "Relatiu: que." }
+        },
+        { "type": "compare",
+          "es": "¿Qué quieres?",
+          "ca": "Què vols?",
+          "note": { "es": "«Què» interrogativo: con acento abierto.", "ca": "Interrogatiu: què." }
+        },
+        { "type": "fill_blank",
+          "sentence": "___ has dit?",
+          "translation": "¿Qué has dicho?",
+          "options": ["Què", "Que", "Qué", "Quee"],
+          "answer": "Què" }
+      ]
+    }
+  ]
+}

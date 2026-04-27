@@ -1,0 +1,174 @@
+{
+  "id": "5-4",
+  "title": { "es": "Falsos amigos avanzados", "ca": "Falsos amics avançats" },
+  "goal": {
+    "es": "Palabras que parecen claras pero esconden un cambio sutil de significado o uso.",
+    "ca": "Paraules amb canvis subtils."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Trampas léxicas", "ca": "Paranys lèxics" },
+      "goal": {
+        "es": "Acudir, comprometre, embarassada, llegir.",
+        "ca": "Mots que semblen iguals però no ho són."
+      },
+      "exercises": [
+        { "type": "compare",
+          "es": "embarazada (encinta)",
+          "ca": "embarassada (encinta) / avergonyit (en español «embarrassed»)",
+          "note": { "es": "Aquí coinciden con español, pero en inglés «embarrassed» es «avergonzado». Curiosidad triple.", "ca": "Coincideix amb l'espanyol, no amb l'anglès." }
+        },
+        { "type": "compare",
+          "es": "molestar (incordiar)",
+          "ca": "molestar (incordiar)",
+          "note": { "es": "Coincide con el español. NO confundir con el inglés «molest» (que tiene matiz sexual).", "ca": "Coincideix amb l'espanyol." }
+        },
+        { "type": "compare",
+          "es": "llevarse bien (relación)",
+          "ca": "endur-se / portar-se bé",
+          "note": { "es": "«Portar-se bé» = portarse bien. «Endur-se» = llevarse (un objeto).", "ca": "Dos verbs segons sentit." }
+        },
+        { "type": "flashcard", "ca": "comprometre's", "es": "comprometerse",
+          "note": { "es": "Pronominal: comprometre's (con apóstrofo).", "ca": "Verb pronominal." } },
+        { "type": "flashcard", "ca": "acudir", "es": "ocurrirse / acudir",
+          "note": { "es": "«Em ve al cap» (más usado para «se me ocurre»). «Acudir» en sentido de asistir.", "ca": "Dos sentits." } },
+        { "type": "compare",
+          "es": "Acudió a la cita",
+          "ca": "Va anar a la cita",
+          "note": { "es": "Catalán prefiere «anar» o «assistir» en lugar de «acudir».", "ca": "«Acudir»: poc usat." }
+        },
+        { "type": "fill_blank",
+          "sentence": "M'he ___ a portar el projecte.",
+          "translation": "Me he comprometido a entregar el proyecto.",
+          "options": ["compromès", "comprometido", "comprometido", "comproms"],
+          "answer": "compromès" },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "comprometerse", "options": ["comprometre's", "compromise", "comprometre", "comprometirse"], "answer": "comprometre's" }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "Mismas raíces, distintos matices", "ca": "Mateixes arrels, matisos diferents" },
+      "goal": {
+        "es": "Tornar, escapar, parar, deixar.",
+        "ca": "Verbs amb matisos."
+      },
+      "exercises": [
+        { "type": "compare",
+          "es": "Volver",
+          "ca": "tornar",
+          "note": { "es": "«Tornar» = volver. ¡No «devolver»! Para «devolver» también es «tornar»: tornar-ho, tornar-li.", "ca": "Tornar = volver i devolver." }
+        },
+        { "type": "compare",
+          "es": "Devolver el libro",
+          "ca": "Tornar el llibre",
+          "note": { "es": "«Tornar» también vale para devolver. La preposición ayuda.", "ca": "«Tornar» també = devolver." }
+        },
+        { "type": "compare",
+          "es": "Dejar (permitir / abandonar)",
+          "ca": "deixar",
+          "note": { "es": "«Deixar» tiene los mismos sentidos. «Em deixes el cotxe?» = ¿me dejas el coche?", "ca": "Deixar: permetre, abandonar, prestar." }
+        },
+        { "type": "compare",
+          "es": "Parar (detenerse)",
+          "ca": "parar",
+          "note": { "es": "«Parar taula» = poner la mesa. ¡Atento al sentido catalán!", "ca": "«Parar taula» = posar la taula." }
+        },
+        { "type": "flashcard", "ca": "parar taula", "es": "poner la mesa",
+          "note": { "es": "Falsísimo amigo. ¡Esto sorprende!", "ca": "Falsament igual." } },
+        { "type": "flashcard", "ca": "deixar de fer", "es": "dejar de hacer" },
+        { "type": "fill_blank",
+          "sentence": "Has de ___ taula abans del sopar.",
+          "translation": "Tienes que poner la mesa antes de la cena.",
+          "options": ["parar", "posar", "ficar", "poner"],
+          "answer": "parar" },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Vuelvo en cinco minutos",
+          "answer": "Torno en cinc minuts",
+          "bank": ["Torno", "en", "cinc", "minuts"],
+          "distractors": ["vuelvo", "minutos"] },
+        { "type": "multiple_choice", "direction": "ca-es", "prompt": "Para taula!", "options": ["¡Pon la mesa!", "¡Para la mesa!", "¡Detén la mesa!", "¡Limpia la mesa!"], "answer": "¡Pon la mesa!" }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Géneros distintos", "ca": "Gèneres diferents" },
+      "goal": {
+        "es": "Costum, dolor, color: cambian de género entre ambos idiomas.",
+        "ca": "Mots amb canvis de gènere."
+      },
+      "exercises": [
+        { "type": "compare",
+          "es": "la costumbre",
+          "ca": "el costum",
+          "note": { "es": "Femenino → masculino.", "ca": "Femení → masculí." }
+        },
+        { "type": "compare",
+          "es": "la sal",
+          "ca": "la sal",
+          "note": { "es": "Aquí coinciden: femenino en ambas.", "ca": "Coincideix." }
+        },
+        { "type": "compare",
+          "es": "la leche",
+          "ca": "la llet",
+          "note": { "es": "Femenino en ambas.", "ca": "Femení." }
+        },
+        { "type": "compare",
+          "es": "la sangre",
+          "ca": "la sang",
+          "note": { "es": "Femenino en ambas.", "ca": "Femení." }
+        },
+        { "type": "compare",
+          "es": "el dolor",
+          "ca": "el dolor",
+          "note": { "es": "Masculino en ambas. ¡Pero «la dolor» se oye en algún dialecto antiguo!", "ca": "Masculí estàndard." }
+        },
+        { "type": "compare",
+          "es": "el síndrome",
+          "ca": "la síndrome",
+          "note": { "es": "Catalán: femenino. Español: masculino. Cuidado.", "ca": "Femení en català." }
+        },
+        { "type": "flashcard", "ca": "el costum", "es": "la costumbre" },
+        { "type": "flashcard", "ca": "la síndrome", "es": "el síndrome" },
+        { "type": "fill_blank",
+          "sentence": "Tinc un ___ molt fort.",
+          "translation": "Tengo un dolor muy fuerte.",
+          "options": ["dolor", "dolora", "doló", "doloro"],
+          "answer": "dolor" },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "el síndrome", "options": ["la síndrome", "el síndrome", "la síndroma", "la síndromia"], "answer": "la síndrome" }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "x1",
+      "title": { "es": "Verbos con preposición distinta", "ca": "Verbs amb preposició diferent" },
+      "goal": {
+        "es": "Pensar en, casar-se amb, parlar amb.",
+        "ca": "Verbs i preposicions."
+      },
+      "exercises": [
+        { "type": "compare",
+          "es": "Pensar en alguien",
+          "ca": "Pensar en algú",
+          "note": { "es": "Coincide. Pero «pensar a + infinitivo» = catalán; español usa «pensar + infinitivo».", "ca": "«Pensar a fer-ho» = pensar hacerlo." }
+        },
+        { "type": "compare",
+          "es": "Casarse con alguien",
+          "ca": "Casar-se amb algú",
+          "note": { "es": "«Amb» en lugar de «con».", "ca": "«Amb»." }
+        },
+        { "type": "compare",
+          "es": "Hablar con alguien",
+          "ca": "Parlar amb algú",
+          "note": { "es": "Mismo patrón.", "ca": "Patró igual." }
+        },
+        { "type": "fill_blank",
+          "sentence": "Em vaig casar ___ la Joana fa cinc anys.",
+          "translation": "Me casé con Joana hace cinco años.",
+          "options": ["amb", "con", "a", "de"],
+          "answer": "amb" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "id": "3-3",
+  "title": { "es": "De compras", "ca": "De compres" },
+  "goal": {
+    "es": "Vocabulario y frases para mercados, tiendas y probadores.",
+    "ca": "Vocabulari i frases per a mercats, botigues i emprovadors."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Tiendas y mercado", "ca": "Botigues i mercat" },
+      "goal": {
+        "es": "Botiga, mercat, fleca, carnisseria, peixateria.",
+        "ca": "Tipus de botiga."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "la botiga", "es": "la tienda",
+          "note": { "es": "«Botiga» = tienda. ¡Nada que ver con el español «botica»!", "ca": "«Botiga» = tienda." } },
+        { "type": "flashcard", "ca": "el mercat", "es": "el mercado" },
+        { "type": "flashcard", "ca": "la fleca", "es": "la panadería",
+          "note": { "es": "También se diu «el forn».", "ca": "També «el forn»." } },
+        { "type": "flashcard", "ca": "la carnisseria", "es": "la carnicería" },
+        { "type": "flashcard", "ca": "la peixateria", "es": "la pescadería" },
+        { "type": "flashcard", "ca": "la fruiteria", "es": "la frutería" },
+        { "type": "flashcard", "ca": "el supermercat", "es": "el supermercado" },
+        { "type": "compare",
+          "es": "Voy a la panadería",
+          "ca": "Vaig a la fleca",
+          "note": { "es": "«Anar a la fleca» (o «al forn»). Patrón: anar + a + lugar.", "ca": "«Anar a la fleca»." }
+        },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "la pescadería", "options": ["la peixateria", "la pescateria", "la peixera", "la pescadería"], "answer": "la peixateria" },
+        { "type": "fill_blank",
+          "sentence": "Compro pa a la ___.",
+          "translation": "Compro pan en la panadería.",
+          "options": ["fleca", "panadería", "fruiteria", "fruita"],
+          "answer": "fleca" }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "Cantidades y precios", "ca": "Quantitats i preus" },
+      "goal": {
+        "es": "Pesa, costa, preu. Cómo preguntar cuánto cuesta y por cantidades.",
+        "ca": "Quant costa, què val, quantitat."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "Quant val?", "es": "¿Cuánto vale?",
+          "note": { "es": "También «Quant costa?». Ambas son válidas.", "ca": "«Quant costa?» també." } },
+        { "type": "flashcard", "ca": "el preu", "es": "el precio" },
+        { "type": "flashcard", "ca": "barat", "es": "barato" },
+        { "type": "flashcard", "ca": "car", "es": "caro",
+          "note": { "es": "«Car» (sin -o final) = caro.", "ca": "«Car» = caro." } },
+        { "type": "flashcard", "ca": "un quilo de", "es": "un kilo de" },
+        { "type": "flashcard", "ca": "mig quilo", "es": "medio kilo",
+          "note": { "es": "«Mig» (masculino) y «mitja» (femenino).", "ca": "«Mig» / «mitja»." } },
+        { "type": "compare",
+          "es": "¿Cuánto cuesta el queso?",
+          "ca": "Quant val el formatge?",
+          "note": { "es": "Sin «¿» y con «val» en lugar de «cuesta».", "ca": "«Quant val» = quant costa." }
+        },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Un kilo de tomates, por favor",
+          "answer": "Un quilo de tomàquets si us plau",
+          "bank": ["Un", "quilo", "de", "tomàquets", "si", "us", "plau"],
+          "distractors": ["por", "favor", "tomates"] },
+        { "type": "fill_blank",
+          "sentence": "Aquesta camisa és molt ___.",
+          "translation": "Esta camisa es muy cara.",
+          "options": ["cara", "caro", "car", "cars"],
+          "answer": "cara" },
+        { "type": "multiple_choice", "direction": "ca-es", "prompt": "Quant val?", "options": ["¿Cuánto vale?", "¿Cuánto pesa?", "¿Cuánto sobra?", "¿Cuántos hay?"], "answer": "¿Cuánto vale?" }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Pagar y probarse ropa", "ca": "Pagar i emprovar-se roba" },
+      "goal": {
+        "es": "Probador, talla, número, pagar amb targeta o efectiu.",
+        "ca": "Emprovador, talla, número, pagar."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "l'emprovador", "es": "el probador" },
+        { "type": "flashcard", "ca": "la talla", "es": "la talla" },
+        { "type": "flashcard", "ca": "el número", "es": "el número (de zapato)" },
+        { "type": "flashcard", "ca": "la targeta", "es": "la tarjeta",
+          "note": { "es": "«Targeta» con -j-. Mismo sonido /ʒ/ suave.", "ca": "Amb -j-." } },
+        { "type": "flashcard", "ca": "en efectiu", "es": "en efectivo" },
+        { "type": "flashcard", "ca": "el tiquet", "es": "el ticket / recibo" },
+        { "type": "compare",
+          "es": "¿Puedo probarme esto?",
+          "ca": "M'ho puc emprovar?",
+          "note": { "es": "«M'ho» = me + lo (CD). Combinación de pronombres.", "ca": "«M'ho» = «em + ho»." }
+        },
+        { "type": "compare",
+          "es": "Pago con tarjeta",
+          "ca": "Pago amb targeta",
+          "note": { "es": "«Amb» = con. Se pronuncia /am/.", "ca": "«Amb» es pronuncia /am/." }
+        },
+        { "type": "fill_blank",
+          "sentence": "Quina ___ fas de pantalons?",
+          "translation": "¿Qué talla usas de pantalones?",
+          "options": ["talla", "número", "mida", "talles"],
+          "answer": "talla" },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Pago en efectivo",
+          "answer": "Pago en efectiu",
+          "bank": ["Pago", "en", "efectiu"],
+          "distractors": ["amb", "metàl·lic", "efectivo"] },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "el probador", "options": ["l'emprovador", "el probador", "l'emprover", "la prova"], "answer": "l'emprovador" }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "x1",
+      "title": { "es": "Colores", "ca": "Colors" },
+      "goal": {
+        "es": "Vermell, blau, groc, blanc, negre, verd.",
+        "ca": "Colors bàsics."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "vermell", "es": "rojo",
+          "note": { "es": "«Vermell» (no «roig», aunque «roig» también existe para tonos rojizos).", "ca": "«Vermell» = roig fort." } },
+        { "type": "flashcard", "ca": "blau", "es": "azul" },
+        { "type": "flashcard", "ca": "groc", "es": "amarillo" },
+        { "type": "flashcard", "ca": "blanc", "es": "blanco" },
+        { "type": "flashcard", "ca": "negre", "es": "negro" },
+        { "type": "flashcard", "ca": "verd", "es": "verde" },
+        { "type": "fill_blank",
+          "sentence": "Vull la samarreta ___.",
+          "translation": "Quiero la camiseta roja.",
+          "options": ["vermella", "roja", "vermell", "roija"],
+          "answer": "vermella" }
+      ]
+    }
+  ]
+}

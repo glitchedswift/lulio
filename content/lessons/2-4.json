@@ -1,0 +1,127 @@
+{
+  "id": "2-4",
+  "title": { "es": "Mi rutina", "ca": "La meva rutina" },
+  "goal": {
+    "es": "Habla de tu día: levantarte, ir a trabajar, los días de la semana.",
+    "ca": "Parla del teu dia: aixecar-te, anar a treballar, els dies de la setmana."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Verbos del día", "ca": "Verbs del dia" },
+      "goal": {
+        "es": "Acciones cotidianas: aixecar-se, dutxar-se, esmorzar, treballar, dormir.",
+        "ca": "Accions del dia: aixecar-se, dutxar-se, esmorzar, treballar, dormir."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "aixecar-se", "es": "levantarse",
+          "note": { "es": "«M'aixeco» = me levanto. Pronominal igual que en español.", "ca": "Verb pronominal: m'aixeco." } },
+        { "type": "flashcard", "ca": "dutxar-se", "es": "ducharse" },
+        { "type": "flashcard", "ca": "vestir-se", "es": "vestirse" },
+        { "type": "flashcard", "ca": "esmorzar", "es": "desayunar" },
+        { "type": "flashcard", "ca": "treballar", "es": "trabajar",
+          "note": { "es": "«Treballar» con doble L. ¡Ojo con el sonido palatal!", "ca": "Atenció a la doble L." } },
+        { "type": "flashcard", "ca": "dormir", "es": "dormir" },
+        { "type": "compare",
+          "es": "Me levanto a las siete",
+          "ca": "M'aixeco a les set",
+          "note": { "es": "«M'aixeco» = me levanto. La «m'» es el pronombre reflexivo «me» elidido.", "ca": "«M'aixeco» = «em + aixeco» elidit." }
+        },
+        { "type": "fill_blank",
+          "sentence": "Cada dia ___ a les set.",
+          "translation": "Cada día me levanto a las siete.",
+          "options": ["m'aixeco", "me llevanto", "m'alço", "aixeco"],
+          "answer": "m'aixeco" },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "trabajar", "options": ["treballar", "trabajar", "trebajar", "treballer"], "answer": "treballar" },
+        { "type": "listen", "ca": "Em dutxo cada matí", "options": ["Em dutxo cada matí", "Em ducho cada matí", "Et dutxes cada matí"] }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "Días de la semana", "ca": "Dies de la setmana" },
+      "goal": {
+        "es": "De dilluns a diumenge, en minúscula y sin artículo en muchos casos.",
+        "ca": "De dilluns a diumenge."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "dilluns", "es": "lunes" },
+        { "type": "flashcard", "ca": "dimarts", "es": "martes" },
+        { "type": "flashcard", "ca": "dimecres", "es": "miércoles" },
+        { "type": "flashcard", "ca": "dijous", "es": "jueves" },
+        { "type": "flashcard", "ca": "divendres", "es": "viernes" },
+        { "type": "flashcard", "ca": "dissabte", "es": "sábado" },
+        { "type": "flashcard", "ca": "diumenge", "es": "domingo" },
+        { "type": "compare",
+          "es": "Trabajo de lunes a viernes",
+          "ca": "Treballo de dilluns a divendres",
+          "note": { "es": "Patrón típico: «de … a …».", "ca": "Patró típic: «de … a …»." }
+        },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "miércoles", "options": ["dimecres", "dimercres", "dimercoles", "miércoles"], "answer": "dimecres" },
+        { "type": "fill_blank",
+          "sentence": "El ___ vaig al mercat.",
+          "translation": "El sábado voy al mercado.",
+          "options": ["dissabte", "sàbat", "dissabt", "sabado"],
+          "answer": "dissabte" },
+        { "type": "listen", "ca": "Avui és dijous", "options": ["Avui és dijous", "Avui és dijos", "Avui és divendres"] }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Frases con frecuencia", "ca": "Frases amb freqüència" },
+      "goal": {
+        "es": "Sempre, sovint, de vegades, mai. Cómo expresar la frecuencia.",
+        "ca": "Sempre, sovint, de vegades, mai."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "sempre", "es": "siempre" },
+        { "type": "flashcard", "ca": "sovint", "es": "a menudo",
+          "note": { "es": "«Sovint» no se parece al español. Vale la pena memorizarlo.", "ca": "«Sovint» = a menudo." } },
+        { "type": "flashcard", "ca": "de vegades", "es": "a veces",
+          "note": { "es": "También se diu «a vegades».", "ca": "També «a vegades»." } },
+        { "type": "flashcard", "ca": "mai", "es": "nunca",
+          "note": { "es": "«Mai» = nunca. NO confundir con el inglés «may» ni con el catalán «maig» (mayo).", "ca": "«Mai» = nunca." } },
+        { "type": "compare",
+          "es": "Nunca llego tarde",
+          "ca": "No arribo mai tard",
+          "note": { "es": "Catalán pone «no … mai» (doble negación) cuando «mai» va detrás del verbo.", "ca": "Doble negació: «no … mai»." }
+        },
+        { "type": "compare",
+          "es": "A menudo voy en bici",
+          "ca": "Sovint vaig en bici",
+          "note": { "es": "«Sovint» suele ir al inicio o entre el sujeto y el verbo.", "ca": "«Sovint» sol anar al davant." }
+        },
+        { "type": "fill_blank",
+          "sentence": "No surto ___ entre setmana.",
+          "translation": "Nunca salgo entre semana.",
+          "options": ["mai", "nunca", "sempre", "sovint"],
+          "answer": "mai" },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Siempre desayuno café",
+          "answer": "Sempre esmorzo cafè",
+          "bank": ["Sempre", "esmorzo", "cafè"],
+          "distractors": ["siempre", "café", "desayuno"] },
+        { "type": "multiple_choice", "direction": "ca-es", "prompt": "Sovint anem al cinema", "options": ["A menudo vamos al cine", "Siempre vamos al cine", "Nunca vamos al cine", "A veces vamos al cine"], "answer": "A menudo vamos al cine" }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "x1",
+      "title": { "es": "Verbos pronominales con «em», «et»…", "ca": "Verbs pronominals" },
+      "goal": {
+        "es": "El pronombre catalán «em» equivale al «me» español; «et» a «te». Antes de vocal: m', t'.",
+        "ca": "«Em» = me, «et» = te. Davant de vocal: m', t'."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "em dic", "es": "me llamo" },
+        { "type": "flashcard", "ca": "et dius", "es": "te llamas" },
+        { "type": "flashcard", "ca": "m'aixeco", "es": "me levanto" },
+        { "type": "fill_blank",
+          "sentence": "___ Maria.",
+          "translation": "Me llamo Maria.",
+          "options": ["Em dic", "Me llamo", "Et dic", "Es dic"],
+          "answer": "Em dic" }
+      ]
+    }
+  ]
+}

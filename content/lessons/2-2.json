@@ -1,0 +1,141 @@
+{
+  "id": "2-2",
+  "title": { "es": "En casa", "ca": "A casa" },
+  "goal": {
+    "es": "Habla de las habitaciones, los muebles y los objetos cotidianos de tu casa.",
+    "ca": "Parla de les habitacions, els mobles i els objectes quotidians de casa teva."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Habitaciones", "ca": "Habitacions" },
+      "goal": {
+        "es": "Las partes principales de una casa catalana.",
+        "ca": "Les parts principals d'una casa."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "la cuina", "es": "la cocina",
+          "note": { "es": "«Cuina» significa cocina (estancia y arte de cocinar). El verbo es «cuinar».", "ca": "«Cuina» és l'estança i també l'art de cuinar. El verb és «cuinar»." } },
+        { "type": "flashcard", "ca": "el menjador", "es": "el comedor" },
+        { "type": "flashcard", "ca": "el bany", "es": "el baño",
+          "note": { "es": "También se diu «el lavabo» en contextos públicos.", "ca": "També es diu «el lavabo» en contextos públics." } },
+        { "type": "flashcard", "ca": "l'habitació", "es": "la habitación",
+          "note": { "es": "Femenino: l'habitació, les habitacions.", "ca": "Femení: l'habitació." } },
+        { "type": "flashcard", "ca": "el rebedor", "es": "el recibidor" },
+        { "type": "flashcard", "ca": "el balcó", "es": "el balcón" },
+        { "type": "compare",
+          "es": "Voy al baño",
+          "ca": "Vaig al bany",
+          "note": { "es": "«Al» = «a + el». Igual que en español.", "ca": "«Al» = «a + el»." }
+        },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "la cocina", "options": ["la cuina", "la cocina", "el cuiner", "la cuinera"], "answer": "la cuina" },
+        { "type": "fill_blank",
+          "sentence": "Dormo a ___ habitació.",
+          "translation": "Duermo en la habitación.",
+          "options": ["l'", "la", "el", "les"],
+          "answer": "l'" },
+        { "type": "listen", "ca": "El menjador és gran", "options": ["El menjador és gran", "El menjar és gran", "La menjadora és gran"] }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "Muebles", "ca": "Mobles" },
+      "goal": {
+        "es": "Los muebles más comunes y un par de falsos amigos.",
+        "ca": "Els mobles més comuns i algun fals amic."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "la taula", "es": "la mesa",
+          "note": { "es": "Recuerda: «taula» = mesa. La «mesa» catalana es otra cosa (presidencia).", "ca": "«Taula» = mesa." } },
+        { "type": "flashcard", "ca": "la cadira", "es": "la silla" },
+        { "type": "flashcard", "ca": "el llit", "es": "la cama",
+          "note": { "es": "«Llit» (lit) = cama. La doble L palatal al inicio.", "ca": "«Llit» = cama (lit)." } },
+        { "type": "flashcard", "ca": "l'armari", "es": "el armario" },
+        { "type": "flashcard", "ca": "el sofà", "es": "el sofá",
+          "note": { "es": "Acento abierto: sofà (catalán) vs sofá (español).", "ca": "Accent obert: sofà." } },
+        { "type": "flashcard", "ca": "la nevera", "es": "la nevera",
+          "note": { "es": "También «el frigorífic».", "ca": "També «el frigorífic»." } },
+        { "type": "compare",
+          "es": "La silla está al lado de la mesa",
+          "ca": "La cadira és al costat de la taula",
+          "note": { "es": "«Al costat de» = al lado de. Catalán prefiere «és» o «està» para ubicación.", "ca": "«Al costat de» = al lado de." }
+        },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "El sofá y la mesa",
+          "answer": "El sofà i la taula",
+          "bank": ["El", "sofà", "i", "la", "taula"],
+          "distractors": ["sofá", "mesa", "y"] },
+        { "type": "fill_blank",
+          "sentence": "El ___ és tou i còmode.",
+          "translation": "El sofá es blando y cómodo.",
+          "options": ["sofà", "sofá", "soffà", "sufa"],
+          "answer": "sofà" },
+        { "type": "multiple_choice", "direction": "ca-es", "prompt": "el llit", "options": ["la cama", "la silla", "la mesa", "la habitación"], "answer": "la cama" }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Objetos del día a día", "ca": "Objectes del dia a dia" },
+      "goal": {
+        "es": "Cosas que usas a diario en casa, con varios falsos amigos típicos.",
+        "ca": "Coses d'ús diari, amb alguns falsos amics típics."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "el got", "es": "el vaso",
+          "note": { "es": "Recordatorio: «got» = vaso (no tiene nada que ver con el inglés «got»).", "ca": "«Got» = vaso." } },
+        { "type": "flashcard", "ca": "la tassa", "es": "la taza" },
+        { "type": "flashcard", "ca": "el plat", "es": "el plato" },
+        { "type": "flashcard", "ca": "la forquilla", "es": "el tenedor",
+          "note": { "es": "«Forquilla» viene de «forca» (horca). Nada que ver con el español «horquilla».", "ca": "«Forquilla» ve de «forca»." } },
+        { "type": "flashcard", "ca": "el ganivet", "es": "el cuchillo" },
+        { "type": "flashcard", "ca": "la cullera", "es": "la cuchara" },
+        { "type": "flashcard", "ca": "les claus", "es": "las llaves",
+          "note": { "es": "«Clau» (femenino): llave. En plural: les claus.", "ca": "«Clau» és femení: la clau, les claus." } },
+        { "type": "compare",
+          "es": "Necesito un tenedor y un cuchillo",
+          "ca": "Necessito una forquilla i un ganivet",
+          "note": { "es": "Ojo: «forquilla» es femenino en catalán. Una forquilla.", "ca": "«Forquilla» és femení." }
+        },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "el cuchillo", "options": ["el ganivet", "el ganibet", "el cuchillet", "la ganiveta"], "answer": "el ganivet" },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Un vaso de agua, por favor",
+          "answer": "Un got d'aigua si us plau",
+          "bank": ["Un", "got", "d'aigua", "si", "us", "plau"],
+          "distractors": ["vaso", "de", "aigua", "por", "favor"] },
+        { "type": "fill_blank",
+          "sentence": "On són ___ claus?",
+          "translation": "¿Dónde están las llaves?",
+          "options": ["les", "las", "els", "les claus"],
+          "answer": "les" }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "x1",
+      "title": { "es": "Verbo «ser» vs «estar» con lugares", "ca": "«Ser» vs «estar» amb llocs" },
+      "goal": {
+        "es": "En catalán, para ubicaciones suele usarse «ser a» (estar en). «Estar» a veces se usa también, pero «ser a» es muy frecuente.",
+        "ca": "Per a ubicacions, el català sovint fa servir «ser a». «Estar» també s'usa."
+      },
+      "exercises": [
+        { "type": "compare",
+          "es": "Estoy en casa",
+          "ca": "Sóc a casa",
+          "note": { "es": "Sorprende, pero «sóc a casa» = estoy en casa. «Estic a casa» también es válido.", "ca": "«Sóc a casa» equival a «estoy en casa»." }
+        },
+        { "type": "compare",
+          "es": "El libro está en la mesa",
+          "ca": "El llibre és a la taula",
+          "note": { "es": "Mismo patrón: «és a» para ubicación.", "ca": "Mateix patró: «és a» per a ubicació." }
+        },
+        { "type": "flashcard", "ca": "Sóc a casa", "es": "Estoy en casa" },
+        { "type": "fill_blank",
+          "sentence": "On ___ el meu mòbil?",
+          "translation": "¿Dónde está mi móvil?",
+          "options": ["és", "está", "es", "ha"],
+          "answer": "és" }
+      ]
+    }
+  ]
+}

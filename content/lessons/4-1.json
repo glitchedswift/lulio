@@ -1,0 +1,136 @@
+{
+  "id": "4-1",
+  "title": { "es": "El trabajo", "ca": "La feina" },
+  "goal": {
+    "es": "Habla de tu trabajo, profesiones y entorno laboral.",
+    "ca": "Parla de la feina, professions i entorn laboral."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Profesiones", "ca": "Professions" },
+      "goal": {
+        "es": "Profesor, metge, advocat, enginyer, dependent.",
+        "ca": "Professions habituals."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "el professor / la professora", "es": "el profesor / la profesora" },
+        { "type": "flashcard", "ca": "el metge / la metgessa", "es": "el médico / la médica",
+          "note": { "es": "«Metge» (no «mèdic»). Femenino: la metgessa.", "ca": "Femení: metgessa." } },
+        { "type": "flashcard", "ca": "l'advocat / l'advocada", "es": "el abogado / la abogada" },
+        { "type": "flashcard", "ca": "l'enginyer / l'enginyera", "es": "el ingeniero / la ingeniera" },
+        { "type": "flashcard", "ca": "el dependent / la dependenta", "es": "el dependiente / la dependienta" },
+        { "type": "flashcard", "ca": "el cuiner / la cuinera", "es": "el cocinero / la cocinera" },
+        { "type": "flashcard", "ca": "el bomber / la bombera", "es": "el bombero / la bombera" },
+        { "type": "compare",
+          "es": "Soy médica",
+          "ca": "Sóc metgessa",
+          "note": { "es": "Sin artículo. «Sóc + profesión», igual que en español.", "ca": "«Sóc + professió»." }
+        },
+        { "type": "fill_blank",
+          "sentence": "La meva germana és ___.",
+          "translation": "Mi hermana es enfermera.",
+          "options": ["infermera", "enfermera", "infermer", "infermería"],
+          "answer": "infermera" },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "el médico", "options": ["el metge", "el médic", "el doctor", "el metga"], "answer": "el metge" }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "El entorno laboral", "ca": "L'entorn laboral" },
+      "goal": {
+        "es": "Despatx, oficina, reunió, projecte, sou.",
+        "ca": "Despatx, oficina, reunió, projecte, sou."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "l'oficina", "es": "la oficina" },
+        { "type": "flashcard", "ca": "el despatx", "es": "el despacho" },
+        { "type": "flashcard", "ca": "la reunió", "es": "la reunión" },
+        { "type": "flashcard", "ca": "el projecte", "es": "el proyecto" },
+        { "type": "flashcard", "ca": "el sou", "es": "el sueldo",
+          "note": { "es": "«Sou» = sueldo. Pegadizo: una sola sílaba.", "ca": "«Sou»: una síl·laba." } },
+        { "type": "flashcard", "ca": "el cap", "es": "el jefe",
+          "note": { "es": "«Cap» = jefe (también significa «cabeza» y «ningún»). Atento al contexto.", "ca": "«Cap»: cap, líder, ningú." } },
+        { "type": "flashcard", "ca": "el company / la companya", "es": "el compañero / la compañera" },
+        { "type": "compare",
+          "es": "Tengo una reunión a las diez",
+          "ca": "Tinc una reunió a les deu",
+          "note": { "es": "Idéntica estructura. ¡A veces el catalán es predecible!", "ca": "Estructura idèntica." }
+        },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Mi jefe es muy amable",
+          "answer": "El meu cap és molt amable",
+          "bank": ["El", "meu", "cap", "és", "molt", "amable"],
+          "distractors": ["jefe", "muy"] },
+        { "type": "fill_blank",
+          "sentence": "Aquest mes hi ha un ___ nou al departament.",
+          "translation": "Este mes hay un proyecto nuevo en el departamento.",
+          "options": ["projecte", "proyecto", "projet", "projector"],
+          "answer": "projecte" },
+        { "type": "multiple_choice", "direction": "ca-es", "prompt": "el sou", "options": ["el sueldo", "el suelo", "el solo", "el suero"], "answer": "el sueldo" }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Hablar del trabajo", "ca": "Parlar de la feina" },
+      "goal": {
+        "es": "Treballar de, treballar en, treballar per a. Las preposiciones del trabajo.",
+        "ca": "Preposicions amb «treballar»."
+      },
+      "exercises": [
+        { "type": "compare",
+          "es": "Trabajo en una empresa de software",
+          "ca": "Treballo a una empresa de programari",
+          "note": { "es": "«A» en lugar de «en» con empresas o lugares.", "ca": "«A» amb empreses." }
+        },
+        { "type": "compare",
+          "es": "Trabajo de profesor",
+          "ca": "Treballo de professor",
+          "note": { "es": "«De + profesión» igual que en español.", "ca": "«De + professió»." }
+        },
+        { "type": "compare",
+          "es": "Trabajo para Google",
+          "ca": "Treballo per a Google",
+          "note": { "es": "«Per a» (formal/escrit) o solo «per» (oral).", "ca": "«Per a» o «per»." }
+        },
+        { "type": "flashcard", "ca": "treballar", "es": "trabajar" },
+        { "type": "flashcard", "ca": "buscar feina", "es": "buscar trabajo" },
+        { "type": "flashcard", "ca": "una entrevista", "es": "una entrevista" },
+        { "type": "flashcard", "ca": "el currículum", "es": "el currículum" },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Trabajo en Barcelona desde 2018",
+          "answer": "Treballo a Barcelona des del 2018",
+          "bank": ["Treballo", "a", "Barcelona", "des", "del", "2018"],
+          "distractors": ["en", "desde"] },
+        { "type": "fill_blank",
+          "sentence": "Estic ___ feina nova.",
+          "translation": "Estoy buscando trabajo nuevo.",
+          "options": ["buscant", "buscando", "trobant", "veient"],
+          "answer": "buscant" },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "una entrevista de trabajo", "options": ["una entrevista de feina", "una entrevista de trabajo", "una entrevista de feina", "una entrevista de treball"], "answer": "una entrevista de feina" }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "x1",
+      "title": { "es": "Estar de baixa, plegar, currar", "ca": "Estar de baixa, plegar, currar" },
+      "goal": {
+        "es": "Expresiones del día a día laboral.",
+        "ca": "Expressions del dia a dia laboral."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "plegar", "es": "salir del trabajo / acabar la jornada",
+          "note": { "es": "«Plegar» = terminar de trabajar. Plego a les sis = acabo a las seis.", "ca": "Plegar = acabar la jornada." } },
+        { "type": "flashcard", "ca": "estar de baixa", "es": "estar de baja" },
+        { "type": "flashcard", "ca": "currar", "es": "currar (informal)",
+          "note": { "es": "Igual que en español, registre informal.", "ca": "Igual a l'espanyol col·loquial." } },
+        { "type": "compare",
+          "es": "Salgo del trabajo a las seis",
+          "ca": "Plego a les sis",
+          "note": { "es": "Verbo muy típico catalán. Dilo con orgullo.", "ca": "Verb molt català." }
+        }
+      ]
+    }
+  ]
+}

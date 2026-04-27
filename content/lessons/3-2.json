@@ -1,0 +1,134 @@
+{
+  "id": "3-2",
+  "title": { "es": "Transporte", "ca": "Transport" },
+  "goal": {
+    "es": "Vocabulario y frases para moverte en metro, bus, tren o cotxe.",
+    "ca": "Vocabulari i frases per moure't en metro, bus, tren o cotxe."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Medios de transporte", "ca": "Mitjans de transport" },
+      "goal": {
+        "es": "Los más comunes y la preposición «en» para indicarlos.",
+        "ca": "Els més comuns i la preposició «en»."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "el metro", "es": "el metro" },
+        { "type": "flashcard", "ca": "l'autobús", "es": "el autobús" },
+        { "type": "flashcard", "ca": "el tren", "es": "el tren" },
+        { "type": "flashcard", "ca": "el cotxe", "es": "el coche" },
+        { "type": "flashcard", "ca": "la moto", "es": "la moto" },
+        { "type": "flashcard", "ca": "la bicicleta", "es": "la bicicleta" },
+        { "type": "flashcard", "ca": "l'avió", "es": "el avión" },
+        { "type": "flashcard", "ca": "a peu", "es": "a pie",
+          "note": { "es": "«A peu» = a pie. ¡Sin la «s» del español «a pie / a pies»!", "ca": "«A peu»: singular sempre." } },
+        { "type": "compare",
+          "es": "Voy en coche",
+          "ca": "Vaig en cotxe",
+          "note": { "es": "«En + medio de transporte» (sin artículo). Igual que en español.", "ca": "«En + mitjà de transport»." }
+        },
+        { "type": "compare",
+          "es": "Vamos a pie",
+          "ca": "Anem a peu",
+          "note": { "es": "Excepción: «a peu» (a pie), no «en peu».", "ca": "Excepció: a peu." }
+        },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "el coche", "options": ["el cotxe", "el coche", "el coxte", "el cotxer"], "answer": "el cotxe" },
+        { "type": "fill_blank",
+          "sentence": "Vaig ___ tren a Tarragona.",
+          "translation": "Voy en tren a Tarragona.",
+          "options": ["en", "a", "amb", "de"],
+          "answer": "en" }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "En la estación", "ca": "A l'estació" },
+      "goal": {
+        "es": "Comprar billetes, preguntar por andenes y horarios.",
+        "ca": "Comprar bitllets i preguntar per andanes i horaris."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "el bitllet", "es": "el billete",
+          "note": { "es": "«Bitllet» también significa billete de banco.", "ca": "«Bitllet» també de banc." } },
+        { "type": "flashcard", "ca": "l'andana", "es": "el andén",
+          "note": { "es": "«Andana» es femenino: l'andana, les andanes.", "ca": "Femení: l'andana." } },
+        { "type": "flashcard", "ca": "l'horari", "es": "el horario" },
+        { "type": "flashcard", "ca": "anada i tornada", "es": "ida y vuelta" },
+        { "type": "flashcard", "ca": "només anada", "es": "solo ida",
+          "note": { "es": "«Només» = solo. ¡Con acento abierto!", "ca": "«Només» amb accent obert." } },
+        { "type": "compare",
+          "es": "Un billete de ida y vuelta, por favor",
+          "ca": "Un bitllet d'anada i tornada, si us plau",
+          "note": { "es": "«D'anada» con apóstrofo: «de» + vocal.", "ca": "«D'anada»: elisió de «de»." }
+        },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "¿A qué hora sale el tren?",
+          "answer": "A quina hora surt el tren",
+          "bank": ["A", "quina", "hora", "surt", "el", "tren"],
+          "distractors": ["què", "sale", "qué"] },
+        { "type": "fill_blank",
+          "sentence": "El tren ___ de l'andana 4.",
+          "translation": "El tren sale del andén 4.",
+          "options": ["surt", "sale", "ix", "para"],
+          "answer": "surt" },
+        { "type": "multiple_choice", "direction": "ca-es", "prompt": "el bitllet", "options": ["el billete", "el ticket", "el cambio", "el viaje"], "answer": "el billete" },
+        { "type": "listen", "ca": "Dos bitllets per a Lleida", "options": ["Dos bitllets per a Lleida", "Dos billetes para Lleida", "Dos bitllets de Lleida"] }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Frases en movimiento", "ca": "Frases en moviment" },
+      "goal": {
+        "es": "Llegar, salir, esperar, perder. Verbos clave del transporte.",
+        "ca": "Arribar, sortir, esperar, perdre."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "arribar", "es": "llegar" },
+        { "type": "flashcard", "ca": "sortir", "es": "salir" },
+        { "type": "flashcard", "ca": "esperar", "es": "esperar" },
+        { "type": "flashcard", "ca": "perdre", "es": "perder",
+          "note": { "es": "Atención al sonido: la -dre se pronuncia muy unido.", "ca": "«Perdre»: la «d» queda fluixa." } },
+        { "type": "flashcard", "ca": "agafar", "es": "coger / tomar",
+          "note": { "es": "«Agafar» = coger. Mucho más neutral que «coger» en algunas zonas.", "ca": "«Agafar» = coger / prendre." } },
+        { "type": "compare",
+          "es": "He perdido el tren",
+          "ca": "He perdut el tren",
+          "note": { "es": "Pretérito perfecto: he + participio. Muy parecido al español.", "ca": "Pretèrit perfet: «he» + participi." }
+        },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Cojo el bus a las ocho",
+          "answer": "Agafo el bus a les vuit",
+          "bank": ["Agafo", "el", "bus", "a", "les", "vuit"],
+          "distractors": ["cojo", "ocho"] },
+        { "type": "fill_blank",
+          "sentence": "El metro ___ a les set del matí.",
+          "translation": "El metro sale a las siete de la mañana.",
+          "options": ["surt", "sale", "arriba", "passa"],
+          "answer": "surt" },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "esperar el bus", "options": ["esperar el bus", "esperar al bus", "esperar el autobus", "esperar bus"], "answer": "esperar el bus" }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "x1",
+      "title": { "es": "Direcciones cardinales", "ca": "Punts cardinals" },
+      "goal": {
+        "es": "Nord, sud, est, oest.",
+        "ca": "Nord, sud, est, oest."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "el nord", "es": "el norte" },
+        { "type": "flashcard", "ca": "el sud", "es": "el sur" },
+        { "type": "flashcard", "ca": "l'est", "es": "el este" },
+        { "type": "flashcard", "ca": "l'oest", "es": "el oeste" },
+        { "type": "compare",
+          "es": "Girona está al norte de Barcelona",
+          "ca": "Girona és al nord de Barcelona",
+          "note": { "es": "«Al nord de» (al norte de).", "ca": "«Al nord de»." }
+        }
+      ]
+    }
+  ]
+}

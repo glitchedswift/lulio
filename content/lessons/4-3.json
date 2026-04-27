@@ -1,0 +1,130 @@
+{
+  "id": "4-3",
+  "title": { "es": "Emociones", "ca": "Emocions" },
+  "goal": {
+    "es": "Vocabulario para hablar de cómo te sientes y empatizar con otros.",
+    "ca": "Vocabulari per parlar de com et sents."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Sentimientos básicos", "ca": "Sentiments bàsics" },
+      "goal": {
+        "es": "Content, trist, enfadat, espantat, sorprès.",
+        "ca": "Sentiments bàsics."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "content / contenta", "es": "contento / contenta" },
+        { "type": "flashcard", "ca": "trist / trista", "es": "triste" },
+        { "type": "flashcard", "ca": "enfadat / enfadada", "es": "enfadado / enfadada",
+          "note": { "es": "También se usa «empipat», más coloquial.", "ca": "També «empipat»." } },
+        { "type": "flashcard", "ca": "espantat / espantada", "es": "asustado / asustada" },
+        { "type": "flashcard", "ca": "sorprès / sorpresa", "es": "sorprendido / sorprendida",
+          "note": { "es": "Masculino con acento abierto: sorprès. Femenino: sorpresa.", "ca": "«Sorprès» / «sorpresa»." } },
+        { "type": "flashcard", "ca": "cansat / cansada", "es": "cansado / cansada" },
+        { "type": "compare",
+          "es": "Estoy muy contenta",
+          "ca": "Estic molt contenta",
+          "note": { "es": "Aquí sí «estic» (estado emocional, no ubicación).", "ca": "«Estic» per estats emocionals." }
+        },
+        { "type": "fill_blank",
+          "sentence": "Avui estic una mica ___.",
+          "translation": "Hoy estoy un poco triste.",
+          "options": ["trist", "triste", "tristo", "tristos"],
+          "answer": "trist" },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "asustada", "options": ["espantada", "asustada", "espantat", "espantosa"], "answer": "espantada" }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "Tener + emoción", "ca": "Tenir + emoció" },
+      "goal": {
+        "es": "Tinc por, tinc gana, tinc set, tinc son, tinc fred.",
+        "ca": "Construccions amb «tenir»."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "tenir por", "es": "tener miedo" },
+        { "type": "flashcard", "ca": "tenir gana", "es": "tener hambre" },
+        { "type": "flashcard", "ca": "tenir set", "es": "tener sed",
+          "note": { "es": "«Set» también significa «siete». El contexto manda.", "ca": "«Set»: set de beure o nombre 7." } },
+        { "type": "flashcard", "ca": "tenir son", "es": "tener sueño" },
+        { "type": "flashcard", "ca": "tenir fred", "es": "tener frío" },
+        { "type": "flashcard", "ca": "tenir calor", "es": "tener calor" },
+        { "type": "flashcard", "ca": "tenir pressa", "es": "tener prisa" },
+        { "type": "compare",
+          "es": "Tengo mucha hambre",
+          "ca": "Tinc molta gana",
+          "note": { "es": "«Gana» es femenino: «molta gana». ¡Aquí cambia el género respecto al español!", "ca": "«Gana» és femenina." }
+        },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Tengo sed y frío",
+          "answer": "Tinc set i fred",
+          "bank": ["Tinc", "set", "i", "fred"],
+          "distractors": ["sed", "frío", "tengo"] },
+        { "type": "fill_blank",
+          "sentence": "Anem a dormir, tinc molta ___.",
+          "translation": "Vamos a dormir, tengo mucho sueño.",
+          "options": ["son", "sueño", "soni", "somni"],
+          "answer": "son" },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "tener prisa", "options": ["tenir pressa", "tenir prisa", "tenir prèssa", "tenir presa"], "answer": "tenir pressa" }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Empatizar", "ca": "Empatitzar" },
+      "goal": {
+        "es": "Frases para acompañar a alguien: ho sento, t'entenc, ànims.",
+        "ca": "Frases per empatitzar."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "Ho sento", "es": "Lo siento" },
+        { "type": "flashcard", "ca": "T'entenc", "es": "Te entiendo" },
+        { "type": "flashcard", "ca": "Ànims!", "es": "¡Ánimo!",
+          "note": { "es": "Plural en catalán: «ànims» (con «s»).", "ca": "Plural: ànims!" } },
+        { "type": "flashcard", "ca": "Quina llàstima!", "es": "¡Qué pena!" },
+        { "type": "flashcard", "ca": "Tranquil / tranquil·la", "es": "Tranquilo / tranquila",
+          "note": { "es": "Femenino con ela geminada: tranquil·la.", "ca": "Femení amb ela geminada." } },
+        { "type": "compare",
+          "es": "Lo siento mucho",
+          "ca": "Ho sento molt",
+          "note": { "es": "«Ho sento» con «ho» (lo neutro).", "ca": "«Ho sento»." }
+        },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Te entiendo perfectamente",
+          "answer": "T'entenc perfectament",
+          "bank": ["T'entenc", "perfectament"],
+          "distractors": ["te", "entiendo"] },
+        { "type": "fill_blank",
+          "sentence": "No pateixis, tot anirà bé. ___!",
+          "translation": "No sufras, todo irá bien. ¡Ánimo!",
+          "options": ["Ànims", "Ánimo", "Anim", "Animos"],
+          "answer": "Ànims" },
+        { "type": "multiple_choice", "direction": "ca-es", "prompt": "Quina llàstima!", "options": ["¡Qué pena!", "¡Qué llanto!", "¡Qué locura!", "¡Qué bien!"], "answer": "¡Qué pena!" }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "x1",
+      "title": { "es": "Estimar y voler", "ca": "Estimar i voler" },
+      "goal": {
+        "es": "Catalán distingue: «estimar» (querer/amar a personas) y «voler» (querer/desear cosas).",
+        "ca": "«Estimar» = amar persones. «Voler» = voler coses."
+      },
+      "exercises": [
+        { "type": "compare",
+          "es": "Te quiero (a una persona)",
+          "ca": "T'estimo",
+          "note": { "es": "«T'estimo» se usa con personas que amas.", "ca": "Per a persones." }
+        },
+        { "type": "compare",
+          "es": "Quiero un café",
+          "ca": "Vull un cafè",
+          "note": { "es": "«Voler» con cosas. ¡No digas «t'estimo un cafè»!", "ca": "Per a coses: voler." }
+        },
+        { "type": "flashcard", "ca": "T'estimo molt", "es": "Te quiero mucho" },
+        { "type": "flashcard", "ca": "Vull descansar", "es": "Quiero descansar" }
+      ]
+    }
+  ]
+}

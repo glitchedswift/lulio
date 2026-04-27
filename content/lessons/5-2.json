@@ -1,0 +1,131 @@
+{
+  "id": "5-2",
+  "title": { "es": "Dichos populares", "ca": "Dites populars" },
+  "goal": {
+    "es": "Refranes y expresiones idiomáticas que dan color al catalán.",
+    "ca": "Refranys i expressions idiomàtiques."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Refranes clásicos", "ca": "Refranys clàssics" },
+      "goal": {
+        "es": "Cinco refranes con su equivalente español.",
+        "ca": "Cinc refranys amb equivalent."
+      },
+      "exercises": [
+        { "type": "compare",
+          "es": "Cuando el río suena, agua lleva",
+          "ca": "Quan el gat no hi és, les rates ballen",
+          "note": { "es": "Diferente metáfora pero idea: las cosas pasan por algo.", "ca": "Cada llengua té els seus." }
+        },
+        { "type": "compare",
+          "es": "A quien madruga, Dios le ayuda",
+          "ca": "Qui matina fa farina",
+          "note": { "es": "«Qui matina fa farina» = quien madruga, hace harina.", "ca": "Refrany clàssic." }
+        },
+        { "type": "compare",
+          "es": "Más vale tarde que nunca",
+          "ca": "Val més tard que mai",
+          "note": { "es": "Casi calco, fácil de recordar.", "ca": "Calc directe." }
+        },
+        { "type": "compare",
+          "es": "No hay mal que por bien no venga",
+          "ca": "No hi ha mal que per bé no vingui",
+          "note": { "es": "Subjuntivo: «no vingui». Otro calco.", "ca": "Amb subjuntiu." }
+        },
+        { "type": "flashcard", "ca": "Qui matina fa farina", "es": "Quien madruga hace harina" },
+        { "type": "flashcard", "ca": "Val més tard que mai", "es": "Más vale tarde que nunca" },
+        { "type": "fill_blank",
+          "sentence": "Val més ___ que mai.",
+          "translation": "Más vale tarde que nunca.",
+          "options": ["tard", "tarde", "tardar", "tardança"],
+          "answer": "tard" },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "Quien madruga, hace harina", "options": ["Qui matina fa farina", "Quien matina fa farina", "Qui mati farina fa", "Qui es matina farina"], "answer": "Qui matina fa farina" }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "Expresiones del día a día", "ca": "Expressions del dia a dia" },
+      "goal": {
+        "es": "Frases hechas que oirás a diario.",
+        "ca": "Frases fetes habituals."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "Déu n'hi do!", "es": "¡Caramba! / ¡No está mal!",
+          "note": { "es": "Expresión muy catalana, sin traducción exacta. Sirve para sorpresa o admiración.", "ca": "Sense equivalent exacte." } },
+        { "type": "flashcard", "ca": "Som-hi!", "es": "¡Vamos!",
+          "note": { "es": "«Som-hi» = literalmente «somos allí», pero significa «¡venga, vamos!».", "ca": "Per encoratjar." } },
+        { "type": "flashcard", "ca": "Va, home, va!", "es": "¡Va, venga ya!" },
+        { "type": "flashcard", "ca": "No fotis!", "es": "¡No me digas! (informal)" },
+        { "type": "flashcard", "ca": "Tira, tira", "es": "Sigue, sigue / vamos, vamos" },
+        { "type": "compare",
+          "es": "—¡Has aprobado todo! —¡Caramba, qué bien!",
+          "ca": "—Ho has aprovat tot! —Déu n'hi do, que bé!",
+          "note": { "es": "«Déu n'hi do» en contexto de admiración positiva.", "ca": "Admiració positiva." }
+        },
+        { "type": "fill_blank",
+          "sentence": "___! Anem-hi!",
+          "translation": "¡Vamos! ¡Vamos allá!",
+          "options": ["Som-hi", "Vamos", "Anem", "Hi"],
+          "answer": "Som-hi" },
+        { "type": "multiple_choice", "direction": "ca-es", "prompt": "Déu n'hi do", "options": ["¡Caramba!", "Adiós", "¡Hola!", "¡Por favor!"], "answer": "¡Caramba!" }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Comparaciones pintorescas", "ca": "Comparacions pintoresques" },
+      "goal": {
+        "es": "Estar més content que un gínjol, fer cara de pomes agres…",
+        "ca": "Comparacions ben plàstiques."
+      },
+      "exercises": [
+        { "type": "compare",
+          "es": "Estoy contentísimo",
+          "ca": "Estic més content que un gínjol",
+          "note": { "es": "«Gínjol» (azufaifo) es una fruta. La expresión es muy gráfica.", "ca": "«Gínjol»: fruita." }
+        },
+        { "type": "compare",
+          "es": "Pone cara de pocos amigos",
+          "ca": "Fa cara de pomes agres",
+          "note": { "es": "Literalmente «cara de manzanas agrias».", "ca": "Imatge gràfica." }
+        },
+        { "type": "compare",
+          "es": "Es tonto de remate",
+          "ca": "És més curt que una cua de conill",
+          "note": { "es": "«Más corto que una cola de conejo».", "ca": "Cua de conill: curta." }
+        },
+        { "type": "flashcard", "ca": "tocar el dos", "es": "irse / largarse",
+          "note": { "es": "Frase hecha para «marcharse».", "ca": "Marxar." } },
+        { "type": "flashcard", "ca": "tocar de peus a terra", "es": "tener los pies en el suelo" },
+        { "type": "fill_blank",
+          "sentence": "Després del càstig, fa cara de ___.",
+          "translation": "Después del castigo, pone cara de pocos amigos.",
+          "options": ["pomes agres", "manzanas agrias", "pommes", "tomàquets"],
+          "answer": "pomes agres" },
+        { "type": "multiple_choice", "direction": "ca-es", "prompt": "Toca el dos!", "options": ["¡Lárgate!", "¡Toca dos veces!", "¡Mira los dos!", "¡Doblega!"], "answer": "¡Lárgate!" }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "x1",
+      "title": { "es": "Frases con animales", "ca": "Frases amb animals" },
+      "goal": {
+        "es": "Estar com una cabra, fer el préssec, ser un peix gros.",
+        "ca": "Frases amb fauna i fruita."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "estar com una cabra", "es": "estar como una cabra (loco)" },
+        { "type": "flashcard", "ca": "fer el préssec", "es": "hacer el ridículo",
+          "note": { "es": "Literal: «hacer el melocotón».", "ca": "Literal: el préssec és la fruita." } },
+        { "type": "flashcard", "ca": "ser un peix gros", "es": "ser un pez gordo" },
+        { "type": "compare",
+          "es": "Hizo el ridículo en la fiesta",
+          "ca": "Va fer el préssec a la festa",
+          "note": { "es": "«Fer el préssec» (literal: hacer el melocotón).", "ca": "Fer el préssec." }
+        }
+      ]
+    }
+  ]
+}

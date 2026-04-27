@@ -1,0 +1,136 @@
+{
+  "id": "3-6",
+  "title": { "es": "Pasado perifrástico", "ca": "Passat perifràstic" },
+  "goal": {
+    "es": "El tiempo verbal estrella del catalán: «vaig + infinitiu» = pretérito indefinido del español.",
+    "ca": "El temps verbal estrella: «vaig + infinitiu» equival al pretèrit indefinit espanyol."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Conjugación", "ca": "Conjugació" },
+      "goal": {
+        "es": "Vaig, vas, va, vam (vàrem), vau (vàreu), van (varen) + infinitivo.",
+        "ca": "Auxiliars del passat perifràstic."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "vaig parlar", "es": "hablé" },
+        { "type": "flashcard", "ca": "vas parlar", "es": "hablaste" },
+        { "type": "flashcard", "ca": "va parlar", "es": "habló" },
+        { "type": "flashcard", "ca": "vam parlar", "es": "hablamos",
+          "note": { "es": "También «vàrem parlar», forma más literaria.", "ca": "Variant: vàrem." } },
+        { "type": "flashcard", "ca": "vau parlar", "es": "hablasteis",
+          "note": { "es": "Variant: vàreu parlar.", "ca": "Variant: vàreu." } },
+        { "type": "flashcard", "ca": "van parlar", "es": "hablaron" },
+        { "type": "compare",
+          "es": "Comí pan con tomate",
+          "ca": "Vaig menjar pa amb tomàquet",
+          "note": { "es": "«Vaig menjar» = comí. ¡No es futuro!", "ca": "«Vaig menjar» = passat." }
+        },
+        { "type": "fill_blank",
+          "sentence": "Ahir nosaltres ___ anar al teatre.",
+          "translation": "Ayer nosotros fuimos al teatro.",
+          "options": ["vam", "vau", "van", "vaig"],
+          "answer": "vam" },
+        { "type": "multiple_choice", "direction": "ca-es", "prompt": "Va arribar tard", "options": ["Llegó tarde", "Va a llegar tarde", "Ha llegado tarde", "Llegará tarde"], "answer": "Llegó tarde" },
+        { "type": "listen", "ca": "Vam veure els teus pares", "options": ["Vam veure els teus pares", "Veiem els teus pares", "Vam venir els teus pares"] }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "En contraste con el español", "ca": "En contrast amb l'espanyol" },
+      "goal": {
+        "es": "Por qué «vaig + infinitivo» suena a futuro pero significa pasado.",
+        "ca": "Per què «vaig + infinitiu» sembla futur però és passat."
+      },
+      "exercises": [
+        { "type": "compare",
+          "es": "Voy a comer (futuro inmediato)",
+          "ca": "Vaig a menjar (futuro: voy hacia el comedor)",
+          "note": { "es": "Sorpresa: «vaig a menjar» en catalán solo significa «voy a/me dirijo a comer» en sentido literal.", "ca": "«Vaig a menjar» = em dirigeixo a menjar." }
+        },
+        { "type": "compare",
+          "es": "Comí",
+          "ca": "Vaig menjar",
+          "note": { "es": "Para «comí» (pretérito indefinido), catalán usa «vaig + infinitivo». Sin la «a».", "ca": "Sense «a»: vaig menjar." }
+        },
+        { "type": "compare",
+          "es": "Voy a comer (estoy a punto de)",
+          "ca": "Estic a punt de menjar / Menjaré aviat",
+          "note": { "es": "El futuro próximo se dice de otra manera en catalán.", "ca": "Per al futur, una altra estructura." }
+        },
+        { "type": "flashcard", "ca": "vaig escriure", "es": "escribí" },
+        { "type": "flashcard", "ca": "van venir", "es": "vinieron" },
+        { "type": "flashcard", "ca": "va dir", "es": "dijo" },
+        { "type": "fill_blank",
+          "sentence": "L'any passat ___ visitar Roma.",
+          "translation": "El año pasado visité Roma.",
+          "options": ["vaig", "voy a", "vag", "vam"],
+          "answer": "vaig" },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Ayer vimos una película",
+          "answer": "Ahir vam veure una pel·lícula",
+          "bank": ["Ahir", "vam", "veure", "una", "pel·lícula"],
+          "distractors": ["ayer", "vimos", "película"] },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "Compré pan", "options": ["Vaig comprar pa", "Voy a comprar pan", "Vaig a comprar pa", "He comprat pa"], "answer": "Vaig comprar pa" }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Marcadores temporales", "ca": "Marcadors temporals" },
+      "goal": {
+        "es": "Ahir, l'altre dia, fa una setmana, l'any passat: cómo situar el pasado.",
+        "ca": "Marcadors típics: ahir, l'altre dia, fa…"
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "ahir", "es": "ayer" },
+        { "type": "flashcard", "ca": "abans-d'ahir", "es": "anteayer" },
+        { "type": "flashcard", "ca": "l'altre dia", "es": "el otro día" },
+        { "type": "flashcard", "ca": "fa una setmana", "es": "hace una semana",
+          "note": { "es": "«Fa» = hace. Patrón: fa + tiempo.", "ca": "«Fa» = hace." } },
+        { "type": "flashcard", "ca": "l'any passat", "es": "el año pasado" },
+        { "type": "compare",
+          "es": "Hace dos años fui a México",
+          "ca": "Fa dos anys vaig anar a Mèxic",
+          "note": { "es": "«Fa dos anys» antepuesto + verbo en passat perifràstic.", "ca": "Marcador + passat perifràstic." }
+        },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Ayer hablé con Pau",
+          "answer": "Ahir vaig parlar amb el Pau",
+          "bank": ["Ahir", "vaig", "parlar", "amb", "el", "Pau"],
+          "distractors": ["ayer", "con", "hablé"] },
+        { "type": "fill_blank",
+          "sentence": "___ una setmana vam anar a Sitges.",
+          "translation": "Hace una semana fuimos a Sitges.",
+          "options": ["Fa", "Hace", "Ha", "Des de"],
+          "answer": "Fa" },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "anteayer", "options": ["abans-d'ahir", "anteayer", "ahir-ahir", "abans dahir"], "answer": "abans-d'ahir" }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "x1",
+      "title": { "es": "Verbos irregulares en passat perifràstic", "ca": "Verbs irregulars al passat perifràstic" },
+      "goal": {
+        "es": "La gracia: el passat perifràstic siempre usa el infinitivo, ¡así que no hay irregulares!",
+        "ca": "Sempre infinitiu: cap irregular."
+      },
+      "exercises": [
+        { "type": "compare",
+          "es": "Hice los deberes",
+          "ca": "Vaig fer els deures",
+          "note": { "es": "En catalán «hice» se forma con «vaig + fer» (infinitivo de hacer). ¡Más fácil que el español!", "ca": "Sempre infinitiu." }
+        },
+        { "type": "compare",
+          "es": "Tuvo suerte",
+          "ca": "Va tenir sort",
+          "note": { "es": "«Va tenir» en lugar de un irregular. La regularidad lo hace fácil.", "ca": "«Va tenir»: regular." }
+        },
+        { "type": "flashcard", "ca": "vaig fer", "es": "hice" },
+        { "type": "flashcard", "ca": "va tenir", "es": "tuvo" },
+        { "type": "flashcard", "ca": "van dir", "es": "dijeron" }
+      ]
+    }
+  ]
+}

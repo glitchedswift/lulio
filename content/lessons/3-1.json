@@ -1,0 +1,135 @@
+{
+  "id": "3-1",
+  "title": { "es": "Direcciones", "ca": "Direccions" },
+  "goal": {
+    "es": "Pregunta y da indicaciones por la ciudad: a la dreta, a l'esquerra, recte.",
+    "ca": "Pregunta i dóna indicacions per la ciutat."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Vocabulario básico", "ca": "Vocabulari bàsic" },
+      "goal": {
+        "es": "Las direcciones cardinales del barrio: dreta, esquerra, recte, davant, darrere.",
+        "ca": "Dreta, esquerra, recte, davant, darrere."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "a la dreta", "es": "a la derecha" },
+        { "type": "flashcard", "ca": "a l'esquerra", "es": "a la izquierda",
+          "note": { "es": "«Esquerra» también es un partido y una orientación política, igual que «izquierda».", "ca": "«Esquerra»: també política." } },
+        { "type": "flashcard", "ca": "recte", "es": "recto",
+          "note": { "es": "También «tot recte» = todo recto.", "ca": "També «tot recte»." } },
+        { "type": "flashcard", "ca": "davant", "es": "delante" },
+        { "type": "flashcard", "ca": "darrere", "es": "detrás" },
+        { "type": "flashcard", "ca": "al costat de", "es": "al lado de" },
+        { "type": "flashcard", "ca": "lluny", "es": "lejos" },
+        { "type": "flashcard", "ca": "a prop", "es": "cerca",
+          "note": { "es": "«A prop» = cerca. No confundir con «aprop» (que no existe).", "ca": "Sempre separat: a prop." } },
+        { "type": "compare",
+          "es": "Está al lado de la plaza",
+          "ca": "És al costat de la plaça",
+          "note": { "es": "Recuerda: ubicación con «ser a/al costat de».", "ca": "Ubicació: «ser a»." }
+        },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "a la izquierda", "options": ["a l'esquerra", "a la izquierda", "a la dreta", "a la esquerra"], "answer": "a l'esquerra" },
+        { "type": "fill_blank",
+          "sentence": "El museu és ___ del riu.",
+          "translation": "El museo está cerca del río.",
+          "options": ["a prop", "lluny", "davant", "darrere"],
+          "answer": "a prop" }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "Preguntar el camino", "ca": "Demanar el camí" },
+      "goal": {
+        "es": "Frases hechas para preguntar y entender direcciones.",
+        "ca": "Frases fetes per a demanar el camí."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "On és…?", "es": "¿Dónde está…?",
+          "note": { "es": "«On» = dónde. ¡Sin «d»!", "ca": "«On» = dónde, sense «d»." } },
+        { "type": "flashcard", "ca": "Com s'hi va?", "es": "¿Cómo se va (allí)?",
+          "note": { "es": "«Hi» = ahí/allí, pronombre adverbial muy catalán.", "ca": "«Hi» substitueix el lloc." } },
+        { "type": "flashcard", "ca": "Em pot ajudar?", "es": "¿Me puede ayudar?" },
+        { "type": "flashcard", "ca": "Estic perdut", "es": "Estoy perdido" },
+        { "type": "compare",
+          "es": "¿Dónde está el metro?",
+          "ca": "On és el metro?",
+          "note": { "es": "Sin signos de interrogación al inicio. Solo al final.", "ca": "Català: només interrogant final." }
+        },
+        { "type": "compare",
+          "es": "Sigue todo recto y gira a la derecha",
+          "ca": "Segueix tot recte i gira a la dreta",
+          "note": { "es": "«Segueix» (imperativo de seguir) y «gira» (de girar).", "ca": "Imperatius: segueix, gira." }
+        },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "¿Dónde está la estación?",
+          "answer": "On és l'estació",
+          "bank": ["On", "és", "l'estació"],
+          "distractors": ["dónde", "está", "la", "estació", "estación"] },
+        { "type": "fill_blank",
+          "sentence": "___ em pots dir on és la catedral?",
+          "translation": "¿Me puedes decir dónde está la catedral?",
+          "options": ["Em", "Me", "T'", "Es"],
+          "answer": "Em" },
+        { "type": "listen", "ca": "On és la parada de bus?", "options": ["On és la parada de bus?", "On és la para de bus?", "On són la parada de bus?"] }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Lugares de la ciudad", "ca": "Llocs de la ciutat" },
+      "goal": {
+        "es": "Edificios y espacios urbanos: ajuntament, biblioteca, hospital, parc.",
+        "ca": "Edificis i espais urbans."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "l'ajuntament", "es": "el ayuntamiento" },
+        { "type": "flashcard", "ca": "la biblioteca", "es": "la biblioteca" },
+        { "type": "flashcard", "ca": "l'hospital", "es": "el hospital" },
+        { "type": "flashcard", "ca": "el parc", "es": "el parque",
+          "note": { "es": "Sin -e final: «parc».", "ca": "Sense -e final." } },
+        { "type": "flashcard", "ca": "el carrer", "es": "la calle",
+          "note": { "es": "«Carrer» es masculino: el carrer.", "ca": "Masculí: el carrer." } },
+        { "type": "flashcard", "ca": "la plaça", "es": "la plaza" },
+        { "type": "flashcard", "ca": "el museu", "es": "el museo" },
+        { "type": "compare",
+          "es": "La biblioteca está en la calle Mayor",
+          "ca": "La biblioteca és al carrer Major",
+          "note": { "es": "«Al carrer» = en la calle. Y «calle» pasa a masculino: el carrer Major.", "ca": "«Al carrer Major»: masculí." }
+        },
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "el ayuntamiento", "options": ["l'ajuntament", "el ajuntament", "el ayuntament", "l'ajuntamiento"], "answer": "l'ajuntament" },
+        { "type": "fill_blank",
+          "sentence": "Visc al ___ de la Pau.",
+          "translation": "Vivo en la calle de la Paz.",
+          "options": ["carrer", "calle", "carre", "carrera"],
+          "answer": "carrer" },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "El parque está cerca",
+          "answer": "El parc és a prop",
+          "bank": ["El", "parc", "és", "a", "prop"],
+          "distractors": ["está", "cerca", "parque"] }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "x1",
+      "title": { "es": "Verbos de movimiento", "ca": "Verbs de moviment" },
+      "goal": {
+        "es": "Girar, travessar, seguir, tornar.",
+        "ca": "Girar, travessar, seguir, tornar."
+      },
+      "exercises": [
+        { "type": "flashcard", "ca": "girar", "es": "girar" },
+        { "type": "flashcard", "ca": "travessar", "es": "cruzar / atravesar" },
+        { "type": "flashcard", "ca": "tornar", "es": "volver",
+          "note": { "es": "«Tornar» = volver. ¡No «tornar» del español, que tiene otro sentido!", "ca": "«Tornar» = volver." } },
+        { "type": "compare",
+          "es": "Cruza la calle y vuelve atrás",
+          "ca": "Travessa el carrer i torna enrere",
+          "note": { "es": "«Enrere» = hacia atrás.", "ca": "«Enrere» = cap enrere." }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "id": "3-5",
+  "title": { "es": "Pronombres hi/en", "ca": "Pronoms hi/en" },
+  "goal": {
+    "es": "Dos pronombres adverbiales que el español no tiene. «Hi» substituye lugares; «en» substituye «de + algo».",
+    "ca": "Dos pronoms adverbials que l'espanyol no té. «Hi» substitueix llocs; «en» substitueix «de + alguna cosa»."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "El pronombre «hi»", "ca": "El pronom «hi»" },
+      "goal": {
+        "es": "«Hi» reemplaza un lugar mencionado: «Vas a Girona? — Sí, hi vaig.»",
+        "ca": "«Hi» reemplaça un lloc esmentat."
+      },
+      "exercises": [
+        { "type": "compare",
+          "es": "—¿Vas a Barcelona? —Sí, voy",
+          "ca": "—Vas a Barcelona? —Sí, hi vaig",
+          "note": { "es": "El español omite el lugar. El catalán lo recoge con «hi».", "ca": "«Hi» = a Barcelona." }
+        },
+        { "type": "compare",
+          "es": "—¿Estás en casa? —Sí, estoy",
+          "ca": "—Ets a casa? —Sí, hi sóc",
+          "note": { "es": "«Hi sóc» = estoy ahí. Es obligatorio: «sóc» a secas suena raro.", "ca": "«Hi sóc» és necessari." }
+        },
+        { "type": "flashcard", "ca": "hi vaig", "es": "voy (allí)" },
+        { "type": "flashcard", "ca": "hi sóc", "es": "estoy (allí)" },
+        { "type": "flashcard", "ca": "no hi és", "es": "no está (allí)",
+          "note": { "es": "«No hi és» = no está / no se encuentra.", "ca": "«No hi és»: no és present." } },
+        { "type": "fill_blank",
+          "sentence": "—Has anat al mercat? —Sí, ___ he anat.",
+          "translation": "—¿Has ido al mercado? —Sí, he ido.",
+          "options": ["hi", "en", "ho", "li"],
+          "answer": "hi" },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Voy ahora",
+          "answer": "Hi vaig ara",
+          "bank": ["Hi", "vaig", "ara"],
+          "distractors": ["voy", "ahora"] },
+        { "type": "multiple_choice", "direction": "ca-es", "prompt": "Hi anem demà", "options": ["Vamos (allí) mañana", "Vamos hoy", "Estamos mañana", "No vamos mañana"], "answer": "Vamos (allí) mañana" }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "El pronombre «en»", "ca": "El pronom «en»" },
+      "goal": {
+        "es": "«En» reemplaza un complemento con «de»: cantidad, origen o tema. «¿Quieres pan? — Sí, n'hi ha.»",
+        "ca": "«En» substitueix un complement amb «de»."
+      },
+      "exercises": [
+        { "type": "compare",
+          "es": "—¿Quieres vino? —Sí, quiero",
+          "ca": "—Vols vi? —Sí, en vull",
+          "note": { "es": "«En» = «de vino». Cantidad/partitivo. ¡El catalán no admite «sí, vull» a secas!", "ca": "«En vull» = en vull (de vi)." }
+        },
+        { "type": "compare",
+          "es": "Tengo dos",
+          "ca": "En tinc dos",
+          "note": { "es": "«En tinc dos» = tengo dos (de eso). Hay que decir «en».", "ca": "«En tinc dos»: «en» és obligatori." }
+        },
+        { "type": "compare",
+          "es": "Vengo de Madrid",
+          "ca": "En vinc",
+          "note": { "es": "«En» también vale para origen con «de»: en vinc = vengo de allí.", "ca": "«En vinc» = vinc d'allà." }
+        },
+        { "type": "flashcard", "ca": "en vull", "es": "quiero (de eso)" },
+        { "type": "flashcard", "ca": "en tinc", "es": "tengo (de eso)" },
+        { "type": "flashcard", "ca": "en parlem", "es": "hablamos (de ello)" },
+        { "type": "fill_blank",
+          "sentence": "—Vols pa? —Sí, ___ vull.",
+          "translation": "—¿Quieres pan? —Sí, quiero.",
+          "options": ["en", "hi", "el", "ho"],
+          "answer": "en" },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Tengo tres",
+          "answer": "En tinc tres",
+          "bank": ["En", "tinc", "tres"],
+          "distractors": ["hi", "tengo"] },
+        { "type": "multiple_choice", "direction": "ca-es", "prompt": "No en vull, gràcies", "options": ["No quiero, gracias", "No voy, gracias", "No tengo, gracias", "No hay, gracias"], "answer": "No quiero, gracias" }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Combinaciones y frases hechas", "ca": "Combinacions i frases fetes" },
+      "goal": {
+        "es": "N'hi ha (hay), m'hi quedo (me quedo allí), me'n vaig (me voy de aquí).",
+        "ca": "N'hi ha, m'hi quedo, me'n vaig."
+      },
+      "exercises": [
+        { "type": "compare",
+          "es": "Hay tres",
+          "ca": "N'hi ha tres",
+          "note": { "es": "«N'hi ha» = hay (de eso). Combinación de «en» + «hi» + «ha».", "ca": "«N'hi ha» = hay." }
+        },
+        { "type": "compare",
+          "es": "Me voy",
+          "ca": "Me'n vaig",
+          "note": { "es": "«Me'n vaig» = me voy de aquí. Catalán acompaña con «en». Frase clásica.", "ca": "Frase clàssica: me'n vaig." }
+        },
+        { "type": "compare",
+          "es": "Me quedo aquí",
+          "ca": "M'hi quedo",
+          "note": { "es": "«M'hi quedo» = me quedo (en este lugar).", "ca": "«M'hi quedo»." }
+        },
+        { "type": "flashcard", "ca": "n'hi ha", "es": "hay (de eso)" },
+        { "type": "flashcard", "ca": "me'n vaig", "es": "me voy" },
+        { "type": "flashcard", "ca": "vés-hi!", "es": "¡vete (allí)!",
+          "note": { "es": "Imperativo + hi: «vés-hi» = ¡ve!", "ca": "Imperatiu + hi." } },
+        { "type": "fill_blank",
+          "sentence": "___ ha gent al carrer.",
+          "translation": "Hay gente en la calle.",
+          "options": ["N'hi", "Hi", "En", "Ho"],
+          "answer": "N'hi" },
+        { "type": "translate", "direction": "es-ca",
+          "prompt": "Me voy a casa",
+          "answer": "Me'n vaig a casa",
+          "bank": ["Me'n", "vaig", "a", "casa"],
+          "distractors": ["voy", "me", "casa"] },
+        { "type": "multiple_choice", "direction": "ca-es", "prompt": "Me'n vaig ara mateix", "options": ["Me voy ahora mismo", "Vengo ahora mismo", "Estoy yendo ahora", "No voy ahora"], "answer": "Me voy ahora mismo" }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "x1",
+      "title": { "es": "Errores típicos", "ca": "Errors típics" },
+      "goal": {
+        "es": "Los errores más típicos del castellanoparlante con hi/en y cómo evitarlos.",
+        "ca": "Errors freqüents amb hi/en."
+      },
+      "exercises": [
+        { "type": "compare",
+          "es": "—¿Vas? —Sí, voy",
+          "ca": "—Hi vas? —Sí, hi vaig",
+          "note": { "es": "Error típico: omitir «hi». Suena cortado o incompleto.", "ca": "No oblidis «hi»." }
+        },
+        { "type": "compare",
+          "es": "—¿Quieres? —Sí, quiero",
+          "ca": "—En vols? —Sí, en vull",
+          "note": { "es": "Igual: hay que poner «en». «Sí, vull» a secas no se diu.", "ca": "Cal posar «en»." }
+        },
+        { "type": "fill_blank",
+          "sentence": "—Tens cotxe? —Sí, ___ tinc un.",
+          "translation": "—¿Tienes coche? —Sí, tengo uno.",
+          "options": ["en", "hi", "el", "li"],
+          "answer": "en" }
+      ]
+    }
+  ]
+}
