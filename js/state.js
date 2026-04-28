@@ -5,6 +5,7 @@ const C_LANG = "lulio_lang";
 const C_PROGRESS = "lulio_progress";
 const C_XP = "lulio_xp";
 const C_EXAMS = "lulio_exams";
+const C_LEVEL = "lulio_level";
 
 const listeners = new Set();
 
@@ -13,6 +14,7 @@ const _state = {
   progress: {},
   xp: 0,
   exams: {},
+  startingBlock: 0,
 };
 
 function readCookie(name) {
@@ -47,6 +49,8 @@ export function loadState() {
   const xp = parseInt(readCookie(C_XP) || "0", 10);
   _state.xp = Number.isFinite(xp) ? xp : 0;
   _state.exams = readJsonCookie(C_EXAMS, {});
+  const lvl = parseInt(readCookie(C_LEVEL) || "0", 10);
+  _state.startingBlock = (lvl >= 1 && lvl <= 5) ? lvl : 0;
   notify();
 }
 
@@ -117,6 +121,20 @@ export function markBlockExamPassed(blockId) {
 
 export function totalLessonsCompleted() {
   return Object.values(_state.progress).filter((p) => p.completedAt).length;
+}
+
+export function hasChosenLevel() {
+  return _state.startingBlock > 0;
+}
+
+export function getStartingBlock() {
+  return _state.startingBlock;
+}
+
+export function setStartingBlock(block) {
+  _state.startingBlock = block;
+  writeCookie(C_LEVEL, String(block));
+  notify();
 }
 
 export function onChange(fn) {
