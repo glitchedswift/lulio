@@ -10,13 +10,27 @@
       "id": "t1",
       "title": { "es": "Tiendas y mercado", "ca": "Botigues i mercat" },
       "goal": {
-        "es": "Botiga, mercat, fleca, carnisseria, peixateria.",
-        "ca": "Tipus de botiga."
+        "es": "Las tiendas especializadas siguen el patrón: producto + -eria.",
+        "ca": "Botigues especialitzades: producte + -eria."
       },
       "exercises": [
         { "type": "flashcard", "ca": "la botiga", "es": "la tienda",
-          "note": { "es": "«Botiga» = tienda. ¡Nada que ver con el español «botica»!", "ca": "«Botiga» = tienda." } },
+          "note": { "es": "«Botiga» = tienda. ¡Nada que ver con «botica»!", "ca": "«Botiga» = tienda." } },
         { "type": "flashcard", "ca": "el mercat", "es": "el mercado" },
+        {
+          "type": "pattern",
+          "rule": { "from": "-ería (es.)", "to": "-eria (ca.)" },
+          "examples": [
+            { "es": "carnicería", "ca": "carnisseria" },
+            { "es": "pescadería", "ca": "peixateria" },
+            { "es": "frutería", "ca": "fruiteria" },
+            { "es": "panadería", "ca": "fleca / forn" }
+          ],
+          "note": {
+            "es": "Las tiendas especializadas: producto + -eria. La excepción es la panadería → fleca (o forn), que no sigue el sufijo.",
+            "ca": "Producte + -eria. Excepció: la fleca (panadería)."
+          }
+        },
         { "type": "flashcard", "ca": "la fleca", "es": "la panadería",
           "note": { "es": "También se diu «el forn».", "ca": "També «el forn»." } },
         { "type": "flashcard", "ca": "la carnisseria", "es": "la carnicería" },
@@ -45,7 +59,7 @@
       },
       "exercises": [
         { "type": "flashcard", "ca": "Quant val?", "es": "¿Cuánto vale?",
-          "note": { "es": "También «Quant costa?». Ambas son válidas.", "ca": "«Quant costa?» també." } },
+          "note": { "es": "También «Quant costa?». Ambas válidas.", "ca": "«Quant costa?» també." } },
         { "type": "flashcard", "ca": "el preu", "es": "el precio" },
         { "type": "flashcard", "ca": "barat", "es": "barato" },
         { "type": "flashcard", "ca": "car", "es": "caro",
@@ -83,13 +97,13 @@
         { "type": "flashcard", "ca": "la talla", "es": "la talla" },
         { "type": "flashcard", "ca": "el número", "es": "el número (de zapato)" },
         { "type": "flashcard", "ca": "la targeta", "es": "la tarjeta",
-          "note": { "es": "«Targeta» con -j-. Mismo sonido /ʒ/ suave.", "ca": "Amb -j-." } },
+          "note": { "es": "«Targeta» con -j- suave.", "ca": "Amb -j-." } },
         { "type": "flashcard", "ca": "en efectiu", "es": "en efectivo" },
         { "type": "flashcard", "ca": "el tiquet", "es": "el ticket / recibo" },
         { "type": "compare",
           "es": "¿Puedo probarme esto?",
           "ca": "M'ho puc emprovar?",
-          "note": { "es": "«M'ho» = me + lo (CD). Combinación de pronombres.", "ca": "«M'ho» = «em + ho»." }
+          "note": { "es": "«M'ho» = me + lo (CD). Combinación de pronombres típica del catalán.", "ca": "«M'ho» = «em + ho»." }
         },
         { "type": "compare",
           "es": "Pago con tarjeta",

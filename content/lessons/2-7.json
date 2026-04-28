@@ -10,21 +10,35 @@
       "id": "t1",
       "title": { "es": "Las estaciones", "ca": "Les estacions" },
       "goal": {
-        "es": "Las cuatro estaciones del año y cómo situar acciones en ellas.",
-        "ca": "Les quatre estacions de l'any i com situar-hi accions."
+        "es": "Las cuatro estaciones y el truco: «a» + artículo con las estaciones (no «en»).",
+        "ca": "Les quatre estacions i el truc: «a» + article (no «en»)."
       },
       "exercises": [
         { "type": "flashcard", "ca": "la primavera", "es": "la primavera" },
         { "type": "flashcard", "ca": "l'estiu", "es": "el verano",
           "note": { "es": "«L'estiu»: masculino, artículo apostrofado.", "ca": "Masculí: l'estiu." } },
         { "type": "flashcard", "ca": "la tardor", "es": "el otoño",
-          "note": { "es": "¡Falso amigo! «Tardor» no viene de «tardanza»: es el otoño.", "ca": "«Tardor» = otoño. No és «tardança»." } },
+          "note": { "es": "¡Falso amigo! «Tardor» es el otoño, no tardanza.", "ca": "«Tardor» = otoño. No «tardança»." } },
         { "type": "flashcard", "ca": "l'hivern", "es": "el invierno",
           "note": { "es": "«L'hivern»: la h es muda. Masculino.", "ca": "La h és muda. Masculí." } },
+        {
+          "type": "pattern",
+          "rule": { "from": "en + estación", "to": "a + article + estació" },
+          "examples": [
+            { "es": "en primavera", "ca": "a la primavera" },
+            { "es": "en verano", "ca": "a l'estiu" },
+            { "es": "en otoño", "ca": "a la tardor" },
+            { "es": "en invierno", "ca": "a l'hivern" }
+          ],
+          "note": {
+            "es": "Catalán usa «a» + artículo con estaciones, nunca «en». Masc.: a l'estiu, a l'hivern. Fem.: a la primavera, a la tardor.",
+            "ca": "«A» + article amb estacions. Masc.: a l'estiu, a l'hivern. Fem.: a la primavera, a la tardor."
+          }
+        },
         { "type": "compare",
           "es": "En verano hace mucho calor",
           "ca": "A l'estiu fa molt de calor",
-          "note": { "es": "«A l'estiu» = en verano. Con estaciones se usa «a» en catalán.", "ca": "«A l'estiu»: preposició «a»." }
+          "note": { "es": "«A l'estiu» = en verano. Recuerda: «a», no «en».", "ca": "«A l'estiu»: preposició «a»." }
         },
         { "type": "compare",
           "es": "En otoño caen las hojas",
@@ -44,12 +58,26 @@
       "id": "t2",
       "title": { "es": "El tiempo (meteorológico)", "ca": "El temps (meteorològic)" },
       "goal": {
-        "es": "Fa sol, plou, neva. Las construcciones básicas para describir el tiempo.",
-        "ca": "Fa sol, plou, neva. Les construccions bàsiques per descriure el temps."
+        "es": "Fa sol, plou, neva. Patrón «fa + nombre» para el tiempo, más verbos directos.",
+        "ca": "«Fa + nom» per al temps. Verbs directes: plou, neva."
       },
       "exercises": [
         { "type": "flashcard", "ca": "fa sol", "es": "hace sol" },
         { "type": "flashcard", "ca": "fa vent", "es": "hace viento" },
+        {
+          "type": "pattern",
+          "rule": { "from": "hace + nombre", "to": "fa + nom" },
+          "examples": [
+            { "es": "hace sol", "ca": "fa sol" },
+            { "es": "hace viento", "ca": "fa vent" },
+            { "es": "hace calor", "ca": "fa calor" },
+            { "es": "hace frío", "ca": "fa fred" }
+          ],
+          "note": {
+            "es": "«Fa» = hace. Mismo patrón que en español para el tiempo. Excepción: plou (llueve) y neva (nieva) son verbos directos, sin «fa».",
+            "ca": "«Fa» = hace. Excepcions: plou, neva → verbs directes."
+          }
+        },
         { "type": "flashcard", "ca": "plou", "es": "llueve" },
         { "type": "flashcard", "ca": "neva", "es": "nieva" },
         { "type": "flashcard", "ca": "hi ha núvols", "es": "hay nubes",
@@ -60,11 +88,6 @@
           "es": "Hace calor y mucho sol",
           "ca": "Fa calor i molt de sol",
           "note": { "es": "«Molt de» con sustantivos: molt de sol, molt de fred, molt de vent.", "ca": "«Molt de» + nom." }
-        },
-        { "type": "compare",
-          "es": "Está lloviendo",
-          "ca": "Està plovent",
-          "note": { "es": "Gerundio: «estar + plovent» también es válido.", "ca": "Gerundi: «plovent»." }
         },
         { "type": "fill_blank",
           "sentence": "Avui ___ molt. Porta paraigua!",
@@ -79,10 +102,25 @@
       "id": "t3",
       "title": { "es": "Los meses del año", "ca": "Els mesos de l'any" },
       "goal": {
-        "es": "Los doce meses en catalán. Muchos se parecen al español, pero alguns tienen cambios importantes.",
-        "ca": "Els dotze mesos en català. Molts s'assemblen al castellà però alguns tenen canvis importants."
+        "es": "Muchos meses son predecibles (-ero → -er). Los irregulares son maig y juny.",
+        "ca": "Molts mesos: -ero → -er. Els irregulars: maig i juny."
       },
       "exercises": [
+        {
+          "type": "pattern",
+          "rule": { "from": "-ero / -iembre", "to": "-er / -embre" },
+          "examples": [
+            { "es": "enero", "ca": "gener" },
+            { "es": "febrero", "ca": "febrer" },
+            { "es": "septiembre", "ca": "setembre" },
+            { "es": "noviembre", "ca": "novembre" },
+            { "es": "diciembre", "ca": "desembre" }
+          ],
+          "note": {
+            "es": "-ero → -er (gener, febrer). -iembre → -embre (setembre, novembre, desembre). Los irregulares: mayo=maig, junio=juny.",
+            "ca": "-ero → -er. -iembre → -embre. Irregulars: maig, juny."
+          }
+        },
         { "type": "flashcard", "ca": "gener", "es": "enero" },
         { "type": "flashcard", "ca": "febrer", "es": "febrero" },
         { "type": "flashcard", "ca": "març", "es": "marzo" },

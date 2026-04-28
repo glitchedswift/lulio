@@ -10,12 +10,26 @@
       "id": "t1",
       "title": { "es": "Pares y hermanos", "ca": "Pares i germans" },
       "goal": {
-        "es": "Aprende los miembros más cercanos de la familia.",
-        "ca": "Aprèn els membres més propers de la família."
+        "es": "Los miembros más cercanos y el patrón masc./fem. de la familia.",
+        "ca": "Els membres més propers i el patró masc./fem. de la família."
       },
       "exercises": [
         { "type": "flashcard", "ca": "el pare", "es": "el padre" },
         { "type": "flashcard", "ca": "la mare", "es": "la madre" },
+        {
+          "type": "pattern",
+          "rule": { "from": "masc.", "to": "fem. (+ -a)" },
+          "examples": [
+            { "es": "padre → madre", "ca": "pare → mare" },
+            { "es": "hermano → hermana", "ca": "germà → germana" },
+            { "es": "abuelo → abuela", "ca": "avi → àvia" },
+            { "es": "primo → prima", "ca": "cosí → cosina" }
+          ],
+          "note": {
+            "es": "Patrón general: masculino acaba en vocal, femenino añade -a. «Mare» y «àvia» son irregulares pero siguen la misma lógica.",
+            "ca": "Masculí acaba en vocal, femení afegeix -a. «Mare» i «àvia» irregulars però lògics."
+          }
+        },
         { "type": "flashcard", "ca": "els pares", "es": "los padres" },
         { "type": "flashcard", "ca": "el germà", "es": "el hermano",
           "note": { "es": "Atento al acento: «germà» con acento abierto.", "ca": "Atent a l'accent: «germà»." } },
@@ -42,6 +56,15 @@
         { "type": "flashcard", "ca": "l'avi", "es": "el abuelo",
           "note": { "es": "Recuerda el apóstrofo: l'avi.", "ca": "Recorda l'apòstrof: l'avi." } },
         { "type": "flashcard", "ca": "l'àvia", "es": "la abuela" },
+        {
+          "type": "compare",
+          "es": "el abuelo / la abuela → los abuelos",
+          "ca": "l'avi / l'àvia → els avis",
+          "note": {
+            "es": "El plural «els avis» incluye abuelo y abuela juntos. Igual que «els pares» = el padre y la madre.",
+            "ca": "«Els avis» (avi + àvia). «Els pares» (pare + mare). Masculí plural inclou tots dos."
+          }
+        },
         { "type": "flashcard", "ca": "els avis", "es": "los abuelos" },
         { "type": "flashcard", "ca": "el nét", "es": "el nieto" },
         { "type": "flashcard", "ca": "la néta", "es": "la nieta" },
@@ -63,14 +86,14 @@
       },
       "exercises": [
         { "type": "flashcard", "ca": "l'oncle", "es": "el tío",
-          "note": { "es": "El catalán usa «oncle», más cercano al francés que al español.", "ca": "El català fa servir «oncle»." } },
+          "note": { "es": "El catalán usa «oncle», más cercano al francés que al español.", "ca": "«Oncle»: com el francès." } },
         { "type": "flashcard", "ca": "la tia", "es": "la tía" },
         { "type": "flashcard", "ca": "el cosí", "es": "el primo" },
         { "type": "flashcard", "ca": "la cosina", "es": "la prima" },
         { "type": "compare",
           "es": "Mi tío vive en Girona",
           "ca": "El meu oncle viu a Girona",
-          "note": { "es": "«Oncle» en lugar de «tío». Y atento: «a Girona», no «en Girona».", "ca": "«Oncle» en lloc de «tio»." }
+          "note": { "es": "«Oncle» en lugar de «tío». Y atento: «a Girona», no «en Girona».", "ca": "«Oncle» en lloc de «tio». «A Girona», no «en Girona»." }
         },
         { "type": "fill_blank",
           "sentence": "El meu ___ es diu Marc.",

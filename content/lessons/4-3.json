@@ -10,14 +10,28 @@
       "id": "t1",
       "title": { "es": "Sentimientos básicos", "ca": "Sentiments bàsics" },
       "goal": {
-        "es": "Content, trist, enfadat, espantat, sorprès.",
-        "ca": "Sentiments bàsics."
+        "es": "Estados emocionales: «estic» + adjetivo. El adjetivo concuerda en género.",
+        "ca": "«Estic» + adjectiu. L'adjectiu concorda en gènere."
       },
       "exercises": [
         { "type": "flashcard", "ca": "content / contenta", "es": "contento / contenta" },
         { "type": "flashcard", "ca": "trist / trista", "es": "triste" },
         { "type": "flashcard", "ca": "enfadat / enfadada", "es": "enfadado / enfadada",
           "note": { "es": "También se usa «empipat», más coloquial.", "ca": "També «empipat»." } },
+        {
+          "type": "pattern",
+          "rule": { "from": "estoy + adj.", "to": "estic + adj." },
+          "examples": [
+            { "es": "estoy contento/a", "ca": "estic content/a" },
+            { "es": "estoy triste", "ca": "estic trist/a" },
+            { "es": "estoy cansado/a", "ca": "estic cansat/a" },
+            { "es": "estoy asustado/a", "ca": "estic espantat/a" }
+          ],
+          "note": {
+            "es": "Estados emocionales siempre con «estic» (nunca «sóc»). El adjetivo concuerda en género: content (m.) / contenta (f.).",
+            "ca": "«Estic» per a estats. L'adjectiu concorda: content (m.) / contenta (f.)."
+          }
+        },
         { "type": "flashcard", "ca": "espantat / espantada", "es": "asustado / asustada" },
         { "type": "flashcard", "ca": "sorprès / sorpresa", "es": "sorprendido / sorprendida",
           "note": { "es": "Masculino con acento abierto: sorprès. Femenino: sorpresa.", "ca": "«Sorprès» / «sorpresa»." } },
@@ -25,7 +39,7 @@
         { "type": "compare",
           "es": "Estoy muy contenta",
           "ca": "Estic molt contenta",
-          "note": { "es": "Aquí sí «estic» (estado emocional, no ubicación).", "ca": "«Estic» per estats emocionals." }
+          "note": { "es": "«Estic» para estados emocionales. «Estic», no «sóc».", "ca": "«Estic» per a estats emocionals." }
         },
         { "type": "fill_blank",
           "sentence": "Avui estic una mica ___.",
@@ -39,14 +53,28 @@
       "id": "t2",
       "title": { "es": "Tener + emoción", "ca": "Tenir + emoció" },
       "goal": {
-        "es": "Tinc por, tinc gana, tinc set, tinc son, tinc fred.",
-        "ca": "Construccions amb «tenir»."
+        "es": "Tinc por, tinc gana, tinc set… Truco: gana, son, pressa son femeninas.",
+        "ca": "Tinc por, gana, set… Truc: gana, son, pressa son femenines."
       },
       "exercises": [
         { "type": "flashcard", "ca": "tenir por", "es": "tener miedo" },
         { "type": "flashcard", "ca": "tenir gana", "es": "tener hambre" },
         { "type": "flashcard", "ca": "tenir set", "es": "tener sed",
           "note": { "es": "«Set» también significa «siete». El contexto manda.", "ca": "«Set»: set de beure o nombre 7." } },
+        {
+          "type": "pattern",
+          "rule": { "from": "tengo + mucho/a", "to": "tinc + molt/a" },
+          "examples": [
+            { "es": "tengo mucha hambre", "ca": "tinc molta gana" },
+            { "es": "tengo mucho frío", "ca": "tinc molt fred" },
+            { "es": "tengo mucho sueño", "ca": "tinc molta son" },
+            { "es": "tengo mucha prisa", "ca": "tinc molta pressa" }
+          ],
+          "note": {
+            "es": "Truco de género: gana, son, pressa son femeninas → molta. Fred, calor son masculinos → molt.",
+            "ca": "Gana, son, pressa: femenines → molta. Fred, calor: masculins → molt."
+          }
+        },
         { "type": "flashcard", "ca": "tenir son", "es": "tener sueño" },
         { "type": "flashcard", "ca": "tenir fred", "es": "tener frío" },
         { "type": "flashcard", "ca": "tenir calor", "es": "tener calor" },
@@ -54,7 +82,7 @@
         { "type": "compare",
           "es": "Tengo mucha hambre",
           "ca": "Tinc molta gana",
-          "note": { "es": "«Gana» es femenino: «molta gana». ¡Aquí cambia el género respecto al español!", "ca": "«Gana» és femenina." }
+          "note": { "es": "«Gana» es femenino: «molta gana». ¡Cambia el género respecto al español!", "ca": "«Gana» és femenina: molta gana." }
         },
         { "type": "translate", "direction": "es-ca",
           "prompt": "Tengo sed y frío",
@@ -87,7 +115,7 @@
         { "type": "compare",
           "es": "Lo siento mucho",
           "ca": "Ho sento molt",
-          "note": { "es": "«Ho sento» con «ho» (lo neutro).", "ca": "«Ho sento»." }
+          "note": { "es": "«Ho sento» con «ho» (lo neutro).", "ca": "«Ho sento» amb «ho»." }
         },
         { "type": "translate", "direction": "es-ca",
           "prompt": "Te entiendo perfectamente",

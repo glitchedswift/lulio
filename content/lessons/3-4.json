@@ -45,19 +45,18 @@
         "ca": "La carta, el menú i els plats."
       },
       "exercises": [
-        { "type": "flashcard", "ca": "la carta", "es": "la carta",
-          "note": { "es": "Igual en ambos idiomas, pero ojo con «el menú» (suele ser el menú del día).", "ca": "Igual a l'espanyol." } },
+        { "type": "flashcard", "ca": "la carta", "es": "la carta" },
         { "type": "flashcard", "ca": "el menú del dia", "es": "el menú del día" },
         { "type": "flashcard", "ca": "el primer plat", "es": "el primer plato" },
         { "type": "flashcard", "ca": "el segon plat", "es": "el segundo plato" },
         { "type": "flashcard", "ca": "les postres", "es": "el postre",
-          "note": { "es": "Plural en catalán: les postres (femenino).", "ca": "Sempre en plural." } },
+          "note": { "es": "Plural en catalán: les postres (femenino).", "ca": "Sempre en plural: les postres." } },
         { "type": "flashcard", "ca": "demanar", "es": "pedir",
-          "note": { "es": "«Demanar» = pedir. NO «pedir» como en español («pidir»), que no existe en catalán.", "ca": "«Demanar» = pedir." } },
+          "note": { "es": "«Demanar» = pedir.", "ca": "«Demanar» = pedir." } },
         { "type": "compare",
           "es": "Voy a pedir el menú del día",
           "ca": "Demanaré el menú del dia",
-          "note": { "es": "«Demanaré» = pediré (futuro). En oral: «vaig a demanar».", "ca": "Futur o periphrasi." }
+          "note": { "es": "«Demanaré» = pediré (futuro). En oral: «vaig a demanar».", "ca": "Futur o perífrassi." }
         },
         { "type": "translate", "direction": "es-ca",
           "prompt": "¿Me trae la carta, por favor?",
@@ -76,8 +75,8 @@
       "id": "t3",
       "title": { "es": "Pagar y opinar", "ca": "Pagar i opinar" },
       "goal": {
-        "es": "El compte, propina, era boníssim.",
-        "ca": "El compte, propina, era boníssim."
+        "es": "El compte, propina, y el superlativo catalán: -íssim/-íssima.",
+        "ca": "El compte, propina i el superlatiu: -íssim/-íssima."
       },
       "exercises": [
         { "type": "flashcard", "ca": "el compte", "es": "la cuenta",
@@ -85,19 +84,33 @@
         { "type": "flashcard", "ca": "la propina", "es": "la propina" },
         { "type": "flashcard", "ca": "boníssim", "es": "buenísimo",
           "note": { "es": "Superlativo: bo + íssim. Femenino: boníssima.", "ca": "Superlatiu: -íssim/-íssima." } },
+        {
+          "type": "pattern",
+          "rule": { "from": "muy + adj.", "to": "adj. + -íssim/a" },
+          "examples": [
+            { "es": "muy bueno / buenísimo", "ca": "molt bo / boníssim" },
+            { "es": "muy buena / buenísima", "ca": "molt bona / boníssima" },
+            { "es": "muy rico / riquísimo", "ca": "molt bo / riquíssim" },
+            { "es": "muy dulce / dulcísimo", "ca": "molt dolç / dolcíssim" }
+          ],
+          "note": {
+            "es": "Superlativo catalán: adjetivo + -íssim (masc.) o -íssima (fem.). Muy expresivo y muy usado.",
+            "ca": "Superlatiu: adjectiu + -íssim/-íssima. Molt expressiu."
+          }
+        },
         { "type": "flashcard", "ca": "molt bo", "es": "muy bueno" },
         { "type": "flashcard", "ca": "salat", "es": "salado",
-          "note": { "es": "«Salat» (masculino), «salada» (femenino).", "ca": "«Salat» / «salada»." } },
+          "note": { "es": "«Salat» (masc.), «salada» (fem.).", "ca": "«Salat» / «salada»." } },
         { "type": "flashcard", "ca": "dolç", "es": "dulce" },
         { "type": "compare",
           "es": "La cuenta, por favor",
           "ca": "El compte, si us plau",
-          "note": { "es": "Frase clave. Memorízala.", "ca": "Frase clau." }
+          "note": { "es": "Frase clave. Masculino en catalán: el compte.", "ca": "Frase clau. Masculí: el compte." }
         },
         { "type": "compare",
           "es": "Estaba buenísimo",
           "ca": "Era boníssim",
-          "note": { "es": "«Era» o «estava». Catalán prefiere «era» con valoraciones generales.", "ca": "Imperfet: era / estava." }
+          "note": { "es": "«Era» o «estava». Catalán prefiere «era» con valoraciones generales.", "ca": "«Era» per a valoracions." }
         },
         { "type": "translate", "direction": "es-ca",
           "prompt": "La cuenta, por favor",
@@ -129,7 +142,7 @@
         { "type": "compare",
           "es": "Una tortilla de patatas",
           "ca": "Una truita de patates",
-          "note": { "es": "Aquí «truita» es la tortilla.", "ca": "«Truita de patates»." }
+          "note": { "es": "«Truita» aquí es la tortilla.", "ca": "«Truita de patates»." }
         }
       ]
     }

@@ -10,16 +10,25 @@
       "id": "t1",
       "title": { "es": "Del 0 al 10", "ca": "Del 0 al 10" },
       "goal": {
-        "es": "Aprende los primeros once números. Muchos parecen al español, otros no tanto.",
-        "ca": "Aprèn els primers onze nombres."
+        "es": "0-5 son muy cercanos al español. 6-10 hay que memorizarlos.",
+        "ca": "0-5 molt propers a l'espanyol. 6-10 cal memoritzar-los."
       },
       "exercises": [
         { "type": "flashcard", "ca": "zero", "es": "cero" },
         { "type": "flashcard", "ca": "u", "es": "uno",
-          "note": { "es": "Como adjetivo se usa «un / una».", "ca": "Com a adjectiu es fa servir «un / una»." } },
+          "note": { "es": "Como adjetivo se usa «un / una».", "ca": "Com a adjectiu: «un / una»." } },
         { "type": "flashcard", "ca": "dos", "es": "dos" },
         { "type": "flashcard", "ca": "tres", "es": "tres" },
         { "type": "flashcard", "ca": "quatre", "es": "cuatro" },
+        {
+          "type": "compare",
+          "es": "cero, dos, tres, cuatro, cinco",
+          "ca": "zero, dos, tres, quatre, cinc",
+          "note": {
+            "es": "Los cinco primeros son fáciles: casi idénticos al español. Los de la segunda mitad (sis, set, vuit, nou, deu) son los que hay que memorizar.",
+            "ca": "Els cinc primers són fàcils. Els de la segona meitat (sis, set, vuit, nou, deu) cal memoritzar-los."
+          }
+        },
         { "type": "flashcard", "ca": "cinc", "es": "cinco" },
         { "type": "flashcard", "ca": "sis", "es": "seis" },
         { "type": "flashcard", "ca": "set", "es": "siete" },
@@ -35,8 +44,8 @@
       "id": "t2",
       "title": { "es": "Del 11 al 20", "ca": "Del 11 al 20" },
       "goal": {
-        "es": "Aquí los números cambian más respecto al español. Memorízalos uno a uno.",
-        "ca": "Aquí els nombres canvien més respecte de l'espanyol."
+        "es": "11-16: formas únicas. 17-19: prefijo «di-» + número.",
+        "ca": "11-16: formes úniques. 17-19: prefix «di-» + nombre."
       },
       "exercises": [
         { "type": "flashcard", "ca": "onze", "es": "once" },
@@ -45,15 +54,23 @@
         { "type": "flashcard", "ca": "catorze", "es": "catorce" },
         { "type": "flashcard", "ca": "quinze", "es": "quince" },
         { "type": "flashcard", "ca": "setze", "es": "dieciséis" },
+        {
+          "type": "pattern",
+          "rule": { "from": "dici-/dieci-", "to": "di-" },
+          "examples": [
+            { "es": "diecisiete", "ca": "disset" },
+            { "es": "dieciocho", "ca": "divuit" },
+            { "es": "diecinueve", "ca": "dinou" }
+          ],
+          "note": {
+            "es": "El catalán comprime «diez y» en «di-». Solo tres: disset (di+set), divuit (di+vuit), dinou (di+nou).",
+            "ca": "«Di-» = «deu i». Tres únics: disset, divuit, dinou."
+          }
+        },
         { "type": "flashcard", "ca": "disset", "es": "diecisiete" },
         { "type": "flashcard", "ca": "divuit", "es": "dieciocho" },
         { "type": "flashcard", "ca": "dinou", "es": "diecinueve" },
         { "type": "flashcard", "ca": "vint", "es": "veinte" },
-        { "type": "compare",
-          "es": "dieciséis",
-          "ca": "setze",
-          "note": { "es": "El catalán usa formas únicas hasta el 16. Después: «di-» + número.", "ca": "El català fa servir formes úniques fins al 16. Després: «di-» + nombre." }
-        },
         { "type": "multiple_choice", "direction": "es-ca", "prompt": "diecisiete", "options": ["disset", "decisset", "diciset", "diset"], "answer": "disset" },
         { "type": "multiple_choice", "direction": "es-ca", "prompt": "veinte", "options": ["vint", "vente", "vint-i", "veinte"], "answer": "vint" }
       ]
@@ -62,10 +79,26 @@
       "id": "t3",
       "title": { "es": "Decenas y cien", "ca": "Desenes i cent" },
       "goal": {
-        "es": "Las decenas siguen un patrón parecido al español, con cambios de raíz.",
-        "ca": "Les desenes segueixen un patró semblant amb canvis d'arrel."
+        "es": "Las decenas siguen un patrón: raíz + -anta. Con guion para compuestos.",
+        "ca": "Desenes: arrel + -anta. Amb guió per als compostos."
       },
       "exercises": [
+        {
+          "type": "pattern",
+          "rule": { "from": "-enta / -enta", "to": "-anta" },
+          "examples": [
+            { "es": "treinta", "ca": "trenta" },
+            { "es": "cuarenta", "ca": "quaranta" },
+            { "es": "cincuenta", "ca": "cinquanta" },
+            { "es": "sesenta", "ca": "seixanta" },
+            { "es": "setenta", "ca": "setanta" },
+            { "es": "ochenta", "ca": "vuitanta" }
+          ],
+          "note": {
+            "es": "La mayoría sigue el patrón raíz + -anta. Excepción: ochenta → vuitanta (raíz de vuit), noventa → noranta.",
+            "ca": "Majoria: arrel + -anta. Excepcions: vuitanta, noranta."
+          }
+        },
         { "type": "flashcard", "ca": "trenta", "es": "treinta" },
         { "type": "flashcard", "ca": "quaranta", "es": "cuarenta" },
         { "type": "flashcard", "ca": "cinquanta", "es": "cincuenta" },

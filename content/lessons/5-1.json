@@ -24,6 +24,20 @@
           "note": { "es": "Danza tradicional catalana en círculo.", "ca": "Dansa tradicional en cercle." } },
         { "type": "flashcard", "ca": "el Tió", "es": "el Tió (de Nadal)",
           "note": { "es": "Tronco navideño que «caga» regalos. Una de les tradiciones más curiosas.", "ca": "Tronc nadalenc." } },
+        {
+          "type": "pattern",
+          "rule": { "from": "el/de + vocal → l'/d'", "to": "elisión ante vocal" },
+          "examples": [
+            { "es": "el once de septiembre", "ca": "l'onze de setembre" },
+            { "es": "el veintitrés de abril", "ca": "el vint-i-tres d'abril" },
+            { "es": "el ocho de agosto", "ca": "el vuit d'agost" },
+            { "es": "el once de noviembre", "ca": "l'onze de novembre" }
+          ],
+          "note": {
+            "es": "«El» → «l'» delante de vocal. «De» → «d'» delante de vocal. Regla que se aplica a fechas, meses y nombres.",
+            "ca": "«El» → «l'» i «de» → «d'» davant de vocal."
+          }
+        },
         { "type": "compare",
           "es": "El 11 de septiembre es la Diada",
           "ca": "L'onze de setembre és la Diada",
@@ -51,6 +65,14 @@
         { "type": "flashcard", "ca": "la costa Brava", "es": "la costa Brava" },
         { "type": "flashcard", "ca": "els Països Catalans", "es": "los Países Catalanes",
           "note": { "es": "Concepto cultural-lingüístico que abarca Catalunya, València, les Illes, Andorra, etc.", "ca": "Concepte lingüístic." } },
+        { "type": "compare",
+          "es": "en el Pirineo · en el Ebro · en la Costa Brava",
+          "ca": "al Pirineu · a l'Ebre · a la Costa Brava",
+          "note": {
+            "es": "«En» → «a» con lugares concretos. «A + el» = «al», «a + l'» = «a l'» (elision antes de vocal).",
+            "ca": "«A» amb llocs. «A + el» = «al», «a + l'» = «a l'»."
+          }
+        },
         { "type": "compare",
           "es": "Vivo en una comarca del Pirineo",
           "ca": "Visc a una comarca del Pirineu",
@@ -80,6 +102,14 @@
         { "type": "flashcard", "ca": "els gegants", "es": "los gigantes (figuras de fiesta)" },
         { "type": "flashcard", "ca": "el correfoc", "es": "el correfoc",
           "note": { "es": "«Correfoc» = correr fuego. Espectáculo de pirotecnia y dimonis.", "ca": "Espectacle de foc i dimonis." } },
+        { "type": "compare",
+          "es": "correfoc = correr + fuego",
+          "ca": "correfoc = córrer + foc",
+          "note": {
+            "es": "El catalán forma compuestos transparentes: córrer + foc, cap + gros (cabezón), etc. El español y el catalán comparten esta lógica.",
+            "ca": "Compostos transparents: córrer + foc, cap + gros, etc."
+          }
+        },
         { "type": "flashcard", "ca": "la Mercè", "es": "La Mercè",
           "note": { "es": "Fiestas grandes de Barcelona, en septiembre.", "ca": "Festes de Barcelona." } },
         { "type": "flashcard", "ca": "el Carnestoltes", "es": "el Carnaval" },

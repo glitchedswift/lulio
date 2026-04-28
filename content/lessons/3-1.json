@@ -10,13 +10,26 @@
       "id": "t1",
       "title": { "es": "Vocabulario básico", "ca": "Vocabulari bàsic" },
       "goal": {
-        "es": "Las direcciones cardinales del barrio: dreta, esquerra, recte, davant, darrere.",
-        "ca": "Dreta, esquerra, recte, davant, darrere."
+        "es": "Aprende los contrarios juntos: tres pares cubren el 80% de las indicaciones.",
+        "ca": "Aprèn els contraris junts: tres parelles cobreixen el 80% de les indicacions."
       },
       "exercises": [
         { "type": "flashcard", "ca": "a la dreta", "es": "a la derecha" },
         { "type": "flashcard", "ca": "a l'esquerra", "es": "a la izquierda",
-          "note": { "es": "«Esquerra» también es un partido y una orientación política, igual que «izquierda».", "ca": "«Esquerra»: també política." } },
+          "note": { "es": "«Esquerra» también es orientación política, igual que «izquierda».", "ca": "«Esquerra»: també política." } },
+        {
+          "type": "pattern",
+          "rule": { "from": "contrarios", "to": "contraris" },
+          "examples": [
+            { "es": "derecha ↔ izquierda", "ca": "dreta ↔ esquerra" },
+            { "es": "delante ↔ detrás", "ca": "davant ↔ darrere" },
+            { "es": "cerca ↔ lejos", "ca": "a prop ↔ lluny" }
+          ],
+          "note": {
+            "es": "Aprende los contrarios en pares: así fijas ambas palabras a la vez.",
+            "ca": "Aprèn els contraris en parelles: fixes les dues paraules alhora."
+          }
+        },
         { "type": "flashcard", "ca": "recte", "es": "recto",
           "note": { "es": "También «tot recte» = todo recto.", "ca": "També «tot recte»." } },
         { "type": "flashcard", "ca": "davant", "es": "delante" },
@@ -24,11 +37,11 @@
         { "type": "flashcard", "ca": "al costat de", "es": "al lado de" },
         { "type": "flashcard", "ca": "lluny", "es": "lejos" },
         { "type": "flashcard", "ca": "a prop", "es": "cerca",
-          "note": { "es": "«A prop» = cerca. No confundir con «aprop» (que no existe).", "ca": "Sempre separat: a prop." } },
+          "note": { "es": "«A prop» = cerca. Siempre separado: a prop.", "ca": "Sempre separat: a prop." } },
         { "type": "compare",
           "es": "Está al lado de la plaza",
           "ca": "És al costat de la plaça",
-          "note": { "es": "Recuerda: ubicación con «ser a/al costat de».", "ca": "Ubicació: «ser a»." }
+          "note": { "es": "Ubicación con «ser a/al costat de».", "ca": "Ubicació: «ser a»." }
         },
         { "type": "multiple_choice", "direction": "es-ca", "prompt": "a la izquierda", "options": ["a l'esquerra", "a la izquierda", "a la dreta", "a la esquerra"], "answer": "a l'esquerra" },
         { "type": "fill_blank",
@@ -79,13 +92,22 @@
       "id": "t3",
       "title": { "es": "Lugares de la ciudad", "ca": "Llocs de la ciutat" },
       "goal": {
-        "es": "Edificios y espacios urbanos: ajuntament, biblioteca, hospital, parc.",
-        "ca": "Edificis i espais urbans."
+        "es": "Edificios urbanos. Truco: «el carrer» es masculino aunque «la calle» sea femenina.",
+        "ca": "Edificis urbans. Truc: «el carrer» és masculí."
       },
       "exercises": [
         { "type": "flashcard", "ca": "l'ajuntament", "es": "el ayuntamiento" },
         { "type": "flashcard", "ca": "la biblioteca", "es": "la biblioteca" },
         { "type": "flashcard", "ca": "l'hospital", "es": "el hospital" },
+        {
+          "type": "compare",
+          "es": "la calle (femenino)",
+          "ca": "el carrer (masculino)",
+          "note": {
+            "es": "Truco de género: «la calle» española se convierte en «el carrer» masculino en catalán. No digas «la carrer».",
+            "ca": "«La calle» (fem.) → «el carrer» (masc.). No «la carrer»."
+          }
+        },
         { "type": "flashcard", "ca": "el parc", "es": "el parque",
           "note": { "es": "Sin -e final: «parc».", "ca": "Sense -e final." } },
         { "type": "flashcard", "ca": "el carrer", "es": "la calle",
@@ -95,7 +117,7 @@
         { "type": "compare",
           "es": "La biblioteca está en la calle Mayor",
           "ca": "La biblioteca és al carrer Major",
-          "note": { "es": "«Al carrer» = en la calle. Y «calle» pasa a masculino: el carrer Major.", "ca": "«Al carrer Major»: masculí." }
+          "note": { "es": "«Al carrer» = en la calle.", "ca": "«Al carrer Major»: masculí." }
         },
         { "type": "multiple_choice", "direction": "es-ca", "prompt": "el ayuntamiento", "options": ["l'ajuntament", "el ajuntament", "el ayuntament", "l'ajuntamiento"], "answer": "l'ajuntament" },
         { "type": "fill_blank",
@@ -123,7 +145,7 @@
         { "type": "flashcard", "ca": "girar", "es": "girar" },
         { "type": "flashcard", "ca": "travessar", "es": "cruzar / atravesar" },
         { "type": "flashcard", "ca": "tornar", "es": "volver",
-          "note": { "es": "«Tornar» = volver. ¡No «tornar» del español, que tiene otro sentido!", "ca": "«Tornar» = volver." } },
+          "note": { "es": "«Tornar» = volver. Fácil de recordar.", "ca": "«Tornar» = volver." } },
         { "type": "compare",
           "es": "Cruza la calle y vuelve atrás",
           "ca": "Travessa el carrer i torna enrere",
