@@ -1,4 +1,6 @@
 :root {
+  color-scheme: light dark;
+
   --font: "Nunito", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 
   --bg: #fff8ec;
@@ -13,8 +15,10 @@
   --accent: #ff9600;
   --accent-dark: #d57e00;
   --danger: #ef4444;
+  --danger-soft: #ffe5e5;
   --info: #1cb0f6;
   --gold: #ffc800;
+  --gold-text: #5a4500;
 
   --shadow-sm: 0 2px 0 rgba(0, 0, 0, 0.08);
   --shadow-btn: 0 4px 0 rgba(0, 0, 0, 0.18);
@@ -44,6 +48,17 @@
     --ink: #fff7e6;
     --ink-soft: #b9a884;
     --line: #3a2f1c;
+    --shadow-sm: 0 2px 0 rgba(0, 0, 0, 0.25);
+    --shadow-btn: 0 4px 0 rgba(0, 0, 0, 0.4);
     --shadow-card: 0 12px 32px rgba(0, 0, 0, 0.4);
+
+    --primary-soft: #1d3f08;
+    --danger-soft: #3a0808;
+
+    --block-1-soft: #1d3f08;
+    --block-2-soft: #053545;
+    --block-3-soft: #2a1248;
+    --block-4-soft: #3a1f00;
+    --block-5-soft: #3a0808;
   }
 }
