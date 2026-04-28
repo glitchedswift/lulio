@@ -39,7 +39,7 @@ This document is the canonical brief for any LLM (or human) maintaining **Lulio*
 │   ├── i18n.js               # UI strings ES/CA + t()
 │   ├── tts.js                # Web Speech wrapper, picks ca-ES voice
 │   ├── content.js            # fetch + cache JSON content
-│   ├── exercises.js          # Renderer + check API for the 6 exercise types
+│   ├── exercises.js          # Renderer + check API for the 7 exercise types
 │   └── views/
 │       ├── home.js           # Entry screen
 │       ├── roadmap.js        # Snake-path map of blocks/lessons
@@ -227,7 +227,6 @@ Edit `js/i18n.js`. Keys must exist in **both** `es` and `ca`. Strings here are *
 
 - `content/index.json` carries a `version` field — bump on content changes (semver-ish: patch for typos, minor for new lessons, major for schema breaks).
 - Tag releases in git: `git tag v0.2.0 && git push --tags`.
-- Add a one-line changelog entry to `README.md` under "Changelog".
 
 ## Out of scope (intentional)
 
