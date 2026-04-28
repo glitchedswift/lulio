@@ -3,6 +3,15 @@ import { loadIndex, loadLesson } from "../content.js";
 import { renderExercise } from "../exercises.js";
 import { getLang, markTopicComplete, markLessonComplete } from "../state.js";
 import { playCorrect, playWrong } from "../sfx.js";
+import { trackEvent } from "../analytics.js";
+
+const CORRECT_KEYS = [
+  "lesson.correct.1",
+  "lesson.correct.2",
+  "lesson.correct.3",
+  "lesson.correct.4",
+  "lesson.correct.5",
+];
 
 export async function renderLesson(el, params) {
   const lessonId = params.id;
@@ -66,12 +75,16 @@ export async function renderLesson(el, params) {
   let topicIndex = 0;
   let exerciseIndex = 0;
   let mistakes = 0;
+  let streak = 0;
 
   el.innerHTML = `
     <div class="lesson-shell" style="--block-color:${blockColor}; --block-soft:${blockSoft};">
       <div class="lesson-header">
         <button class="lesson-back" id="back" aria-label="${t("lesson.back")}">←</button>
-        <div class="progress"><div id="progress-bar"></div></div>
+        <div class="progress-wrap">
+          <div class="progress"><div id="progress-bar"></div></div>
+          <span id="progress-pct" class="progress-pct">0%</span>
+        </div>
       </div>
       <div class="lesson-meta">
         <h1 id="lesson-title"></h1>
@@ -96,6 +109,7 @@ export async function renderLesson(el, params) {
   const goalEl = $("goal");
   const pill = $("topic-pill");
   const progressBar = $("progress-bar");
+  const progressPct = $("progress-pct");
   const mount = $("exercise-mount");
   const checkBtn = $("check");
   const skipBtn = $("skip");
@@ -112,7 +126,9 @@ export async function renderLesson(el, params) {
     let done = 0;
     for (let i = 0; i < topicIndex; i++) done += topics[i].exercises.length;
     done += exerciseIndex;
-    progressBar.style.width = Math.min(100, (done / totalSteps) * 100) + "%";
+    const pct = Math.min(100, Math.round((done / totalSteps) * 100));
+    progressBar.style.width = pct + "%";
+    progressPct.textContent = pct + "%";
   }
 
   function showExercise() {
@@ -166,17 +182,36 @@ export async function renderLesson(el, params) {
     if (fb) fb.remove();
     fb = document.createElement("div");
     fb.className = "feedback " + (correct ? "correct" : "incorrect");
+
+    const msg = correct
+      ? t(CORRECT_KEYS[Math.floor(Math.random() * CORRECT_KEYS.length)])
+      : t("lesson.incorrect") + " <em>" + expected + "</em>";
+
+    const streakBadge = (correct && streak > 0 && streak % 3 === 0)
+      ? `<span class="feedback-streak">${t("lesson.streak").replace("{n}", streak)}</span>`
+      : "";
+
     fb.innerHTML = `
-      <div class="feedback-text">${correct ? t("lesson.correct") : t("lesson.incorrect") + " <em>" + expected + "</em>"}</div>
+      <div class="feedback-text">${msg}${streakBadge}</div>
       <button class="btn ${correct ? "" : "btn-accent"}" id="fb-continue">${t("lesson.continue")}</button>
     `;
     document.body.appendChild(fb);
     requestAnimationFrame(() => fb.classList.add("shown"));
-    fb.querySelector("#fb-continue").addEventListener("click", () => {
+
+    let timer = null;
+    const dismiss = () => {
+      if (timer) { clearTimeout(timer); timer = null; }
       fb.classList.remove("shown");
       setTimeout(() => fb.remove(), 250);
       onContinue();
-    });
+    };
+
+    fb.querySelector("#fb-continue").addEventListener("click", dismiss);
+
+    if (correct) {
+      timer = setTimeout(dismiss, 1300);
+    }
+
     // Hide the regular footer briefly while feedback is up.
     el.querySelector(".lesson-footer").style.display = "none";
   }
@@ -199,9 +234,8 @@ export async function renderLesson(el, params) {
 
   function nextTopic(skipped) {
     const topic = topics[topicIndex];
-    if (!skipped) {
-      markTopicComplete(lessonId, topic.id, topic.isExtra, topic.xp || 10);
-    }
+    // Count skipped topics with 0 XP so lesson completion is tracked correctly.
+    markTopicComplete(lessonId, topic.id, topic.isExtra, skipped ? 0 : topic.xp || 10);
     topicIndex += 1;
     exerciseIndex = 0;
     if (topicIndex >= topics.length) {
@@ -213,8 +247,10 @@ export async function renderLesson(el, params) {
 
   function finishLesson() {
     markLessonComplete(lessonId);
+    trackEvent("lesson-complete/" + lessonId);
     setProgress();
     progressBar.style.width = "100%";
+    progressPct.textContent = "100%";
     el.innerHTML = `
       <section class="completion">
         <img src="assets/logo.svg" alt="Lulio" class="completion-mascot" />
@@ -237,7 +273,12 @@ export async function renderLesson(el, params) {
       return;
     }
     const { correct, expected } = currentApi.check();
-    if (!correct) mistakes += 1;
+    if (!correct) {
+      mistakes += 1;
+      streak = 0;
+    } else {
+      streak += 1;
+    }
     if (correct) playCorrect(); else playWrong();
     showFeedback(correct, expected, () => {
       if (correct) {
