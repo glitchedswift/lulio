@@ -1,4 +1,14 @@
 import { t } from "../i18n.js";
+import { hasChosenLevel, setStartingBlock } from "../state.js";
+import { navigate } from "../router.js";
+
+const LEVELS = [
+  { block: 1, cefr: "A1",     labelKey: "level.a1.label", hintKey: "level.a1.hint", colorVar: "--block-1" },
+  { block: 2, cefr: "A1+/A2", labelKey: "level.a2.label", hintKey: "level.a2.hint", colorVar: "--block-2" },
+  { block: 3, cefr: "A2/B1",  labelKey: "level.b1.label", hintKey: "level.b1.hint", colorVar: "--block-3" },
+  { block: 4, cefr: "B1/B2",  labelKey: "level.b2.label", hintKey: "level.b2.hint", colorVar: "--block-4" },
+  { block: 5, cefr: "B2+",    labelKey: "level.b2p.label", hintKey: "level.b2p.hint", colorVar: "--block-5" },
+];
 
 export function renderHome(el) {
   el.innerHTML = `
@@ -68,4 +78,42 @@ export function renderHome(el) {
       </div>
     </section>
   `;
+
+  if (!hasChosenLevel()) {
+    showLevelSelector();
+  }
+}
+
+function showLevelSelector() {
+  const overlay = document.createElement("div");
+  overlay.className = "level-overlay";
+  overlay.setAttribute("role", "dialog");
+  overlay.setAttribute("aria-modal", "true");
+
+  const cards = LEVELS.map(({ block, cefr, labelKey, hintKey, colorVar }) => `
+    <button class="level-card" data-block="${block}" style="--level-color:var(${colorVar})">
+      <span class="level-badge">${cefr}</span>
+      <span class="level-label">${t(labelKey)}</span>
+      <span class="level-hint">${t(hintKey)}</span>
+    </button>
+  `).join("");
+
+  overlay.innerHTML = `
+    <div class="level-modal">
+      <h2>${t("level.title")}</h2>
+      <p>${t("level.subtitle")}</p>
+      <div class="level-cards">${cards}</div>
+    </div>
+  `;
+
+  overlay.addEventListener("click", (e) => {
+    const card = e.target.closest(".level-card");
+    if (!card) return;
+    const block = parseInt(card.dataset.block, 10);
+    setStartingBlock(block);
+    overlay.remove();
+    navigate("#/roadmap");
+  });
+
+  document.body.appendChild(overlay);
 }

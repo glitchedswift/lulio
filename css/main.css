@@ -505,3 +505,67 @@ a { color: inherit; text-decoration: none; }
 .roadmap-congrats-emoji { font-size: 56px; margin-bottom: 8px; }
 .roadmap-congrats h2 { margin: 0 0 8px; font-size: 28px; color: var(--primary-dark); }
 .roadmap-congrats p { margin: 0; font-size: 16px; color: var(--ink); font-weight: 700; }
+
+/* ── Level selector overlay ──────────────────────────────────────── */
+.level-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.72);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+  padding: 1rem;
+}
+.level-modal {
+  background: var(--bg);
+  border-radius: var(--radius-lg);
+  padding: 2rem 1.5rem 1.75rem;
+  max-width: 580px;
+  width: 100%;
+  text-align: center;
+  box-shadow: var(--shadow-card);
+}
+.level-modal h2 { margin: 0 0 0.25rem; font-size: 1.35rem; }
+.level-modal > p { color: var(--ink-2); margin: 0 0 1.5rem; font-size: 0.95rem; }
+.level-cards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.6rem;
+}
+.level-card {
+  border: 2px solid var(--line);
+  border-radius: var(--radius);
+  padding: 0.9rem 0.35rem;
+  cursor: pointer;
+  background: none;
+  font-family: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  transition: transform 0.15s, border-color 0.15s, box-shadow 0.15s;
+}
+.level-card:hover,
+.level-card:focus-visible {
+  outline: none;
+  transform: translateY(-3px);
+  border-color: var(--level-color);
+  box-shadow: 0 4px 16px color-mix(in srgb, var(--level-color) 28%, transparent);
+}
+.level-badge {
+  font-size: 0.62rem;
+  font-weight: 800;
+  color: var(--level-color);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.level-label { font-weight: 700; font-size: 0.88rem; }
+.level-hint {
+  font-size: 0.68rem;
+  color: var(--ink-2);
+  line-height: 1.3;
+}
+@media (max-width: 480px) {
+  .level-cards { grid-template-columns: repeat(3, 1fr); }
+}

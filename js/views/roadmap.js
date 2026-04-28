@@ -1,6 +1,6 @@
 import { t } from "../i18n.js";
 import { loadIndex } from "../content.js";
-import { getLessonProgress, isLessonComplete, totalLessonsCompleted, getLang, isBlockExamPassed } from "../state.js";
+import { getLessonProgress, isLessonComplete, totalLessonsCompleted, getLang, isBlockExamPassed, getStartingBlock } from "../state.js";
 
 function progressRing(done, total) {
   const r = 26;
@@ -52,7 +52,9 @@ export async function renderRoadmap(el) {
   const done = totalLessonsCompleted();
 
   // Determine each block's state: complete / current / locked
-  const blockStates = index.blocks.map((block) => {
+  const startingBlock = getStartingBlock();
+  const blockStates = index.blocks.map((block, bi) => {
+    if (startingBlock > 0 && bi + 1 < startingBlock) return { complete: true, examPassed: false };
     const nonPlaceholders = block.lessons.filter((l) => !l.placeholder);
     const lessonsDone = nonPlaceholders.length > 0 && nonPlaceholders.every((lesson) => {
       const id = `${block.id}-${lesson.id}`;

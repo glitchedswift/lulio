@@ -79,6 +79,19 @@ const STRINGS = {
     "lesson.pattern": "Patrón lingüístico",
 
     "tts.no_voice": "Tu navegador no tiene voz en català instalada; usaremos español como aproximación.",
+
+    "level.title": "¿Cuál es tu nivel de catalán?",
+    "level.subtitle": "Empezaremos desde ahí.",
+    "level.a1.label": "Ninguno",
+    "level.a1.hint": "No sé nada de català",
+    "level.a2.label": "Básico",
+    "level.a2.hint": "Conozco alguna palabra suelta",
+    "level.b1.label": "Intermedio",
+    "level.b1.hint": "Me defiendo en situaciones cotidianas",
+    "level.b2.label": "Avanzado",
+    "level.b2.hint": "Entiendo bien y hablo con soltura",
+    "level.b2p.label": "Fluido",
+    "level.b2p.hint": "Lo uso habitualmente sin dificultad",
   },
   ca: {
     "home.tagline": "Aprèn català des de l'espanyol, <em class=\"home-em\">sense esforç.</em>",
@@ -157,6 +170,19 @@ const STRINGS = {
     "lesson.pattern": "Patró lingüístic",
 
     "tts.no_voice": "El teu navegador no té veu catalana instal·lada; farem servir l'espanyol com a aproximació.",
+
+    "level.title": "Quin és el teu nivell de català?",
+    "level.subtitle": "Començarem des d'aquí.",
+    "level.a1.label": "Cap",
+    "level.a1.hint": "No sé res de català",
+    "level.a2.label": "Bàsic",
+    "level.a2.hint": "Conec alguna paraula solta",
+    "level.b1.label": "Intermedi",
+    "level.b1.hint": "Em defens en situacions quotidianes",
+    "level.b2.label": "Avançat",
+    "level.b2.hint": "Entenc bé i parlo amb fluïdesa",
+    "level.b2p.label": "Fluid",
+    "level.b2p.hint": "El faig servir habitualment sense dificultat",
   },
 };
 
