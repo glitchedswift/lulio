@@ -85,7 +85,7 @@
         "ca": "Història, dites, registre i gramàtica avançada."
       },
       "lessons": [
-        { "id": 1, "title": { "es": "Historia y cultura", "ca": "Història i cultura" }, "icon": "🏛️", "topicCount": 3 },
+        { "id": 1, "title": { "es": "Fiestas y tradiciones", "ca": "Festes i tradicions" }, "icon": "🏛️", "topicCount": 3 },
         { "id": 2, "title": { "es": "Dichos populares", "ca": "Dites populars" }, "icon": "🗣️", "topicCount": 3 },
         { "id": 3, "title": { "es": "Registro formal", "ca": "Registre formal" }, "icon": "✒️", "topicCount": 3 },
         { "id": 4, "title": { "es": "Falsos amigos avanzados", "ca": "Falsos amics avançats" }, "icon": "🎭", "topicCount": 3 },

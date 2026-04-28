@@ -8,10 +8,10 @@
   "topics": [
     {
       "id": "t1",
-      "title": { "es": "Palabras totalmente distintas", "ca": "Paraules totalment diferents" },
+      "title": { "es": "Vocabulario sin cognado", "ca": "Vocabulari sense cognat" },
       "goal": {
-        "es": "Estas palabras cotidianas no se parecen al español. Aprende cinco esenciales.",
-        "ca": "Aquestes paraules quotidianes no s'assemblen a l'espanyol."
+        "es": "Estas palabras cotidianas no tienen equivalente en español. Hay que aprenderlas de cero.",
+        "ca": "Aquestes paraules no tenen equivalent en espanyol. Cal aprendre-les de zero."
       },
       "exercises": [
         { "type": "flashcard", "ca": "el got", "es": "el vaso",
