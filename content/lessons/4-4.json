@@ -54,7 +54,7 @@
     },
     {
       "id": "t2",
-      "title": { "es": "Estoy malo", "ca": "Estic malalt" },
+      "title": { "es": "Síntomas", "ca": "Símptomes" },
       "goal": {
         "es": "Síntomas: «tinc + síntoma». Pero «dolor de» se convierte en «mal de».",
         "ca": "Símptomes: «tinc + símptoma». «Dolor de» → «mal de»."
