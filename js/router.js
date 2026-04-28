@@ -1,5 +1,6 @@
 // Tiny hash router. Routes are strings like "#/", "#/roadmap", "#/lesson/:id".
 // Patterns use ":name" placeholders; matched values are passed in params.
+import { trackPageView } from "./analytics.js";
 
 const routes = [];
 let mountEl = null;
@@ -56,6 +57,7 @@ async function render() {
     const cleanup = await result.handler(mountEl, result.params);
     if (typeof cleanup === "function") currentCleanup = cleanup;
     window.scrollTo({ top: 0, behavior: "instant" in window ? "instant" : "auto" });
+    trackPageView(location.hash.slice(1) || "/");
   };
   if (document.startViewTransition) {
     document.startViewTransition(swap);

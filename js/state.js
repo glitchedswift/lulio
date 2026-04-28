@@ -4,6 +4,7 @@ const COOKIE_OPTS = { expires: 365 * 5, sameSite: "lax", path: "/" };
 const C_LANG = "lulio_lang";
 const C_PROGRESS = "lulio_progress";
 const C_XP = "lulio_xp";
+const C_EXAMS = "lulio_exams";
 
 const listeners = new Set();
 
@@ -11,6 +12,7 @@ const _state = {
   lang: "es",
   progress: {},
   xp: 0,
+  exams: {},
 };
 
 function readCookie(name) {
@@ -44,6 +46,7 @@ export function loadState() {
   _state.progress = readJsonCookie(C_PROGRESS, {});
   const xp = parseInt(readCookie(C_XP) || "0", 10);
   _state.xp = Number.isFinite(xp) ? xp : 0;
+  _state.exams = readJsonCookie(C_EXAMS, {});
   notify();
 }
 
@@ -92,6 +95,23 @@ export function markLessonComplete(lessonId) {
   if (!p.completedAt) p.completedAt = new Date().toISOString();
   _state.progress[lessonId] = p;
   writeCookie(C_PROGRESS, _state.progress);
+  notify();
+}
+
+export function addXp(amount) {
+  if (!amount) return;
+  _state.xp += amount;
+  writeCookie(C_XP, String(_state.xp));
+  notify();
+}
+
+export function isBlockExamPassed(blockId) {
+  return !!_state.exams[String(blockId)];
+}
+
+export function markBlockExamPassed(blockId) {
+  _state.exams[String(blockId)] = true;
+  writeCookie(C_EXAMS, _state.exams);
   notify();
 }
 

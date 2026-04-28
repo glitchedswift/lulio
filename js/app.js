@@ -3,6 +3,7 @@ import { loadState, getLang, setLang, getState, onChange } from "./state.js";
 import { renderHome } from "./views/home.js";
 import { renderRoadmap } from "./views/roadmap.js";
 import { renderLesson } from "./views/lesson.js";
+import { renderExam } from "./views/exam.js";
 
 function syncLangToggle() {
   const lang = getLang();
@@ -43,6 +44,7 @@ function init() {
   defineRoute("/", (el) => renderHome(el));
   defineRoute("/roadmap", (el) => renderRoadmap(el));
   defineRoute("/lesson/:id", (el, params) => renderLesson(el, params));
+  defineRoute("/exam/:id", (el, params) => renderExam(el, params));
 
   startRouter(document.getElementById("view"));
 }
