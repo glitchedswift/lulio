@@ -10,14 +10,28 @@
       "id": "t1",
       "title": { "es": "Profesiones", "ca": "Professions" },
       "goal": {
-        "es": "Profesor, metge, advocat, enginyer, dependent.",
-        "ca": "Professions habituals."
+        "es": "Profesiones habituales y el patrón de feminización.",
+        "ca": "Professions habituals i el patró de feminització."
       },
       "exercises": [
         { "type": "flashcard", "ca": "el professor / la professora", "es": "el profesor / la profesora" },
         { "type": "flashcard", "ca": "el metge / la metgessa", "es": "el médico / la médica",
-          "note": { "es": "«Metge» (no «mèdic»). Femenino: la metgessa.", "ca": "Femení: metgessa." } },
+          "note": { "es": "«Metge» (no «mèdic»). Femenino irregular: la metgessa.", "ca": "Femení irregular: metgessa." } },
         { "type": "flashcard", "ca": "l'advocat / l'advocada", "es": "el abogado / la abogada" },
+        {
+          "type": "pattern",
+          "rule": { "from": "masc. → fem.", "to": "+ -a / + -essa" },
+          "examples": [
+            { "es": "profesor → profesora", "ca": "professor → professora" },
+            { "es": "ingeniero → ingeniera", "ca": "enginyer → enginyera" },
+            { "es": "médico → médica", "ca": "metge → metgessa" },
+            { "es": "cocinero → cocinera", "ca": "cuiner → cuinera" }
+          ],
+          "note": {
+            "es": "Mayoría: masc. → añade -a (enginyera, professora). Irregular: metge → metgessa (añade -ssa).",
+            "ca": "Majoria: + -a. Irregular: metge → metgessa."
+          }
+        },
         { "type": "flashcard", "ca": "l'enginyer / l'enginyera", "es": "el ingeniero / la ingeniera" },
         { "type": "flashcard", "ca": "el dependent / la dependenta", "es": "el dependiente / la dependienta" },
         { "type": "flashcard", "ca": "el cuiner / la cuinera", "es": "el cocinero / la cocinera" },
@@ -46,16 +60,25 @@
         { "type": "flashcard", "ca": "l'oficina", "es": "la oficina" },
         { "type": "flashcard", "ca": "el despatx", "es": "el despacho" },
         { "type": "flashcard", "ca": "la reunió", "es": "la reunión" },
+        {
+          "type": "compare",
+          "es": "el despacho • la reunión • el proyecto • el sueldo",
+          "ca": "el despatx • la reunió • el projecte • el sou",
+          "note": {
+            "es": "Fíjate: la reunión pierde la -n final (reunió), el sueldo pasa a monosílabo (sou). El catalán comprime las palabras.",
+            "ca": "Reunió (perd -n), sou (monosíl·lab). El català comprimeix."
+          }
+        },
         { "type": "flashcard", "ca": "el projecte", "es": "el proyecto" },
         { "type": "flashcard", "ca": "el sou", "es": "el sueldo",
-          "note": { "es": "«Sou» = sueldo. Pegadizo: una sola sílaba.", "ca": "«Sou»: una síl·laba." } },
+          "note": { "es": "«Sou» = sueldo. Una sola sílaba.", "ca": "«Sou»: una síl·laba." } },
         { "type": "flashcard", "ca": "el cap", "es": "el jefe",
-          "note": { "es": "«Cap» = jefe (también significa «cabeza» y «ningún»). Atento al contexto.", "ca": "«Cap»: cap, líder, ningú." } },
+          "note": { "es": "«Cap» = jefe (también cabeza y ningún). Atento al contexto.", "ca": "«Cap»: cap, líder, ningú." } },
         { "type": "flashcard", "ca": "el company / la companya", "es": "el compañero / la compañera" },
         { "type": "compare",
           "es": "Tengo una reunión a las diez",
           "ca": "Tinc una reunió a les deu",
-          "note": { "es": "Idéntica estructura. ¡A veces el catalán es predecible!", "ca": "Estructura idèntica." }
+          "note": { "es": "Estructura idéntica. ¡A veces el catalán es predecible!", "ca": "Estructura idèntica." }
         },
         { "type": "translate", "direction": "es-ca",
           "prompt": "Mi jefe es muy amable",
@@ -74,7 +97,7 @@
       "id": "t3",
       "title": { "es": "Hablar del trabajo", "ca": "Parlar de la feina" },
       "goal": {
-        "es": "Treballar de, treballar en, treballar per a. Las preposiciones del trabajo.",
+        "es": "Treballar de, treballar a, treballar per a. Las preposiciones del trabajo.",
         "ca": "Preposicions amb «treballar»."
       },
       "exercises": [
@@ -86,7 +109,7 @@
         { "type": "compare",
           "es": "Trabajo de profesor",
           "ca": "Treballo de professor",
-          "note": { "es": "«De + profesión» igual que en español.", "ca": "«De + professió»." }
+          "note": { "es": "«De + profesión» igual que en español.", "ca": "«De + professió»: igual." }
         },
         { "type": "compare",
           "es": "Trabajo para Google",
@@ -107,7 +130,7 @@
           "translation": "Estoy buscando trabajo nuevo.",
           "options": ["buscant", "buscando", "trobant", "veient"],
           "answer": "buscant" },
-        { "type": "multiple_choice", "direction": "es-ca", "prompt": "una entrevista de trabajo", "options": ["una entrevista de feina", "una entrevista de trabajo", "una entrevista de feina", "una entrevista de treball"], "answer": "una entrevista de feina" }
+        { "type": "multiple_choice", "direction": "es-ca", "prompt": "una entrevista de trabajo", "options": ["una entrevista de feina", "una entrevista de trabajo", "una entrevista de treball", "una entrevista de laboral"], "answer": "una entrevista de feina" }
       ]
     }
   ],
@@ -124,7 +147,7 @@
           "note": { "es": "«Plegar» = terminar de trabajar. Plego a les sis = acabo a las seis.", "ca": "Plegar = acabar la jornada." } },
         { "type": "flashcard", "ca": "estar de baixa", "es": "estar de baja" },
         { "type": "flashcard", "ca": "currar", "es": "currar (informal)",
-          "note": { "es": "Igual que en español, registre informal.", "ca": "Igual a l'espanyol col·loquial." } },
+          "note": { "es": "Igual que en español, registro informal.", "ca": "Igual a l'espanyol col·loquial." } },
         { "type": "compare",
           "es": "Salgo del trabajo a las seis",
           "ca": "Plego a les sis",

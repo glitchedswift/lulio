@@ -10,8 +10,8 @@
       "id": "t1",
       "title": { "es": "Comidas del día", "ca": "Els àpats" },
       "goal": {
-        "es": "Aprende los nombres de las comidas: esmorzar, dinar, sopar.",
-        "ca": "Aprèn els noms dels àpats."
+        "es": "Esmorzar, dinar, sopar, berenar: aprende los nombres y sus falsos amigos.",
+        "ca": "Esmorzar, dinar, sopar, berenar: noms i falsos amics."
       },
       "exercises": [
         { "type": "flashcard", "ca": "l'esmorzar", "es": "el desayuno",
@@ -29,7 +29,7 @@
         { "type": "compare",
           "es": "Cenamos a las nueve",
           "ca": "Sopem a les nou",
-          "note": { "es": "«Sopar» = cenar. Falso amigo clásico con «sopa» (sopa).", "ca": "«Sopar» = sopar a la nit." }
+          "note": { "es": "«Sopar» = cenar. Falso amigo clásico con «sopa» (sopa).", "ca": "«Sopar» = cenar, no sopa." }
         },
         { "type": "multiple_choice", "direction": "es-ca", "prompt": "la cena", "options": ["el sopar", "la sopa", "el dinar", "la cena"], "answer": "el sopar" },
         { "type": "fill_blank",
@@ -43,23 +43,39 @@
       "id": "t2",
       "title": { "es": "Comida básica", "ca": "Menjar bàsic" },
       "goal": {
-        "es": "Productos cotidianos: pa, ous, llet, fruita, verdura.",
-        "ca": "Productes quotidians: pa, ous, llet, fruita, verdura."
+        "es": "El catalán es más conciso: pan→pa, leche→llet, carne→carn.",
+        "ca": "El català és més concís: pa, llet, carn, peix."
       },
       "exercises": [
         { "type": "flashcard", "ca": "el pa", "es": "el pan",
-          "note": { "es": "Una sola sílaba. ¡Y nada de doble n!", "ca": "Una sola síl·laba." } },
+          "note": { "es": "Una sola sílaba.", "ca": "Una sola síl·laba." } },
         { "type": "flashcard", "ca": "la llet", "es": "la leche" },
         { "type": "flashcard", "ca": "els ous", "es": "los huevos",
           "note": { "es": "Singular: l'ou. Plural: els ous. Sin h, sin v.", "ca": "Singular: l'ou." } },
+        {
+          "type": "pattern",
+          "rule": { "from": "es. (larga)", "to": "ca. (corta)" },
+          "examples": [
+            { "es": "pan", "ca": "pa" },
+            { "es": "leche", "ca": "llet" },
+            { "es": "carne", "ca": "carn" },
+            { "es": "pescado", "ca": "peix" },
+            { "es": "fruta", "ca": "fruita" },
+            { "es": "huevo", "ca": "ou" }
+          ],
+          "note": {
+            "es": "La comida básica pierde la vocal final o la sílaba débil en catalán. Más conciso, más directo.",
+            "ca": "El menjar bàsic perd la vocal final o la síl·laba dèbil. Més concís."
+          }
+        },
         { "type": "flashcard", "ca": "el formatge", "es": "el queso",
-          "note": { "es": "Cuidado: nada que ver con «queso». Recuerda «formatge» (relacionado con «forma»).", "ca": "«Formatge» = queso." } },
+          "note": { "es": "Nada que ver con «queso». Recuerda «formatge» (relacionado con «forma»).", "ca": "«Formatge» = queso." } },
         { "type": "flashcard", "ca": "la fruita", "es": "la fruta" },
         { "type": "flashcard", "ca": "la verdura", "es": "la verdura" },
         { "type": "flashcard", "ca": "la carn", "es": "la carne",
           "note": { "es": "Una sola sílaba: «carn». Sin -e final.", "ca": "Una síl·laba: «carn»." } },
         { "type": "flashcard", "ca": "el peix", "es": "el pescado",
-          "note": { "es": "«Peix» también significa «pez» (animal vivo). El contexto manda.", "ca": "«Peix» = pez i pescado." } },
+          "note": { "es": "«Peix» también significa «pez» (animal vivo).", "ca": "«Peix» = pez i pescado." } },
         { "type": "compare",
           "es": "Quiero pan con queso",
           "ca": "Vull pa amb formatge",
@@ -77,25 +93,34 @@
       "id": "t3",
       "title": { "es": "Bebidas", "ca": "Begudes" },
       "goal": {
-        "es": "Pide bebidas en un bar catalán: cafè, aigua, vi, cervesa.",
-        "ca": "Demana begudes en un bar."
+        "es": "Pide bebidas en un bar catalán. Fíjate en los patrones: vi (sin -no), cervesa (z→s).",
+        "ca": "Demana begudes. Fixa't en els patrons: vi, cervesa (z→s)."
       },
       "exercises": [
         { "type": "flashcard", "ca": "l'aigua", "es": "el agua",
-          "note": { "es": "En catalán «aigua» es femenino: l'aigua, una aigua.", "ca": "«Aigua» és femenina." } },
+          "note": { "es": "En catalán «aigua» es femenino: l'aigua.", "ca": "«Aigua» és femenina." } },
         { "type": "flashcard", "ca": "el cafè", "es": "el café",
-          "note": { "es": "Acento abierto: cafè (con «è»).", "ca": "Accent obert: cafè." } },
+          "note": { "es": "Acento abierto: cafè.", "ca": "Accent obert: cafè." } },
+        {
+          "type": "compare",
+          "es": "vino • cerveza • zumo",
+          "ca": "vi • cervesa • suc",
+          "note": {
+            "es": "Vi (pierde -no), cervesa (z→s, patrón ya visto), suc (sin -mo). Bebidas concisas como la comida.",
+            "ca": "Vi (perd -no), cervesa (z→s), suc. Begudes concises."
+          }
+        },
         { "type": "flashcard", "ca": "el te", "es": "el té",
           "note": { "es": "En catalán no lleva acento: «te».", "ca": "Sense accent: te." } },
         { "type": "flashcard", "ca": "el vi", "es": "el vino",
-          "note": { "es": "Una sola letra: «vi». Sin la -no final.", "ca": "Sense la -no final: vi." } },
+          "note": { "es": "Una sola letra: «vi». Sin la -no final.", "ca": "Sense -no: vi." } },
         { "type": "flashcard", "ca": "la cervesa", "es": "la cerveza" },
         { "type": "flashcard", "ca": "el suc", "es": "el zumo",
-          "note": { "es": "«Suc» = zumo. También significa «jugo» (de la carne, p. ej.).", "ca": "«Suc» = zumo." } },
+          "note": { "es": "«Suc» = zumo. También significa «jugo».", "ca": "«Suc» = zumo." } },
         { "type": "compare",
           "es": "Un café con leche, por favor",
           "ca": "Un cafè amb llet, si us plau",
-          "note": { "es": "«Si us plau» literalmente «si os place». Es la forma estándar de «por favor».", "ca": "«Si us plau» = per favor." }
+          "note": { "es": "«Si us plau» = por favor.", "ca": "«Si us plau» = per favor." }
         },
         { "type": "translate", "direction": "es-ca",
           "prompt": "Un vino y una cerveza",
@@ -121,7 +146,7 @@
       },
       "exercises": [
         { "type": "flashcard", "ca": "el tomàquet", "es": "el tomate",
-          "note": { "es": "«Tomàquet» con «-quet» final. Se usa también en «pa amb tomàquet».", "ca": "«Tomàquet»: clàssic del «pa amb tomàquet»." } },
+          "note": { "es": "«Tomàquet» con «-quet» final.", "ca": "«Tomàquet»: clàssic del «pa amb tomàquet»." } },
         { "type": "flashcard", "ca": "l'alvocat", "es": "el aguacate" },
         { "type": "flashcard", "ca": "la maduixa", "es": "la fresa" },
         { "type": "flashcard", "ca": "la pastanaga", "es": "la zanahoria" },

@@ -10,13 +10,26 @@
       "id": "t1",
       "title": { "es": "Saludos básicos", "ca": "Salutacions bàsiques" },
       "goal": {
-        "es": "Aprende cuatro saludos esenciales: hola, bon dia, bona tarda, bona nit.",
-        "ca": "Aprèn quatre salutacions essencials."
+        "es": "Hola, bon dia, bona tarda, bona nit: cuatro saludos y un patrón.",
+        "ca": "Hola, bon dia, bona tarda, bona nit: quatre salutacions i un patró."
       },
       "exercises": [
         { "type": "flashcard", "ca": "Hola", "es": "Hola" },
         { "type": "flashcard", "ca": "Bon dia", "es": "Buenos días",
           "note": { "es": "Se usa toda la mañana, hasta el mediodía.", "ca": "S'usa tot el matí, fins al migdia." } },
+        {
+          "type": "pattern",
+          "rule": { "from": "buenos/as", "to": "bon / bona" },
+          "examples": [
+            { "es": "buenos días", "ca": "bon dia" },
+            { "es": "buenas tardes", "ca": "bona tarda" },
+            { "es": "buenas noches", "ca": "bona nit" }
+          ],
+          "note": {
+            "es": "Masculino → bon (día es masc.). Femenino → bona (tarde y noche son fem.). Una regla, tres saludos.",
+            "ca": "Masculí → bon. Femení → bona. El gènere del moment ho decideix."
+          }
+        },
         { "type": "flashcard", "ca": "Bona tarda", "es": "Buenas tardes" },
         { "type": "flashcard", "ca": "Bona nit", "es": "Buenas noches" },
         { "type": "multiple_choice", "direction": "es-ca", "prompt": "Buenos días", "options": ["Bon dia", "Bona nit", "Hola", "Adéu"], "answer": "Bon dia" },
@@ -28,20 +41,33 @@
       "id": "t2",
       "title": { "es": "Despedidas", "ca": "Acomiadaments" },
       "goal": {
-        "es": "Despídete con naturalidad: adéu, fins demà, fins aviat.",
-        "ca": "Acomiada't amb naturalitat: adéu, fins demà, fins aviat."
+        "es": "Todas las despedidas catalanas siguen el mismo patrón: «fins» + el momento.",
+        "ca": "Tots els acomiadaments: «fins» + el moment."
       },
       "exercises": [
         { "type": "flashcard", "ca": "Adéu", "es": "Adiós" },
         { "type": "flashcard", "ca": "Fins demà", "es": "Hasta mañana" },
+        {
+          "type": "pattern",
+          "rule": { "from": "hasta + momento", "to": "fins + moment" },
+          "examples": [
+            { "es": "hasta mañana", "ca": "fins demà" },
+            { "es": "hasta pronto", "ca": "fins aviat" },
+            { "es": "hasta luego", "ca": "fins després" }
+          ],
+          "note": {
+            "es": "«Fins» = hasta. Aprende esa palabra y el resto viene solo.",
+            "ca": "«Fins» = hasta. Aprèn «fins» i la resta ve sola."
+          }
+        },
         { "type": "flashcard", "ca": "Fins aviat", "es": "Hasta pronto" },
         { "type": "flashcard", "ca": "Fins després", "es": "Hasta luego" },
         { "type": "compare",
           "es": "Hasta luego",
           "ca": "Fins després",
           "note": {
-            "es": "En catalán, las despedidas usan «fins» + el momento. Memoriza el patrón.",
-            "ca": "En català, els acomiadaments fan servir «fins» + el moment. Memoritza el patró."
+            "es": "«Fins» siempre va solo, sin artículo. Después el momento: demà, aviat, després.",
+            "ca": "«Fins» sempre sol. Desprès el moment: demà, aviat, després."
           }
         },
         { "type": "multiple_choice", "direction": "es-ca", "prompt": "Hasta mañana", "options": ["Fins demà", "Fins aviat", "Bon dia", "Adéu"], "answer": "Fins demà" },
@@ -59,6 +85,14 @@
         { "type": "flashcard", "ca": "Com estàs?", "es": "¿Cómo estás?" },
         { "type": "flashcard", "ca": "Estic bé, gràcies", "es": "Estoy bien, gracias" },
         { "type": "flashcard", "ca": "I tu?", "es": "¿Y tú?" },
+        { "type": "compare",
+          "es": "Muy bien, ¿y tú?",
+          "ca": "Molt bé, i tu?",
+          "note": {
+            "es": "«Molt» = muy. La «t» final es muda. «I tu?» = ¿y tú? (sin acento).",
+            "ca": "«Molt»: la «t» final no es pronuncia. «I tu?» sense accent."
+          }
+        },
         { "type": "translate", "direction": "es-ca",
           "prompt": "¿Cómo estás?",
           "answer": "Com estàs",
@@ -66,15 +100,7 @@
         { "type": "translate", "direction": "es-ca",
           "prompt": "Estoy bien, gracias",
           "answer": "Estic bé gràcies",
-          "bank": ["Estic", "bé", "gràcies", "molt", "estic"] },
-        { "type": "compare",
-          "es": "Muy bien, ¿y tú?",
-          "ca": "Molt bé, i tu?",
-          "note": {
-            "es": "«Molt» = muy. Pronúncialo casi como «mol». La «t» final es muda.",
-            "ca": "«Molt» = molt. La «t» final no es pronuncia."
-          }
-        },
+          "bank": ["Estic", "bé", "gràcies", "molt"] },
         { "type": "multiple_choice", "direction": "ca-es", "prompt": "Estic bé, gràcies", "options": ["Estoy bien, gracias", "Adiós, gracias", "Buenos días", "Hasta luego"], "answer": "Estoy bien, gracias" }
       ]
     }

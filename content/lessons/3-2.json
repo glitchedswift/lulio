@@ -10,19 +10,33 @@
       "id": "t1",
       "title": { "es": "Medios de transporte", "ca": "Mitjans de transport" },
       "goal": {
-        "es": "Los más comunes y la preposición «en» para indicarlos.",
-        "ca": "Els més comuns i la preposició «en»."
+        "es": "Regla: «en» + vehículo (sin artículo). Única excepción: «a peu» (a pie).",
+        "ca": "Regla: «en» + vehicle (sense article). Excepció: «a peu»."
       },
       "exercises": [
         { "type": "flashcard", "ca": "el metro", "es": "el metro" },
         { "type": "flashcard", "ca": "l'autobús", "es": "el autobús" },
         { "type": "flashcard", "ca": "el tren", "es": "el tren" },
+        {
+          "type": "pattern",
+          "rule": { "from": "en + vehículo", "to": "en + vehicle" },
+          "examples": [
+            { "es": "en coche", "ca": "en cotxe" },
+            { "es": "en metro", "ca": "en metro" },
+            { "es": "en autobús", "ca": "en autobús" },
+            { "es": "a pie (excepción)", "ca": "a peu (excepció)" }
+          ],
+          "note": {
+            "es": "Regla: «en» + vehículo, sin artículo. Igual que en español. La única excepción es «a peu» (a pie), no «en peu».",
+            "ca": "«En» + vehicle, sense article. Excepció única: «a peu»."
+          }
+        },
         { "type": "flashcard", "ca": "el cotxe", "es": "el coche" },
         { "type": "flashcard", "ca": "la moto", "es": "la moto" },
         { "type": "flashcard", "ca": "la bicicleta", "es": "la bicicleta" },
         { "type": "flashcard", "ca": "l'avió", "es": "el avión" },
         { "type": "flashcard", "ca": "a peu", "es": "a pie",
-          "note": { "es": "«A peu» = a pie. ¡Sin la «s» del español «a pie / a pies»!", "ca": "«A peu»: singular sempre." } },
+          "note": { "es": "«A peu» = a pie. La excepción a la regla «en + vehículo».", "ca": "«A peu»: excepció." } },
         { "type": "compare",
           "es": "Voy en coche",
           "ca": "Vaig en cotxe",
@@ -31,7 +45,7 @@
         { "type": "compare",
           "es": "Vamos a pie",
           "ca": "Anem a peu",
-          "note": { "es": "Excepción: «a peu» (a pie), no «en peu».", "ca": "Excepció: a peu." }
+          "note": { "es": "«A peu» (a pie), no «en peu».", "ca": "«A peu»." }
         },
         { "type": "multiple_choice", "direction": "es-ca", "prompt": "el coche", "options": ["el cotxe", "el coche", "el coxte", "el cotxer"], "answer": "el cotxe" },
         { "type": "fill_blank",
@@ -53,10 +67,19 @@
           "note": { "es": "«Bitllet» también significa billete de banco.", "ca": "«Bitllet» també de banc." } },
         { "type": "flashcard", "ca": "l'andana", "es": "el andén",
           "note": { "es": "«Andana» es femenino: l'andana, les andanes.", "ca": "Femení: l'andana." } },
+        {
+          "type": "compare",
+          "es": "billete de ida y vuelta",
+          "ca": "bitllet d'anada i tornada",
+          "note": {
+            "es": "«Anada» = ida, «tornada» = vuelta (de «tornar», volver). D'anada = de + anada (apóstrofo).",
+            "ca": "«Anada» = ida. «Tornada» = volta (de tornar). D'anada: elisió."
+          }
+        },
         { "type": "flashcard", "ca": "l'horari", "es": "el horario" },
         { "type": "flashcard", "ca": "anada i tornada", "es": "ida y vuelta" },
         { "type": "flashcard", "ca": "només anada", "es": "solo ida",
-          "note": { "es": "«Només» = solo. ¡Con acento abierto!", "ca": "«Només» amb accent obert." } },
+          "note": { "es": "«Només» = solo. Con acento abierto.", "ca": "«Només» amb accent obert." } },
         { "type": "compare",
           "es": "Un billete de ida y vuelta, por favor",
           "ca": "Un bitllet d'anada i tornada, si us plau",
@@ -80,17 +103,17 @@
       "id": "t3",
       "title": { "es": "Frases en movimiento", "ca": "Frases en moviment" },
       "goal": {
-        "es": "Llegar, salir, esperar, perder. Verbos clave del transporte.",
-        "ca": "Arribar, sortir, esperar, perdre."
+        "es": "Llegar, salir, esperar, perder, coger. Verbos clave del transporte.",
+        "ca": "Arribar, sortir, esperar, perdre, agafar."
       },
       "exercises": [
         { "type": "flashcard", "ca": "arribar", "es": "llegar" },
         { "type": "flashcard", "ca": "sortir", "es": "salir" },
         { "type": "flashcard", "ca": "esperar", "es": "esperar" },
         { "type": "flashcard", "ca": "perdre", "es": "perder",
-          "note": { "es": "Atención al sonido: la -dre se pronuncia muy unido.", "ca": "«Perdre»: la «d» queda fluixa." } },
+          "note": { "es": "«Perdre»: la -dre se pronuncia muy unido.", "ca": "«Perdre»: la «d» queda fluixa." } },
         { "type": "flashcard", "ca": "agafar", "es": "coger / tomar",
-          "note": { "es": "«Agafar» = coger. Mucho más neutral que «coger» en algunas zonas.", "ca": "«Agafar» = coger / prendre." } },
+          "note": { "es": "«Agafar» = coger. Más neutral que «coger» en algunas zonas.", "ca": "«Agafar» = coger." } },
         { "type": "compare",
           "es": "He perdido el tren",
           "ca": "He perdut el tren",

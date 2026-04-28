@@ -10,26 +10,39 @@
       "id": "t1",
       "title": { "es": "El cuerpo", "ca": "El cos" },
       "goal": {
-        "es": "Las partes del cuerpo más útiles.",
-        "ca": "Parts del cos."
+        "es": "Partes del cuerpo y el truco clave: «em fa mal» en lugar de «me duele».",
+        "ca": "Parts del cos i el truc: «em fa mal» en lloc de «me duele»."
       },
       "exercises": [
         { "type": "flashcard", "ca": "el cap", "es": "la cabeza",
           "note": { "es": "«Cap» (masculino) = cabeza. También «jefe» y «ningún», según contexto.", "ca": "«Cap»: cabeça, cap, ningú." } },
         { "type": "flashcard", "ca": "el coll", "es": "el cuello" },
         { "type": "flashcard", "ca": "la mà", "es": "la mano",
-          "note": { "es": "«La mà» con acento abierto. Femenino, igual que en español.", "ca": "«La mà»: femenina." } },
+          "note": { "es": "«La mà» con acento abierto. Femenino.", "ca": "«La mà»: femenina." } },
         { "type": "flashcard", "ca": "el peu", "es": "el pie" },
         { "type": "flashcard", "ca": "el braç", "es": "el brazo" },
         { "type": "flashcard", "ca": "la cama", "es": "la pierna",
           "note": { "es": "¡Falso amigo! «La cama» catalana = la pierna. Para «cama» (de dormir): «el llit».", "ca": "Fals amic: «la cama» = pierna." } },
         { "type": "flashcard", "ca": "l'esquena", "es": "la espalda" },
-        { "type": "flashcard", "ca": "el ventre", "es": "el vientre / la barriga",
-          "note": { "es": "También «la panxa» (más coloquial).", "ca": "També «la panxa»." } },
+        { "type": "flashcard", "ca": "el ventre", "es": "el vientre / la barriga" },
+        {
+          "type": "pattern",
+          "rule": { "from": "me duele + parte", "to": "em fa mal + part" },
+          "examples": [
+            { "es": "me duele la cabeza", "ca": "em fa mal el cap" },
+            { "es": "me duele la espalda", "ca": "em fa mal l'esquena" },
+            { "es": "me duele la pierna", "ca": "em fa mal la cama" },
+            { "es": "me duele la mano", "ca": "em fa mal la mà" }
+          ],
+          "note": {
+            "es": "«Em fa mal» = literalmente «me hace daño». La parte del cuerpo va detrás con artículo. El verbo no concuerda con el sujeto.",
+            "ca": "«Em fa mal» + la part del cos (amb article)."
+          }
+        },
         { "type": "compare",
           "es": "Me duele la pierna",
           "ca": "Em fa mal la cama",
-          "note": { "es": "«Em fa mal» = me hace daño / me duele. Estructura distinta del español.", "ca": "«Em fa mal» literal: me hace daño." }
+          "note": { "es": "«Em fa mal» en lugar de «me duele». Recuerda también: la cama = la pierna.", "ca": "«Em fa mal la cama»." }
         },
         { "type": "fill_blank",
           "sentence": "M'he fet mal a la ___ esquerra.",
@@ -43,15 +56,29 @@
       "id": "t2",
       "title": { "es": "Estoy malo", "ca": "Estic malalt" },
       "goal": {
-        "es": "Resfriat, refredat, mal de panxa, febre, tos.",
-        "ca": "Malalties habituals."
+        "es": "Síntomas: «tinc + síntoma». Pero «dolor de» se convierte en «mal de».",
+        "ca": "Símptomes: «tinc + símptoma». «Dolor de» → «mal de»."
       },
       "exercises": [
         { "type": "flashcard", "ca": "estar malalt / malalta", "es": "estar enfermo / enferma",
-          "note": { "es": "«Malalt» = enfermo. ¡No confundir con «mal»!", "ca": "«Malalt» = enfermo." } },
+          "note": { "es": "«Malalt» = enfermo.", "ca": "«Malalt» = enfermo." } },
         { "type": "flashcard", "ca": "estar refredat / refredada", "es": "estar resfriado / resfriada" },
         { "type": "flashcard", "ca": "tenir febre", "es": "tener fiebre",
           "note": { "es": "«Febre» (femenino).", "ca": "«La febre»: femenina." } },
+        {
+          "type": "pattern",
+          "rule": { "from": "tengo + síntoma", "to": "tinc + símptoma" },
+          "examples": [
+            { "es": "tengo fiebre", "ca": "tinc febre" },
+            { "es": "tengo tos", "ca": "tinc tos" },
+            { "es": "tengo dolor de cabeza", "ca": "tinc mal de cap" },
+            { "es": "tengo dolor de barriga", "ca": "tinc mal de panxa" }
+          ],
+          "note": {
+            "es": "«Tinc + síntoma»: igual que «tengo» en español. Pero «dolor de» se convierte en «mal de».",
+            "ca": "«Tinc + símptoma». «Dolor de» → «mal de»."
+          }
+        },
         { "type": "flashcard", "ca": "tenir tos", "es": "tener tos" },
         { "type": "flashcard", "ca": "mal de cap", "es": "dolor de cabeza" },
         { "type": "flashcard", "ca": "mal de panxa", "es": "dolor de barriga" },
@@ -63,7 +90,7 @@
         { "type": "compare",
           "es": "Me duele la cabeza",
           "ca": "Em fa mal el cap",
-          "note": { "es": "Una vez más: «em fa mal» en lugar de «me duele».", "ca": "«Em fa mal»." }
+          "note": { "es": "Otra vez: «em fa mal» en lugar de «me duele».", "ca": "«Em fa mal»." }
         },
         { "type": "translate", "direction": "es-ca",
           "prompt": "Tengo dolor de cabeza",
@@ -82,8 +109,8 @@
       "id": "t3",
       "title": { "es": "Al CAP (centro de salud)", "ca": "Al CAP (Centre d'Atenció Primària)" },
       "goal": {
-        "es": "Demanar hora, recepta, urgències.",
-        "ca": "Demanar hora, recepta, urgències."
+        "es": "Pedir cita, recepta, urgències. Frases fijas del sistema sanitario catalán.",
+        "ca": "Demanar hora, recepta, urgències. Frases fixes."
       },
       "exercises": [
         { "type": "flashcard", "ca": "demanar hora", "es": "pedir cita",
@@ -96,7 +123,7 @@
         { "type": "compare",
           "es": "He pedido cita con el médico",
           "ca": "He demanat hora amb el metge",
-          "note": { "es": "«Demanar hora amb» = pedir cita con.", "ca": "Patró fix." }
+          "note": { "es": "«Demanar hora amb» = pedir cita con. Recuerda: «hora», no «cita».", "ca": "Frase fixa: «demanar hora amb»." }
         },
         { "type": "translate", "direction": "es-ca",
           "prompt": "Voy a la farmacia",
@@ -123,7 +150,7 @@
       "exercises": [
         { "type": "flashcard", "ca": "Estic bo", "es": "Estoy bien (de salud)" },
         { "type": "flashcard", "ca": "Estic fet pols", "es": "Estoy hecho polvo",
-          "note": { "es": "«Fet pols» = hecho polvo. Igual que en español, expresivo.", "ca": "«Fet pols»: cansat." } },
+          "note": { "es": "«Fet pols» = hecho polvo. Igual que en español.", "ca": "«Fet pols»: cansat." } },
         { "type": "flashcard", "ca": "Em trobo malament", "es": "Me encuentro mal" },
         { "type": "compare",
           "es": "No me encuentro bien",

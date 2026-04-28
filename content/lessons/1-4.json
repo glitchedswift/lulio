@@ -10,19 +10,33 @@
       "id": "t1",
       "title": { "es": "el / la / els / les", "ca": "el / la / els / les" },
       "goal": {
-        "es": "Los artículos definidos catalanes: «els» (no «los») y «les» (no «las»).",
-        "ca": "Els articles definits catalans."
+        "es": "El cambio clave: «los» → «els», «las» → «les». Una regla directa.",
+        "ca": "El canvi clau: «los» → «els», «las» → «les»."
       },
       "exercises": [
         { "type": "flashcard", "ca": "el llibre", "es": "el libro" },
         { "type": "flashcard", "ca": "la casa", "es": "la casa" },
+        {
+          "type": "pattern",
+          "rule": { "from": "los / las", "to": "els / les" },
+          "examples": [
+            { "es": "los libros", "ca": "els llibres" },
+            { "es": "las casas", "ca": "les cases" },
+            { "es": "los niños", "ca": "els nens" },
+            { "es": "las niñas", "ca": "les nenes" }
+          ],
+          "note": {
+            "es": "Regla directa sin excepciones: los → els, las → les. El singular (el/la) es igual.",
+            "ca": "Regla directa: los → els, las → les. El singular (el/la) igual."
+          }
+        },
         { "type": "flashcard", "ca": "els nens", "es": "los niños",
-          "note": { "es": "«els» = los. No existe «los» en catalán estándar.", "ca": "«els» = los. No existeix «los» en català estàndard." } },
+          "note": { "es": "«els» = los. No existe «los» en catalán estándar.", "ca": "«els» = los." } },
         { "type": "flashcard", "ca": "les cases", "es": "las casas" },
         { "type": "compare",
           "es": "los libros",
           "ca": "els llibres",
-          "note": { "es": "Recuerda: «los» en español → «els» en catalán.", "ca": "Recorda: «los» en espanyol → «els» en català." }
+          "note": { "es": "Recuerda: «los» en español → «els» en catalán.", "ca": "«los» → «els»." }
         },
         { "type": "fill_blank",
           "sentence": "___ pares són a casa.",
@@ -42,12 +56,26 @@
       "exercises": [
         { "type": "flashcard", "ca": "un cotxe", "es": "un coche" },
         { "type": "flashcard", "ca": "una taula", "es": "una mesa" },
+        {
+          "type": "pattern",
+          "rule": { "from": "unos / unas", "to": "uns / unes" },
+          "examples": [
+            { "es": "unos amigos", "ca": "uns amics" },
+            { "es": "unas amigas", "ca": "unes amigues" },
+            { "es": "unos coches", "ca": "uns cotxes" },
+            { "es": "unas mesas", "ca": "unes taules" }
+          ],
+          "note": {
+            "es": "Mismo patrón que el definido: -os → -s. unos → uns, unas → unes. Más corto y fácil.",
+            "ca": "Mateix patró: -os → -s. unos → uns, unas → unes."
+          }
+        },
         { "type": "flashcard", "ca": "uns amics", "es": "unos amigos" },
         { "type": "flashcard", "ca": "unes amigues", "es": "unas amigas" },
         { "type": "compare",
           "es": "unos perros",
           "ca": "uns gossos",
-          "note": { "es": "«uns» en lugar de «unos». Y ojo: perro = «gos».", "ca": "«uns» en lloc de «unos». I gos = perro." }
+          "note": { "es": "«uns» en lugar de «unos». Y ojo: perro = «gos».", "ca": "«uns» en lloc de «unos»." }
         },
         { "type": "fill_blank",
           "sentence": "Tinc ___ amigues a Barcelona.",
