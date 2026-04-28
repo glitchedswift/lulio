@@ -2,19 +2,28 @@
   "id": "1-7",
   "title": { "es": "Patrón z → s / ç", "ca": "Patró z → s / ç" },
   "goal": {
-    "es": "En español la «z» representa un único sonido. En catalán, ese mismo sonido se escribe «ç» o «s» según la posición. Aprender estas dos reglas te permitirá deducir centenares de palabras nuevas.",
-    "ca": "En castellà la «z» representa un sol so. En català el so equivalent s'escriu «ç» o «s» segons la posició. Aprendre aquestes dues regles et permetrà deduir centenars de paraules noves."
+    "es": "La Z española casi no existe en catalán. Aprende las tres formas en que se transforma y deducirás centenares de palabras.",
+    "ca": "La Z castellana gairebé no existeix en català. Aprèn les tres formes en què es transforma."
   },
   "topics": [
     {
       "id": "t1",
       "title": { "es": "-eza → -esa", "ca": "-eza → -esa" },
       "goal": {
-        "es": "Todos los sustantivos abstractos en -eza del español tienen su equivalente catalán en -esa. Es uno de los patrones más productivos del vocabulario.",
-        "ca": "Tots els substantius abstractes en -eza del castellà tenen el seu equivalent català en -esa."
+        "es": "Todos los sustantivos en -eza pasan a -esa. Sin excepciones notables.",
+        "ca": "Tots els substantius en -eza passen a -esa. Sense excepcions notables."
       },
       "xp": 15,
       "exercises": [
+        {
+          "type": "compare",
+          "es": "cerveza · plaza · feliz",
+          "ca": "cervesa · plaça · feliç",
+          "note": {
+            "es": "La Z española no existe en catalán. Se convierte en S, Ç o SS según dónde aparece.",
+            "ca": "La Z castellana no existeix en català. Es converteix en S, Ç o SS."
+          }
+        },
         {
           "type": "pattern",
           "rule": { "from": "-eza", "to": "-esa" },
@@ -27,8 +36,8 @@
             { "es": "grandeza", "ca": "grandesa" }
           ],
           "note": {
-            "es": "Regla sin excepciones notables. La z intervocálica española se convierte en s en catalán. Más de cien sustantivos siguen este patrón.",
-            "ca": "Regla sense excepcions notables. La z intervocàlica castellana es converteix en s en català. Més de cent substantius segueixen aquest patró."
+            "es": "Más de cien sustantivos siguen este patrón. Z intervocálica → S.",
+            "ca": "Més de cent substantius segueixen aquest patró. Z intervocàlica → S."
           }
         },
         {
@@ -46,19 +55,12 @@
           "answer": "bellesa"
         },
         {
-          "type": "multiple_choice",
-          "direction": "es-ca",
-          "prompt": "naturaleza",
-          "options": ["naturalesa", "naturaleza", "naturilesa", "natura"],
-          "answer": "naturalesa"
-        },
-        {
           "type": "translate",
           "direction": "es-ca",
           "prompt": "La riqueza de este país",
           "answer": "La riquesa d'aquest país",
           "bank": ["La", "riquesa", "d'aquest", "país"],
-          "distractors": ["riqueza", "este", "riqueza"]
+          "distractors": ["riqueza", "este"]
         }
       ]
     },
@@ -66,25 +68,25 @@
       "id": "t2",
       "title": { "es": "z final → ç", "ca": "z final → ç" },
       "goal": {
-        "es": "Cuando la «z» española aparece al final de palabra, en catalán se escribe «ç» (ce trencada). Así formas adjetivos y sustantivos de uso diario.",
-        "ca": "Quan la «z» castellana apareix al final de paraula, en català s'escriu «ç» (ce trencada)."
+        "es": "Cuando la Z va al final de palabra, en catalán se escribe Ç (ce trencada).",
+        "ca": "Quan la Z va al final de paraula, en català s'escriu Ç (ce trencada)."
       },
       "xp": 15,
       "exercises": [
         {
           "type": "pattern",
-          "rule": { "from": "-z (final)", "to": "-ç" },
+          "rule": { "from": "z (final)", "to": "ç" },
           "examples": [
             { "es": "feliz", "ca": "feliç" },
             { "es": "capaz", "ca": "capaç" },
             { "es": "eficaz", "ca": "eficaç" },
             { "es": "tenaz", "ca": "tenaç" },
-            { "es": "brazo", "ca": "braç" },
-            { "es": "esfuerzo", "ca": "esforç" }
+            { "es": "esperanza", "ca": "esperança" },
+            { "es": "brazo", "ca": "braç" }
           ],
           "note": {
-            "es": "La ç sona igual que la s. Aparece al final de palabra y antes de a, o, u. En el plural se recupera la c: feliç → feliços.",
-            "ca": "La ç sona igual que la s. Apareix al final de paraula i davant de a, o, u. Al plural es recupera la c: feliç → feliços."
+            "es": "La Ç suena igual que la S. En el plural vuelve la C: feliç → feliços.",
+            "ca": "La Ç sona com la S. Al plural torna la C: feliç → feliços."
           }
         },
         {
@@ -97,16 +99,16 @@
         {
           "type": "multiple_choice",
           "direction": "es-ca",
-          "prompt": "capaz",
-          "options": ["capaç", "capaz", "capàs", "capasc"],
-          "answer": "capaç"
+          "prompt": "esperanza",
+          "options": ["esperança", "esperanza", "esperansa", "esperanssa"],
+          "answer": "esperança"
         },
         {
           "type": "fill_blank",
-          "sentence": "L'equip ha fet un gran ___.",
-          "translation": "El equipo ha hecho un gran esfuerzo.",
-          "options": ["esforç", "esfuerzo", "esfors", "esforsch"],
-          "answer": "esforç"
+          "sentence": "Tinc la ___ de guanyar.",
+          "translation": "Tengo la esperanza de ganar.",
+          "options": ["esperança", "esperanza", "esperansa", "esper"],
+          "answer": "esperança"
         },
         {
           "type": "translate",
@@ -120,27 +122,27 @@
     },
     {
       "id": "t3",
-      "title": { "es": "z intervocálica → ç / s", "ca": "z intervocàlica → ç / s" },
+      "title": { "es": "z ante a/o/u → ç", "ca": "z davant a/o/u → ç" },
       "goal": {
-        "es": "Antes de a, o, u → ç (plaça, força). En otros contextos → s o ss (cervesa, tassa). La regla es la posición de la vocal siguiente.",
-        "ca": "Davant de a, o, u → ç (plaça, força). En altres contextos → s o ss (cervesa, tassa)."
+        "es": "Antes de A, O, U → Ç (plaça, força). En otros contextos → S o SS.",
+        "ca": "Davant de A, O, U → Ç (plaça, força). En altres contextos → S o SS."
       },
       "xp": 15,
       "exercises": [
         {
           "type": "pattern",
-          "rule": { "from": "z (medial)", "to": "ç / s" },
+          "rule": { "from": "z + a/o/u", "to": "ç" },
           "examples": [
             { "es": "plaza", "ca": "plaça" },
             { "es": "fuerza", "ca": "força" },
             { "es": "cerveza", "ca": "cervesa" },
-            { "es": "arroz", "ca": "arròs" },
             { "es": "trozo", "ca": "tros" },
-            { "es": "taza", "ca": "tassa" }
+            { "es": "taza", "ca": "tassa" },
+            { "es": "arroz", "ca": "arròs" }
           ],
           "note": {
-            "es": "«Plaça» y «força» llevan ç porque van ante a/o. «Cervesa», «arròs» y «tros» llevan s. «Tassa» lleva ss porque entre vocales la s simple suena /z/ en catalán: hay que doblarla para preservar el sonido /s/.",
-            "ca": "«Plaça» i «força» porten ç davant de a/o. «Cervesa», «arròs» i «tros» porten s. «Tassa» porta ss perquè entre vocals la s simple sona /z/: cal doblar-la."
+            "es": "plaça/força → ç ante a/o. cervesa/tros → s. tassa → ss (la s simple entre vocales suena /z/ en català, hay que doblarla).",
+            "ca": "plaça/força → ç davant a/o. cervesa/tros → s. tassa → ss (la s simple entre vocals sona /z/ en català)."
           }
         },
         {
@@ -151,27 +153,27 @@
           "answer": "cervesa"
         },
         {
-          "type": "fill_blank",
-          "sentence": "Vull un ___ de pa amb tomàquet.",
-          "translation": "Quiero un trozo de pan con tomate.",
-          "options": ["tros", "trozo", "troc", "tross"],
-          "answer": "tros"
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "fuerza",
+          "options": ["força", "fuerça", "fuerza", "forsa"],
+          "answer": "força"
         },
         {
           "type": "compare",
           "es": "una taza de café",
           "ca": "una tassa de cafè",
           "note": {
-            "es": "Entre vocales la s se duplica: tassa. S sola entre vocales suena /z/ en catalán.",
-            "ca": "Entre vocals la s es duplica: tassa. S simple entre vocals sona /z/."
+            "es": "S doble entre vocales → SS. La S simple entre vocales suena /z/ en catalán.",
+            "ca": "S doble entre vocals → SS. La S simple entre vocals sona /z/."
           }
         },
         {
-          "type": "multiple_choice",
-          "direction": "es-ca",
-          "prompt": "fuerza",
-          "options": ["força", "fuerça", "fuerza", "forsa"],
-          "answer": "força"
+          "type": "fill_blank",
+          "sentence": "Vull un ___ de pa amb tomàquet.",
+          "translation": "Quiero un trozo de pan con tomate.",
+          "options": ["tros", "trozo", "troc", "tross"],
+          "answer": "tros"
         },
         {
           "type": "listen",
@@ -186,19 +188,25 @@
       "id": "x1",
       "title": { "es": "La doble ss", "ca": "La doble ss" },
       "goal": {
-        "es": "En catalán, la s entre vocales suena /z/. Para el sonido /s/ entre vocales hay que escribir ss: tassa, massa, pressió.",
-        "ca": "En català, la s entre vocals sona /z/. Per al so /s/ entre vocals cal escriure ss."
+        "es": "En catalán, la S entre vocales suena /z/. Para el sonido /s/ entre vocales se escribe SS.",
+        "ca": "En català, la S entre vocals sona /z/. Per al so /s/ entre vocals cal escriure SS."
       },
       "exercises": [
+        {
+          "type": "compare",
+          "es": "casa → /kása/",
+          "ca": "casa → /kázə/",
+          "note": {
+            "es": "En catalán la S entre vocales suena /z/. No hace falta doblarla si el sonido original ya era /z/.",
+            "ca": "En català la S entre vocals sona /z/. No cal doblar-la si el so original ja era /z/."
+          }
+        },
         { "type": "flashcard", "ca": "la tassa", "es": "la taza",
-          "note": { "es": "ss porque la s simple entre vocales suena /z/.", "ca": "ss per mantenir el so /s/." } },
-        { "type": "flashcard", "ca": "massa", "es": "demasiado" },
-        { "type": "flashcard", "ca": "la pressió", "es": "la presión" },
-        { "type": "compare",
-          "es": "la casa (s = /s/ en español)",
-          "ca": "la casa (s = /z/ en catalán)",
-          "note": { "es": "«Casa» en catalán: la s entre vocales suena /z/. No hay que escribir ss.", "ca": "«Casa» amb s simple sona /kazə/." }
-        }
+          "note": { "es": "SS porque la S simple entre vocales sonaría /z/.", "ca": "SS per mantenir el so /s/ entre vocals." } },
+        { "type": "flashcard", "ca": "massa", "es": "demasiado",
+          "note": { "es": "SS: mismo motivo.", "ca": "SS: mateix motiu." } },
+        { "type": "flashcard", "ca": "la pressió", "es": "la presión",
+          "note": { "es": "SS ante vocal: pressió.", "ca": "SS davant vocal: pressió." } }
       ]
     }
   ]
