@@ -72,7 +72,7 @@ const STRINGS = {
     "exam.score": "Resultado: {correct} de {total}",
     "exam.loading": "Preparando el repaso…",
 
-    "roadmap.locked_modal.title": "Bloque bloqueado",
+    "roadmap.locked_modal.title": "Bloqueado",
     "roadmap.locked_modal.body": "Necesitas superar el examen del bloque anterior para desbloquear este bloque.",
     "roadmap.locked_modal.cta": "Entendido",
     "roadmap.congrats.title": "¡Enhorabuena!",
@@ -165,7 +165,7 @@ const STRINGS = {
     "exam.score": "Resultat: {correct} de {total}",
     "exam.loading": "Preparant el repàs…",
 
-    "roadmap.locked_modal.title": "Bloc bloquejat",
+    "roadmap.locked_modal.title": "Bloquejat",
     "roadmap.locked_modal.body": "Has de superar l'examen del bloc anterior per desbloquejar aquest bloc.",
     "roadmap.locked_modal.cta": "Entès",
     "roadmap.congrats.title": "Enhorabona!",
