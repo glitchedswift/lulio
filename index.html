@@ -37,9 +37,36 @@
 
   <main id="view" class="view"></main>
 
+  <footer class="site-footer">
+    <span class="footer-copy">Lulio 2026</span>
+    <span class="footer-sep">·</span>
+    <button class="footer-contact-btn" id="footer-contact-btn" type="button">Contacto</button>
+  </footer>
+
+  <div id="contact-overlay" class="contact-overlay" hidden>
+    <div class="contact-modal" role="dialog" aria-modal="true" aria-label="Contacto">
+      <p class="contact-text">¿Preguntas o sugerencias? Escríbenos a:</p>
+      <a class="contact-email" href="mailto:hola@lulio.cat">hola@lulio.cat</a>
+      <button class="btn btn-ghost contact-close" id="contact-close-btn" type="button">Cerrar</button>
+    </div>
+  </div>
+
   <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js"></script>
   <script type="module" src="js/app.js"></script>
+  <script>
+    (function () {
+      var btn = document.getElementById("footer-contact-btn");
+      var overlay = document.getElementById("contact-overlay");
+      var closeBtn = document.getElementById("contact-close-btn");
+      btn.addEventListener("click", function () { overlay.hidden = false; });
+      closeBtn.addEventListener("click", function () { overlay.hidden = true; });
+      overlay.addEventListener("click", function (e) {
+        if (e.target === overlay) overlay.hidden = true;
+      });
+    })();
+  </script>
+
   <script data-goatcounter="https://lulio-cat.goatcounter.com/count"
           data-goatcounter-settings='{"no_onload":true}'
           async src="//gc.zgo.at/count.js"></script>

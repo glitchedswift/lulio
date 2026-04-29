@@ -76,7 +76,7 @@ a { color: inherit; text-decoration: none; }
 }
 .home-mascot-area {
   display: flex; align-items: center; justify-content: center;
-  gap: 20px; width: 100%; max-width: 720px;
+  gap: 48px; width: 100%; max-width: 860px;
 }
 .home-mascot { width: 200px; max-width: 38vw; animation: bob 3.5s ease-in-out infinite; flex-shrink: 0; }
 .home h1 { font-size: clamp(52px, 11vw, 84px); margin: 0; color: var(--primary-dark); font-weight: 900; line-height: 1; }
@@ -97,11 +97,33 @@ a { color: inherit; text-decoration: none; }
   background: var(--bg-soft); border: 2px solid var(--line);
   border-radius: 20px; padding: 14px 16px;
   box-shadow: var(--shadow-card); text-align: left; max-width: 165px;
+  transition: transform 0.3s ease;
 }
 .home-fc-icon { font-size: 26px; flex-shrink: 0; line-height: 1; }
 .home-fc-text strong { font-size: 14px; font-weight: 900; color: var(--ink); display: block; }
 .home-fc-text p { margin: 3px 0 0; font-size: 12px; color: var(--ink-soft); font-weight: 700; }
-.home-fc-right-group { display: flex; flex-direction: column; gap: 12px; }
+.home-fc-right-group { display: flex; flex-direction: column; gap: 16px; }
+
+/* Individual card tilts for a floating look */
+.home-mascot-area > .home-fc {
+  transform: rotate(-6deg) translateY(8px);
+}
+.home-mascot-area > .home-fc:hover {
+  transform: rotate(-3deg) translateY(4px);
+}
+.home-fc-right-group .home-fc:first-child {
+  transform: rotate(5deg) translateY(-6px);
+}
+.home-fc-right-group .home-fc:first-child:hover {
+  transform: rotate(2deg) translateY(-3px);
+}
+.home-fc-right-group .home-fc:last-child {
+  transform: rotate(-4deg) translateY(10px);
+}
+.home-fc-right-group .home-fc:last-child:hover {
+  transform: rotate(-1deg) translateY(5px);
+}
+
 @media (max-width: 600px) {
   .home-fc { display: none; }
   .home-mascot { max-width: 55vw; }
@@ -522,6 +544,43 @@ a { color: inherit; text-decoration: none; }
 .roadmap-congrats-emoji { font-size: 56px; margin-bottom: 8px; }
 .roadmap-congrats h2 { margin: 0 0 8px; font-size: 28px; color: var(--primary-dark); }
 .roadmap-congrats p { margin: 0; font-size: 16px; color: var(--ink); font-weight: 700; }
+
+/* ---------- Site footer ---------- */
+.site-footer {
+  display: flex; align-items: center; justify-content: center; gap: 10px;
+  padding: 18px 16px; border-top: 2px solid var(--line);
+  font-size: 13px; font-weight: 700; color: var(--ink-soft);
+}
+.footer-sep { opacity: 0.5; }
+.footer-contact-btn {
+  background: none; border: none; padding: 0;
+  font-size: 13px; font-weight: 700; color: var(--ink-soft);
+  cursor: pointer; text-decoration: underline; text-underline-offset: 3px;
+  font-family: inherit;
+}
+.footer-contact-btn:hover { color: var(--primary-dark); }
+
+/* ---------- Contact modal ---------- */
+.contact-overlay {
+  position: fixed; inset: 0; background: rgba(0,0,0,0.55);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 400; padding: 1rem; animation: lock-fade 0.18s ease;
+}
+.contact-overlay[hidden] { display: none; }
+.contact-modal {
+  background: var(--bg); border-radius: var(--radius-lg);
+  padding: 2rem 1.75rem; max-width: 340px; width: 100%;
+  text-align: center; box-shadow: var(--shadow-card);
+  display: flex; flex-direction: column; align-items: center; gap: 14px;
+  animation: lock-modal-in 0.18s ease;
+}
+.contact-text { margin: 0; font-size: 0.95rem; color: var(--ink-soft); line-height: 1.5; }
+.contact-email {
+  font-size: 1.05rem; font-weight: 900; color: var(--primary-dark);
+  text-decoration: none; border-bottom: 2px solid var(--primary);
+  padding-bottom: 2px;
+}
+.contact-email:hover { color: var(--primary); }
 
 /* ── Level selector overlay ──────────────────────────────────────── */
 .level-overlay {

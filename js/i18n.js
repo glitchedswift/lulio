@@ -3,7 +3,7 @@ import { getLang } from "./state.js";
 
 const STRINGS = {
   es: {
-    "home.tagline": "Aprende català desde el español, <em class=\"home-em\">sin esfuerzo.</em>",
+    "home.tagline": "El <em class=\"home-em\">curso gratis</em> para aprender català desde el español.",
     "home.start": "Empezar",
     "home.continue": "Empezar",
     "home.badge": "Lecciones de <strong>2 minutos</strong>",
@@ -96,7 +96,7 @@ const STRINGS = {
     "level.b2p.hint": "Lo uso habitualmente sin dificultad",
   },
   ca: {
-    "home.tagline": "Aprèn català des de l'espanyol, <em class=\"home-em\">sense esforç.</em>",
+    "home.tagline": "El <em class=\"home-em\">curs gratuït</em> per aprendre català des de l'espanyol.",
     "home.start": "Comença",
     "home.continue": "Comença",
     "home.badge": "Lliçons de <strong>2 minuts</strong>",
