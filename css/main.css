@@ -582,6 +582,13 @@ a { color: inherit; text-decoration: none; }
   padding-bottom: 2px;
 }
 .contact-email:hover { color: var(--primary); }
+.contact-modal-close {
+  position: absolute; top: 0.85rem; right: 0.85rem;
+  background: none; border: none; font-size: 18px; line-height: 1;
+  color: var(--ink-soft); cursor: pointer; padding: 4px 6px;
+  border-radius: 8px; font-family: inherit;
+}
+.contact-modal-close:hover { background: var(--line); color: var(--ink); }
 
 /* ── Level selector overlay ──────────────────────────────────────── */
 .level-overlay {
