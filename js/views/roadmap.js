@@ -23,18 +23,22 @@ function progressRing(done, total) {
   `;
 }
 
-function showToast(msg) {
-  let toast = document.querySelector(".roadmap-toast");
-  if (toast) toast.remove();
-  toast = document.createElement("div");
-  toast.className = "roadmap-toast";
-  toast.textContent = msg;
-  document.body.appendChild(toast);
-  requestAnimationFrame(() => toast.classList.add("shown"));
-  setTimeout(() => {
-    toast.classList.remove("shown");
-    setTimeout(() => toast.remove(), 400);
-  }, 2500);
+function showLockedModal() {
+  if (document.querySelector(".lock-overlay")) return;
+  const overlay = document.createElement("div");
+  overlay.className = "lock-overlay";
+  overlay.innerHTML = `
+    <div class="lock-modal" role="dialog" aria-modal="true" aria-labelledby="lock-modal-title">
+      <div class="lock-modal-icon">🔒</div>
+      <h2 id="lock-modal-title">${t("roadmap.locked_modal.title")}</h2>
+      <p>${t("roadmap.locked_modal.body")}</p>
+      <button class="btn" id="lock-modal-ok">${t("roadmap.locked_modal.cta")}</button>
+    </div>
+  `;
+  document.body.appendChild(overlay);
+  const dismiss = () => overlay.remove();
+  overlay.querySelector("#lock-modal-ok").addEventListener("click", dismiss);
+  overlay.addEventListener("click", (e) => { if (e.target === overlay) dismiss(); });
 }
 
 export async function renderRoadmap(el) {
@@ -174,12 +178,13 @@ export async function renderRoadmap(el) {
     });
   });
 
-  // Show toast when clicking any node inside a locked block (navigation still proceeds)
+  // Intercept clicks on lesson/exam nodes inside locked blocks — prevent navigation, show modal.
   el.querySelectorAll(".block[data-locked='true']").forEach((section) => {
     section.addEventListener("click", (e) => {
-      const node = e.target.closest(".lesson-node, .exam-node");
-      if (node && node.getAttribute("href")) {
-        showToast(t("roadmap.locked_toast"));
+      const link = e.target.closest("a");
+      if (link) {
+        e.preventDefault();
+        showLockedModal();
       }
     });
   });

@@ -1,7 +1,7 @@
 import { t } from "../i18n.js";
 import { loadIndex, loadLesson } from "../content.js";
 import { renderExercise } from "../exercises.js";
-import { getLang, markTopicComplete, markLessonComplete } from "../state.js";
+import { getLang, markTopicComplete, markLessonComplete, isBlockExamPassed, getStartingBlock, isLessonComplete } from "../state.js";
 import { playCorrect, playWrong } from "../sfx.js";
 import { trackEvent } from "../analytics.js";
 
@@ -12,6 +12,40 @@ const CORRECT_KEYS = [
   "lesson.correct.4",
   "lesson.correct.5",
 ];
+
+function isBlockLocked(index, blockId) {
+  const startingBlock = getStartingBlock();
+  const blocks = index.blocks;
+  const bi = blocks.findIndex((b) => String(b.id) === String(blockId));
+  if (bi <= 0) return false;
+  if (startingBlock > 0 && bi + 1 <= startingBlock) return false;
+  const states = blocks.map((b, i) => {
+    if (startingBlock > 0 && i + 1 < startingBlock) return true;
+    const npp = b.lessons.filter((l) => !l.placeholder);
+    const allDone = npp.length > 0 && npp.every((l) => isLessonComplete(`${b.id}-${l.id}`, l.topicCount || 0));
+    return isBlockExamPassed(b.id) || allDone;
+  });
+  const first = states.findIndex((c) => !c);
+  return first !== -1 && bi > first;
+}
+
+function showLockModal() {
+  if (document.querySelector(".lock-overlay")) return;
+  const overlay = document.createElement("div");
+  overlay.className = "lock-overlay";
+  overlay.innerHTML = `
+    <div class="lock-modal" role="dialog" aria-modal="true" aria-labelledby="lock-modal-title">
+      <div class="lock-modal-icon">🔒</div>
+      <h2 id="lock-modal-title">${t("roadmap.locked_modal.title")}</h2>
+      <p>${t("roadmap.locked_modal.body")}</p>
+      <button class="btn" id="lock-modal-ok">${t("roadmap.locked_modal.cta")}</button>
+    </div>
+  `;
+  document.body.appendChild(overlay);
+  const dismiss = () => { overlay.remove(); location.hash = "#/roadmap"; };
+  overlay.querySelector("#lock-modal-ok").addEventListener("click", dismiss);
+  overlay.addEventListener("click", (e) => { if (e.target === overlay) dismiss(); });
+}
 
 export async function renderLesson(el, params) {
   const lessonId = params.id;
@@ -28,6 +62,13 @@ export async function renderLesson(el, params) {
   const [blockId, lessonNum] = lessonId.split("-");
   const blockIndex = index.blocks.findIndex((b) => String(b.id) === String(blockId));
   const block = index.blocks[blockIndex];
+
+  if (isBlockLocked(index, blockId)) {
+    el.innerHTML = "";
+    showLockModal();
+    return;
+  }
+
   const blockColor = `var(--block-${blockIndex + 1})`;
   const blockSoft = `var(--block-${blockIndex + 1}-soft)`;
   const lessonEntry = block && block.lessons.find((l) => String(l.id) === String(lessonNum));

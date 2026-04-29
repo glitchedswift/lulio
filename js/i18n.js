@@ -72,7 +72,9 @@ const STRINGS = {
     "exam.score": "Resultado: {correct} de {total}",
     "exam.loading": "Preparando el repaso…",
 
-    "roadmap.locked_toast": "Completa el bloque anterior para desbloquear este.",
+    "roadmap.locked_modal.title": "Bloque bloqueado",
+    "roadmap.locked_modal.body": "Necesitas superar el examen del bloque anterior para desbloquear este bloque.",
+    "roadmap.locked_modal.cta": "Entendido",
     "roadmap.congrats.title": "¡Enhorabuena!",
     "roadmap.congrats.body": "Has completado todos los bloques. ¡Tu catalán es increíble!",
 
@@ -163,7 +165,9 @@ const STRINGS = {
     "exam.score": "Resultat: {correct} de {total}",
     "exam.loading": "Preparant el repàs…",
 
-    "roadmap.locked_toast": "Completa el bloc anterior per desbloquejar aquest.",
+    "roadmap.locked_modal.title": "Bloc bloquejat",
+    "roadmap.locked_modal.body": "Has de superar l'examen del bloc anterior per desbloquejar aquest bloc.",
+    "roadmap.locked_modal.cta": "Entès",
     "roadmap.congrats.title": "Enhorabona!",
     "roadmap.congrats.body": "Has completat tots els blocs. El teu català és increïble!",
 
