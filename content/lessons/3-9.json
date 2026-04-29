@@ -1,0 +1,180 @@
+{
+  "id": "3-9",
+  "title": { "es": "El cuerpo humano", "ca": "El cos humà" },
+  "goal": {
+    "es": "Aprende el vocabulario del cuerpo y las expresiones para describir sensaciones físicas.",
+    "ca": "Aprèn el vocabulari del cos i les expressions per descriure sensacions físiques."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Partes del cuerpo", "ca": "Parts del cos" },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "flashcard",
+          "ca": "cap · cabell · front · orella · ull · nas · boca · dent · llengua · gola · coll",
+          "es": "cabeza · pelo · frente · oreja · ojo · nariz · boca · diente · lengua · garganta · cuello",
+          "note": {
+            "es": "Las partes de la cabeza y el cuello. 'Cabell' es el pelo de la cabeza; en plural 'cabells'.",
+            "ca": "Les parts del cap i el coll. 'Cabell' fa referència al pèl del cap; en plural 'cabells'."
+          }
+        },
+        {
+          "type": "flashcard",
+          "ca": "espatlla · braç · colze · canell · mà · dit · ungla · pit · esquena · ventre · cintura · cama · genoll · turmell · peu · cor · pulmó · estómac",
+          "es": "hombro · brazo · codo · muñeca · mano · dedo · uña · pecho · espalda · vientre · cintura · pierna · rodilla · tobillo · pie · corazón · pulmón · estómago",
+          "note": {
+            "es": "Plurales irregulares importantes: braç → braços, mà → mans, peu → peus, pulmó → pulmons.",
+            "ca": "Plurals irregulars importants: braç → braços, mà → mans, peu → peus, pulmó → pulmons."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "rodilla",
+          "options": ["genoll", "turmell", "colze", "canell"],
+          "answer": "genoll"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "ca-es",
+          "prompt": "esquena",
+          "options": ["espalda", "pecho", "cintura", "hombro"],
+          "answer": "espalda"
+        },
+        {
+          "type": "listen",
+          "ca": "Em fa mal l'esquena i els genolls.",
+          "options": [
+            "Em fa mal l'esquena i els genolls.",
+            "Em fa mal el pit i els colzes.",
+            "Em fa mal el coll i les espatlles."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "Tener hambre, sueño, frío…", "ca": "Tenir gana, son, fred…" },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "flashcard",
+          "ca": "tenir gana / tenir fam · tenir set · tenir son · tenir fred · tenir calor · tenir por · tenir ganes de + inf.",
+          "es": "tener hambre · tener sed · tener sueño · tener frío · tener calor · tener miedo · tener ganas de + inf.",
+          "note": {
+            "es": "En catalán se usa el verbo 'tenir' (tener). 'Tenir gana' es más coloquial; 'tenir fam' es también estándar. 'Calor' es igual en las dos lenguas.",
+            "ca": "En català s'usa el verb 'tenir'. 'Tenir gana' és més col·loquial; 'tenir fam' és igualment estàndard."
+          }
+        },
+        {
+          "type": "compare",
+          "es": "tener hambre",
+          "ca": "tenir gana / tenir fam",
+          "note": {
+            "es": "Las dos formas son correctas en catalán. 'Gana' es más informal y oral; 'fam' es más estándar y literaria.",
+            "ca": "Totes dues formes són correctes. 'Gana' és més informal i oral; 'fam' és més estàndard i literària."
+          }
+        },
+        {
+          "type": "compare",
+          "es": "tener sueño",
+          "ca": "tenir son",
+          "note": {
+            "es": "¡Ojo! 'Son' en catalán significa 'sueño' (el deseo de dormir), no el sonido. El sonido es 'so' en catalán.",
+            "ca": "Compte! 'Son' en català significa la sensació de voler dormir. El so és una paraula diferent."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "tener miedo",
+          "options": ["tenir por", "tenir set", "tenir fred", "tenir son"],
+          "answer": "tenir por"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "ca-es",
+          "prompt": "Tinc molta set.",
+          "options": ["Tengo mucha sed.", "Tengo mucho sueño.", "Tengo mucho miedo.", "Tengo mucho frío."],
+          "answer": "Tengo mucha sed."
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Porta un jersei perquè tinc molt de ___.",
+          "translation": "Trae un jersey porque tengo mucho frío.",
+          "options": ["fred", "calor", "son", "por"],
+          "answer": "fred"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Els nens tenen ___ de menjar pizza.",
+          "translation": "Los niños tienen ganas de comer pizza.",
+          "options": ["ganes", "gana", "son", "set"],
+          "answer": "ganes"
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Me duele… / Em fa mal…", "ca": "Em fa mal…" },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "compare",
+          "es": "Me duele la cabeza.",
+          "ca": "Em fa mal el cap.",
+          "note": {
+            "es": "En catalán: pronombre indirecto (em/et/li/ens/us/els) + 'fer mal' + artículo + parte del cuerpo. El verbo no cambia de sujeto — es 'fa' siempre para un solo dolor, 'fan' para varios.",
+            "ca": "En català: pronom indirecte (em/et/li/ens/us/els) + 'fer mal' + article + part del cos. El verb és 'fa' per a un sol dolor i 'fan' per a diversos."
+          }
+        },
+        {
+          "type": "pattern",
+          "rule": { "from": "me/te/le duele…", "to": "em/et/li fa mal…" },
+          "examples": [
+            { "es": "Me duele el pie.", "ca": "Em fa mal el peu." },
+            { "es": "Te duele la garganta.", "ca": "Et fa mal la gola." },
+            { "es": "Le duele el estómago.", "ca": "Li fa mal l'estómac." },
+            { "es": "Nos duelen los pies.", "ca": "Ens fan mal els peus." },
+            { "es": "Les duelen las rodillas.", "ca": "Els fan mal els genolls." }
+          ],
+          "note": {
+            "es": "Con partes del cuerpo en plural, el verbo concuerda: 'fan mal' (no 'fa mal').",
+            "ca": "Amb parts del cos en plural, el verb concorda: 'fan mal' (no 'fa mal')."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "___ fa mal el genoll des d'ahir.",
+          "translation": "Le duele la rodilla desde ayer.",
+          "options": ["Li", "Em", "Et", "Ens"],
+          "answer": "Li"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Ens ___ mal els peus després de caminar tant.",
+          "translation": "Nos duelen los pies después de caminar tanto.",
+          "options": ["fan", "fa", "fan molt", "feu"],
+          "answer": "fan"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Em fa mal ___.",
+          "translation": "Me duele la garganta.",
+          "options": ["la gola", "el pit", "el nas", "l'orella"],
+          "answer": "la gola"
+        },
+        {
+          "type": "translate",
+          "direction": "es-ca",
+          "prompt": "Me duele la cabeza.",
+          "answer": "Em fa mal el cap.",
+          "bank": ["Em", "fa", "mal", "el", "cap"],
+          "distractors": ["Me", "dol", "la", "dolor"]
+        }
+      ]
+    }
+  ]
+}

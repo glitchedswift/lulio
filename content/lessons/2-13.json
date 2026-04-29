@@ -1,0 +1,244 @@
+{
+  "id": "2-13",
+  "title": { "es": "Palabras interrogativas", "ca": "Paraules interrogatives" },
+  "goal": {
+    "es": "Aprende a formular preguntas en catalán con las palabras interrogativas correctas.",
+    "ca": "Aprèn a formular preguntes en català amb les paraules interrogatives correctes."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Qui, què, on", "ca": "Qui, què, on" },
+      "goal": {
+        "es": "Aprende las tres interrogativas más básicas: quién, qué y dónde.",
+        "ca": "Aprèn les tres interrogatives més bàsiques: qui, què i on."
+      },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "flashcard",
+          "ca": "qui · què · on",
+          "es": "quién / quiénes · qué · dónde",
+          "note": {
+            "es": "'On' es muy corto y sin acento. 'Qui' es invariable (singular y plural). 'Què' siempre lleva acento grave para diferenciarse de 'que' (conjunción).",
+            "ca": "«On» és molt curt i sense accent. «Qui» és invariable (singular i plural). «Què» sempre porta accent greu per distingir-se de «que» (conjunció)."
+          }
+        },
+        {
+          "type": "compare",
+          "es": "¿Dónde vives?",
+          "ca": "On vius?",
+          "note": {
+            "es": "En catalán no se usan signos de interrogación iniciales (¿). El orden es: interrogativa + verbo + sujeto, igual que en español.",
+            "ca": "En català no s'usen signes d'interrogació inicials (¿). L'ordre és: interrogativa + verb + subjecte, igual que en castellà."
+          }
+        },
+        {
+          "type": "compare",
+          "es": "¿Quién es? / ¿Quiénes son?",
+          "ca": "Qui és? / Qui són?",
+          "note": {
+            "es": "'Qui' es invariable: no cambia para plural. El número lo marca el verbo ('és' vs 'són').",
+            "ca": "«Qui» és invariable: no canvia per al plural. El nombre el marca el verb («és» vs «són»)."
+          }
+        },
+        {
+          "type": "compare",
+          "es": "¿Qué quieres?",
+          "ca": "Què vols?",
+          "note": {
+            "es": "'Vols' viene de 'voler' (querer). Recuerda el acento en 'Què': sin él sería la conjunción 'que'.",
+            "ca": "«Vols» ve de «voler» (querer). Recorda l'accent en «Què»: sense ell seria la conjunció «que»."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "¿Dónde está la biblioteca?",
+          "options": ["On és la biblioteca?", "Qui és la biblioteca?", "Què és la biblioteca?", "Com és la biblioteca?"],
+          "answer": "On és la biblioteca?"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "¿Quiénes son ellos?",
+          "options": ["Qui són ells?", "Què són ells?", "On són ells?", "Com són ells?"],
+          "answer": "Qui són ells?"
+        },
+        {
+          "type": "listen",
+          "ca": "On és la teva casa?",
+          "options": ["On és la teva casa?", "Qui és la teva casa?", "Què és la teva casa?"]
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "Quan, com, per què i perquè", "ca": "Quan, com, per què i perquè" },
+      "goal": {
+        "es": "Aprende cuándo, cómo y la diferencia crucial entre 'per què' (por qué) y 'perquè' (porque).",
+        "ca": "Aprèn quan, com i la diferència crucial entre «per què» (por qué) i «perquè» (porque)."
+      },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "flashcard",
+          "ca": "quan · com · per què · perquè",
+          "es": "cuándo · cómo · por qué · porque",
+          "note": {
+            "es": "'Per què' (dos palabras, acento en è) = por qué (pregunta). 'Perquè' (una sola palabra) = porque (respuesta/causa). La ortografía marca la diferencia, igual que en español.",
+            "ca": "«Per què» (dues paraules, accent en è) = por qué (pregunta). «Perquè» (una sola paraula) = porque (resposta/causa). L'ortografia marca la diferència, igual que en castellà."
+          }
+        },
+        {
+          "type": "compare",
+          "es": "¿Por qué estudias catalán? — Porque me gusta.",
+          "ca": "Per què estudies català? — Perquè m'agrada.",
+          "note": {
+            "es": "Pregunta: 'per què' (separado, con acento en è). Respuesta: 'perquè' (junto, sin acento). El patrón es el mismo que en español: 'por qué' (dos palabras) vs 'porque' (una).",
+            "ca": "Pregunta: «per què» (separat, amb accent en è). Resposta: «perquè» (junt, sense accent). El patró és el mateix que en castellà: «por qué» (dues paraules) vs «porque» (una)."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "___ no véns a la festa?",
+          "translation": "¿Por qué no vienes a la fiesta?",
+          "options": ["Per què", "Perquè", "Quan", "Com"],
+          "answer": "Per què"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "No vinc ___ estic cansat.",
+          "translation": "No vengo porque estoy cansado.",
+          "options": ["perquè", "per què", "quan", "com"],
+          "answer": "perquè"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "¿Cuándo llegas?",
+          "options": ["Quan arribes?", "Com arribes?", "Per què arribes?", "On arribes?"],
+          "answer": "Quan arribes?"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "¿Cómo estás?",
+          "options": ["Com estàs?", "Quan estàs?", "Qui estàs?", "On estàs?"],
+          "answer": "Com estàs?"
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Quant i quin", "ca": "Quant i quin" },
+      "goal": {
+        "es": "Aprende quant (cuánto) y quin (qué/cuál antes de sustantivo) y su concordancia de género y número.",
+        "ca": "Aprèn quant (cuánto) i quin (qué/cuál davant de substantiu) i la seva concordança de gènere i nombre."
+      },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "compare",
+          "es": "cuánto / cuánta / cuántos / cuántas",
+          "ca": "quant / quanta / quants / quantes",
+          "note": {
+            "es": "'Quant' concuerda en género y número con el sustantivo que acompaña, igual que en español.",
+            "ca": "«Quant» concorda en gènere i nombre amb el substantiu que acompanya, igual que en castellà."
+          }
+        },
+        {
+          "type": "compare",
+          "es": "¿Qué día es hoy? / ¿Cuál es tu nombre?",
+          "ca": "Quin dia és avui? / Quin és el teu nom?",
+          "note": {
+            "es": "'Quin/Quina' equivale a 'qué' o 'cuál' cuando va seguido de sustantivo. Concuerda: quin (m. sg.), quina (f. sg.), quins (m. pl.), quines (f. pl.).",
+            "ca": "«Quin/Quina» equival a «qué» o «cuál» quan va seguit d'un substantiu. Concorda: quin (m. sg.), quina (f. sg.), quins (m. pl.), quines (f. pl.)."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "___ diners tens?",
+          "translation": "¿Cuánto dinero tienes?",
+          "options": ["Quants", "Quantes", "Quant", "Quanta"],
+          "answer": "Quants"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "___ llengua parles a casa?",
+          "translation": "¿Qué lengua hablas en casa?",
+          "options": ["Quina", "Quin", "Quines", "Quins"],
+          "answer": "Quina"
+        },
+        {
+          "type": "translate",
+          "direction": "es-ca",
+          "prompt": "¿Cuántas personas hay?",
+          "answer": "Quantes persones hi ha?",
+          "bank": ["Quantes", "persones", "hi", "ha", "?"],
+          "distractors": ["Quants", "Quanta", "té", "és"]
+        },
+        {
+          "type": "translate",
+          "direction": "es-ca",
+          "prompt": "¿Qué libro lees?",
+          "answer": "Quin llibre llegeixes?",
+          "bank": ["Quin", "llibre", "llegeixes", "?"],
+          "distractors": ["Quina", "Quins", "llegeix", "On"]
+        }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "x1",
+      "title": { "es": "Preguntas indirectas", "ca": "Preguntes indirectes" },
+      "goal": {
+        "es": "Aprende a usar interrogativas en oraciones subordinadas sin inversión de orden.",
+        "ca": "Aprèn a usar interrogatives en oracions subordinades sense inversió d'ordre."
+      },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "compare",
+          "es": "¿Dónde vives? → Te pregunto dónde vives.",
+          "ca": "On vius? → Et pregunto on vius.",
+          "note": {
+            "es": "En preguntas indirectas (subordinadas) no se invierte el orden. La interrogativa pasa a ser un nexo subordinante y el orden queda: sujeto + verbo.",
+            "ca": "En preguntes indirectes (subordinades) no s'inverteix l'ordre. La interrogativa passa a ser un nexe subordinant i l'ordre queda: subjecte + verb."
+          }
+        },
+        {
+          "type": "compare",
+          "es": "No sé quién es. / Me pregunta qué quiero.",
+          "ca": "No sé qui és. / Em pregunta què vull.",
+          "note": {
+            "es": "Observa que el orden en la subordinada es declarativo (sujeto + verbo), no interrogativo.",
+            "ca": "Observa que l'ordre a la subordinada és declaratiu (subjecte + verb), no interrogatiu."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "No sé ___ viu la Maria.",
+          "translation": "No sé dónde vive la María.",
+          "options": ["on", "qui", "quan", "perquè"],
+          "answer": "on"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Em pregunta ___ arribo.",
+          "translation": "Me pregunta cuándo llego.",
+          "options": ["quan", "com", "on", "per què"],
+          "answer": "quan"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "No sé por qué está enfadado.",
+          "options": ["No sé perquè està enfadat.", "No sé per què està enfadat.", "No sé quan està enfadat.", "No sé com està enfadat."],
+          "answer": "No sé perquè està enfadat."
+        }
+      ]
+    }
+  ]
+}

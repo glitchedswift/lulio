@@ -1,0 +1,203 @@
+{
+  "id": "2-12",
+  "title": { "es": "Demostrativos", "ca": "Demostratius" },
+  "goal": {
+    "es": "Aprende los demostrativos del catalán y por qué difieren del español.",
+    "ca": "Aprèn els demostratius del català i per què difereixen del castellà."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Aquest (este/a)", "ca": "Aquest (este/a)" },
+      "goal": {
+        "es": "Aprende las formas de 'aquest' y cómo equivalen a este/esta/estos/estas.",
+        "ca": "Aprèn les formes d'«aquest» i com equivalen a este/esta/estos/estas."
+      },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "pattern",
+          "rule": { "from": "este/esta/estos/estas", "to": "aquest/aquesta/aquests/aquestes" },
+          "examples": [
+            { "es": "este libro", "ca": "aquest llibre" },
+            { "es": "esta silla", "ca": "aquesta cadira" },
+            { "es": "estos días", "ca": "aquests dies" },
+            { "es": "estas flores", "ca": "aquestes flors" }
+          ],
+          "note": {
+            "es": "En catalán el demostrativo de cercanía concuerda en género y número con el sustantivo, igual que en español. La raíz 'aqu-' es la misma que en latín.",
+            "ca": "En català el demostratiu de proximitat concorda en gènere i nombre amb el substantiu, igual que en castellà. L'arrel «aqu-» prové del llatí."
+          }
+        },
+        {
+          "type": "compare",
+          "es": "este / esta / estos / estas",
+          "ca": "aquest / aquesta / aquests / aquestes",
+          "note": {
+            "es": "Las terminaciones difieren, pero la lógica de concordancia de género y número es idéntica.",
+            "ca": "Les terminacions difereixen, però la lògica de concordança de gènere i nombre és idèntica."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "esta mesa",
+          "options": ["aquesta taula", "aquest taula", "aquelles taules", "aquella taula"],
+          "answer": "aquesta taula"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "estos zapatos",
+          "options": ["aquests sabates", "aquestes sabates", "aquelles sabates", "aquells sabates"],
+          "answer": "aquestes sabates"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "___ cotxe és nou.",
+          "translation": "Este coche es nuevo.",
+          "options": ["Aquest", "Aquesta", "Aquell", "Aquella"],
+          "answer": "Aquest"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "___ cases són grans.",
+          "translation": "Estas casas son grandes.",
+          "options": ["Aquestes", "Aquells", "Aquelles", "Aquests"],
+          "answer": "Aquestes"
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "Aquell (ese/aquel)", "ca": "Aquell (ese/aquel)" },
+      "goal": {
+        "es": "Descubre que el catalán estándar fusiona 'ese' y 'aquel' en una sola forma: aquell.",
+        "ca": "Descobreix que el català estàndard fusiona «ese» i «aquel» en una sola forma: aquell."
+      },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "pattern",
+          "rule": { "from": "ese/aquel · esa/aquella · esos/aquellos · esas/aquellas", "to": "aquell · aquella · aquells · aquelles" },
+          "examples": [
+            { "es": "ese/aquel chico", "ca": "aquell noi" },
+            { "es": "esa/aquella chica", "ca": "aquella noia" },
+            { "es": "esos/aquellos libros", "ca": "aquells llibres" },
+            { "es": "esas/aquellas casas", "ca": "aquelles cases" }
+          ],
+          "note": {
+            "es": "El catalán estándar solo tiene dos grados de distancia: aquest (cercano) y aquell (alejado). No existe un equivalente de 'ese' — ambas distancias, media y lejana, se expresan con aquell.",
+            "ca": "El català estàndard només té dos graus de distància: aquest (proper) i aquell (allunyat). No existeix un equivalent d'«ese»: les distàncies mitjana i llunyana s'expressen amb aquell."
+          }
+        },
+        {
+          "type": "compare",
+          "es": "ese hombre / aquel hombre → dos formas distintas",
+          "ca": "aquell home → una sola forma",
+          "note": {
+            "es": "El español distingue tres distancias (este/ese/aquel). El catalán estándar solo distingue dos: aquest y aquell. El valenciano sí usa 'eixe', pero no es catalán estándar.",
+            "ca": "El castellà distingeix tres distàncies (este/ese/aquel). El català estàndard només en distingeix dues: aquest i aquell. El valencià sí que usa «eixe», però no és català estàndard."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "aquel edificio",
+          "options": ["aquell edifici", "aquest edifici", "aquella edifici", "aquells edificis"],
+          "answer": "aquell edifici"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "esas ventanas",
+          "options": ["aquelles finestres", "aquells finestres", "aquestes finestres", "aquella finestra"],
+          "answer": "aquelles finestres"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "___ muntanya és molt alta.",
+          "translation": "Esa/Aquella montaña es muy alta.",
+          "options": ["Aquella", "Aquell", "Aquesta", "Aquest"],
+          "answer": "Aquella"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Qui és ___ home?",
+          "translation": "¿Quién es ese/aquel hombre?",
+          "options": ["aquell", "aquest", "aquella", "aquesta"],
+          "answer": "aquell"
+        },
+        {
+          "type": "translate",
+          "direction": "es-ca",
+          "prompt": "Quiero ese/aquel libro.",
+          "answer": "Vull aquell llibre.",
+          "bank": ["Vull", "aquell", "llibre", "."],
+          "distractors": ["aquest", "aquella", "Quiero"]
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Neutros: això i allò", "ca": "Neutres: això i allò" },
+      "goal": {
+        "es": "Aprende las formas neutras això y allò para referirte a cosas o ideas sin género definido.",
+        "ca": "Aprèn les formes neutres això i allò per referir-te a coses o idees sense gènere definit."
+      },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "flashcard",
+          "ca": "això",
+          "es": "esto / eso (esta o esa cosa, este o ese asunto)",
+          "note": {
+            "es": "'Això' se usa para referirse a algo cercano o recién mencionado, sin importar género. Equivale a 'esto' y también a 'eso' en contexto neutro.",
+            "ca": "«Això» s'utilitza per referir-se a alguna cosa propera o acabada d'esmentar, sense importar el gènere. Equival a «esto» i també a «eso» en context neutre."
+          }
+        },
+        {
+          "type": "flashcard",
+          "ca": "allò",
+          "es": "aquello (aquella cosa o asunto lejano)",
+          "note": {
+            "es": "'Allò' se refiere a algo alejado o abstracto. Equivale a 'aquello' en español. Como 'això', es completamente invariable.",
+            "ca": "«Allò» es refereix a alguna cosa allunyada o abstracta. Equival a «aquello» en castellà. Com «això», és completament invariable."
+          }
+        },
+        {
+          "type": "compare",
+          "es": "Esto no me gusta.",
+          "ca": "Això no m'agrada.",
+          "note": {
+            "es": "'Això' es invariable — no tiene forma masculina ni femenina. No existe '*aqueixa' ni '*eixe' en catalán estándar (solo en valenciano).",
+            "ca": "«Això» és invariable: no té forma masculina ni femenina. No existeix «*aqueixa» ni «*eixe» en català estàndard (només en valencià)."
+          }
+        },
+        {
+          "type": "compare",
+          "es": "¿Qué es eso/aquello?",
+          "ca": "Què és allò?",
+          "note": {
+            "es": "Para referirse a algo alejado de forma neutra se usa 'allò', no 'aquell' (que necesitaría concordar con un sustantivo de género concreto).",
+            "ca": "Per referir-se a alguna cosa allunyada de manera neutra s'usa «allò», no «aquell» (que necessitaria concordar amb un substantiu de gènere concret)."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "Esto es interesante.",
+          "options": ["Això és interessant.", "Allò és interessant.", "Aquest és interessant.", "Aquell és interessant."],
+          "answer": "Això és interessant."
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "ca-es",
+          "prompt": "Allò és el meu cotxe.",
+          "options": ["Aquello es mi coche.", "Eso es mi coche.", "Esto es mi coche.", "Ese es mi coche."],
+          "answer": "Aquello es mi coche."
+        }
+      ]
+    }
+  ]
+}

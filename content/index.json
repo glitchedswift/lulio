@@ -1,13 +1,13 @@
 {
-  "version": "0.5.0",
+  "version": "0.7.0",
   "blocks": [
     {
       "id": 1,
       "level": "A1",
       "title": { "es": "Primeros pasos", "ca": "Primers passos" },
       "subtitle": {
-        "es": "Saludos, alfabeto, números, falsos amigos y patrones clave.",
-        "ca": "Salutacions, alfabet, nombres, falsos amics i patrons clau."
+        "es": "Saludos, alfabeto, números, falsos amigos, patrones clave y primeras presentaciones.",
+        "ca": "Salutacions, alfabet, nombres, falsos amics, patrons clau i primeres presentacions."
       },
       "lessons": [
         { "id": 1, "title": { "es": "Hola y adiós", "ca": "Hola i adéu" }, "icon": "👋", "topicCount": 3 },
@@ -16,7 +16,10 @@
         { "id": 4, "title": { "es": "Artículos", "ca": "Articles" }, "icon": "🔖", "topicCount": 3 },
         { "id": 5, "title": { "es": "Falsos amigos", "ca": "Falsos amics" }, "icon": "🎭", "topicCount": 3 },
         { "id": 6, "title": { "es": "Patrones lingüísticos", "ca": "Patrons lingüístics" }, "icon": "🔁", "topicCount": 4 },
-        { "id": 7, "title": { "es": "La z en catalán", "ca": "La z en català" }, "icon": "🔠", "topicCount": 3 }
+        { "id": 7, "title": { "es": "La z en catalán", "ca": "La z en català" }, "icon": "🔠", "topicCount": 3 },
+        { "id": 8, "title": { "es": "Presentarse", "ca": "Presentar-se" }, "icon": "🙋", "topicCount": 3 },
+        { "id": 9, "title": { "es": "Verbos en presente: -ar", "ca": "Verbs en present: -ar" }, "icon": "🔄", "topicCount": 3 },
+        { "id": 10, "title": { "es": "Colores y adjetivos", "ca": "Colors i adjectius" }, "icon": "🎨", "topicCount": 3 }
       ]
     },
     {
@@ -24,8 +27,8 @@
       "level": "A1+/A2",
       "title": { "es": "El día a día", "ca": "El dia a dia" },
       "subtitle": {
-        "es": "Familia, casa, comida, rutina y horas en català.",
-        "ca": "Família, casa, menjar, rutina i hores en català."
+        "es": "Familia, casa, comida, rutina, horas, calendario, ser/estar y conjugación.",
+        "ca": "Família, casa, menjar, rutina, hores, calendari, ser/estar i conjugació."
       },
       "lessons": [
         { "id": 1, "title": { "es": "La familia", "ca": "La família" }, "icon": "👨‍👩‍👧", "topicCount": 3 },
@@ -35,7 +38,13 @@
         { "id": 5, "title": { "es": "¿Qué hora es?", "ca": "Quina hora és?" }, "icon": "🕒", "topicCount": 3 },
         { "id": 6, "title": { "es": "Anar: ir y... ¿pasado?", "ca": "Anar: anar i... passat?" }, "icon": "🚶", "topicCount": 3 },
         { "id": 7, "title": { "es": "El tiempo y las estaciones", "ca": "El temps i les estacions" }, "icon": "🌦️", "topicCount": 3 },
-        { "id": 8, "title": { "es": "Los posesivos", "ca": "Els possessius" }, "icon": "🔑", "topicCount": 3 }
+        { "id": 8, "title": { "es": "Los posesivos", "ca": "Els possessius" }, "icon": "🔑", "topicCount": 3 },
+        { "id": 9, "title": { "es": "Días de la semana", "ca": "Dies de la setmana" }, "icon": "📅", "topicCount": 3 },
+        { "id": 10, "title": { "es": "Los meses y las fechas", "ca": "Els mesos i les dates" }, "icon": "🗓️", "topicCount": 3 },
+        { "id": 11, "title": { "es": "Ser y estar", "ca": "Ser i estar" }, "icon": "⚖️", "topicCount": 3 },
+        { "id": 12, "title": { "es": "Demostrativos", "ca": "Demostratius" }, "icon": "👉", "topicCount": 3 },
+        { "id": 13, "title": { "es": "Palabras interrogativas", "ca": "Paraules interrogatives" }, "icon": "❓", "topicCount": 3 },
+        { "id": 14, "title": { "es": "Verbos -re e -ir en presente", "ca": "Verbs -re i -ir en present" }, "icon": "🔃", "topicCount": 3 }
       ]
     },
     {
@@ -43,8 +52,8 @@
       "level": "A2/B1",
       "title": { "es": "Salimos por la ciudad", "ca": "Sortim per la ciutat" },
       "subtitle": {
-        "es": "Direcciones, transporte, compras y los pronombres hi/en.",
-        "ca": "Direccions, transport, compres i els pronoms hi/en."
+        "es": "Direcciones, transporte, compras, pronombres hi/en, pasado y pronombres débiles.",
+        "ca": "Direccions, transport, compres, pronoms hi/en, passat i pronoms febles."
       },
       "lessons": [
         { "id": 1, "title": { "es": "Direcciones", "ca": "Direccions" }, "icon": "🧭", "topicCount": 3 },
@@ -54,7 +63,11 @@
         { "id": 5, "title": { "es": "Pronombres hi/en", "ca": "Pronoms hi/en" }, "icon": "✨", "topicCount": 3 },
         { "id": 6, "title": { "es": "Pasado perifrástico", "ca": "Passat perifràstic" }, "icon": "⏳", "topicCount": 3 },
         { "id": 7, "title": { "es": "El imperfecto", "ca": "L'imperfet" }, "icon": "📖", "topicCount": 3 },
-        { "id": 8, "title": { "es": "Perífrasis verbales", "ca": "Perífrasis verbals" }, "icon": "⚙️", "topicCount": 3 }
+        { "id": 8, "title": { "es": "Perífrasis verbales", "ca": "Perífrasis verbals" }, "icon": "⚙️", "topicCount": 3 },
+        { "id": 9, "title": { "es": "El cuerpo humano", "ca": "El cos humà" }, "icon": "🧍", "topicCount": 3 },
+        { "id": 10, "title": { "es": "Verbos reflexivos", "ca": "Verbs reflexius" }, "icon": "🔁", "topicCount": 3 },
+        { "id": 11, "title": { "es": "Pronombres débiles: directos", "ca": "Pronoms febles: directes" }, "icon": "🎯", "topicCount": 3 },
+        { "id": 12, "title": { "es": "Pronombres débiles: indirectos y combinados", "ca": "Pronoms febles: indirectes i combinats" }, "icon": "🔀", "topicCount": 3 }
       ]
     },
     {
@@ -62,8 +75,8 @@
       "level": "B1/B2",
       "title": { "es": "Pensamos y sentimos", "ca": "Pensem i sentim" },
       "subtitle": {
-        "es": "Trabajo, opiniones, emociones, salud y futuro/condicional.",
-        "ca": "Feina, opinions, emocions, salut i futur/condicional."
+        "es": "Trabajo, opiniones, emociones, salud, tiempos verbales avanzados y oraciones complejas.",
+        "ca": "Feina, opinions, emocions, salut, temps verbals avançats i oracions complexes."
       },
       "lessons": [
         { "id": 1, "title": { "es": "El trabajo", "ca": "La feina" }, "icon": "💼", "topicCount": 3 },
@@ -73,7 +86,11 @@
         { "id": 5, "title": { "es": "Futuro y condicional", "ca": "Futur i condicional" }, "icon": "🔮", "topicCount": 3 },
         { "id": 6, "title": { "es": "Subjuntivo", "ca": "Subjuntiu" }, "icon": "🌀", "topicCount": 3 },
         { "id": 7, "title": { "es": "Comparativos y superlativos", "ca": "Comparatius i superlatius" }, "icon": "📊", "topicCount": 3 },
-        { "id": 8, "title": { "es": "Negación catalana", "ca": "Negació catalana" }, "icon": "🚫", "topicCount": 3 }
+        { "id": 8, "title": { "es": "Negación catalana", "ca": "Negació catalana" }, "icon": "🚫", "topicCount": 3 },
+        { "id": 9, "title": { "es": "El pretérito perfecto compuesto", "ca": "El passat compost" }, "icon": "📜", "topicCount": 3 },
+        { "id": 10, "title": { "es": "Caldre y la obligación", "ca": "Caldre i l'obligació" }, "icon": "📌", "topicCount": 3 },
+        { "id": 11, "title": { "es": "Las oraciones de relativo", "ca": "Les oracions de relatiu" }, "icon": "🔗", "topicCount": 3 },
+        { "id": 12, "title": { "es": "Las oraciones condicionales", "ca": "Les oracions condicionals" }, "icon": "🌿", "topicCount": 3 }
       ]
     },
     {
@@ -81,8 +98,8 @@
       "level": "B2+",
       "title": { "es": "Cultura y matices", "ca": "Cultura i matisos" },
       "subtitle": {
-        "es": "Historia, dichos, registro y gramática avanzada.",
-        "ca": "Història, dites, registre i gramàtica avançada."
+        "es": "Historia, dichos, registro formal, gramática avanzada y variedades dialectales.",
+        "ca": "Història, dites, registre formal, gramàtica avançada i variants dialectals."
       },
       "lessons": [
         { "id": 1, "title": { "es": "Fiestas y tradiciones", "ca": "Festes i tradicions" }, "icon": "🏛️", "topicCount": 3 },
@@ -90,7 +107,10 @@
         { "id": 3, "title": { "es": "Registro formal", "ca": "Registre formal" }, "icon": "✒️", "topicCount": 3 },
         { "id": 4, "title": { "es": "Falsos amigos avanzados", "ca": "Falsos amics avançats" }, "icon": "🎭", "topicCount": 3 },
         { "id": 5, "title": { "es": "Lengua escrita", "ca": "Llengua escrita" }, "icon": "📚", "topicCount": 3 },
-        { "id": 6, "title": { "es": "Conectores del discurso", "ca": "Connectors del discurs" }, "icon": "🔗", "topicCount": 3 }
+        { "id": 6, "title": { "es": "Conectores del discurso", "ca": "Connectors del discurs" }, "icon": "🔗", "topicCount": 3 },
+        { "id": 7, "title": { "es": "La voz pasiva", "ca": "La veu passiva" }, "icon": "🔄", "topicCount": 3 },
+        { "id": 8, "title": { "es": "Haber impersonal: hi ha", "ca": "Haver-hi: hi ha" }, "icon": "📍", "topicCount": 3 },
+        { "id": 9, "title": { "es": "Variedades dialectales del catalán", "ca": "Variants dialectals del català" }, "icon": "🗺️", "topicCount": 3 }
       ]
     }
   ]

@@ -1,0 +1,178 @@
+{
+  "id": "3-10",
+  "title": { "es": "Verbos reflexivos", "ca": "Verbs reflexius" },
+  "goal": {
+    "es": "Aprende a usar los verbos reflexivos en catalán y la posición de los pronombres reflexivos.",
+    "ca": "Aprèn a usar els verbs reflexius en català i la posició dels pronoms reflexius."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Pronombres reflexivos", "ca": "Pronoms reflexius" },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "pattern",
+          "rule": { "from": "me/te/se/nos/os/se", "to": "em/et/es/ens/us/es" },
+          "examples": [
+            { "es": "me lavo → (yo) me", "ca": "em rento → (jo) em" },
+            { "es": "te lavas → (tú) te", "ca": "et rentes → (tu) et" },
+            { "es": "se lava → (él/ella) se", "ca": "es renta → (ell/ella) es" },
+            { "es": "nos lavamos → (nosotros) nos", "ca": "ens rentem → (nosaltres) ens" },
+            { "es": "os laváis → (vosotros) os", "ca": "us renteu → (vosaltres) us" },
+            { "es": "se lavan → (ellos/ellas) se", "ca": "es renten → (ells/elles) es" }
+          ],
+          "note": {
+            "es": "Las formas son casi paralelas. La diferencia clave: 'me' → 'em', 'te' → 'et'. Las 3ª personas 'se' → 'es'.",
+            "ca": "Les formes són gairebé paral·leles. La diferència clau: 'me' → 'em', 'te' → 'et'. Les 3es persones 'se' → 'es'."
+          }
+        },
+        {
+          "type": "compare",
+          "es": "Me lavo.",
+          "ca": "Em rento.",
+          "note": {
+            "es": "El pronombre reflexivo catalán va ANTES del verbo conjugado, igual que en español. La diferencia es la forma: 'me' → 'em'.",
+            "ca": "El pronom reflexiu català va ABANS del verb conjugat, igual que en castellà. La diferència és la forma: 'me' → 'em'."
+          }
+        },
+        {
+          "type": "flashcard",
+          "ca": "rentar-se: em rento · et rentes · es renta · ens rentem · us renteu · es renten",
+          "es": "lavarse: me lavo · te lavas · se lava · nos lavamos · os laváis · se lavan",
+          "note": {
+            "es": "El infinitivo lleva el pronombre al final con guion: 'rentar-se'. En la conjugación, el pronombre va delante.",
+            "ca": "L'infinitiu porta el pronom al final amb guionet: 'rentar-se'. En la conjugació, el pronom va davant."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "nos lavamos",
+          "options": ["ens rentem", "us renteu", "es renten", "em rento"],
+          "answer": "ens rentem"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "ca-es",
+          "prompt": "et rentes",
+          "options": ["te lavas", "me lavo", "se lava", "os laváis"],
+          "answer": "te lavas"
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "Verbos reflexivos comunes", "ca": "Verbs reflexius comuns" },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "flashcard",
+          "ca": "dutxar-se (em dutxo) · aixecar-se (m'aixeco) · vestir-se (em vesteixo) · quedar-se (em quedo) · posar-se (em poso) · asseure's (m'assec)",
+          "es": "ducharse (me ducho) · levantarse (me levanto) · vestirse (me visto) · quedarse (me quedo) · ponerse (me pongo) · sentarse (me siento)",
+          "note": {
+            "es": "'Aixecar-se' y 'asseure's' usan apóstrofo antes de vocal: m'aixeco, m'assec, t'aixeques, t'asseus. 'Vestir-se' es incoativo: em vesteixo, et vestiexes, es vesteix.",
+            "ca": "'Aixecar-se' i 'asseure's' usen apòstrof davant de vocal: m'aixeco, m'assec, t'aixeques, t'asseus. 'Vestir-se' és incoatiu: em vesteixo, et vestiexes, es vesteix."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "Me ducho cada mañana.",
+          "options": ["Em dutxo cada matí.", "Em rento cada matí.", "M'aixeco cada matí.", "Em poso cada matí."],
+          "answer": "Em dutxo cada matí."
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "ca-es",
+          "prompt": "S'asseu a la cadira.",
+          "options": ["Se sienta en la silla.", "Se levanta de la silla.", "Se queda en la silla.", "Se pone en la silla."],
+          "answer": "Se sienta en la silla."
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Cada dia ___ a les set del matí.",
+          "translation": "Cada día me levanto a las siete de la mañana.",
+          "options": ["m'aixeco", "em dutxo", "m'assec", "em quedo"],
+          "answer": "m'aixeco"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Es ___ la jaqueta perquè fa fred.",
+          "translation": "Se pone la chaqueta porque hace frío.",
+          "options": ["posa", "queda", "dutxa", "vesteix"],
+          "answer": "posa"
+        },
+        {
+          "type": "listen",
+          "ca": "Em dutxo i em vesteixo abans d'esmorzar.",
+          "options": [
+            "Em dutxo i em vesteixo abans d'esmorzar.",
+            "Em rento i m'aixeco abans d'esmorzar.",
+            "M'assec i em quedo abans d'esmorzar."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Posición del pronombre", "ca": "Posició del pronom" },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "compare",
+          "es": "Me lavo. / Quiero lavarme.",
+          "ca": "Em rento. / Vull rentar-me.",
+          "note": {
+            "es": "Antes del verbo conjugado (proclítico): 'em rento'. Tras el infinitivo (enclítico, con guion): 'rentar-me'. Igual que en español, pero con las formas catalanas.",
+            "ca": "Davant del verb conjugat (proclític): 'em rento'. Darrere de l'infinitiu (enclític, amb guionet): 'rentar-me'. Igual que en castellà, però amb les formes catalanes."
+          }
+        },
+        {
+          "type": "compare",
+          "es": "No me pongo la chaqueta.",
+          "ca": "No em poso la jaqueta.",
+          "note": {
+            "es": "Con negación, el pronombre sigue antes del verbo conjugado: 'No em poso' (nunca 'No poso-em'). Igual que en español.",
+            "ca": "Amb negació, el pronom continua davant del verb conjugat: 'No em poso' (mai 'No poso-em'). Igual que en castellà."
+          }
+        },
+        {
+          "type": "pattern",
+          "rule": { "from": "proclític (davant verb)", "to": "enclític (darrere infinitiu/gerundi)" },
+          "examples": [
+            { "es": "Me lavo. (antes del verbo)", "ca": "Em rento. (davant el verb)" },
+            { "es": "Quiero lavarme. (tras infinitivo)", "ca": "Vull rentar-me. (darrere infinitiu)" },
+            { "es": "Estoy lavándome. (tras gerundio)", "ca": "Estic rentant-me. (darrere gerundi)" },
+            { "es": "No me lavo. (con negación → siempre antes)", "ca": "No em rento. (amb negació → sempre davant)" }
+          ],
+          "note": {
+            "es": "Regla simple: el pronombre va ANTES del verbo conjugado y DESPUÉS (pegado con guion) de infinitivos y gerundios.",
+            "ca": "Regla senzilla: el pronom va DAVANT del verb conjugat i DARRERE (enganxat amb guionet) d'infinitius i gerundis."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Vull ___ els cabells abans de sortir.",
+          "translation": "Quiero lavarme el pelo antes de salir.",
+          "options": ["rentar-me", "em rentar", "rentant-me", "rento"],
+          "answer": "rentar-me"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "No ___ poso les sabates noves avui.",
+          "translation": "No me pongo los zapatos nuevos hoy.",
+          "options": ["em", "me", "es", "et"],
+          "answer": "em"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "Estoy duchándome.",
+          "options": ["Estic dutxant-me.", "Em dutxo.", "Vull dutxar-me.", "No em dutxo."],
+          "answer": "Estic dutxant-me."
+        }
+      ]
+    }
+  ]
+}

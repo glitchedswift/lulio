@@ -1,0 +1,205 @@
+{
+  "id": "2-9",
+  "title": { "es": "Días de la semana", "ca": "Dies de la setmana" },
+  "goal": {
+    "es": "Aprende los días de la semana y cómo hablar de horarios y planes.",
+    "ca": "Aprèn els dies de la setmana i com parlar d'horaris i plans."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Els dies", "ca": "Els dies" },
+      "goal": {
+        "es": "Los siete días de la semana en catalán. Van en minúscula, igual que en español.",
+        "ca": "Els set dies de la setmana en català. Van en minúscula, com en castellà."
+      },
+      "exercises": [
+        {
+          "type": "flashcard",
+          "ca": "dilluns",
+          "es": "lunes",
+          "note": { "es": "Todos los días van en minúscula en catalán. Muchos empiezan con «di-».", "ca": "Tots els dies van en minúscula en català. Molts comencen per «di-»." }
+        },
+        {
+          "type": "flashcard",
+          "ca": "dimarts / dimecres / dijous / divendres",
+          "es": "martes / miércoles / jueves / viernes",
+          "note": { "es": "«Dimecres» (miércoles) y «divendres» (viernes) son los más distintos al español.", "ca": "«Dimecres» i «divendres» són els més diferents del castellà." }
+        },
+        {
+          "type": "flashcard",
+          "ca": "dissabte / diumenge",
+          "es": "sábado / domingo",
+          "note": { "es": "«Dissabte» y «diumenge» no siguen el prefijo «di-» de los demás días.", "ca": "«Dissabte» i «diumenge» no segueixen el prefix «di-» dels altres dies." }
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "miércoles",
+          "options": ["dimecres", "dimarts", "dijous", "dilluns"],
+          "answer": "dimecres"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "viernes",
+          "options": ["divendres", "dimecres", "dissabte", "dilluns"],
+          "answer": "divendres"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "ca-es",
+          "prompt": "dijous",
+          "options": ["jueves", "martes", "lunes", "miércoles"],
+          "answer": "jueves"
+        },
+        {
+          "type": "listen",
+          "ca": "Avui és dimarts.",
+          "options": ["Avui és dimarts.", "Avui és dilluns.", "Avui és dimecres."]
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "Expressió habitual i específica", "ca": "Expressió habitual i específica" },
+      "goal": {
+        "es": "«El dilluns» (los lunes, habitualmente) frente a «aquest dilluns» (este lunes concreto). También las expresiones para ayer, hoy, mañana y la semana.",
+        "ca": "«El dilluns» (habitualment) davant de «aquest dilluns» (un dilluns concret). Les expressions per parlar d'ahir, avui, demà i la setmana."
+      },
+      "exercises": [
+        {
+          "type": "compare",
+          "es": "los lunes (cada lunes, habitual)",
+          "ca": "el dilluns (habitual)",
+          "note": { "es": "En catalán, «el» + día de la semana = acción habitual, igual que «los lunes» en español. Todos los días usan «el», incluso dissabte y diumenge: «el dissabte vaig al mercat».", "ca": "En català, «el» + dia de la setmana = acció habitual. Tots els dies usen «el»: el dissabte, el diumenge." }
+        },
+        {
+          "type": "compare",
+          "es": "este lunes (concreto)",
+          "ca": "aquest dilluns (específic)",
+          "note": { "es": "«Aquest/aquesta» + día = ese lunes específico, no habitual. Es la diferencia clave entre los dos usos del artículo.", "ca": "«Aquest/aquesta» + dia = aquell dilluns concret, no habitual. Diferència clau entre els dos usos." }
+        },
+        {
+          "type": "compare",
+          "es": "la semana pasada / la semana que viene",
+          "ca": "la setmana passada / la setmana que ve",
+          "note": { "es": "«Ve» corresponde a «viene» en español. La estructura es casi idéntica.", "ca": "«Ve» és l'equivalent de «viene» en castellà. L'estructura és gairebé idèntica." }
+        },
+        {
+          "type": "flashcard",
+          "ca": "avui / ahir / demà",
+          "es": "hoy / ayer / mañana"
+        },
+        {
+          "type": "flashcard",
+          "ca": "abans-d'ahir / demà passat",
+          "es": "anteayer / pasado mañana",
+          "note": { "es": "«Abans-d'ahir» lleva guion y apóstrofo. «Demà passat» equivale exactamente a «pasado mañana».", "ca": "«Abans-d'ahir» porta guionet i apòstrof. «Demà passat» equival exactament a «pasado mañana»." }
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "El dimecres vaig a la piscina, però ___ dimecres no hi puc anar.",
+          "translation": "Los miércoles voy a la piscina, pero este miércoles no puedo ir.",
+          "options": ["aquest", "el", "aquell", "un"],
+          "answer": "aquest"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "___ vaig al mercat.",
+          "translation": "Ayer fui al mercado.",
+          "options": ["Ahir", "Avui", "Demà", "Dilluns"],
+          "answer": "Ahir"
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Plans setmanals", "ca": "Plans setmanals" },
+      "goal": {
+        "es": "Practica los días de la semana en frases completas: hacer planes, preguntar el día y hablar de rutinas.",
+        "ca": "Practica els dies de la setmana en frases completes: fer plans, preguntar el dia i parlar de rutines."
+      },
+      "exercises": [
+        {
+          "type": "translate",
+          "direction": "es-ca",
+          "prompt": "Los martes voy al gimnasio.",
+          "answer": "El dimarts vaig al gimnàs.",
+          "bank": ["El", "dimarts", "vaig", "al", "gimnàs."],
+          "distractors": ["Aquest", "dimecres", "la", "piscina"]
+        },
+        {
+          "type": "translate",
+          "direction": "es-ca",
+          "prompt": "¿Qué día es hoy?",
+          "answer": "Quin dia és avui?",
+          "bank": ["Quin", "dia", "és", "avui?"],
+          "distractors": ["Quina", "hora", "ahir", "demà"]
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "ca-es",
+          "prompt": "La setmana que ve tinc un examen.",
+          "options": ["La semana que viene tengo un examen.", "La semana pasada tengo un examen.", "La semana siguiente hay un examen.", "Esta semana tengo un examen."],
+          "answer": "La semana que viene tengo un examen."
+        },
+        {
+          "type": "listen",
+          "ca": "El divendres sortim amb els amics.",
+          "options": ["El divendres sortim amb els amics.", "El dijous sortim amb els amics.", "El dissabte sortim amb els amics."]
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "___ és avui? — Avui és dilluns.",
+          "translation": "¿Qué día es hoy? — Hoy es lunes.",
+          "options": ["Quin dia", "Quina hora", "Quin mes", "Quan"],
+          "answer": "Quin dia"
+        }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "x1",
+      "title": { "es": "Cap de setmana", "ca": "Cap de setmana" },
+      "goal": {
+        "es": "Expresiones útiles para el fin de semana: dissabte, diumenge y vocabulario de ocio.",
+        "ca": "Expressions útils per al cap de setmana: dissabte, diumenge i vocabulari d'oci."
+      },
+      "exercises": [
+        {
+          "type": "flashcard",
+          "ca": "el cap de setmana",
+          "es": "el fin de semana",
+          "note": { "es": "Literalmente «cabeza de semana». «Cap» en catalán puede significar 'cabeza' o 'extremo'.", "ca": "Literalment «cap de setmana». «Cap» pot significar 'cap' o 'extrem'." }
+        },
+        {
+          "type": "compare",
+          "es": "el fin de semana",
+          "ca": "el cap de setmana",
+          "note": { "es": "El catalán no dice «fin» sino «cap» (extremo/cabeza). Literalmente: el 'extremo' de la semana.", "ca": "El català no diu «fi» sinó «cap». Literalment: l'extrem de la setmana." }
+        },
+        {
+          "type": "flashcard",
+          "ca": "aquest cap de setmana / el cap de setmana que ve",
+          "es": "este fin de semana / el próximo fin de semana"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "el fin de semana",
+          "options": ["el cap de setmana", "el final de la setmana", "el cap de la semana", "els weekends"],
+          "answer": "el cap de setmana"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "Este sábado voy al teatro.",
+          "options": ["Aquest dissabte vaig al teatre.", "El dissabte vaig al teatre.", "Aquell dissabte vaig al teatre.", "Aquest diumenge vaig al teatre."],
+          "answer": "Aquest dissabte vaig al teatre."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "id": "1-10",
+  "title": { "es": "Colores y adjetivos", "ca": "Colors i adjectius" },
+  "goal": {
+    "es": "Aprende los colores y los adjetivos básicos con su concordancia en catalán.",
+    "ca": "Aprèn els colors i els adjectius bàsics amb la seva concordança en català."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Els colors", "ca": "Els colors" },
+      "goal": {
+        "es": "Aprende el nombre de los colores en catalán y practica su uso.",
+        "ca": "Aprèn el nom dels colors en català i practica'ls."
+      },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "flashcard",
+          "ca": "vermell/vermella · blau/blava · groc/groga · verd/verda · blanc/blanca · negre/negra · taronja · rosa · gris/grisa · marró · lila · morat/morada",
+          "es": "rojo/roja · azul/azul (f: blava) · amarillo/amarilla · verde/verde (f: verda) · blanco/blanca · negro/negra · naranja · rosa · gris/gris (f: grisa) · marrón · lila · morado/morada",
+          "note": {
+            "es": "Atención: 'taronja', 'rosa', 'lila' y 'marró' son invariables en género. 'Blau' tiene femenino 'blava', no *'blaua'.",
+            "ca": "Atenció: 'taronja', 'rosa', 'lila' i 'marró' són invariables en gènere. 'Blau' té femení 'blava', no *'blaua'."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "El cielo es azul.",
+          "options": ["El cel és blau.", "El cel és blava.", "El cel és blaus."],
+          "answer": "El cel és blau."
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "La rosa es roja.",
+          "options": ["La rosa és vermella.", "La rosa és vermell.", "La rosa és roja."],
+          "answer": "La rosa és vermella."
+        },
+        {
+          "type": "listen",
+          "ca": "La paret és blanca i el sostre és gris.",
+          "options": [
+            "La paret és blanca i el sostre és gris.",
+            "La paret és grisa i el sostre és blanc.",
+            "La paret és blava i el sostre és negre."
+          ]
+        },
+        {
+          "type": "translate",
+          "direction": "es-ca",
+          "prompt": "El gato es negro y la gata es negra.",
+          "answer": "El gat és negre i la gata és negra.",
+          "bank": ["El", "gat", "és", "negre", "i", "la", "gata", "negra", "."],
+          "distractors": ["negres", "negros", "negro"]
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "Adjetivos básicos", "ca": "Adjectius bàsics" },
+      "goal": {
+        "es": "Aprende los adjetivos más comunes y sus irregularidades de género.",
+        "ca": "Aprèn els adjectius més comuns i les seves irregularitats de gènere."
+      },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "flashcard",
+          "ca": "gran/grans · petit/petita · alt/alta · baix/baixa · ràpid/ràpida · lent/lenta · bo/bona · dolent/dolenta · nou/nova · vell/vella",
+          "es": "grande/grandes · pequeño/pequeña · alto/alta · bajo/baja · rápido/rápida · lento/lenta · bueno/buena · malo/mala · nuevo/nueva · viejo/vieja",
+          "note": {
+            "es": "'Gran' no cambia en género singular: 'un home gran / una dona gran'. En plural: 'grans' para ambos géneros.",
+            "ca": "'Gran' no canvia en gènere singular: 'un home gran / una dona gran'. En plural: 'grans' per als dos gèneres."
+          }
+        },
+        {
+          "type": "compare",
+          "es": "un hombre grande / una mujer grande",
+          "ca": "un home gran / una dona gran",
+          "note": {
+            "es": "'Gran' es invariable en género: no existe *'una dona grana'. En plural: 'homes grans / dones grans'.",
+            "ca": "'Gran' és invariable en gènere: no existeix *'una dona grana'. En plural: 'homes grans / dones grans'."
+          }
+        },
+        {
+          "type": "compare",
+          "es": "Él es bueno. / Ella es buena.",
+          "ca": "Ell és bo. / Ella és bona.",
+          "note": {
+            "es": "Masculino singular: 'bo' (forma corta). Femenino: 'bona'. Plural: 'bons / bones'. Ante sustantivo: 'un bon amic' (apócope).",
+            "ca": "Masculí singular: 'bo' (forma curta). Femení: 'bona'. Plural: 'bons / bones'. Davant substantiu: 'un bon amic' (apòcope)."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Tinc una moto ___.",
+          "translation": "Tengo una moto nueva.",
+          "options": ["nova", "nou", "noves", "nous"],
+          "answer": "nova"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "Es una ciudad pequeña.",
+          "options": ["És una ciutat petita.", "És una ciutat petit.", "És una ciutat petites."],
+          "answer": "És una ciutat petita."
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Concordancia de género y número", "ca": "Concordança de gènere i nombre" },
+      "goal": {
+        "es": "Domina cómo varían los adjetivos en catalán: presta atención al plural de los adjetivos en -e.",
+        "ca": "Domina com varien els adjectius en català: posa atenció al plural dels adjectius en -e."
+      },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "pattern",
+          "rule": { "from": "masc. sg. -e", "to": "fem. sg. -a · pl. -es (masc. i fem.)" },
+          "examples": [
+            { "es": "negro (m. sg.)", "ca": "negre" },
+            { "es": "negra (f. sg.)", "ca": "negra" },
+            { "es": "negros (m. pl.)", "ca": "negres" },
+            { "es": "negras (f. pl.)", "ca": "negres" }
+          ],
+          "note": {
+            "es": "¡Atención! El plural masculino de los adjetivos en -e no es *negros, sino 'negres' — idéntico al femenino plural. Mismo patrón: 'verd/verda/verdes/verdes', 'lliure/lliura...' No.",
+            "ca": "Atenció! El plural masculí dels adjectius en -e no és *negros, sinó 'negres' — idèntic al femení plural. Mateix patró: 'verd/verda/verds/verdes' (finals en consonant segueixen altra regla)."
+          }
+        },
+        {
+          "type": "pattern",
+          "rule": { "from": "masc. sg. -t", "to": "fem. sg. -ta · masc. pl. -ts · fem. pl. -tes" },
+          "examples": [
+            { "es": "alto (m. sg.)", "ca": "alt" },
+            { "es": "alta (f. sg.)", "ca": "alta" },
+            { "es": "altos (m. pl.)", "ca": "alts" },
+            { "es": "altas (f. pl.)", "ca": "altes" }
+          ],
+          "note": {
+            "es": "Los adjetivos acabados en consonante siguen el patrón español más de cerca: masc. pl. -ts/-ds, fem. pl. -tes/-des.",
+            "ca": "Els adjectius acabats en consonant segueixen un patró semblant al castellà: masc. pl. -ts/-ds, fem. pl. -tes/-des."
+          }
+        },
+        {
+          "type": "compare",
+          "es": "negro / negra / negros / negras",
+          "ca": "negre / negra / negres / negres",
+          "note": {
+            "es": "En español el masc. pl. es 'negros'. En catalán es 'negres', igual que el fem. pl. Este es el error más frecuente de los hispanohablantes.",
+            "ca": "En castellà el masc. pl. és 'negros'. En català és 'negres', igual que el fem. pl. Aquest és l'error més freqüent dels castellanoparlants."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Els cotxes ___ són molt ràpids.",
+          "translation": "Los coches negros son muy rápidos.",
+          "options": ["negres", "negros", "negra", "negre"],
+          "answer": "negres"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Les noies ___ juguen al bàsquet.",
+          "translation": "Las chicas altas juegan al baloncesto.",
+          "options": ["altes", "alts", "alta", "alt"],
+          "answer": "altes"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "Los zapatos blancos",
+          "options": ["Les sabates blanques", "Les sabates blancs", "Les sabates blanca"],
+          "answer": "Les sabates blanques"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "Un libro nuevo y una silla nueva.",
+          "options": ["Un llibre nou i una cadira nova.", "Un llibre nova i una cadira nou.", "Un llibre nous i una cadira noves."],
+          "answer": "Un llibre nou i una cadira nova."
+        },
+        {
+          "type": "translate",
+          "direction": "es-ca",
+          "prompt": "Los gatos negros son misteriosos.",
+          "answer": "Els gats negres són misteriosos.",
+          "bank": ["Els", "gats", "negres", "són", "misteriosos", "."],
+          "distractors": ["negros", "negre", "és"]
+        }
+      ]
+    }
+  ]
+}

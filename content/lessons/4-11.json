@@ -1,0 +1,150 @@
+{
+  "id": "4-11",
+  "title": { "es": "Las oraciones de relativo", "ca": "Les oracions de relatiu" },
+  "goal": { "es": "Aprende a usar 'que', 'qui', 'on' y 'el qual' para construir oraciones de relativo en catalán.", "ca": "Aprèn a usar 'que', 'qui', 'on' i 'el qual' per construir oracions de relatiu en català." },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Que — sujeto y complemento directo", "ca": "Que — subjecte i complement directe" },
+      "goal": { "es": "'Que' funciona como relativo para sujeto y objeto directo, igual que en español.", "ca": "'Que' funciona com a relatiu per a subjecte i objecte directe, igual que en castellà." },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "compare",
+          "es": "El chico que canta es mi hermano.",
+          "ca": "El noi que canta és el meu germà.",
+          "note": { "es": "Función de sujeto: igual que en español. El relativo 'que' es invariable.", "ca": "Funció de subjecte: igual que en castellà. El relatiu 'que' és invariable." }
+        },
+        {
+          "type": "compare",
+          "es": "El libro que leo es muy bueno.",
+          "ca": "El llibre que llegeixo és molt bo.",
+          "note": { "es": "Función de objeto directo: igual que en español. En catalán no hay 'a' personal, así que 'la noia que vaig veure' (no *'a quien vi') es correcto.", "ca": "Funció d'objecte directe: igual que en castellà. En català no hi ha 'a' personal, per tant 'la noia que vaig veure' és correcte." }
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "La pel·lícula ___ hem vist és fantàstica.",
+          "translation": "La película que hemos visto es fantástica.",
+          "options": ["que", "qui", "on"],
+          "answer": "que"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "La persona ___ m'ha trucat és la meva amiga.",
+          "translation": "La persona que me ha llamado es mi amiga.",
+          "options": ["que", "qui", "on"],
+          "answer": "que"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "La chica que vi ayer es profesora.",
+          "options": ["La noia que vaig veure ahir és professora.", "La noia qui vaig veure ahir és professora.", "La noia on vaig veure ahir és professora."],
+          "answer": "La noia que vaig veure ahir és professora."
+        },
+        {
+          "type": "translate",
+          "direction": "es-ca",
+          "prompt": "El hombre que habla es el director.",
+          "answer": "L'home que parla és el director.",
+          "bank": ["L'home", "que", "parla", "és", "el", "director", "."],
+          "distractors": ["qui", "on", "L'home,"]
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "Qui i on — personas tras preposición y lugares", "ca": "Qui i on — persones darrere preposició i llocs" },
+      "goal": { "es": "'Qui' para personas tras preposición; 'on' para lugares. Ambos difieren del español.", "ca": "'Qui' per a persones darrere preposició; 'on' per a llocs. Tots dos difereixen del castellà." },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "compare",
+          "es": "La persona con quien hablo es la directora.",
+          "ca": "La persona amb qui parlo és la directora.",
+          "note": { "es": "'Qui' = quien, después de preposición para personas. Igual que 'quien' en español: 'amb qui', 'de qui', 'per a qui'.", "ca": "'Qui' = quien, darrere de preposició per a persones. Igual que 'quien' en castellà: 'amb qui', 'de qui', 'per a qui'." }
+        },
+        {
+          "type": "compare",
+          "es": "La casa donde vivo es muy grande.",
+          "ca": "La casa on visc és molt gran.",
+          "note": { "es": "¡CLAVE! 'Donde' → 'on' en catalán. No uses 'que' para lugares: *'la casa que visc' es incorrecto.", "ca": "CLAU! 'Donde' → 'on' en català. No facis servir 'que' per a llocs: *'la casa que visc' és incorrecte." }
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "El país ___ vaig néixer és molt bonic.",
+          "translation": "El país donde nací es muy bonito.",
+          "options": ["on", "que", "qui"],
+          "answer": "on"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "L'amic de ___ et parlo viu a Berlín.",
+          "translation": "El amigo del que te hablo vive en Berlín.",
+          "options": ["qui", "que", "on"],
+          "answer": "qui"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "El restaurante donde comemos siempre.",
+          "options": ["El restaurant on mengem sempre.", "El restaurant que mengem sempre.", "El restaurant qui mengem sempre."],
+          "answer": "El restaurant on mengem sempre."
+        },
+        {
+          "type": "translate",
+          "direction": "es-ca",
+          "prompt": "La persona con quien trabajo.",
+          "answer": "La persona amb qui treballo.",
+          "bank": ["La", "persona", "amb", "qui", "treballo", "."],
+          "distractors": ["on", "que", "per"]
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "El qual — registro formal", "ca": "El qual — registre formal" },
+      "goal": { "es": "'El qual' es el relativo formal, usado tras preposiciones y para evitar ambigüedad.", "ca": "'El qual' és el relatiu formal, usat darrere preposicions i per evitar ambigüitats." },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "pattern",
+          "rule": { "from": "el qual / la qual / els quals / les quals", "to": "formal · tras preposición · evita ambigüedad" },
+          "examples": [
+            { "es": "La empresa para la que trabajo.", "ca": "L'empresa per a la qual treballo." },
+            { "es": "Los problemas de los que hablábamos.", "ca": "Els problemes dels quals parlàvem." },
+            { "es": "He visto a la madre de mi amigo, que trabaja aquí.", "ca": "He vist la mare del meu amic, la qual treballa aquí." }
+          ],
+          "note": { "es": "El qual concuerda en género y número con el antecedente, no con el sujeto de la oración de relativo.", "ca": "El qual concorda en gènere i nombre amb l'antecedent, no amb el subjecte de l'oració de relatiu." }
+        },
+        {
+          "type": "compare",
+          "es": "El proyecto en el que trabajo es nuevo.",
+          "ca": "El projecte en el qual treballo és nou.",
+          "note": { "es": "Formal escrito. En coloquial se diría 'el projecte on treballo' o 'el projecte que hi treballo'.", "ca": "Formal escrit. En col·loquial es diria 'el projecte on treballo' o 'el projecte que hi treballo'." }
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "La llei ___ es va aprovar ahir és important.",
+          "translation": "La ley que se aprobó ayer es importante.",
+          "options": ["que", "la qual", "on"],
+          "answer": "que"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "L'informe del ___ et parlo és confidencial.",
+          "translation": "El informe del que te hablo es confidencial.",
+          "options": ["qual", "que", "qui"],
+          "answer": "qual"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "ca-es",
+          "prompt": "L'empresa per a la qual treballo és francesa.",
+          "options": ["La empresa para la que trabajo es francesa.", "La empresa en la que trabajo es francesa.", "La empresa de la que trabajo es francesa."],
+          "answer": "La empresa para la que trabajo es francesa."
+        }
+      ]
+    }
+  ]
+}

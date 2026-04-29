@@ -1,0 +1,170 @@
+{
+  "id": "3-12",
+  "title": { "es": "Pronombres débiles: indirectos y combinados", "ca": "Pronoms febles: indirectes i combinats" },
+  "goal": { "es": "Aprende los pronombres de objeto indirecto y las combinaciones más frecuentes.", "ca": "Aprèn els pronoms d'objecte indirecte i les combinacions més freqüents." },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Li i els — 3ª persona", "ca": "Li i els — 3a persona" },
+      "goal": { "es": "Un único pronombre 'li' para él y para ella; 'els' para el plural.", "ca": "Un únic pronom 'li' per a ell i per a ella; 'els' per al plural." },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "compare",
+          "es": "Le doy el libro (a él / a ella).",
+          "ca": "Li dono el llibre.",
+          "note": { "es": "En catalán 'li' sirve para masculino Y femenino singular. No existe *'le' femenino distinto.", "ca": "En català 'li' serveix per a masculí I femení singular. No existeix un *'le' femení distint." }
+        },
+        {
+          "type": "compare",
+          "es": "Les digo la verdad (a ellos / a ellas).",
+          "ca": "Els dic la veritat.",
+          "note": { "es": "¡Ojo! 'Els' = les (indirecto pl.) PERO también 'els' = los (directo masc. pl.). El contexto lo aclara.", "ca": "Atenció! 'Els' = les (indirecte pl.) PERÒ també 'els' = los (directe masc. pl.). El context ho aclareix." }
+        },
+        {
+          "type": "pattern",
+          "rule": { "from": "OI 3a persona", "to": "li (sg.) · els (pl.)" },
+          "examples": [
+            { "es": "Le explico el problema.", "ca": "Li explico el problema." },
+            { "es": "Le escribo un correo.", "ca": "Li escric un correu." },
+            { "es": "Les digo la verdad.", "ca": "Els dic la veritat." },
+            { "es": "Les pregunto la hora.", "ca": "Els pregunto l'hora." }
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "___ porto un regal, de part meva.",
+          "translation": "Le traigo un regalo, de mi parte.",
+          "options": ["Li", "Els", "Em"],
+          "answer": "Li"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "Les cuento un cuento a los niños.",
+          "options": ["Els explico un conte als nens.", "Li explico un conte als nens.", "Em expliquen un conte."],
+          "answer": "Els explico un conte als nens."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "Em, et, ens, us — 1ª y 2ª persona", "ca": "Em, et, ens, us — 1a i 2a persona" },
+      "goal": { "es": "Pronombres de objeto indirecto para 1ª y 2ª persona.", "ca": "Pronoms d'objecte indirecte per a 1a i 2a persona." },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "flashcard",
+          "ca": "em dóna (me da) · et dóna (te da) · ens dóna (nos da) · us dóna (os/les da)",
+          "es": "me da · te da · nos da · os/les da",
+          "note": { "es": "Estos pronombres son los mismos para OD y OI de 1ª/2ª persona. El contexto distingue la función.", "ca": "Aquests pronoms són els mateixos per a OD i OI de 1a/2a persona. El context en distingeix la funció." }
+        },
+        {
+          "type": "compare",
+          "es": "Me trae el café.",
+          "ca": "Em porta el cafè.",
+          "note": { "es": "'Em' = me (OI). Va siempre ANTES del verbo conjugado.", "ca": "'Em' = me (OI). Va sempre DAVANT del verb conjugat." }
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Quan ___ truques?",
+          "translation": "¿Cuándo me llamas?",
+          "options": ["em", "et", "li"],
+          "answer": "em"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "La mestra ___ explica la lliçó.",
+          "translation": "La maestra nos explica la lección.",
+          "options": ["ens", "em", "us"],
+          "answer": "ens"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "Te digo la verdad.",
+          "options": ["Et dic la veritat.", "Em dic la veritat.", "Li dic la veritat."],
+          "answer": "Et dic la veritat."
+        },
+        {
+          "type": "translate",
+          "direction": "es-ca",
+          "prompt": "Nos da las llaves.",
+          "answer": "Ens dóna les claus.",
+          "bank": ["Ens", "dóna", "les", "claus", "."],
+          "distractors": ["Em", "Li", "dona"]
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Pronombres combinados", "ca": "Pronoms combinats" },
+      "goal": { "es": "Cuando coinciden OI + OD, los pronombres se fusionan.", "ca": "Quan coincideixen OI + OD, els pronoms es fusionen." },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "compare",
+          "es": "Me lo da.",
+          "ca": "Me'l dóna.",
+          "note": { "es": "'em' + 'el' → 'me'l'. El apóstrofe une los dos pronombres. La 'e' de 'em' se convierte en 'me' ante consonante.", "ca": "'em' + 'el' → 'me'l'. L'apòstrof uneix els dos pronoms. La 'e' d'em es converteix en 'me' davant consonant." }
+        },
+        {
+          "type": "compare",
+          "es": "Se lo explico. (a él/ella)",
+          "ca": "Li ho explico.",
+          "note": { "es": "OI 'li' + OD 'ho' → 'li ho' (van separados; ho no se combina con apóstrofe). Orden siempre: OI + OD.", "ca": "OI 'li' + OD 'ho' → 'li ho' (van separats; ho no es combina amb apòstrof). Ordre sempre: OI + OD." }
+        },
+        {
+          "type": "flashcard",
+          "ca": "me'l / me la / me'ls / me les · te'l / te la / te'ls / te les · li'l / li la / li ho",
+          "es": "me lo / me la / me los / me las · te lo / te la / te los / te las · se lo / se la / se lo (neutro)",
+          "note": { "es": "Las formas combinadas preceden siempre al verbo. En enclítico (tras infinitivo): 'porta-me'l'.", "ca": "Les formes combinades precedeixen sempre el verb. En enclític (darrere infinitiu): 'porta-me'l'." }
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "La cartera? ___ porto demà.",
+          "translation": "¿La cartera? Te la traigo mañana.",
+          "options": ["Te la", "Te'l", "Me la"],
+          "answer": "Te la"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "Me lo dice siempre. (cosa → ho)",
+          "options": ["M'ho diu sempre.", "Me'l diu sempre.", "Li ho diu sempre."],
+          "answer": "M'ho diu sempre."
+        }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "x1",
+      "title": { "es": "T'ho dic — combinaciones con ho", "ca": "T'ho dic — combinacions amb ho" },
+      "goal": { "es": "Practica las combinaciones más frecuentes con 'ho' (neutro).", "ca": "Practica les combinacions més freqüents amb 'ho' (neutre)." },
+      "xp": 5,
+      "exercises": [
+        {
+          "type": "compare",
+          "es": "Te lo digo. (cosa/idea)",
+          "ca": "T'ho dic.",
+          "note": { "es": "'et' + 'ho' → 't'ho'. La 'e' de 'et' cae ante 'h': et + ho = t'ho.", "ca": "'et' + 'ho' → 't'ho'. La 'e' d'et cau davant 'h': et + ho = t'ho." }
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "___ he dit moltes vegades.",
+          "translation": "Te lo he dicho muchas veces.",
+          "options": ["T'ho", "Te'l", "Li ho"],
+          "answer": "T'ho"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "Se lo digo. (a él)",
+          "options": ["Li ho dic.", "T'ho dic.", "M'ho diu."],
+          "answer": "Li ho dic."
+        }
+      ]
+    }
+  ]
+}
