@@ -37,9 +37,18 @@ function setupTopBar() {
   });
 }
 
+function syncFooter() {
+  const hash = location.hash;
+  const hidden = hash.startsWith("#/lesson/") || hash.startsWith("#/exam/");
+  const footer = document.querySelector(".site-footer");
+  if (footer) footer.hidden = hidden;
+}
+
 function init() {
   loadState();
   setupTopBar();
+  syncFooter();
+  window.addEventListener("hashchange", syncFooter);
 
   defineRoute("/", (el) => renderHome(el));
   defineRoute("/roadmap", (el) => renderRoadmap(el));
