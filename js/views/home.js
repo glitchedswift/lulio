@@ -43,7 +43,7 @@ export function renderHome(el) {
         <h1>Lulio</h1>
         <p class="home-tagline">${t("home.tagline")}</p>
         <div class="home-badge">⏱ ${t("home.badge")}</div>
-        <a class="btn btn-lg home-cta" href="#/roadmap">▶ ${t("home.start")}</a>
+        <button class="btn btn-lg home-cta" id="home-start-btn" type="button">▶ ${t("home.start")}</button>
         <small class="home-disclaimer">${t("home.disclaimer")}</small>
       </div>
       <div class="home-bottom">
@@ -79,9 +79,13 @@ export function renderHome(el) {
     </section>
   `;
 
-  if (!hasChosenLevel()) {
-    showLevelSelector();
-  }
+  el.querySelector("#home-start-btn").addEventListener("click", () => {
+    if (hasChosenLevel()) {
+      navigate("#/roadmap");
+    } else {
+      showLevelSelector();
+    }
+  });
 }
 
 function showLevelSelector() {
