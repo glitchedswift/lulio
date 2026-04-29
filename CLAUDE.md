@@ -9,9 +9,21 @@ This document is the canonical brief for any LLM (or human) maintaining **Lulio*
 - Audience: native or fluent **Spanish speakers** who want to learn **Catalan**.
 - Pedagogy: lean on the high overlap between the two Romance languages and surface the *contrasts* (`ny` vs `ñ`, `els` vs `los`, periphrastic past, `hi`/`en`, gender shifts, false friends, etc.).
 - Anonymous: no accounts, no backend. Progress is stored in **cookies** in the user's browser.
-- 5 progressive blocks (CEFR-aligned, A1 → B2+). Each block has several lessons. Each lesson has up to 4 required topics and up to 2 optional **extras**.
+- 5 progressive blocks (CEFR-aligned, A1 → B2+), totalling 57 lessons. Each lesson has up to 4 required topics and up to 2 optional **extras**. Each block ends with a **block exam**; passing it unlocks the next block.
 - Built-in TTS (Web Speech API) for Catalan pronunciation.
 - ES/CA UI toggle (lesson **content** is always bilingual; only chrome translates).
+
+### Current content
+
+| Block | CEFR | Lessons | Theme |
+|-------|------|---------|-------|
+| 1 | A1 | 10 | Greetings, sounds, numbers, articles, false friends, patterns, self-intro, verb -ar, colours |
+| 2 | A1+/A2 | 14 | Family, home, food, routine, time, possessives, days, months, ser/estar, demonstratives, interrogatives, verb -re/-ir |
+| 3 | A2/B1 | 12 | City navigation, transport, shopping, restaurant, pronouns hi/en, periphrastic past, imperfect, verbal periphrases, body, reflexives, object pronouns |
+| 4 | B1/B2 | 12 | Work, opinions, emotions, health, future/conditional, subjunctive, comparatives, negation, present perfect, caldre, relative clauses, conditionals |
+| 5 | B2+ | 9 | Traditions, idioms, formal register, advanced false friends, written language, discourse connectors, passive voice, haver-hi, dialectal varieties |
+
+57 lessons total, each ending in a block exam.
 
 ## Hosting model — DO NOT BREAK THIS
 
@@ -43,7 +55,8 @@ This document is the canonical brief for any LLM (or human) maintaining **Lulio*
 │   └── views/
 │       ├── home.js           # Entry screen
 │       ├── roadmap.js        # Snake-path map of blocks/lessons
-│       └── lesson.js         # Lesson runner with progress + completion
+│       ├── lesson.js         # Lesson runner with progress + completion
+│       └── exam.js           # Block exam (6-question quiz, 5/6 to pass)
 ├── content/
 │   ├── index.json            # Manifest of blocks → lessons (with placeholder flags)
 │   └── lessons/<block>-<lesson>.json
@@ -198,6 +211,148 @@ Conventions:
 - Use real Catalan, with proper diacritics (`à è é í ï ò ó ú ü ç l·l`).
 - Keep `answer` consistent with `bank` tokens for `translate` exercises.
 - For `multiple_choice` keep options short and unambiguous.
+
+### How each exercise type is rendered
+
+Understanding the visual layout helps you design exercises whose content fits the UI.
+
+**`flashcard`** — *auto-accept (no right/wrong check)*
+```
+┌─────────────────────────────────────┐
+│  [🔊 TTS plays automatically]       │
+│                                      │
+│         Bon dia          ← large CA  │
+│                                      │
+│      Buenos días         ← ES gloss  │
+│                                      │
+│  ┌─ Note (optional) ──────────────┐  │
+│  │ Contextual note text here      │  │
+│  └────────────────────────────────┘  │
+│                                      │
+│          [ Continuar ]               │
+└─────────────────────────────────────┘
+```
+Use for introducing vocabulary. TTS fires on load. The "Continue" button is always enabled — no check needed.
+
+---
+
+**`compare`** — *auto-accept (no right/wrong check)*
+```
+┌─────────────────────────────────────┐
+│  ESPAÑOL          CATALÀ            │
+│  ──────────────────────────         │
+│  España      →   Espanya  [🔊]      │
+│                                      │
+│  ┌─ Note (optional) ──────────────┐  │
+│  │ Contextual note text here      │  │
+│  └────────────────────────────────┘  │
+│                                      │
+│          [ Continuar ]               │
+└─────────────────────────────────────┘
+```
+Use for single-word or single-phrase contrastive pairs. TTS plays the CA word automatically. Ideal before a `multiple_choice` or `translate` that tests the same word.
+
+---
+
+**`pattern`** — *auto-accept (no right/wrong check)*
+```
+┌─────────────────────────────────────┐
+│  ESPAÑOL  -ción  →  CATALÀ  -ció    │  ← rule box
+│                                      │
+│  nación          nació      [🔊]     │
+│  situación       situació   [🔊]     │
+│  (up to ~5 pairs)                    │
+│                                      │
+│  ┌─ Note (optional) ──────────────┐  │
+│  │ Rule clarification text        │  │
+│  └────────────────────────────────┘  │
+│                                      │
+│          [ Continuar ]               │
+└─────────────────────────────────────┘
+```
+Use to teach morphological or phonological rules before testing them. Each CA word has its own TTS button. Keep `examples` to 3–5 pairs — more becomes a wall of text.
+
+---
+
+**`multiple_choice`** — *requires selection*
+```
+┌─────────────────────────────────────┐
+│  Traduce al català                  │  ← direction label
+│                                      │
+│         Buenos días                 │  ← prompt (large)
+│                                      │
+│  ┌──────────────┐ ┌──────────────┐  │
+│  │   Bon dia    │ │  Bona nit    │  │  ← 2-col shuffled options
+│  └──────────────┘ └──────────────┘  │
+│  ┌──────────────┐                   │
+│  │     Hola     │                   │
+│  └──────────────┘                   │
+│                                      │
+│          [ Comprovar ]               │  ← enabled after tap
+└─────────────────────────────────────┘
+```
+Options are shuffled on every render. Direction `ca-es` plays the prompt via TTS and asks "Traducir al español". Keep options ≤ 4 to avoid layout overflow. Options should be plausibly confusable — avoid obviously wrong distractors.
+
+---
+
+**`translate`** — *requires at least one token placed*
+```
+┌─────────────────────────────────────┐
+│  Traduce al català                  │  ← direction label
+│                                      │
+│         Buenos días                 │  ← prompt
+│                                      │
+│  ┌─ Answer slot ───────────────────┐ │
+│  │  [Bon] [dia]  ←── placed tokens │ │
+│  └─────────────────────────────────┘ │
+│                                      │
+│  Word bank (shuffled):               │
+│  [ Bona ] [ nit ] [ Bon ] [ dia ]   │
+│                                      │
+│          [ Comprovar ]               │  ← enabled after any tap
+└─────────────────────────────────────┘
+```
+Tapping a bank token moves it to the slot; tapping a slot token returns it. Matching is case- and punctuation-insensitive. The `bank` array contains the correct tokens; `distractors` adds wrong tokens. Keep answers to ≤ 6 tokens — longer sentences are awkward on mobile.
+
+---
+
+**`fill_blank`** — *requires selection*
+```
+┌─────────────────────────────────────┐
+│  Completa la frase                  │
+│                                      │
+│   Tinc _______ anys.                │  ← inline blank (24 px wide)
+│   Tengo veinticinco años.           │  ← optional ES translation
+│                                      │
+│  ┌──────────────┐ ┌──────────────┐  │
+│  │ vint-i-cinc  │ │   vinticinc  │  │  ← 2-col options
+│  └──────────────┘ └──────────────┘  │
+│                                      │
+│          [ Comprovar ]               │  ← enabled after tap
+└─────────────────────────────────────┘
+```
+Tapping an option fills the blank inline; tapping again deselects. Include the `translation` field whenever the Catalan sentence would be opaque without it. Keep `options` to exactly 2 — the layout is a 2-column grid.
+
+---
+
+**`listen`** — *requires selection; TTS auto-plays on load*
+```
+┌─────────────────────────────────────┐
+│  Escolta i tria el que sents        │
+│                                      │
+│          [ 🔊 Escoltar ]            │  ← large TTS button, re-playable
+│                                      │
+│  ┌──────────────┐ ┌──────────────┐  │
+│  │  Bona tarda  │ │   Bon dia    │  │  ← 2-col shuffled options
+│  └──────────────┘ └──────────────┘  │
+│  ┌──────────────┐                   │
+│  │  Bona nit    │                   │
+│  └──────────────┘                   │
+│                                      │
+│          [ Comprovar ]               │  ← enabled after tap
+└─────────────────────────────────────┘
+```
+TTS plays the `ca` string automatically and again on button tap. Keep options ≤ 4. Use for phrases that are easy to confuse aurally (e.g. `bon dia` / `bona tarda` / `bona nit`). The correct answer must be one of the `options`.
 
 ## How to add a lesson
 
