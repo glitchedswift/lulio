@@ -42,7 +42,7 @@
           "type": "fill_blank",
           "sentence": "La ___ de tren és aquí.",
           "translation": "La estación de tren está aquí.",
-          "options": ["estació", "estación", "estacció"],
+          "options": ["estació", "estación"],
           "answer": "estació"
         },
         {
@@ -98,7 +98,7 @@
           "type": "fill_blank",
           "sentence": "Visc a la ___ de Barcelona.",
           "translation": "Vivo en la ciudad de Barcelona.",
-          "options": ["ciutat", "ciudad", "ciudat"],
+          "options": ["ciutat", "ciudad"],
           "answer": "ciutat"
         },
         {
@@ -155,7 +155,7 @@
           "type": "fill_blank",
           "sentence": "Parla ___ si us plau.",
           "translation": "Habla lentamente, por favor.",
-          "options": ["lentament", "lentamente", "lentment"],
+          "options": ["lentament", "lentamente"],
           "answer": "lentament"
         },
         {
@@ -283,7 +283,7 @@
           "type": "fill_blank",
           "sentence": "Aquest pastís és molt ___ !",
           "translation": "¡Este pastel está delicioso!",
-          "options": ["deliciós", "delicioso", "deliciòs"],
+          "options": ["deliciós", "delicioso"],
           "answer": "deliciós"
         },
         {

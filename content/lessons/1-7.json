@@ -51,7 +51,7 @@
           "type": "fill_blank",
           "sentence": "La ___ dels Pirineus és impressionant.",
           "translation": "La belleza de los Pirineos es impresionante.",
-          "options": ["bellesa", "belleza", "bellíssima", "bellor"],
+          "options": ["bellesa", "belleza"],
           "answer": "bellesa"
         },
         {
@@ -107,7 +107,7 @@
           "type": "fill_blank",
           "sentence": "Tinc la ___ de guanyar.",
           "translation": "Tengo la esperanza de ganar.",
-          "options": ["esperança", "esperanza", "esperansa", "esper"],
+          "options": ["esperança", "esperanza"],
           "answer": "esperança"
         },
         {

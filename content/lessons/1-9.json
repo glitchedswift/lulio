@@ -35,7 +35,7 @@
           "type": "fill_blank",
           "sentence": "Nosaltres ___ molt bé el català.",
           "translation": "Nosotros hablamos muy bien el catalán.",
-          "options": ["parlem", "parleu", "parlen", "parla"],
+          "options": ["parlem", "parlen"],
           "answer": "parlem"
         },
         {
@@ -49,7 +49,7 @@
           "type": "fill_blank",
           "sentence": "Tu ___ molt de pressa.",
           "translation": "Tú hablas muy deprisa.",
-          "options": ["parles", "parlo", "parla", "parleu"],
+          "options": ["parles", "parla"],
           "answer": "parles"
         },
         {
@@ -113,7 +113,7 @@
           "type": "fill_blank",
           "sentence": "Ell ___ molt bé.",
           "translation": "Él canta muy bien.",
-          "options": ["canta", "mira", "compra", "camina"],
+          "options": ["canta", "mira"],
           "answer": "canta"
         },
         {
@@ -152,7 +152,7 @@
           "type": "fill_blank",
           "sentence": "Ells ___ a la universitat.",
           "translation": "Ellos estudian en la universidad.",
-          "options": ["estudien", "estudia", "estudieu", "estudiem"],
+          "options": ["estudien", "estudia"],
           "answer": "estudien"
         },
         {
@@ -174,7 +174,7 @@
           "type": "fill_blank",
           "sentence": "Jo ___ cada matí per la platja.",
           "translation": "Yo camino cada mañana por la playa.",
-          "options": ["camino", "camines", "camina", "caminem"],
+          "options": ["camino", "camines"],
           "answer": "camino"
         }
       ]

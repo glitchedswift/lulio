@@ -41,7 +41,7 @@
         { "type": "fill_blank",
           "sentence": "___ pares són a casa.",
           "translation": "Los padres están en casa.",
-          "options": ["Els", "Los", "El", "Les"],
+          "options": ["Els", "Les"],
           "answer": "Els" },
         { "type": "multiple_choice", "direction": "es-ca", "prompt": "las niñas", "options": ["les nenes", "las nenes", "els nenes", "la nena"], "answer": "les nenes" }
       ]
@@ -80,12 +80,12 @@
         { "type": "fill_blank",
           "sentence": "Tinc ___ amigues a Barcelona.",
           "translation": "Tengo unas amigas en Barcelona.",
-          "options": ["unes", "unas", "uns", "una"],
+          "options": ["unes", "uns"],
           "answer": "unes" },
         { "type": "translate", "direction": "es-ca",
           "prompt": "un coche y una mesa",
           "answer": "un cotxe i una taula",
-          "bank": ["un", "cotxe", "i", "una", "taula", "el", "y"] }
+          "bank": ["un", "cotxe", "i", "una", "taula"], "distractors": ["el", "y"] }
       ]
     },
     {
@@ -112,7 +112,7 @@
         { "type": "fill_blank",
           "sentence": "___ Joan és el meu germà.",
           "translation": "Juan es mi hermano.",
-          "options": ["El", "Lo", "L'", "La"],
+          "options": ["El", "L'"],
           "answer": "El" },
         { "type": "multiple_choice", "direction": "es-ca", "prompt": "Anna llega hoy", "options": ["L'Anna arriba avui", "La Anna arriba avui", "Anna arriba avui", "El Anna arriba avui"], "answer": "L'Anna arriba avui" }
       ]
@@ -133,7 +133,7 @@
         { "type": "fill_blank",
           "sentence": "Vaig a ___ escola.",
           "translation": "Voy a la escuela.",
-          "options": ["l'", "la", "el", "les"],
+          "options": ["l'", "la"],
           "answer": "l'" }
       ]
     }

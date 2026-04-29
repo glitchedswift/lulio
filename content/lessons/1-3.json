@@ -118,7 +118,7 @@
         { "type": "fill_blank",
           "sentence": "Tinc ___ anys.",
           "translation": "Tengo veinticinco años.",
-          "options": ["vint-i-cinc", "vint i cinco", "vinticinc", "vintciu"],
+          "options": ["vint-i-cinc", "vinticinc"],
           "answer": "vint-i-cinc" }
       ]
     }

@@ -96,11 +96,11 @@
         { "type": "translate", "direction": "es-ca",
           "prompt": "¿Cómo estás?",
           "answer": "Com estàs",
-          "bank": ["Com", "estàs", "està", "ets"], "distractors": [] },
+          "bank": ["Com", "estàs"], "distractors": ["està", "ets"] },
         { "type": "translate", "direction": "es-ca",
           "prompt": "Estoy bien, gracias",
           "answer": "Estic bé gràcies",
-          "bank": ["Estic", "bé", "gràcies", "molt"] },
+          "bank": ["Estic", "bé", "gràcies"], "distractors": ["molt"] },
         { "type": "multiple_choice", "direction": "ca-es", "prompt": "Estic bé, gràcies", "options": ["Estoy bien, gracias", "Adiós, gracias", "Buenos días", "Hasta luego"], "answer": "Estoy bien, gracias" }
       ]
     }

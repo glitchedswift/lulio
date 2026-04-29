@@ -24,7 +24,7 @@
         { "type": "translate", "direction": "es-ca",
           "prompt": "El perro está en la mesa",
           "answer": "El gos és a la taula",
-          "bank": ["El", "gos", "és", "a", "la", "taula", "està"] }
+          "bank": ["El", "gos", "és", "a", "la", "taula"], "distractors": ["està"] }
       ]
     },
     {
@@ -58,7 +58,7 @@
         { "type": "fill_blank",
           "sentence": "M'agrada ___ costum.",
           "translation": "Me gusta esta costumbre.",
-          "options": ["aquest", "aquesta", "el", "la"],
+          "options": ["aquest", "aquesta"],
           "answer": "aquest" },
         { "type": "multiple_choice", "direction": "es-ca", "prompt": "la nariz", "options": ["el nas", "la nas", "la nariu", "el nariu"], "answer": "el nas" }
       ]
@@ -91,7 +91,7 @@
         { "type": "fill_blank",
           "sentence": "Quina ___ tan maca!",
           "translation": "¡Qué tarde tan bonita!",
-          "options": ["tarda", "tarde", "tardanza", "tardana"],
+          "options": ["tarda", "tarde"],
           "answer": "tarda" }
       ]
     }

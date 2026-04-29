@@ -97,7 +97,7 @@
           "type": "fill_blank",
           "sentence": "Tinc una moto ___.",
           "translation": "Tengo una moto nueva.",
-          "options": ["nova", "nou", "noves", "nous"],
+          "options": ["nova", "nou"],
           "answer": "nova"
         },
         {
@@ -128,8 +128,8 @@
             { "es": "negras (f. pl.)", "ca": "negres" }
           ],
           "note": {
-            "es": "¡Atención! El plural masculino de los adjetivos en -e no es *negros, sino 'negres' — idéntico al femenino plural. Mismo patrón: 'verd/verda/verdes/verdes', 'lliure/lliura...' No.",
-            "ca": "Atenció! El plural masculí dels adjectius en -e no és *negros, sinó 'negres' — idèntic al femení plural. Mateix patró: 'verd/verda/verds/verdes' (finals en consonant segueixen altra regla)."
+            "es": "¡Atención! El plural masculino de los adjetivos en -e no es *negros, sino 'negres' — idéntico al femenino plural. Mismo patrón: verd → verds (masc. pl.) / verdes (fem. pl.). Los que acaban en consonante (-t, -d) forman el plural de forma distinta.",
+            "ca": "Atenció! El plural masculí dels adjectius en -e no és *negros, sinó 'negres' — idèntic al femení plural. Mateix patró: verd → verds (masc. pl.) / verdes (fem. pl.). Els que acaben en consonant (-t, -d) segueixen altra regla."
           }
         },
         {
@@ -159,14 +159,14 @@
           "type": "fill_blank",
           "sentence": "Els cotxes ___ són molt ràpids.",
           "translation": "Los coches negros son muy rápidos.",
-          "options": ["negres", "negros", "negra", "negre"],
+          "options": ["negres", "negros"],
           "answer": "negres"
         },
         {
           "type": "fill_blank",
           "sentence": "Les noies ___ juguen al bàsquet.",
           "translation": "Las chicas altas juegan al baloncesto.",
-          "options": ["altes", "alts", "alta", "alt"],
+          "options": ["altes", "alta"],
           "answer": "altes"
         },
         {

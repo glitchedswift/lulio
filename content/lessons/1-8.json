@@ -61,7 +61,7 @@
           "type": "fill_blank",
           "sentence": "___ dic Laia.",
           "translation": "Me llamo Laia.",
-          "options": ["Em", "Et", "Es", "Ens"],
+          "options": ["Em", "Es"],
           "answer": "Em"
         },
         {
@@ -109,7 +109,7 @@
           "type": "fill_blank",
           "sentence": "Ella ___ de Girona.",
           "translation": "Ella es de Girona.",
-          "options": ["és", "estic", "em dic"],
+          "options": ["és", "estic"],
           "answer": "és"
         },
         {
@@ -172,7 +172,7 @@
           "type": "fill_blank",
           "sentence": "Tinc ___ anys i sóc professora.",
           "translation": "Tengo cuarenta años y soy profesora.",
-          "options": ["quaranta", "quatre", "catorze"],
+          "options": ["quaranta", "quatre"],
           "answer": "quaranta"
         },
         {
@@ -229,7 +229,7 @@
           "type": "fill_blank",
           "sentence": "Ell té vint anys i és ___.",
           "translation": "Él tiene veinte años y es estudiante.",
-          "options": ["estudiant", "metge", "professor"],
+          "options": ["estudiant", "metge"],
           "answer": "estudiant"
         }
       ]
