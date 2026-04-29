@@ -1,0 +1,226 @@
+{
+  "id": "4-9",
+  "title": { "es": "El pretérito perfecto compuesto", "ca": "El passat compost" },
+  "goal": {
+    "es": "Aprende a formar y usar el pasado compuesto catalán y entiende cuándo se prefiere respecto al perifràstic.",
+    "ca": "Aprèn a formar i usar el passat compost català i entén quan es prefereix respecte al perifràstic."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Formación: haver + participio", "ca": "Formació: haver + participi" },
+      "goal": {
+        "es": "Aprende a conjugar 'haver' en presente y a formar los participios regulares de los tres grupos verbales.",
+        "ca": "Aprèn a conjugar 'haver' en present i a formar els participis regulars dels tres grups verbals."
+      },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "pattern",
+          "rule": { "from": "HAVER (present)", "to": "he / has / ha / hem / heu / han" },
+          "examples": [
+            { "es": "yo he", "ca": "jo he" },
+            { "es": "tú has", "ca": "tu has" },
+            { "es": "él/ella ha", "ca": "ell/ella ha" },
+            { "es": "nosotros hemos", "ca": "nosaltres hem" },
+            { "es": "vosotros habéis", "ca": "vosaltres heu" },
+            { "es": "ellos han", "ca": "ells/elles han" }
+          ],
+          "note": {
+            "es": "El participio regular se forma así: verbos -ar → -at (parlar → parlat), verbos -re → -ut (perdre → perdut), verbos -ir → -it (dormir → dormit).",
+            "ca": "El participi regular es forma així: verbs -ar → -at (parlar → parlat), verbs -re → -ut (perdre → perdut), verbs -ir → -it (dormir → dormit)."
+          }
+        },
+        {
+          "type": "flashcard",
+          "ca": "He parlat / has treballat / ha comprat / hem estudiat",
+          "es": "He hablado / has trabajado / ha comprado / hemos estudiado",
+          "note": {
+            "es": "Verbos en -ar: el participio termina en -at. Es el grupo más numeroso.",
+            "ca": "Verbs en -ar: el participi acaba en -at. És el grup més nombrós."
+          }
+        },
+        {
+          "type": "flashcard",
+          "ca": "ha dormit / han llegit / he sortit / hem perdut / han begut",
+          "es": "ha dormido / han leído / he salido / hemos perdido / han bebido",
+          "note": {
+            "es": "Verbos en -ir → -it; verbos en -re → -ut (aunque 'beure → begut' tiene raíz irregular).",
+            "ca": "Verbs en -ir → -it; verbs en -re → -ut (tot i que 'beure → begut' té arrel irregular)."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Avui, la Maria ___ treballat molt.",
+          "translation": "Hoy, María ha trabajado mucho.",
+          "options": ["ha", "he", "han", "hem"],
+          "answer": "ha"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Nosaltres hem ___ tota la tarda.",
+          "translation": "Nosotros hemos estudiado toda la tarde.",
+          "options": ["estudiat", "estudit", "estudat", "estudi"],
+          "answer": "estudiat"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "Hemos perdido el tren.",
+          "options": ["Hem perdut el tren.", "Hem perdut el treneu.", "Han perdut el tren.", "He perdut el tren."],
+          "answer": "Hem perdut el tren."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "Participios irregulares", "ca": "Participis irregulars" },
+      "goal": {
+        "es": "Memoriza los participios irregulares más importantes del catalán.",
+        "ca": "Memoritza els participis irregulars més importants del català."
+      },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "flashcard",
+          "ca": "fer → fet / dir → dit / escriure → escrit / veure → vist / obrir → obert / venir → vingut / morir → mort",
+          "es": "hacer → hecho / decir → dicho / escribir → escrito / ver → visto / abrir → abierto / venir → venido / morir → muerto",
+          "note": {
+            "es": "Fíjate en los paralelos con el español: fet/hecho, dit/dicho, escrit/escrito, vist/visto, mort/muerto. ¡La mayoría son similares!",
+            "ca": "Fixa't en els paral·lels amb el castellà: fet/hecho, dit/dicho, escrit/escrito, vist/visto, mort/muerto. La majoria són similars!"
+          }
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Avui he ___ una carta molt llarga.",
+          "translation": "Hoy he escrito una carta muy larga.",
+          "options": ["escrit", "escrivit", "escriut", "escrib"],
+          "answer": "escrit"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Han ___ que demà no hi haurà classe.",
+          "translation": "Han dicho que mañana no habrá clase.",
+          "options": ["dit", "dir", "diut", "dicut"],
+          "answer": "dit"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "La porta? Ja l'he ___.",
+          "translation": "¿La puerta? Ya la he abierto.",
+          "options": ["obert", "obrit", "obertat", "obrat"],
+          "answer": "obert"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "He visto una película muy buena.",
+          "options": ["He vist una pel·lícula molt bona.", "He veut una pel·lícula molt bona.", "He vista una pel·lícula molt bona.", "He veure una pel·lícula molt bona."],
+          "answer": "He vist una pel·lícula molt bona."
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "¿Qué has hecho hoy?",
+          "options": ["Què has fet avui?", "Què has far avui?", "Què has facut avui?", "Què has feit avui?"],
+          "answer": "Què has fet avui?"
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "¿Cuándo se usa: escrito vs. hablado?", "ca": "Quan s'usa: escrit vs. parlat" },
+      "goal": {
+        "es": "Entiende cuándo el catalán usa el passat compost (he parlat) y cuándo prefiere el perifràstic (vaig parlar).",
+        "ca": "Entén quan el català usa el passat compost (he parlat) i quan prefereix el perifràstic (vaig parlar)."
+      },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "compare",
+          "es": "He comido pan. (pasado reciente/relevante)",
+          "ca": "He menjat pa. (escrit/formal) — Vaig menjar pa. (parlat central)",
+          "note": {
+            "es": "En catalán central (Barcelona, Girona, Tarragona), el perifràstic 'vaig menjar' domina en el habla. El passat compost 'he menjat' se prefiere en la escritura y contextos formales.",
+            "ca": "En català central (Barcelona, Girona, Tarragona), el perifràstic 'vaig menjar' domina en la parla. El passat compost 'he menjat' es prefereix en l'escriptura i contextos formals."
+          }
+        },
+        {
+          "type": "compare",
+          "es": "He dicho la verdad.",
+          "ca": "He dit la veritat. (escrit) — Vaig dir la veritat. (parlat central)",
+          "note": {
+            "es": "Son intercambiables en significado. La elección depende del registro y del dialecto. En valenciano, 'he dit' es la forma coloquial habitual.",
+            "ca": "Són intercanviables en significat. L'elecció depèn del registre i del dialecte. En valencià, 'he dit' és la forma col·loquial habitual."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "En un text escrit formal, escriuríem: «Avui ___ parlat amb la directora.»",
+          "translation": "En un texto escrito formal, escribiríamos: «Hoy he hablado con la directora.»",
+          "options": ["he", "vaig", "havia", "van"],
+          "answer": "he"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "En una conversa oral a Barcelona, diries: «Ahir ___ anar al cinema.»",
+          "translation": "En una conversación oral en Barcelona, dirías: «Ayer fui al cine.»",
+          "options": ["vaig", "he", "havia", "vull"],
+          "answer": "vaig"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "ca-es",
+          "prompt": "Quina forma és típica del català parlat central per a 'He llegit el diari'?",
+          "options": ["Vaig llegir el diari.", "He llegit el diari.", "Llegia el diari.", "Llegiré el diari."],
+          "answer": "Vaig llegir el diari."
+        }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "x1",
+      "title": { "es": "Concordancia del participio", "ca": "Concordança del participi" },
+      "goal": {
+        "es": "Aprende cómo el participio puede concordar con el objeto directo pronominal en catalán escrito formal.",
+        "ca": "Aprèn com el participi pot concordar amb el complement directe pronominal en català escrit formal."
+      },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "compare",
+          "es": "He enviado la carta.",
+          "ca": "He enviat la carta. (sense pronom — sense concordança)",
+          "note": {
+            "es": "Cuando el objeto directo está en posición normal (después del verbo), el participio no concuerda. Es la forma habitual.",
+            "ca": "Quan el complement directe és en posició normal (després del verb), el participi no concorda. És la forma habitual."
+          }
+        },
+        {
+          "type": "compare",
+          "es": "¿La carta? La he enviado.",
+          "ca": "La carta? L'he enviada.",
+          "note": {
+            "es": "En catalán escrito formal, cuando el objeto directo va pronominalizado ANTES del verbo, el participio concuerda en género y número. Esta regla es cada vez más opcional en el uso moderno.",
+            "ca": "En català escrit formal, quan el complement directe va pronominalitzat ABANS del verb, el participi concorda en gènere i nombre. Aquesta regla és cada vegada més opcional en l'ús modern."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Les claus? Les he ___ sobre la taula. (concordança formal)",
+          "translation": "¿Las llaves? Las he dejado encima de la mesa. (concordancia formal)",
+          "options": ["deixades", "deixat", "deixada", "deixats"],
+          "answer": "deixades"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "El llibre? L'he ___ molt ràpid. (concordança formal)",
+          "translation": "¿El libro? Lo he leído muy rápido. (concordancia formal)",
+          "options": ["llegit", "llegida", "llegides", "llegits"],
+          "answer": "llegit"
+        }
+      ]
+    }
+  ]
+}

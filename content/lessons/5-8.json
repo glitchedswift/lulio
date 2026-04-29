@@ -1,0 +1,175 @@
+{
+  "id": "5-8",
+  "title": { "es": "Haber impersonal: hi ha", "ca": "Haver-hi: hi ha" },
+  "goal": { "es": "Domina el equivalente catalán de 'hay' en todos sus tiempos verbales.", "ca": "Domina l'equivalent català de 'hay' en tots els temps verbals." },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Hi ha — presente y negación", "ca": "Hi ha — present i negació" },
+      "goal": { "es": "Aprende las formas básicas: hi ha (hay), no hi ha (no hay).", "ca": "Aprèn les formes bàsiques: hi ha (hay), no hi ha (no hay)." },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "compare",
+          "es": "Hay un problema.",
+          "ca": "Hi ha un problema.",
+          "note": { "es": "'Hi ha' = hay. El 'hi' es el pronombre adverbial de lugar, integrado en la expresión. Nunca cambia de orden.", "ca": "'Hi ha' = hay. El 'hi' és el pronom adverbial de lloc, integrat en l'expressió. Mai canvia d'ordre." }
+        },
+        {
+          "type": "compare",
+          "es": "No hay agua.",
+          "ca": "No hi ha aigua.",
+          "note": { "es": "'No' precede siempre a 'hi': no hi ha. No digas *'hi no ha'.", "ca": "'No' precedeix sempre 'hi': no hi ha. No diguis *'hi no ha'." }
+        },
+        {
+          "type": "compare",
+          "es": "¿Hay un banco cerca?",
+          "ca": "Hi ha un banc a prop?",
+          "note": { "es": "En preguntas, el orden no cambia. El sujeto ('un banc') va DESPUÉS de 'hi ha'.", "ca": "En preguntes, l'ordre no canvia. El subjecte ('un banc') va DARRERE de 'hi ha'." }
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "___ molta gent a la plaça.",
+          "translation": "Hay mucha gente en la plaza.",
+          "options": ["Hi ha", "Estic", "És"],
+          "answer": "Hi ha"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "No ___ prou temps per acabar.",
+          "translation": "No hay suficiente tiempo para terminar.",
+          "options": ["hi ha", "hi havia", "hi haurà"],
+          "answer": "hi ha"
+        },
+        {
+          "type": "listen",
+          "ca": "Hi ha dos cotxes aparcats davant de casa.",
+          "options": ["Hi ha dos cotxes aparcats davant de casa.", "Hi havia dos cotxes aparcats davant de casa.", "Hi ha tres cotxes aparcats davant de casa."]
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "Todos los tiempos de haver-hi", "ca": "Tots els temps de haver-hi" },
+      "goal": { "es": "A diferencia del español 'hay', en catalán haver-hi se conjuga en todos los tiempos.", "ca": "A diferència del castellà 'hay', en català haver-hi es conjuga en tots els temps." },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "pattern",
+          "rule": { "from": "haver-hi (impersonal)", "to": "hi ha · hi havia · hi haurà · hi hauria · hi hagi · hi hagués" },
+          "examples": [
+            { "es": "hay → había", "ca": "hi ha → hi havia" },
+            { "es": "habrá → habría", "ca": "hi haurà → hi hauria" },
+            { "es": "haya (subj.) → hubiera (subj.)", "ca": "hi hagi → hi hagués" }
+          ],
+          "note": { "es": "El español tiene 'hay' (presente) y 'había/habrá/habría...' que parecen distintos verbos. En catalán todos vienen de 'haver-hi' y siguen la misma lógica.", "ca": "El castellà té 'hay' (present) i 'había/habrá/habría...' que semblen verbs distints. En català tots vénen de 'haver-hi' i segueixen la mateixa lògica." }
+        },
+        {
+          "type": "compare",
+          "es": "Había mucha gente en la fiesta.",
+          "ca": "Hi havia molta gent a la festa.",
+          "note": { "es": "Imperfecto: hi havia. Se usa para describir estados pasados.", "ca": "Imperfet: hi havia. S'usa per descriure estats passats." }
+        },
+        {
+          "type": "compare",
+          "es": "Habrá cambios importantes.",
+          "ca": "Hi haurà canvis importants.",
+          "note": { "es": "Futuro: hi haurà. Igual que el futuro regular de 'haver'.", "ca": "Futur: hi haurà. Igual que el futur regular de 'haver'." }
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Demà ___ una reunió important.",
+          "translation": "Mañana habrá una reunión importante.",
+          "options": ["hi haurà", "hi ha", "hi havia"],
+          "answer": "hi haurà"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Dubto que ___ prou lloc per a tothom.",
+          "translation": "Dudo que haya suficiente sitio para todos.",
+          "options": ["hi hagi", "hi ha", "hi haurà"],
+          "answer": "hi hagi"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "Habría más problemas si no lo arregláramos.",
+          "options": ["Hi hauria més problemes si no ho arregléssim.", "Hi haurà més problemes si no ho arreglem.", "Hi havia més problemes si no ho arreglem."],
+          "answer": "Hi hauria més problemes si no ho arregléssim."
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "N'hi ha — con el pronombre 'en'", "ca": "N'hi ha — amb el pronom 'en'" },
+      "goal": { "es": "Cuando el objeto de 'haver-hi' es partitivo o cuantificado, se añade el pronombre 'en'.", "ca": "Quan l'objecte de 'haver-hi' és partitiu o quantificat, s'afegeix el pronom 'en'." },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "compare",
+          "es": "¿Hay naranjas? — Sí, hay muchas.",
+          "ca": "Hi ha taronges? — Sí, n'hi ha moltes.",
+          "note": { "es": "'N'hi ha' = hay (de ellas/ello). El 'en/n'' representa la cosa de la que se habla. En español repetimos 'hay' o usamos 'sí'.", "ca": "'N'hi ha' = n'hi ha (d'elles/d'allò). L''en/n'' representa la cosa de la qual parlem. En castellà repetim 'hay' o usem 'sí'." }
+        },
+        {
+          "type": "compare",
+          "es": "No hay ninguno.",
+          "ca": "No n'hi ha cap.",
+          "note": { "es": "'Cap' = ninguno/ningún. Con 'n'hi ha' en negativo: 'no n'hi ha cap'.", "ca": "'Cap' = ninguno/ningún. Amb 'n'hi ha' en negatiu: 'no n'hi ha cap'." }
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Quants alumnes ___?",
+          "translation": "¿Cuántos alumnos hay?",
+          "options": ["n'hi ha", "hi ha", "els hi ha"],
+          "answer": "n'hi ha"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "De pa, no ___ gens.",
+          "translation": "De pan, no hay nada.",
+          "options": ["n'hi ha", "hi ha", "hi havia"],
+          "answer": "n'hi ha"
+        },
+        {
+          "type": "translate",
+          "direction": "es-ca",
+          "prompt": "¿Cuántos hay? — Hay tres.",
+          "answer": "Quants n'hi ha? — N'hi ha tres.",
+          "bank": ["Quants", "n'hi", "ha", "?", "—", "N'hi", "ha", "tres", "."],
+          "distractors": ["hi", "hi ha", "quants"]
+        }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "x1",
+      "title": { "es": "Hi ha hagut — pretérito perfecto de haver-hi", "ca": "Hi ha hagut — passat compost de haver-hi" },
+      "goal": { "es": "Practica el pretérito perfecto de 'haver-hi' para eventos pasados recientes.", "ca": "Practica el passat compost de 'haver-hi' per a esdeveniments passats recents." },
+      "xp": 5,
+      "exercises": [
+        {
+          "type": "compare",
+          "es": "Ha habido un accidente.",
+          "ca": "Hi ha hagut un accident.",
+          "note": { "es": "Pretérito perfecto: 'hi ha hagut'. Se usa para eventos pasados con relevancia presente.", "ca": "Passat compost: 'hi ha hagut'. S'usa per a esdeveniments passats amb rellevància present." }
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Avui ___ molta feina a l'oficina.",
+          "translation": "Hoy ha habido mucho trabajo en la oficina.",
+          "options": ["hi ha hagut", "hi havia", "hi haurà"],
+          "answer": "hi ha hagut"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "Ha habido problemas con el sistema.",
+          "options": ["Hi ha hagut problemes amb el sistema.", "Hi havia problemes amb el sistema.", "Hi ha problemes amb el sistema."],
+          "answer": "Hi ha hagut problemes amb el sistema."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "id": "2-10",
+  "title": { "es": "Los meses y las fechas", "ca": "Els mesos i les dates" },
+  "goal": {
+    "es": "Aprende los meses del año y cómo expresar fechas y períodos de tiempo.",
+    "ca": "Aprèn els mesos de l'any i com expressar dates i períodes de temps."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Els mesos", "ca": "Els mesos" },
+      "goal": {
+        "es": "Los doce meses del año en catalán. Como en español, van en minúscula. Muchos se parecen al español, pero con formas propias del catalán.",
+        "ca": "Els dotze mesos de l'any en català. Com en castellà, van en minúscula. Molts s'assemblen al castellà, però amb formes pròpies del català."
+      },
+      "exercises": [
+        {
+          "type": "flashcard",
+          "ca": "gener / febrer / març",
+          "es": "enero / febrero / marzo",
+          "note": { "es": "«Març» (marzo) lleva cedilla. Los meses van siempre en minúscula en catalán.", "ca": "«Març» porta ç. Els mesos van sempre en minúscula en català." }
+        },
+        {
+          "type": "flashcard",
+          "ca": "abril / maig / juny",
+          "es": "abril / mayo / junio",
+          "note": { "es": "«Maig» (mayo) y «juny» (junio) son las formas más distintas al español. «Abril» es idéntico.", "ca": "«Maig» i «juny» difereixen molt del castellà. «Abril» és idèntic." }
+        },
+        {
+          "type": "flashcard",
+          "ca": "juliol / agost / setembre",
+          "es": "julio / agosto / septiembre",
+          "note": { "es": "«Juliol» añade -l final. «Setembre» no lleva -p- a diferencia del español.", "ca": "«Juliol» afegeix -l final. «Setembre» no porta -p- a diferència del castellà." }
+        },
+        {
+          "type": "flashcard",
+          "ca": "octubre / novembre / desembre",
+          "es": "octubre / noviembre / diciembre",
+          "note": { "es": "«Novembre» y «desembre» difieren del español en la terminación. «Octubre» es idéntico.", "ca": "«Novembre» i «desembre» difereixen del castellà en la terminació. «Octubre» és idèntic." }
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "mayo",
+          "options": ["maig", "juny", "març", "abril"],
+          "answer": "maig"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "diciembre",
+          "options": ["desembre", "novembre", "octubre", "gener"],
+          "answer": "desembre"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "ca-es",
+          "prompt": "juliol",
+          "options": ["julio", "junio", "agosto", "enero"],
+          "answer": "julio"
+        },
+        {
+          "type": "listen",
+          "ca": "El meu aniversari és al setembre.",
+          "options": ["El meu aniversari és al setembre.", "El meu aniversari és al novembre.", "El meu aniversari és al desembre."]
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "Les dates", "ca": "Les dates" },
+      "goal": {
+        "es": "Cómo expresar fechas completas en catalán. El orden es el mismo que en español (día + mes + año), pero con los nombres catalanes.",
+        "ca": "Com expressar dates completes en català. L'ordre és el mateix que en castellà (dia + mes + any), però amb els noms catalans."
+      },
+      "exercises": [
+        {
+          "type": "compare",
+          "es": "el 15 de junio",
+          "ca": "el 15 de juny",
+          "note": { "es": "El orden día-mes es idéntico al español. Solo cambia el nombre del mes.", "ca": "L'ordre dia-mes és idèntic al castellà. Només canvia el nom del mes." }
+        },
+        {
+          "type": "compare",
+          "es": "el 3 de marzo de 2024",
+          "ca": "el 3 de març de 2024",
+          "note": { "es": "Con año: «el 3 de març de 2024». Idéntica estructura al español.", "ca": "Amb any: «el 3 de març de 2024». Estructura idèntica al castellà." }
+        },
+        {
+          "type": "flashcard",
+          "ca": "Avui és el 3 de març. / Estem a 3 de març.",
+          "es": "Hoy es el 3 de marzo. / Estamos a 3 de marzo.",
+          "note": { "es": "Las dos formas son correctas en catalán. «Estem a...» es muy coloquial y frecuente.", "ca": "Les dues formes són correctes en català. «Estem a...» és molt col·loquial i freqüent." }
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "La festa és el 5 de ___.",
+          "translation": "La fiesta es el 5 de febrero.",
+          "options": ["febrer", "febrero", "al febrer", "en febrer"],
+          "answer": "febrer"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Estem a 20 ___ octubre.",
+          "translation": "Estamos a 20 de octubre.",
+          "options": ["de", "del", "d'", "al"],
+          "answer": "de"
+        },
+        {
+          "type": "translate",
+          "direction": "es-ca",
+          "prompt": "Hoy es el 10 de junio.",
+          "answer": "Avui és el 10 de juny.",
+          "bank": ["Avui", "és", "el", "10", "de", "juny."],
+          "distractors": ["Estem", "marzo", "febrer", "al"]
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Expressions temporals", "ca": "Expressions temporals" },
+      "goal": {
+        "es": "Cómo hablar de períodos pasados y futuros: «fa dos anys» (hace dos años), «d'aquí a una setmana» (dentro de una semana) y más.",
+        "ca": "Com parlar de períodes passats i futurs: «fa dos anys», «d'aquí a una setmana» i més."
+      },
+      "exercises": [
+        {
+          "type": "flashcard",
+          "ca": "fa dos anys / fa una setmana / fa tres dies",
+          "es": "hace dos años / hace una semana / hace tres días",
+          "note": { "es": "«Fa» es la partícula para el pasado. Equivale a «hace» en español.", "ca": "«Fa» és la partícula per al passat. Equivalent a «hace» en castellà." }
+        },
+        {
+          "type": "flashcard",
+          "ca": "d'aquí a tres dies / d'aquí a un mes / d'aquí a un any",
+          "es": "dentro de tres días / dentro de un mes / dentro de un año",
+          "note": { "es": "«D'aquí a» equivale a «dentro de». Siempre lleva apóstrofo.", "ca": "«D'aquí a» és equivalent a «dentro de». Sempre porta apòstrof." }
+        },
+        {
+          "type": "compare",
+          "es": "hace dos años",
+          "ca": "fa dos anys",
+          "note": { "es": "«Fa» + tiempo = hace + tiempo. Fácil de recordar porque la estructura es idéntica.", "ca": "«Fa» + temps = hace + tiempo. Fàcil de recordar perquè l'estructura és idèntica." }
+        },
+        {
+          "type": "compare",
+          "es": "dentro de una semana",
+          "ca": "d'aquí a una setmana",
+          "note": { "es": "«D'aquí a» es la expresión catalana para «dentro de». No uses «en una setmana» con este sentido.", "ca": "«D'aquí a» és l'expressió catalana per a «dentro de». No facis servir «en una setmana» amb aquest sentit." }
+        },
+        {
+          "type": "flashcard",
+          "ca": "l'any passat / l'any que ve / el mes passat / el mes vinent",
+          "es": "el año pasado / el año que viene / el mes pasado / el mes que viene",
+          "note": { "es": "«Vinent» es sinónimo de «que ve». Los dos son correctos en catalán.", "ca": "«Vinent» és sinònim de «que ve». Tots dos són correctes en català." }
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "___ cinc anys vaig estudiar a Barcelona.",
+          "translation": "Hace cinco años estudié en Barcelona.",
+          "options": ["Fa", "D'aquí a", "Avui fa", "Dins de"],
+          "answer": "Fa"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "El concert és ___ dues setmanes.",
+          "translation": "El concierto es dentro de dos semanas.",
+          "options": ["d'aquí a", "fa", "en", "dintre"],
+          "answer": "d'aquí a"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "el año que viene",
+          "options": ["l'any que ve", "l'any passat", "l'any pròxim", "el proper any"],
+          "answer": "l'any que ve"
+        }
+      ]
+    }
+  ]
+}

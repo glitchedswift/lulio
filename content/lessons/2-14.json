@@ -1,0 +1,238 @@
+{
+  "id": "2-14",
+  "title": { "es": "Verbos -re e -ir en presente", "ca": "Verbs -re i -ir en present" },
+  "goal": {
+    "es": "Aprende a conjugar los verbos de la segunda y tercera conjugación en catalán.",
+    "ca": "Aprèn a conjugar els verbs de la segona i tercera conjugació en català."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Verbos en -re: perdre", "ca": "Verbs en -re: perdre" },
+      "goal": {
+        "es": "Los verbos en -re son la segunda conjugación. El modelo es 'perdre' (perder): las desinencias son similares al español, pero la 1ª persona singular es siempre sin desinencia.",
+        "ca": "Els verbs en -re són la segona conjugació. El model és «perdre» (perder): les desinències s'assemblen al castellà, però la 1a persona singular sempre és sense desinència."
+      },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "pattern",
+          "rule": { "from": "perder (es)", "to": "perdre (ca)" },
+          "examples": [
+            { "es": "(yo) pierdo", "ca": "(jo) perdo" },
+            { "es": "(tú) pierdes", "ca": "(tu) perds" },
+            { "es": "(él/ella) pierde", "ca": "(ell/ella) perd" },
+            { "es": "(nosotros) perdemos", "ca": "(nosaltres) perdem" },
+            { "es": "(vosotros) perdéis", "ca": "(vosaltres) perdeu" },
+            { "es": "(ellos) pierden", "ca": "(ells) perden" }
+          ],
+          "note": {
+            "es": "Fíjate: en catalán no hay diptongación (pierdo → perdo, pierde → perd). La 1ª persona singular termina sin vocal: 'perdo', no '*perdO'. La raíz se mantiene estable en todo el paradigma.",
+            "ca": "Fixa't: en català no hi ha diftongació (pierdo → perdo, pierde → perd). La 1a persona singular acaba sense vocal extra: «perdo». L'arrel es manté estable en tot el paradigma."
+          }
+        },
+        {
+          "type": "compare",
+          "es": "perder → pierdo / pierdes / pierde (diptonga en sg.)",
+          "ca": "perdre → perdo / perds / perd (sense diptongació)",
+          "note": {
+            "es": "El catalán no diptonga como el español. Donde el español tiene ie (pierdo, pierde), el catalán conserva simplemente la e del radical (perdo, perd).",
+            "ca": "El català no diftonga com el castellà. On el castellà té ie (pierdo, pierde), el català conserva simplement la e del radical (perdo, perd)."
+          }
+        },
+        {
+          "type": "compare",
+          "es": "beber: bebo / bebemos (raíz estable)",
+          "ca": "beure: bec / bevem (alternança de radical)",
+          "note": {
+            "es": "Algunos verbos -re tienen alternancia de raíz: beure (beber) presenta 'bec/beus/beu' en singular pero 'bevem/beveu/beuen' en plural. Esta alternancia es característica del catalán.",
+            "ca": "Alguns verbs -re tenen alternança de radical: beure (beber) presenta «bec/beus/beu» en singular però «bevem/beveu/beuen» en plural. Aquesta alternança és característica del català."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Cada dia jo ___ les claus.",
+          "translation": "Cada día yo pierdo las llaves.",
+          "options": ["perdo", "perds", "perd", "perdem"],
+          "answer": "perdo"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Vosaltres ___ el partit.",
+          "translation": "Vosotros perdéis el partido.",
+          "options": ["perdeu", "perden", "perdem", "perds"],
+          "answer": "perdeu"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "La Maria ___ aigua.",
+          "translation": "La María bebe agua.",
+          "options": ["beu", "bec", "beus", "bevem"],
+          "answer": "beu"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "(nosotros) perdemos",
+          "options": ["perdem", "perdeu", "perden", "perdo"],
+          "answer": "perdem"
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "Verbos en -ir: incoativos y no incoativos", "ca": "Verbs en -ir: incoatius i no incoatius" },
+      "goal": {
+        "es": "La mayoría de verbos -ir en catalán son incoativos: añaden el infijo -eix- en singular y 3ª persona plural. Un grupo menor (dormir, sortir, obrir) no lo añade.",
+        "ca": "La majoria de verbs -ir en català són incoatius: afegeixen l'infix -eix- en singular i 3a persona plural. Un grup menor (dormir, sortir, obrir) no l'afegeix."
+      },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "pattern",
+          "rule": { "from": "leer → leo/lees/lee… (es)", "to": "llegir → llegeixo/llegeixes/llegeix… (ca)" },
+          "examples": [
+            { "es": "(yo) leo", "ca": "(jo) llegeixo" },
+            { "es": "(tú) lees", "ca": "(tu) llegeixes" },
+            { "es": "(él) lee", "ca": "(ell) llegeix" },
+            { "es": "(nosotros) leemos", "ca": "(nosaltres) llegim" },
+            { "es": "(vosotros) leéis", "ca": "(vosaltres) llegiu" },
+            { "es": "(ellos) leen", "ca": "(ells) llegeixen" }
+          ],
+          "note": {
+            "es": "El infijo -eix- aparece en 1ª, 2ª y 3ª persona singular y en 3ª plural. Nosaltres y vosaltres van sin infijo. Este patrón cubre la mayoría de verbos -ir: servir (serveixo), patir (pateixo), etc.",
+            "ca": "L'infix -eix- apareix en 1a, 2a i 3a persona singular i en 3a plural. Nosaltres i vosaltres van sense infix. Aquest patró cobreix la majoria de verbs -ir: servir (serveixo), patir (pateixo), etc."
+          }
+        },
+        {
+          "type": "compare",
+          "es": "dormir: duermo / duermes / duerme / dormimos… (diptonga)",
+          "ca": "dormir: dormo / dorms / dorm / dormim / dormiu / dormen (sense infix ni diptongació)",
+          "note": {
+            "es": "Dormir es no incoativo: no añade -eix- y tampoco diptonga. Otros no incoativos: obrir (obro/obres/obre/obrim/obriu/obren), sortir (surto/surts/surt/sortim/sortiu/surten).",
+            "ca": "Dormir és no incoatiu: no afegeix -eix- i tampoc diftonga. Altres no incoatius: obrir (obro/obres/obre/obrim/obriu/obren), sortir (surto/surts/surt/sortim/sortiu/surten)."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Jo ___ molt cada nit.",
+          "translation": "Yo duermo mucho cada noche.",
+          "options": ["dormo", "dormeixo", "dorms", "dorm"],
+          "answer": "dormo"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Ella ___ el diari cada dia.",
+          "translation": "Ella lee el periódico cada día.",
+          "options": ["llegeix", "llegeixo", "llegim", "llegiu"],
+          "answer": "llegeix"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Nosaltres ___ a les vuit del vespre.",
+          "translation": "Nosotros salimos a las ocho de la tarde.",
+          "options": ["sortim", "surto", "surten", "sortiu"],
+          "answer": "sortim"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "(ellos) leen",
+          "options": ["llegeixen", "llegeix", "llegim", "llegeixo"],
+          "answer": "llegeixen"
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Irregulares frecuentes", "ca": "Irregulars freqüents" },
+      "goal": {
+        "es": "Aprende los verbos irregulares más usados: tenir, fer, dir y veure. Algunos se parecen al español más de lo que parece.",
+        "ca": "Aprèn els verbs irregulars més usats: tenir, fer, dir i veure. Alguns s'assemblen al castellà més del que sembla."
+      },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "flashcard",
+          "ca": "tenir: tinc / tens / té / tenim / teniu / tenen",
+          "es": "tener: tengo / tienes / tiene / tenemos / tenéis / tienen",
+          "note": {
+            "es": "'Tinc' (tengo) lleva -c final igual que otras 1ª personas irregulares. 'Tenim/teniu' son muy reconocibles para el hispanohablante.",
+            "ca": "«Tinc» (tengo) porta -c final igual que altres 1es persones irregulars. «Tenim/teniu» són molt reconeixibles per al castellanoparlant."
+          }
+        },
+        {
+          "type": "flashcard",
+          "ca": "fer: faig / fas / fa / fem / feu / fan",
+          "es": "hacer: hago / haces / hace / hacemos / hacéis / hacen",
+          "note": {
+            "es": "'Faig' (hago) es la 1ª persona. 'Fas/fa/fan' son muy cortos. 'Fem/feu' son compactos. Recuerda: fer = hacer.",
+            "ca": "«Faig» (hago) és la 1a persona. «Fas/fa/fan» són molt curts. «Fem/feu» són compactes. Recorda: fer = hacer."
+          }
+        },
+        {
+          "type": "flashcard",
+          "ca": "dir: dic / dius / diu / diem / dieu / diuen",
+          "es": "decir: digo / dices / dice / decimos / decís / dicen",
+          "note": {
+            "es": "'Dic' (digo) sin -g- interna. 'Dius/diu' con el diptongo -iu-. 'Diem/dieu/diuen' son muy regulares a partir de la raíz 'di-'.",
+            "ca": "«Dic» (digo) sense -g- interna. «Dius/diu» amb el diftong -iu-. «Diem/dieu/diuen» són molt regulars a partir de l'arrel «di-»."
+          }
+        },
+        {
+          "type": "flashcard",
+          "ca": "veure: veig / veus / veu / veiem / veieu / veuen",
+          "es": "ver: veo / ves / ve / vemos / veis / ven",
+          "note": {
+            "es": "'Veig' (veo) con -ig final, como faig. 'Veus/veu' muy cercanos al español 'ves/ve'. 'Veiem/veieu/veuen' con la raíz 'vei-'.",
+            "ca": "«Veig» (veo) amb -ig final, com faig. «Veus/veu» molt propers al castellà «ves/ve». «Veiem/veieu/veuen» amb l'arrel «vei-»."
+          }
+        },
+        {
+          "type": "compare",
+          "es": "hago → (hago, raíz hac-)",
+          "ca": "faig → (1ª sg. de fer, terminación -ig)",
+          "note": {
+            "es": "'Faig' es la 1ª persona singular de 'fer' (hacer). La terminación -ig es característica de varias 1ª personas en catalán: faig, veig, vaig (voy), vaig (fui).",
+            "ca": "«Faig» és la 1a persona singular de «fer» (hacer). La terminació -ig és característica de diverses 1es persones en català: faig, veig, vaig (voy/fui)."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Jo ___ molt esport.",
+          "translation": "Yo hago mucho deporte.",
+          "options": ["faig", "fas", "fa", "fan"],
+          "answer": "faig"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Ells ___ que no saben res.",
+          "translation": "Ellos dicen que no saben nada.",
+          "options": ["diuen", "diu", "dic", "diem"],
+          "answer": "diuen"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Quants anys ___ tu?",
+          "translation": "¿Cuántos años tienes tú?",
+          "options": ["tens", "tinc", "té", "teniu"],
+          "answer": "tens"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "(yo) veo",
+          "options": ["veig", "veus", "veu", "veiem"],
+          "answer": "veig"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "(nosotros) hacemos",
+          "options": ["fem", "fan", "fas", "faig"],
+          "answer": "fem"
+        }
+      ]
+    }
+  ]
+}

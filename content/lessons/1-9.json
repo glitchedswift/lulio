@@ -1,0 +1,183 @@
+{
+  "id": "1-9",
+  "title": { "es": "Verbos en presente: -ar", "ca": "Verbs en present: -ar" },
+  "goal": {
+    "es": "Domina la conjugación de los verbos regulares en -ar en presente de indicativo.",
+    "ca": "Domina la conjugació dels verbs regulars en -ar en present d'indicatiu."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "El paradigma -ar", "ca": "El paradigma -ar" },
+      "goal": {
+        "es": "Aprende las terminaciones del presente para los verbos regulares en -ar.",
+        "ca": "Aprèn les terminacions del present per als verbs regulars en -ar."
+      },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "pattern",
+          "rule": { "from": "parlar (hablar)", "to": "present d'indicatiu" },
+          "examples": [
+            { "es": "yo hablo", "ca": "jo parlo" },
+            { "es": "tú hablas", "ca": "tu parles" },
+            { "es": "él/ella habla", "ca": "ell/ella parla" },
+            { "es": "nosotros hablamos", "ca": "nosaltres parlem" },
+            { "es": "vosotros habláis", "ca": "vosaltres parleu" },
+            { "es": "ellos/ellas hablan", "ca": "ells/elles parlen" }
+          ],
+          "note": {
+            "es": "Las terminaciones son: -o, -es, -a, -em, -eu, -en. La 1.ª sg. siempre termina en -o, igual que en español.",
+            "ca": "Les terminacions són: -o, -es, -a, -em, -eu, -en. La 1a sg. sempre acaba en -o, igual que en castellà."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Nosaltres ___ molt bé el català.",
+          "translation": "Nosotros hablamos muy bien el catalán.",
+          "options": ["parlem", "parleu", "parlen", "parla"],
+          "answer": "parlem"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "Ellos hablan catalán.",
+          "options": ["Ells parlen català.", "Ells parla català.", "Ells parleu català."],
+          "answer": "Ells parlen català."
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Tu ___ molt de pressa.",
+          "translation": "Tú hablas muy deprisa.",
+          "options": ["parles", "parlo", "parla", "parleu"],
+          "answer": "parles"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "Vosotros habláis con el professor.",
+          "options": ["Vosaltres parleu amb el professor.", "Vosaltres parlem amb el professor.", "Vosaltres parlen amb el professor."],
+          "answer": "Vosaltres parleu amb el professor."
+        },
+        {
+          "type": "translate",
+          "direction": "es-ca",
+          "prompt": "Yo hablo y ella escucha.",
+          "answer": "Jo parlo i ella escolta.",
+          "bank": ["Jo", "parlo", "i", "ella", "escolta", "."],
+          "distractors": ["parla", "parleu", "escoltes"]
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "Verbos -ar comunes", "ca": "Verbs -ar comuns" },
+      "goal": {
+        "es": "Aprende el vocabulario esencial de verbos en -ar y úsalos en frases.",
+        "ca": "Aprèn el vocabulari essencial de verbs en -ar i utilitza'ls en frases."
+      },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "flashcard",
+          "ca": "treballar · estudiar · caminar · escoltar · comprar · mirar · cantar · parlar",
+          "es": "trabajar · estudiar · caminar · escuchar · comprar · mirar · cantar · hablar",
+          "note": {
+            "es": "Todos son regulares: quita -ar y añade -o/-es/-a/-em/-eu/-en.",
+            "ca": "Tots són regulars: treu -ar i afegeix -o/-es/-a/-em/-eu/-en."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "Ella trabaja en Barcelona.",
+          "options": ["Ella treballa a Barcelona.", "Ella estudia a Barcelona.", "Ella camina a Barcelona."],
+          "answer": "Ella treballa a Barcelona."
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "Nosotros escuchamos música.",
+          "options": ["Nosaltres escoltem música.", "Nosaltres cantem música.", "Nosaltres mirem música."],
+          "answer": "Nosaltres escoltem música."
+        },
+        {
+          "type": "translate",
+          "direction": "es-ca",
+          "prompt": "Tú compras pan cada día.",
+          "answer": "Tu compres pa cada dia.",
+          "bank": ["Tu", "compres", "pa", "cada", "dia", "."],
+          "distractors": ["compra", "comprem", "pà"]
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Ell ___ molt bé.",
+          "translation": "Él canta muy bien.",
+          "options": ["canta", "mira", "compra", "camina"],
+          "answer": "canta"
+        },
+        {
+          "type": "listen",
+          "ca": "Nosaltres estudiem cada dia.",
+          "options": ["Nosaltres estudiem cada dia.", "Nosaltres treballem cada dia.", "Nosaltres cantem cada dia."]
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Preguntas y respuestas", "ca": "Preguntes i respostes" },
+      "goal": {
+        "es": "Usa los verbos en -ar en frases y preguntas reales. Atención: 'menjar' tiene raíz irregular.",
+        "ca": "Utilitza els verbs en -ar en frases i preguntes reals. Atenció: 'menjar' té arrel irregular."
+      },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "compare",
+          "es": "Yo como / Tú comes / Él come",
+          "ca": "Jo menjo / Tu menges / Ell menja",
+          "note": {
+            "es": "'Menjar' es -ar pero tiene raíz irregular: menj- (no *meng-). Las terminaciones son las mismas: -o, -es, -a, -em, -eu, -en.",
+            "ca": "'Menjar' és -ar però té arrel irregular: menj-. Les terminacions són les mateixes: -o, -es, -a, -em, -eu, -en."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "¿Dónde trabajas tú?",
+          "options": ["On treballes tu?", "On treballa tu?", "On treballem tu?"],
+          "answer": "On treballes tu?"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Ells ___ a la universitat.",
+          "translation": "Ellos estudian en la universidad.",
+          "options": ["estudien", "estudia", "estudieu", "estudiem"],
+          "answer": "estudien"
+        },
+        {
+          "type": "translate",
+          "direction": "es-ca",
+          "prompt": "¿Qué comes tú?",
+          "answer": "Què menges tu?",
+          "bank": ["Què", "menges", "tu", "?"],
+          "distractors": ["menja", "menjo", "mengen"]
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "ca-es",
+          "prompt": "Vosaltres canteu molt bé.",
+          "options": ["Vosotros cantáis muy bien.", "Ellos cantan muy bien.", "Nosotros cantamos muy bien."],
+          "answer": "Vosotros cantáis muy bien."
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Jo ___ cada matí per la platja.",
+          "translation": "Yo camino cada mañana por la playa.",
+          "options": ["camino", "camines", "camina", "caminem"],
+          "answer": "camino"
+        }
+      ]
+    }
+  ]
+}

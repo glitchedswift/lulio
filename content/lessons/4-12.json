@@ -1,0 +1,171 @@
+{
+  "id": "4-12",
+  "title": { "es": "Las oraciones condicionales", "ca": "Les oracions condicionals" },
+  "goal": { "es": "Aprende a construir los tres tipos de oraciones condicionales en catalán.", "ca": "Aprèn a construir els tres tipus d'oracions condicionals en català." },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Tipo 1 — condición real (si + presente → futuro)", "ca": "Tipus 1 — condició real (si + present → futur)" },
+      "goal": { "es": "Condiciones posibles en el presente o futuro. Misma estructura que en español.", "ca": "Condicions possibles en el present o futur. Mateixa estructura que en castellà." },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "compare",
+          "es": "Si hace calor, voy a la playa.",
+          "ca": "Si fa calor, vaig a la platja.",
+          "note": { "es": "¡Igual que en español! Si + presente → presente/futuro. La coma es opcional cuando 'si' va primero.", "ca": "Igual que en castellà! Si + present → present/futur. La coma és opcional quan 'si' va primer." }
+        },
+        {
+          "type": "pattern",
+          "rule": { "from": "SI + present indicatiu", "to": "→ futur / present / imperatiu" },
+          "examples": [
+            { "es": "Si estudias, aprobarás.", "ca": "Si estudies, aprovaràs." },
+            { "es": "Si tienes frío, ponte el jersey.", "ca": "Si tens fred, posa't el jersei." },
+            { "es": "Si llueve, nos quedamos en casa.", "ca": "Si plou, ens quedem a casa." }
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Si tens fam, ___ quelcom.",
+          "translation": "Si tienes hambre, come algo.",
+          "options": ["menja", "menjaràs", "menjaries"],
+          "answer": "menja"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Si surts aviat, ___ el tren.",
+          "translation": "Si sales pronto, cogerás el tren.",
+          "options": ["agafaràs", "agafaries", "agafessis"],
+          "answer": "agafaràs"
+        },
+        {
+          "type": "translate",
+          "direction": "es-ca",
+          "prompt": "Si trabajas mucho, tendrás éxito.",
+          "answer": "Si treballes molt, tindràs èxit.",
+          "bank": ["Si", "treballes", "molt", ",", "tindràs", "èxit", "."],
+          "distractors": ["treballaries", "tinguessis", "tinguis"]
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "Tipo 2 — hipótesis (si + imperfecto subj. → condicional)", "ca": "Tipus 2 — hipòtesi (si + imperfet subj. → condicional)" },
+      "goal": { "es": "Condiciones hipotéticas o poco probables en el presente/futuro.", "ca": "Condicions hipotètiques o poc probables en el present/futur." },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "compare",
+          "es": "Si tuvieras tiempo, vendrías.",
+          "ca": "Si tinguessis temps, vindries.",
+          "note": { "es": "Catalán usa subjuntivo imperfecto en la cláusula 'si' (igual que español 'tuvieras'). El condicional en la principal es idéntico al español.", "ca": "El català usa el subjuntiu imperfet a la clàusula 'si' (igual que el castellà 'tuvieras'). El condicional a la principal és idèntic al castellà." }
+        },
+        {
+          "type": "pattern",
+          "rule": { "from": "SI + imperfet subjuntiu (-és/-essis)", "to": "→ condicional (-ria/-ries/-ria)" },
+          "examples": [
+            { "es": "Si estudiara, aprobaría.", "ca": "Si estudiessis, aprovaries." },
+            { "es": "Si tuviera dinero, viajaría.", "ca": "Si tingués diners, viatjaria." },
+            { "es": "Si fuera libre, viviría en el campo.", "ca": "Si fos lliure, viuria al camp." }
+          ],
+          "note": { "es": "¡NUNCA 'si + condicional'! *'Si tindries' es error. En habla coloquial se admite 'si + imperfecto indicativo': 'si tenies temps, venies'.", "ca": "MAI 'si + condicional'! *'Si tindries' és error. En la parla col·loquial s'admet 'si + imperfet indicatiu': 'si tenies temps, venies'." }
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Si ___ més temps, llegiria més.",
+          "translation": "Si tuviera más tiempo, leería más.",
+          "options": ["tingués", "tinc", "tindria"],
+          "answer": "tingués"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Si sabés la resposta, ___ amb tu.",
+          "translation": "Si supiera la respuesta, lo compartiría contigo.",
+          "options": ["ho compartiria", "ho comparteixo", "ho compartiràs"],
+          "answer": "ho compartiria"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "Si viviera en Barcelona, iría al mar cada semana.",
+          "options": ["Si visqués a Barcelona, aniria al mar cada setmana.", "Si visc a Barcelona, aniré al mar cada setmana.", "Si viuria a Barcelona, aniria al mar cada setmana."],
+          "answer": "Si visqués a Barcelona, aniria al mar cada setmana."
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Tipo 3 — contrafactual pasado (si + pluscuamperfecto → condicional perfecto)", "ca": "Tipus 3 — contrafactual passat (si + plusquamperfet → condicional perfet)" },
+      "goal": { "es": "Condiciones imposibles referidas al pasado: algo que no ocurrió.", "ca": "Condicions impossibles referides al passat: quelcom que no va ocórrer." },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "compare",
+          "es": "Si hubieras venido, lo habrías visto.",
+          "ca": "Si haguessis vingut, ho hauries vist.",
+          "note": { "es": "Pluscuamperfecto subjuntivo (haguessis + participio) en la cláusula 'si'; condicional perfecto (hauries + participio) en la principal.", "ca": "Plusquamperfet de subjuntiu (haguessis + participi) a la clàusula 'si'; condicional perfet (hauries + participi) a la principal." }
+        },
+        {
+          "type": "pattern",
+          "rule": { "from": "SI + hagués/haguessis/hagués + participi", "to": "→ hauria/hauries/hauria + participi" },
+          "examples": [
+            { "es": "Si hubieras estudiado, habrías aprobado.", "ca": "Si haguessis estudiat, hauries aprovat." },
+            { "es": "Si hubiera venido antes, lo habría visto.", "ca": "Si hagués vingut abans, ho hauria vist." },
+            { "es": "Si hubieran avisado, no habría pasado.", "ca": "Si haguessin avisat, no hauria passat." }
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Si ___ l'autobús, no hauries arribat tard.",
+          "translation": "Si hubieras cogido el autobús, no habrías llegado tarde.",
+          "options": ["haguessis agafat", "agafes", "agafaràs"],
+          "answer": "haguessis agafat"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Si hagués plogut, ___ a casa.",
+          "translation": "Si hubiera llovido, nos habríamos quedado en casa.",
+          "options": ["ens hauríem quedat", "ens quedem", "ens quedaríem"],
+          "answer": "ens hauríem quedat"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "Si hubiera sabido la verdad, se lo habría dicho.",
+          "options": ["Si hagués sabut la veritat, li ho hauria dit.", "Si sap la veritat, li ho dirà.", "Si sabés la veritat, li ho diria."],
+          "answer": "Si hagués sabut la veritat, li ho hauria dit."
+        }
+      ]
+    }
+  ],
+  "extras": [
+      {
+        "id": "x1",
+        "title": { "es": "Errores frecuentes con 'si'", "ca": "Errors freqüents amb 'si'" },
+        "goal": { "es": "Identifica y corrige los errores más comunes en oraciones condicionales.", "ca": "Identifica i corregeix els errors més comuns en oracions condicionals." },
+        "xp": 5,
+        "exercises": [
+          {
+            "type": "compare",
+            "es": "*Si tendría tiempo, vendría. (INCORRECTO)",
+            "ca": "Si tingués temps, vindria. (CORRECTE)",
+            "note": { "es": "NUNCA condicional tras 'si'. Error muy frecuente calco del español coloquial de algunas zonas.", "ca": "MAI condicional darrere 'si'. Error molt freqüent per calc del castellà col·loquial d'algunes zones." }
+          },
+          {
+            "type": "multiple_choice",
+            "direction": "ca-es",
+            "prompt": "Quina forma és correcta?",
+            "options": ["Si tingués diners, viatjaria.", "Si tindria diners, viatjaria.", "Si tinc diners, viatjaria."],
+            "answer": "Si tingués diners, viatjaria."
+          },
+          {
+            "type": "fill_blank",
+            "sentence": "Si ___ l'adreça, t'hi aniria a visitar.",
+            "translation": "Si supiera la dirección, iría a visitarte.",
+            "options": ["sabés", "sabia", "sabré"],
+            "answer": "sabés"
+          }
+        ]
+      }
+    ]
+}

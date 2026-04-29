@@ -1,0 +1,154 @@
+{
+  "id": "5-9",
+  "title": { "es": "Variedades dialectales del catalán", "ca": "Variants dialectals del català" },
+  "goal": { "es": "Conoce las principales variedades del catalán para entenderlas cuando las encuentres.", "ca": "Coneix les principals varietats del català per entendre-les quan les trobis." },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Catalán central vs. balear", "ca": "Català central vs. balear" },
+      "goal": { "es": "El catalán balear (Mallorca, Menorca, Eivissa) tiene artículos y formas verbales propios.", "ca": "El català balear (Mallorca, Menorca, Eivissa) té articles i formes verbals pròpies." },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "compare",
+          "es": "Central: el cotxe / la casa / els nens / les flors",
+          "ca": "Balear: es cotxe / sa casa / es nens / ses flors",
+          "note": { "es": "El balear usa artículos derivados del latín 'ipse': es/sa/es/ses. El artículo 'el/la/els/les' del central viene de 'ille'.", "ca": "El balear usa articles derivats del llatí 'ipse': es/sa/es/ses. L'article 'el/la/els/les' del central ve de 'ille'." }
+        },
+        {
+          "type": "compare",
+          "es": "Central: nosaltres tenim / vosaltres teniu",
+          "ca": "Balear: noltros tenim / vosaltros teniu",
+          "note": { "es": "Los pronombres de 1ª y 2ª persona plural son distintos en balear.", "ca": "Els pronoms de 1a i 2a persona plural són distints en balear." }
+        },
+        {
+          "type": "flashcard",
+          "ca": "Central → Balear: tinc → tenc · vine → ving · el meu cotxe → es meu cotxe · nosaltres → noltros",
+          "es": "Central → Balear: tengo → tengo (tenc) · ven → ven (ving) · mi coche → mi coche (es meu cotxe) · nosotros → nosotros (noltros)"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "ca-es",
+          "prompt": "Sa casa és molt gran. (Balear)",
+          "options": ["La casa es muy grande.", "Su casa es muy grande.", "Esta casa es muy grande."],
+          "answer": "La casa es muy grande."
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "En balear, 'el cotxe' es diu ___.",
+          "translation": "En balear, 'el coche' se dice ___.",
+          "options": ["es cotxe", "sa cotxe", "lo cotxe"],
+          "answer": "es cotxe"
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "Catalán central vs. valenciano", "ca": "Català central vs. valencià" },
+      "goal": { "es": "El valenciano (llengua valenciana) es una variedad reconocida con rasgos propios.", "ca": "El valencià (llengua valenciana) és una varietat reconeguda amb trets propis." },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "compare",
+          "es": "Central: vaig menjar (pasado perifrástico) — forma coloquial habitual",
+          "ca": "Valencià: menjí (pasado sintético) — forma coloquial habitual",
+          "note": { "es": "El valenciano usa el pasado simple sintético en el habla cotidiana. El perifràstic (vaig menjar) existe pero es menos común en conversación.", "ca": "El valencià usa el passat simple sintètic en la parla quotidiana. El perifràstic (vaig menjar) existeix però és menys comú en conversa." }
+        },
+        {
+          "type": "compare",
+          "es": "Central: avui (hoy) · sortir (salir) · nen/nena (niño/a)",
+          "ca": "Valencià: hui (hoy) · eixir (salir) · xiquet/xiqueta (niño/a)",
+          "note": { "es": "Vocabulario diferente para conceptos cotidianos. Son igual de correctos en sus respectivas variedades.", "ca": "Vocabulari diferent per a conceptes quotidians. Són igualment correctes en les seves varietats respectives." }
+        },
+        {
+          "type": "flashcard",
+          "ca": "Central → Valencià: avui → hui · sortir → eixir · nen/nena → xiquet/xiqueta · nosaltres → nosaltres · vaig menjar → menjí",
+          "es": "Central → Valenciano: hoy → hoy (hui) · salir → salir (eixir) · niño/a → niño/a (xiquet/a) · nosotros → nosotros · comí → comí (menjí)"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "ca-es",
+          "prompt": "Hui he anat a l'escola. (Valencià)",
+          "options": ["Hoy he ido a la escuela.", "Ayer he ido a la escuela.", "Mañana iré a la escuela."],
+          "answer": "Hoy he ido a la escuela."
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "En valencià, 'sortir' es diu ___.",
+          "translation": "En valenciano, 'sortir' (salir) se dice ___.",
+          "options": ["eixir", "anar", "venir"],
+          "answer": "eixir"
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Cómo entender la variación", "ca": "Com entendre la variació" },
+      "goal": { "es": "Estrategias para comprender el catalán de cualquier variedad sin perderte.", "ca": "Estratègies per comprendre el català de qualsevol varietat sense perdre't." },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "flashcard",
+          "ca": "Si veus 'es/sa' → és balear · Si veus '-í/-à' al passat → és valencià · Si veus 'hui' → és valencià · Si sents 'noltros' → és balear",
+          "es": "Si ves 'es/sa' → es balear · Si ves '-í/-à' en pasado → es valenciano · Si ves 'hui' → es valenciano · Si oyes 'noltros' → es balear",
+          "note": { "es": "Estas 'pistas' te ayudan a identificar la variedad rápidamente y anticipar otras diferencias.", "ca": "Aquestes 'pistes' t'ajuden a identificar la varietat ràpidament i anticipar altres diferències." }
+        },
+        {
+          "type": "compare",
+          "es": "El catalán es una sola lengua con variedades regionales mutuamente inteligibles.",
+          "ca": "El català és una sola llengua amb varietats regionals mútuament intel·ligibles.",
+          "note": { "es": "El catalán central que aprendes aquí es comprendido por todos los hablantes de todas las variedades.", "ca": "El català central que aprens aquí és comprès per tots els parlants de totes les varietats." }
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "ca-es",
+          "prompt": "Menjí molt ahir. (¿Qué variedad es?)",
+          "options": ["Valenciano", "Balear", "Catalán central"],
+          "answer": "Valenciano"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "ca-es",
+          "prompt": "Sa mare és molt simpàtica. (¿Qué variedad es?)",
+          "options": ["Balear", "Valenciano", "Catalán central"],
+          "answer": "Balear"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "En la variant balear, 'la casa' es diu ___.",
+          "translation": "En la variante balear, 'la casa' se dice ___.",
+          "options": ["sa casa", "es casa", "la casa"],
+          "answer": "sa casa"
+        }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "x1",
+      "title": { "es": "Unidad de la lengua catalana", "ca": "Unitat de la llengua catalana" },
+      "goal": { "es": "Comprende el debate sobre la unidad lingüística y la riqueza de la diversidad.", "ca": "Comprèn el debat sobre la unitat lingüística i la riquesa de la diversitat." },
+      "xp": 5,
+      "exercises": [
+        {
+          "type": "flashcard",
+          "ca": "Autors valencians destacats: Ausiàs March (s. XV), Joanot Martorell (Tirant lo Blanc). Tots escrivien en la mateixa llengua literària compartida.",
+          "es": "Autores valencianos destacados: Ausiàs March (s. XV), Joanot Martorell (Tirant lo Blanc). Todos escribían en la misma lengua literaria compartida."
+        },
+        {
+          "type": "compare",
+          "es": "El estándar literario catalán (la Fabra de 1913) es la base común de todas las variedades escritas.",
+          "ca": "L'estàndard literari català (la Fabra del 1913) és la base comuna de totes les varietats escrites.",
+          "note": { "es": "Pompeu Fabra normalizó la ortografía catalana en 1913, creando una norma supradialectal aceptada en todos los territorios.", "ca": "Pompeu Fabra va normalitzar l'ortografia catalana el 1913, creant una norma supradialectal acceptada en tots els territoris." }
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "ca-es",
+          "prompt": "Per quin motiu s'estudia el català central en aquesta app?",
+          "options": ["Perquè és la varietat amb més parlants i la base de l'estàndard.", "Perquè el balear i el valencià no existeixen.", "Perquè el català central és l'únic correcte."],
+          "answer": "Perquè és la varietat amb més parlants i la base de l'estàndard."
+        }
+      ]
+    }
+  ]
+}

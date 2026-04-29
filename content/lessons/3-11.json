@@ -1,0 +1,149 @@
+{
+  "id": "3-11",
+  "title": { "es": "Pronombres débiles: directos", "ca": "Pronoms febles: directes" },
+  "goal": { "es": "Aprende los pronombres de objeto directo del catalán y dónde colocarlos.", "ca": "Aprèn els pronoms d'objecte directe del català i on col·locar-los." },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "El, la, els, les", "ca": "El, la, els, les" },
+      "goal": { "es": "Los cuatro pronombres para sustituir el objeto directo.", "ca": "Els quatre pronoms per substituir l'objecte directe." },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "pattern",
+          "rule": { "from": "nom → pronom directe", "to": "el (m.sg.) · la (f.sg.) · els (m.pl.) · les (f.pl.)" },
+          "examples": [
+            { "es": "Veo a Joan → Lo veo.", "ca": "Veig en Joan → El veig." },
+            { "es": "Conozco a Ana → La conozco.", "ca": "Conec l'Ana → La conec." },
+            { "es": "Compro los libros → Los compro.", "ca": "Compro els llibres → Els compro." },
+            { "es": "Escucho las canciones → Las escucho.", "ca": "Escolto les cançons → Les escolto." }
+          ],
+          "note": { "es": "El/la/els/les equivalen a lo/la/los/las en español como objeto directo.", "ca": "El/la/els/les equivalen a lo/la/los/las en castellà com a objecte directe." }
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "El cotxe? ___ veig allà.",
+          "translation": "¿El coche? Lo veo allí.",
+          "options": ["El", "La", "Els"],
+          "answer": "El"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Les claus? ___ tinc a la bossa.",
+          "translation": "¿Las llaves? Las tengo en el bolso.",
+          "options": ["Les", "Els", "La"],
+          "answer": "Les"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "Los conozco a todos.",
+          "options": ["Els conec a tots.", "Les conec a tots.", "El conec a tots."],
+          "answer": "Els conec a tots."
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "La veo todos los días.",
+          "options": ["La veig cada dia.", "El veig cada dia.", "Les veig cada dia."],
+          "answer": "La veig cada dia."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "Ho — el pronombre neutro", "ca": "Ho — el pronom neutre" },
+      "goal": { "es": "'Ho' sustituye oraciones enteras, predicados adjetivales y objetos no específicos.", "ca": "'Ho' substitueix oracions senceres, predicats adjectivats i objectes no específics." },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "compare",
+          "es": "¿Sabes que mañana es fiesta? — Sí, lo sé.",
+          "ca": "Saps que demà és festa? — Sí, ho sé.",
+          "note": { "es": "'Ho' sustituye toda la oración subordinada o idea. En español usamos 'lo'.", "ca": "'Ho' substitueix tota l'oració subordinada o idea. En castellà s'usa 'lo'." }
+        },
+        {
+          "type": "compare",
+          "es": "¿Estás cansado? — Sí, lo estoy.",
+          "ca": "Estàs cansat? — Sí, ho estic.",
+          "note": { "es": "'Ho' también reemplaza un predicado adjetival con ser/estar: 'Ets feliç? Ho sóc.'", "ca": "'Ho' també substitueix un predicat adjectival amb ser/estar: 'Ets feliç? Ho sóc.'" }
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "___ entenc, no et preocupis.",
+          "translation": "Lo entiendo, no te preocupes.",
+          "options": ["Ho", "El", "La"],
+          "answer": "Ho"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Ets feliç? — Sí, ___ sóc.",
+          "translation": "¿Eres feliz? — Sí, lo soy.",
+          "options": ["ho", "el", "la"],
+          "answer": "ho"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "Ya lo haré mañana. (idea general)",
+          "options": ["Ja ho faré demà.", "Ja el faré demà.", "Ja la faré demà."],
+          "answer": "Ja ho faré demà."
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Posición y formas reducidas", "ca": "Posició i formes reduïdes" },
+      "goal": { "es": "El pronombre va antes del verbo conjugado y se apostrofa ante vocal o h.", "ca": "El pronom va davant del verb conjugat i s'apostrofa davant vocal o h." },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "pattern",
+          "rule": { "from": "el/la + vocal o h → l'", "to": "l'escolto · l'he vist · l'espero · l'estimo" },
+          "examples": [
+            { "es": "Lo escucho (=audio/él)", "ca": "L'escolto" },
+            { "es": "Lo he visto", "ca": "L'he vist" },
+            { "es": "La espero", "ca": "L'espero" },
+            { "es": "La quiero", "ca": "L'estimo" }
+          ],
+          "note": { "es": "Ante vocal o h, el/la → l' (apóstrofe). Els/les nunca se reducen.", "ca": "Davant vocal o h, el/la → l' (apòstrof). Els/les mai s'apostrofen." }
+        },
+        {
+          "type": "compare",
+          "es": "Lo veo. / Quiero verlo.",
+          "ca": "El veig. / Vull veure'l.",
+          "note": { "es": "Antes del verbo (proclítico): 'el veig'. Detrás del infinitivo (enclítico): 'veure'l'.", "ca": "Davant del verb (proclític): 'el veig'. Darrere de l'infinitiu (enclític): 'veure'l'." }
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "___ he dit tres vegades.",
+          "translation": "Lo he dicho tres veces. (idea/frase)",
+          "options": ["Ho", "El", "La"],
+          "answer": "Ho"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "En Joan? No ___ veig avui.",
+          "translation": "¿Joan? No lo veo hoy.",
+          "options": ["el", "la", "ho"],
+          "answer": "el"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "La conozco desde hace años.",
+          "options": ["La conec des de fa anys.", "L'he coneguda des de fa anys.", "Ho conec des de fa anys."],
+          "answer": "La conec des de fa anys."
+        },
+        {
+          "type": "translate",
+          "direction": "es-ca",
+          "prompt": "No lo sé.",
+          "answer": "No ho sé.",
+          "bank": ["No", "ho", "sé", "."],
+          "distractors": ["el", "la", "sap"]
+        }
+      ]
+    }
+  ]
+}

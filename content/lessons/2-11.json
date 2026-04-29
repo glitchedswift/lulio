@@ -1,0 +1,253 @@
+{
+  "id": "2-11",
+  "title": { "es": "Ser y estar", "ca": "Ser i estar" },
+  "goal": {
+    "es": "Entiende cuándo usar 'ser' y cuándo usar 'estar' en catalán — con sus diferencias respecto al español.",
+    "ca": "Entén quan usar 'ser' i quan usar 'estar' en català, amb les diferències respecte al castellà."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Sóc / Ser — identitat i característica", "ca": "Sóc / Ser — identitat i característica" },
+      "goal": {
+        "es": "«Ser» en catalán (sóc, ets, és, som, sou, són) se usa para identidad, origen, características permanentes, profesión y tiempo — igual que en español.",
+        "ca": "«Ser» en català (sóc, ets, és, som, sou, són) s'usa per a identitat, origen, característiques permanents, professió i temps — com en castellà."
+      },
+      "exercises": [
+        {
+          "type": "pattern",
+          "rule": { "from": "ser (es)", "to": "ser (ca)" },
+          "examples": [
+            { "es": "soy", "ca": "sóc" },
+            { "es": "eres", "ca": "ets" },
+            { "es": "es", "ca": "és" },
+            { "es": "somos", "ca": "som" },
+            { "es": "sois", "ca": "sou" },
+            { "es": "son", "ca": "són" }
+          ],
+          "note": {
+            "es": "«Sóc» lleva acento en la o. «Ets» suena similar a «ets» en inglés. «Som/sou/són» recuerdan al latín 'sumus/estis/sunt'.",
+            "ca": "«Sóc» porta accent a la o. «Som/sou/són» recorden el llatí 'sumus/estis/sunt'."
+          }
+        },
+        {
+          "type": "flashcard",
+          "ca": "Sóc la Marta. / Ets metge. / És alt. / Som catalans.",
+          "es": "Soy la Marta. / Eres médico. / Es alto. / Somos catalanes.",
+          "note": { "es": "«Ser» para: nombre, profesión, características físicas y origen. Igual que en español.", "ca": "«Ser» per a: nom, professió, característiques físiques i origen. Com en castellà." }
+        },
+        {
+          "type": "flashcard",
+          "ca": "Avui és dilluns. / Són les tres. / La taula és de fusta.",
+          "es": "Hoy es lunes. / Son las tres. / La mesa es de madera.",
+          "note": { "es": "«Ser» también para la hora, el día y el material. Exactamente igual al español.", "ca": "«Ser» també per a l'hora, el dia i el material. Exactament com el castellà." }
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "Soy estudiante.",
+          "options": ["Sóc estudiant.", "Estic estudiant.", "Sóc estudiantE.", "Estic estudiantE."],
+          "answer": "Sóc estudiant."
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "Son las tres de la tarde.",
+          "options": ["Són les tres de la tarda.", "Estan les tres de la tarda.", "És les tres de la tarda.", "Estic les tres de la tarda."],
+          "answer": "Són les tres de la tarda."
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "La Maria ___ de Girona.",
+          "translation": "La Maria es de Girona.",
+          "options": ["és", "està", "estic", "som"],
+          "answer": "és"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Nosaltres ___ professors.",
+          "translation": "Nosotros somos profesores.",
+          "options": ["som", "estem", "sóc", "estan"],
+          "answer": "som"
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "Estic / Estar — estats i ubicació de persones", "ca": "Estic / Estar — estats i ubicació de persones" },
+      "goal": {
+        "es": "«Estar» en catalán (estic, estàs, està, estem, esteu, estan) se usa para estados temporales, la ubicación de personas y el aspecto progresivo.",
+        "ca": "«Estar» en català (estic, estàs, està, estem, esteu, estan) s'usa per a estats temporals, la ubicació de persones i l'aspecte progressiu."
+      },
+      "exercises": [
+        {
+          "type": "pattern",
+          "rule": { "from": "estar (es)", "to": "estar (ca)" },
+          "examples": [
+            { "es": "estoy", "ca": "estic" },
+            { "es": "estás", "ca": "estàs" },
+            { "es": "está", "ca": "està" },
+            { "es": "estamos", "ca": "estem" },
+            { "es": "estáis", "ca": "esteu" },
+            { "es": "están", "ca": "estan" }
+          ],
+          "note": {
+            "es": "«Estic» (no *«estoy»). «Estàs» lleva acento en la à. «Esteu» es la forma vosotros, frecuente en catalán.",
+            "ca": "«Estic» (no *«estoy»). «Estàs» porta accent a la à. «Esteu» és la forma vosaltres."
+          }
+        },
+        {
+          "type": "flashcard",
+          "ca": "Estic cansat. / Estàs content? / La porta està oberta.",
+          "es": "Estoy cansado. / ¿Estás contento? / La puerta está abierta.",
+          "note": { "es": "«Estar» para estados temporales y estados resultantes: emociones, sensaciones físicas, puertas abiertas/cerradas, ventanas rotas…", "ca": "«Estar» per a estats temporals i resultants: emocions, sensacions físiques, portes obertes/tancades…" }
+        },
+        {
+          "type": "compare",
+          "es": "Estoy cansado.",
+          "ca": "Estic cansat.",
+          "note": { "es": "Para estados de ánimo y cansancio, catalán y español usan «estar» de la misma manera. ¡Fácil!", "ca": "Per als estats d'ànim i el cansament, català i castellà usen «estar» de la mateixa manera." }
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "Estoy muy contento hoy.",
+          "options": ["Estic molt content avui.", "Sóc molt content avui.", "Estic molt contenta avui.", "Estic molt avui content."],
+          "answer": "Estic molt content avui."
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "¿Dónde estás?",
+          "options": ["On estàs?", "On ets?", "On esteu?", "On estan?"],
+          "answer": "On estàs?"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "La finestra ___ trencada.",
+          "translation": "La ventana está rota.",
+          "options": ["està", "és", "estic", "som"],
+          "answer": "està"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "On ___ en Jordi?",
+          "translation": "¿Dónde está Jordi?",
+          "options": ["està", "és", "estic", "ets"],
+          "answer": "està"
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "La diferència clau: ubicació de llocs", "ca": "La diferència clau: ubicació de llocs" },
+      "goal": {
+        "es": "La diferencia más importante respecto al español: en catalán, la ubicación de LUGARES usa «ser», no «estar». Solo la ubicación de personas y animales usa «estar».",
+        "ca": "La diferència més important respecte al castellà: en català, la ubicació de LLOCS usa «ser», no «estar». Només la ubicació de persones i animals usa «estar»."
+      },
+      "exercises": [
+        {
+          "type": "compare",
+          "es": "La oficina está en el tercer piso.",
+          "ca": "L'oficina és al tercer pis.",
+          "note": { "es": "¡Clave! En español, los lugares usan «estar» para ubicación. En catalán, usan «ser». «L'oficina és al tercer pis» — el lugar tiene una ubicación permanente, por eso usa «ser».", "ca": "Clau! En castellà, els llocs usen «estar» per a la ubicació. En català, usen «ser». «L'oficina és al tercer pis» — el lloc té una ubicació permanent." }
+        },
+        {
+          "type": "compare",
+          "es": "La biblioteca está en la calle Mayor.",
+          "ca": "La biblioteca és al carrer Major.",
+          "note": { "es": "Más ejemplos: «L'hospital és al centre.» / «La parada de metro és a l'altra banda.» En català, la ubicación de edificios y lugares siempre va con «ser».", "ca": "Més exemples: «L'hospital és al centre.» / «La parada de metro és a l'altra banda.» La ubicació d'edificis i llocs sempre va amb «ser»." }
+        },
+        {
+          "type": "compare",
+          "es": "¿Dónde estás? — Estoy en casa.",
+          "ca": "On estàs? — Estic a casa.",
+          "note": { "es": "Pero para PERSONAS y ANIMALES, la ubicación sí usa «estar»: «Estic a casa», «On estàs?». La misma distinción que en catalán formal, aunque en coloquial a veces se oye «sóc a casa» también.", "ca": "Però per a PERSONES i ANIMALS, la ubicació usa «estar»: «Estic a casa», «On estàs?». En català col·loquial s'usa «estar»; en registre formal es pot sentir «ser»." }
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "El supermercado está en la plaza.",
+          "options": ["El supermercat és a la plaça.", "El supermercat està a la plaça.", "El supermercat estic a la plaça.", "El supermercat ets a la plaça."],
+          "answer": "El supermercat és a la plaça."
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "Estoy en el trabajo.",
+          "options": ["Estic a la feina.", "Sóc a la feina.", "Estic en la feina.", "Estic al treball."],
+          "answer": "Estic a la feina."
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "ca-es",
+          "prompt": "El parc és a prop d'aquí.",
+          "options": ["El parque está cerca de aquí.", "El parque es cerca de aquí.", "El parque está lejos de aquí.", "El parque es lejos de aquí."],
+          "answer": "El parque está cerca de aquí."
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "El museu ___ al centre de la ciutat.",
+          "translation": "El museo está en el centro de la ciudad.",
+          "options": ["és", "està", "estic", "ets"],
+          "answer": "és"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Avui ___ a casa perquè estic malalt.",
+          "translation": "Hoy estoy en casa porque estoy enfermo.",
+          "options": ["estic", "sóc", "és", "som"],
+          "answer": "estic"
+        }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "x1",
+      "title": { "es": "Estar + gerundi", "ca": "Estar + gerundi" },
+      "goal": {
+        "es": "El aspecto progresivo en catalán: «estic menjant» (estoy comiendo). La estructura es idéntica al español: estar + gerundio.",
+        "ca": "L'aspecte progressiu en català: «estic menjant» (estoy comiendo). L'estructura és idèntica al castellà: estar + gerundi."
+      },
+      "exercises": [
+        {
+          "type": "pattern",
+          "rule": { "from": "estar + -ando/-iendo", "to": "estar + -ant/-int" },
+          "examples": [
+            { "es": "estoy comiendo", "ca": "estic menjant" },
+            { "es": "estás hablando", "ca": "estàs parlant" },
+            { "es": "está trabajando", "ca": "està treballant" },
+            { "es": "estamos estudiando", "ca": "estem estudiant" },
+            { "es": "están durmiendo", "ca": "estan dormint" }
+          ],
+          "note": {
+            "es": "El gerundio catalán termina en -ant (verbos en -ar) o -int (verbos en -ir). «Menjant» = menjando. «Dormint» = durmiendo. La estructura «estar + gerundi» es idéntica al español.",
+            "ca": "El gerundi català acaba en -ant (verbs en -ar) o -int (verbs en -ir). «Menjant» = menjando. «Dormint» = durmiendo. L'estructura «estar + gerundi» és idèntica al castellà."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Ara ___ treballant des de casa.",
+          "translation": "Ahora estoy trabajando desde casa.",
+          "options": ["estic", "sóc", "estem", "estan"],
+          "answer": "estic"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Ells ___ parlant per telèfon.",
+          "translation": "Ellos están hablando por teléfono.",
+          "options": ["estan", "són", "estic", "esteu"],
+          "answer": "estan"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "Estamos estudiando catalán.",
+          "options": ["Estem estudiant català.", "Som estudiant català.", "Estem estudiat català.", "Estem estudiando català."],
+          "answer": "Estem estudiant català."
+        }
+      ]
+    }
+  ]
+}

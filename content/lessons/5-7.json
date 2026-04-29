@@ -1,0 +1,288 @@
+{
+  "id": "5-7",
+  "title": { "es": "La voz pasiva", "ca": "La veu passiva" },
+  "goal": {
+    "es": "Aprende las dos construcciones pasivas del catalán y cuándo usar cada una.",
+    "ca": "Aprèn les dues construccions passives del català i quan usar cada una."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Pasiva con ser + participio", "ca": "Passiva amb ser + participi" },
+      "goal": {
+        "es": "Forma la pasiva analítica con ser + participio y aprende cómo concuerda el participio.",
+        "ca": "Forma la passiva analítica amb ser + participi i aprèn com concorda el participi."
+      },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "compare",
+          "es": "La carta fue escrita por Marc.",
+          "ca": "La carta va ser escrita per en Marc.",
+          "note": {
+            "es": "El participio concuerda con el sujeto: 'carta' es femenino → escrita.",
+            "ca": "El participi concorda amb el subjecte: 'carta' és femení → escrita."
+          }
+        },
+        {
+          "type": "pattern",
+          "rule": { "from": "ser + participio (ES)", "to": "ser + participi (CA)" },
+          "examples": [
+            { "es": "El documento fue firmado.", "ca": "El document va ser signat." },
+            { "es": "La ley fue aprobada.", "ca": "La llei va ser aprovada." },
+            { "es": "Los textos fueron revisados.", "ca": "Els textos van ser revisats." },
+            { "es": "Las cartes fueron enviadas.", "ca": "Les cartes van ser enviades." }
+          ],
+          "note": {
+            "es": "El participio catalán concuerda en género y número con el sujeto, igual que en español.",
+            "ca": "El participi català concorda en gènere i nombre amb el subjecte, igual que en castellà."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Els documents van ser _____ ahir.",
+          "translation": "Los documentos fueron firmados ayer.",
+          "options": ["signats", "signada", "signat", "signades"],
+          "answer": "signats"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "La llei ha estat _____ pel Parlament.",
+          "translation": "La ley ha sido aprobada por el Parlamento.",
+          "options": ["aprovada", "aprovat", "aprovats", "aprovades"],
+          "answer": "aprovada"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "El libro fue leído por muchos estudiantes.",
+          "options": [
+            "El llibre va ser llegit per molts estudiants.",
+            "El llibre va ser llegida per molts estudiants.",
+            "El llibre va ser llegits per molts estudiants."
+          ],
+          "answer": "El llibre va ser llegit per molts estudiants."
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "Las canciones fueron grabadas en Barcelona.",
+          "options": [
+            "Les cançons van ser gravades a Barcelona.",
+            "Les cançons van ser gravats a Barcelona.",
+            "Les cançons van ser gravada a Barcelona."
+          ],
+          "answer": "Les cançons van ser gravades a Barcelona."
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "Pasiva refleja: es + verbo", "ca": "Passiva reflexa: es + verb" },
+      "goal": {
+        "es": "Usa la pasiva refleja con 'es', la más frecuente en catalán hablado y escrito.",
+        "ca": "Usa la passiva reflexa amb 'es', la més freqüent en català parlat i escrit."
+      },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "compare",
+          "es": "Se habla catalán.",
+          "ca": "Es parla català.",
+          "note": {
+            "es": "¡La estructura es idéntica! El 'se' español = el 'es' catalán. El verbo va en singular porque 'català' es singular.",
+            "ca": "L'estructura és idèntica! El 'se' castellà = l''es' català. El verb va en singular perquè 'català' és singular."
+          }
+        },
+        {
+          "type": "compare",
+          "es": "Se construyen casas.",
+          "ca": "Es construeixen cases.",
+          "note": {
+            "es": "Con sujeto plural, el verbo concuerda en plural: 'cases' → 'construeixen'.",
+            "ca": "Amb subjecte plural, el verb concorda en plural: 'cases' → 'construeixen'."
+          }
+        },
+        {
+          "type": "pattern",
+          "rule": { "from": "se + verbo (ES)", "to": "es + verb (CA)" },
+          "examples": [
+            { "es": "Se venden pisos.", "ca": "Es venen pisos." },
+            { "es": "Se busca cocinero.", "ca": "Es busca cuiner." },
+            { "es": "Se aceptan tarjetas.", "ca": "S'accepten targetes." },
+            { "es": "Se estudia mucho aquí.", "ca": "S'estudia molt aquí." }
+          ],
+          "note": {
+            "es": "ATENCIÓN: la pasiva refleja NO puede tener agente explícito. Si quieres decir 'por quién', usa la pasiva con ser o la voz activa.",
+            "ca": "ATENCIÓ: la passiva reflexa NO pot tenir agent explícit. Si vols dir 'per qui', usa la passiva amb ser o la veu activa."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Es _____ molt de cafè a Catalunya.",
+          "translation": "Se consume mucho café en Cataluña.",
+          "options": ["consumeix", "consumeixen", "consumit", "consumida"],
+          "answer": "consumeix"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "S'_____ molts llibres cada any.",
+          "translation": "Se publican muchos libros cada año.",
+          "options": ["publiquen", "publica", "publicat", "publicada"],
+          "answer": "publiquen"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "Se venden entradas para el concierto.",
+          "options": [
+            "Es venen entrades per al concert.",
+            "Es ven entrades per al concert.",
+            "Es venuda entrades per al concert."
+          ],
+          "answer": "Es venen entrades per al concert."
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "Se busca mecánico.",
+          "options": [
+            "Es busca mecànic.",
+            "Es busquen mecànic.",
+            "Es buscat mecànic."
+          ],
+          "answer": "Es busca mecànic."
+        },
+        {
+          "type": "translate",
+          "direction": "es-ca",
+          "prompt": "Aquí se habla catalán.",
+          "answer": "Aquí es parla català.",
+          "bank": ["Aquí", "es", "parla", "català"],
+          "distractors": ["parlen", "és", "parlat"]
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "¿Cuándo usar cada tipo?", "ca": "Quan usar cada tipus?" },
+      "goal": {
+        "es": "Elige la construcción pasiva correcta según el contexto: refleja para el día a día, analítica cuando hay agente o en textos formales.",
+        "ca": "Tria la construcció passiva correcta segons el context: reflexa per al dia a dia, analítica quan hi ha agent o en textos formals."
+      },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "compare",
+          "es": "Se habla catalán en esta tienda. (cotidiano)",
+          "ca": "Es parla català en aquesta botiga. (passiva reflexa — registre quotidià)",
+          "note": {
+            "es": "La pasiva refleja es válida en todos los registros: coloquial, periodístico y formal.",
+            "ca": "La passiva reflexa és vàlida en tots els registres: col·loquial, periodístic i formal."
+          }
+        },
+        {
+          "type": "compare",
+          "es": "La novela fue escrita por Mercè Rodoreda. (con agente → analítica)",
+          "ca": "La novel·la va ser escrita per Mercè Rodoreda. (amb agent → passiva analítica)",
+          "note": {
+            "es": "Cuando necesitas mencionar el agente ('por quién'), debes usar ser + participio. La pasiva refleja no admite agente.",
+            "ca": "Quan cal esmentar l'agent ('per qui'), cal usar ser + participi. La passiva reflexa no admet agent."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "Se construyó un puente nuevo. (sin agente, hecho completado)",
+          "options": [
+            "Es va construir un pont nou.",
+            "Un pont nou va ser construït per.",
+            "Es construïts un pont nou."
+          ],
+          "answer": "Es va construir un pont nou."
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "El puente fue construido por los romanos. (con agente)",
+          "options": [
+            "El pont va ser construït pels romans.",
+            "El pont es va construït pels romans.",
+            "El pont es construeix pels romans."
+          ],
+          "answer": "El pont va ser construït pels romans."
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "Se aceptan reservas por teléfono. (anuncio general, sin agente)",
+          "options": [
+            "S'accepten reserves per telèfon.",
+            "Les reserves van ser acceptades per telèfon.",
+            "Les reserves s'acceptada per telèfon."
+          ],
+          "answer": "S'accepten reserves per telèfon."
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "La constitució va ser _____ l'any 1978.",
+          "translation": "La constitución fue aprobada en el año 1978.",
+          "options": ["aprovada", "aprovades", "aprovat", "aprovats"],
+          "answer": "aprovada"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "_____ moltes llengües a Europa.",
+          "translation": "Se hablan muchas lenguas en Europa.",
+          "options": ["Es parlen", "Es parla", "Va ser parlat", "Va ser parlada"],
+          "answer": "Es parlen"
+        }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "x1",
+      "title": { "es": "Estar + participio — resultado, no pasiva", "ca": "Estar + participi — resultat, no passiva" },
+      "goal": {
+        "es": "Distingue la pasiva de acción (ser + participio) del estado resultante (estar + participio).",
+        "ca": "Distingeix la passiva d'acció (ser + participi) de l'estat resultant (estar + participi)."
+      },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "compare",
+          "es": "La ventana está rota. (estado)",
+          "ca": "La finestra està trencada. (estat resultant)",
+          "note": {
+            "es": "Estar + participio describe un ESTADO actual, no una acción pasiva. Es equivalente al español.",
+            "ca": "Estar + participi descriu un ESTAT actual, no una acció passiva. És equivalent al castellà."
+          }
+        },
+        {
+          "type": "compare",
+          "es": "La ventana fue rota. (acción pasiva) vs. La ventana está rota. (estado)",
+          "ca": "La finestra va ser trencada. (acció passiva) vs. La finestra està trencada. (estat)",
+          "note": {
+            "es": "'Va ser trencada' = alguien la rompió (acción). 'Està trencada' = está en estado roto ahora (resultado).",
+            "ca": "'Va ser trencada' = algú la va trencar (acció). 'Està trencada' = és en estat trencat ara (resultat)."
+          }
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "La porta _____ tancada. No podem entrar.",
+          "translation": "La puerta está cerrada. No podemos entrar.",
+          "options": ["està", "va ser", "és", "va estar"],
+          "answer": "està"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "El museu va ser _____ l'any 1929.",
+          "translation": "El museo fue inaugurado en el año 1929.",
+          "options": ["inaugurat", "inaugurada", "inaugurats", "inaugurades"],
+          "answer": "inaugurat"
+        }
+      ]
+    }
+  ]
+}

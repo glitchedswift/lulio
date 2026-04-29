@@ -1,0 +1,238 @@
+{
+  "id": "1-8",
+  "title": { "es": "Presentarse", "ca": "Presentar-se" },
+  "goal": {
+    "es": "Aprende a presentarte y a preguntar por otros en catalán.",
+    "ca": "Aprèn a presentar-te i a preguntar per altres en català."
+  },
+  "topics": [
+    {
+      "id": "t1",
+      "title": { "es": "Me llamo...", "ca": "Em dic..." },
+      "goal": {
+        "es": "Di tu nombre y pregunta el de otros.",
+        "ca": "Digues el teu nom i pregunta el dels altres."
+      },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "compare",
+          "es": "Me llamo Ana.",
+          "ca": "Em dic Ana.",
+          "note": {
+            "es": "'Em dic' usa el verbo reflexivo 'dir-se' (llamarse). Literalmente: 'me digo'.",
+            "ca": "'Em dic' usa el verb reflexiu 'dir-se'. Literalment: 'me digo'."
+          }
+        },
+        {
+          "type": "compare",
+          "es": "¿Cómo te llamas?",
+          "ca": "Com et dius?",
+          "note": {
+            "es": "Informal. Formal: 'Com es diu vostè?'",
+            "ca": "Informal. Formal: 'Com es diu vostè?'"
+          }
+        },
+        {
+          "type": "flashcard",
+          "ca": "em dic · et dius · es diu · ens diem · us dieu · es diuen",
+          "es": "me llamo · te llamas · se llama · nos llamamos · os llamáis · se llaman",
+          "note": {
+            "es": "Verbo 'dir-se'. Raíz irregular solo en 1.ª sg: 'em dic'.",
+            "ca": "Verb 'dir-se'. Arrel irregular només en 1a sg: 'em dic'."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "Me llamo Miquel.",
+          "options": ["Em dic Miquel.", "Sóc Miquel.", "Tinc Miquel."],
+          "answer": "Em dic Miquel."
+        },
+        {
+          "type": "translate",
+          "direction": "es-ca",
+          "prompt": "¿Cómo te llamas?",
+          "answer": "Com et dius?",
+          "bank": ["Com", "et", "dius", "?"],
+          "distractors": ["em", "dic", "es"]
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "___ dic Laia.",
+          "translation": "Me llamo Laia.",
+          "options": ["Em", "Et", "Es", "Ens"],
+          "answer": "Em"
+        },
+        {
+          "type": "listen",
+          "ca": "Com et dius?",
+          "options": ["Com et dius?", "On vas?", "Qui ets?"]
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "title": { "es": "¿De dónde eres?", "ca": "D'on ets?" },
+      "goal": {
+        "es": "Habla de tu origen y ciudad.",
+        "ca": "Parla del teu origen i la teva ciutat."
+      },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "compare",
+          "es": "Soy de Barcelona.",
+          "ca": "Sóc de Barcelona.",
+          "note": {
+            "es": "'Sóc' = soy (1.ª sg. de 'ser'). La tilde es obligatoria.",
+            "ca": "'Sóc' = soy (1a sg. de 'ser'). L'accent és obligatori."
+          }
+        },
+        {
+          "type": "flashcard",
+          "ca": "sóc · ets · és · som · sou · són",
+          "es": "soy · eres · es · somos · sois · son",
+          "note": {
+            "es": "Presente de 'ser'. Atención: 'som' (somos) y 'sou' (sois) son formas propias del catalán.",
+            "ca": "Present de 'ser'. Atenció: 'som' i 'sou' són formes pròpies del català."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "¿De dónde eres?",
+          "options": ["D'on ets?", "On vas?", "Qui ets?"],
+          "answer": "D'on ets?"
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Ella ___ de Girona.",
+          "translation": "Ella es de Girona.",
+          "options": ["és", "estic", "em dic"],
+          "answer": "és"
+        },
+        {
+          "type": "translate",
+          "direction": "es-ca",
+          "prompt": "Soy de Madrid.",
+          "answer": "Sóc de Madrid.",
+          "bank": ["Sóc", "de", "Madrid", "."],
+          "distractors": ["Estic", "Em", "dic"]
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "ca-es",
+          "prompt": "Som de Lleida.",
+          "options": ["Somos de Lleida.", "Soy de Lleida.", "Son de Lleida."],
+          "answer": "Somos de Lleida."
+        }
+      ]
+    },
+    {
+      "id": "t3",
+      "title": { "es": "Edad y profesión", "ca": "Edat i professió" },
+      "goal": {
+        "es": "Di tu edad y profesión.",
+        "ca": "Digues la teva edat i professió."
+      },
+      "xp": 10,
+      "exercises": [
+        {
+          "type": "compare",
+          "es": "Tengo treinta años.",
+          "ca": "Tinc trenta anys.",
+          "note": {
+            "es": "'Tinc' = tengo (1.ª sg. de 'tenir'). Siempre: 'tinc X anys', nunca *'sóc de 30 anys'.",
+            "ca": "'Tinc' = tengo (1a sg. de 'tenir'). Sempre: 'tinc X anys'."
+          }
+        },
+        {
+          "type": "compare",
+          "es": "Soy médico.",
+          "ca": "Sóc metge.",
+          "note": {
+            "es": "En catalán NO se usa artículo con profesiones: 'sóc metge', no *'sóc un metge'.",
+            "ca": "En català NO s'usa article amb professions: 'sóc metge', no *'sóc un metge'."
+          }
+        },
+        {
+          "type": "flashcard",
+          "ca": "metge/metgessa · professor/professora · estudiant · advocat/advocada · arquitecte/arquitecta · cuiner/cuinera",
+          "es": "médico/médica · profesor/profesora · estudiante · abogado/abogada · arquitecto/arquitecta · cocinero/cocinera"
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "Tengo veinticinco años.",
+          "options": ["Tinc vint-i-cinc anys.", "Sóc vint-i-cinc anys.", "Em dic vint-i-cinc."],
+          "answer": "Tinc vint-i-cinc anys."
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Tinc ___ anys i sóc professora.",
+          "translation": "Tengo cuarenta años y soy profesora.",
+          "options": ["quaranta", "quatre", "catorze"],
+          "answer": "quaranta"
+        },
+        {
+          "type": "translate",
+          "direction": "es-ca",
+          "prompt": "Tengo cuarenta y dos años.",
+          "answer": "Tinc quaranta-dos anys.",
+          "bank": ["Tinc", "quaranta-dos", "anys", "."],
+          "distractors": ["Sóc", "trenta", "quaranta"]
+        }
+      ]
+    }
+  ],
+  "extras": [
+    {
+      "id": "x1",
+      "title": { "es": "Presentar a alguien más", "ca": "Presentar algú altre" },
+      "goal": {
+        "es": "Habla de terceras personas.",
+        "ca": "Parla de terceres persones."
+      },
+      "xp": 5,
+      "exercises": [
+        {
+          "type": "flashcard",
+          "ca": "Es diu Marc. / Ella es diu Marta.",
+          "es": "Se llama Marc. / Ella se llama Marta.",
+          "note": {
+            "es": "3.ª persona: 'es diu'. Pronombre opcional si el contexto es claro.",
+            "ca": "3a persona: 'es diu'. Pronom opcional si el context és clar."
+          }
+        },
+        {
+          "type": "compare",
+          "es": "Ella tiene treinta años y es médica.",
+          "ca": "Ella té trenta anys i és metgessa.",
+          "note": {
+            "es": "'Té' = tiene (3.ª sg. de tenir). Femenino: 'metgessa'.",
+            "ca": "'Té' = tiene (3a sg. de tenir). Femení: 'metgessa'."
+          }
+        },
+        {
+          "type": "multiple_choice",
+          "direction": "es-ca",
+          "prompt": "Se llama Júlia y es de Tarragona.",
+          "options": [
+            "Es diu Júlia i és de Tarragona.",
+            "Em dic Júlia i sóc de Tarragona.",
+            "Es diu Júlia i estic a Tarragona."
+          ],
+          "answer": "Es diu Júlia i és de Tarragona."
+        },
+        {
+          "type": "fill_blank",
+          "sentence": "Ell té vint anys i és ___.",
+          "translation": "Él tiene veinte años y es estudiante.",
+          "options": ["estudiant", "metge", "professor"],
+          "answer": "estudiant"
+        }
+      ]
+    }
+  ]
+}
