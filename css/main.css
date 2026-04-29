@@ -479,19 +479,36 @@ a { color: inherit; text-decoration: none; }
   border-style: solid;
 }
 
-/* ---------- Roadmap toast ---------- */
-.roadmap-toast {
-  position: fixed; bottom: 80px; left: 50%; transform: translateX(-50%) translateY(20px);
-  background: var(--danger); color: white;
-  padding: 12px 20px; border-radius: 12px;
-  font-size: 14px; font-weight: 800;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.18);
-  z-index: 100;
-  opacity: 0; transition: opacity 0.3s ease, transform 0.3s ease;
-  white-space: nowrap; max-width: 90vw;
-  text-align: center;
+/* ---------- Locked block modal ---------- */
+.lock-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 300;
+  padding: 1rem;
+  animation: lock-fade 0.18s ease;
 }
-.roadmap-toast.shown { opacity: 1; transform: translateX(-50%) translateY(0); }
+@keyframes lock-fade { from { opacity: 0; } to { opacity: 1; } }
+.lock-modal {
+  background: var(--bg);
+  border-radius: var(--radius-lg);
+  padding: 2.25rem 2rem 2rem;
+  max-width: 380px;
+  width: 100%;
+  text-align: center;
+  box-shadow: var(--shadow-card);
+  animation: lock-modal-in 0.18s ease;
+}
+@keyframes lock-modal-in {
+  from { transform: scale(0.9); opacity: 0; }
+  to   { transform: scale(1);   opacity: 1; }
+}
+.lock-modal-icon { font-size: 3rem; line-height: 1; margin-bottom: 0.75rem; }
+.lock-modal h2   { margin: 0 0 0.6rem; font-size: 1.3rem; }
+.lock-modal p    { color: var(--ink-soft); margin: 0 0 1.75rem; font-size: 0.95rem; line-height: 1.55; }
 
 /* ---------- Roadmap congrats ---------- */
 .roadmap-congrats {
