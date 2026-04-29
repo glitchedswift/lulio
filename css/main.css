@@ -126,7 +126,7 @@ a { color: inherit; text-decoration: none; }
 }
 
 @media (max-width: 600px) {
-  .home-fc { display: none; }
+  .home-fc, .home-fc-right-group { display: none; }
   .home-mascot { max-width: 55vw; }
 }
 
