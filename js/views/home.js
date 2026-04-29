@@ -104,6 +104,7 @@ function showLevelSelector() {
 
   overlay.innerHTML = `
     <div class="level-modal">
+      <button class="level-modal-close" aria-label="Cerrar" type="button">✕</button>
       <h2>${t("level.title")}</h2>
       <p>${t("level.subtitle")}</p>
       <div class="level-cards">${cards}</div>
@@ -111,6 +112,10 @@ function showLevelSelector() {
   `;
 
   overlay.addEventListener("click", (e) => {
+    if (e.target.closest(".level-modal-close") || e.target === overlay) {
+      overlay.remove();
+      return;
+    }
     const card = e.target.closest(".level-card");
     if (!card) return;
     const block = parseInt(card.dataset.block, 10);
