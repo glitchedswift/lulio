@@ -9,11 +9,11 @@
   --ink-soft: #6b5942;
   --line: #e9dcc1;
 
-  --primary: #58cc02;
-  --primary-dark: #46a302;
-  --primary-soft: #d7f5b1;
-  --accent: #ff9600;
-  --accent-dark: #d57e00;
+  --primary: #48a800;
+  --primary-dark: #387f00;
+  --primary-soft: #dff5b0;
+  --accent: #FCDD09;
+  --accent-dark: #c8a800;
   --danger: #ef4444;
   --danger-soft: #ffe5e5;
   --info: #1cb0f6;
@@ -28,13 +28,13 @@
   --radius: 16px;
   --radius-lg: 24px;
 
-  --block-1: #58cc02;
+  --block-1: #48a800;
   --block-2: #1cb0f6;
   --block-3: #a560e8;
   --block-4: #ff9600;
   --block-5: #ff4b4b;
 
-  --block-1-soft: #d7f5b1;
+  --block-1-soft: #dff5b0;
   --block-2-soft: #c6e9fb;
   --block-3-soft: #e3d2f7;
   --block-4-soft: #ffe1b8;
@@ -61,4 +61,12 @@
     --block-4-soft: #3a1f00;
     --block-5-soft: #3a0808;
   }
+}
+
+@media (forced-colors: active) {
+  .progress > div      { forced-color-adjust: none; background: Highlight; }
+  .stat-ring-fill      { forced-color-adjust: none; stroke: Highlight; }
+  .lesson-node.done    { forced-color-adjust: none; background: Highlight; color: HighlightText; border-color: Highlight; }
+  .choice.selected,
+  .choice.correct      { border-color: Highlight; background: Canvas; }
 }

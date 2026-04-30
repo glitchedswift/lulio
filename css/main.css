@@ -63,7 +63,7 @@ a { color: inherit; text-decoration: none; }
 .btn.btn-ghost:hover { background: var(--line); }
 .btn.btn-secondary { background: var(--bg-soft); color: var(--ink); border: 2px solid var(--line); box-shadow: var(--shadow-sm); }
 .btn.btn-info { background: var(--info); }
-.btn.btn-accent { background: var(--accent); }
+.btn.btn-accent { background: var(--accent); color: var(--ink); }
 .btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; box-shadow: var(--shadow-btn); }
 
 /* ---------- Home ---------- */
