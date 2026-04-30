@@ -28,14 +28,14 @@
           "type": "fill_blank",
           "sentence": "Si tens fam, ___ quelcom.",
           "translation": "Si tienes hambre, come algo.",
-          "options": ["menja", "menjaràs", "menjaries"],
+          "options": ["menja", "menjaràs"],
           "answer": "menja"
         },
         {
           "type": "fill_blank",
           "sentence": "Si surts aviat, ___ el tren.",
           "translation": "Si sales pronto, cogerás el tren.",
-          "options": ["agafaràs", "agafaries", "agafessis"],
+          "options": ["agafaràs", "agafaries"],
           "answer": "agafaràs"
         },
         {
@@ -74,14 +74,14 @@
           "type": "fill_blank",
           "sentence": "Si ___ més temps, llegiria més.",
           "translation": "Si tuviera más tiempo, leería más.",
-          "options": ["tingués", "tinc", "tindria"],
+          "options": ["tingués", "tindria"],
           "answer": "tingués"
         },
         {
           "type": "fill_blank",
           "sentence": "Si sabés la resposta, ___ amb tu.",
           "translation": "Si supiera la respuesta, lo compartiría contigo.",
-          "options": ["ho compartiria", "ho comparteixo", "ho compartiràs"],
+          "options": ["ho compartiria", "ho comparteixo"],
           "answer": "ho compartiria"
         },
         {
@@ -118,14 +118,14 @@
           "type": "fill_blank",
           "sentence": "Si ___ l'autobús, no hauries arribat tard.",
           "translation": "Si hubieras cogido el autobús, no habrías llegado tarde.",
-          "options": ["haguessis agafat", "agafes", "agafaràs"],
+          "options": ["haguessis agafat", "agafes"],
           "answer": "haguessis agafat"
         },
         {
           "type": "fill_blank",
           "sentence": "Si hagués plogut, ___ a casa.",
           "translation": "Si hubiera llovido, nos habríamos quedado en casa.",
-          "options": ["ens hauríem quedat", "ens quedem", "ens quedaríem"],
+          "options": ["ens hauríem quedat", "ens quedaríem"],
           "answer": "ens hauríem quedat"
         },
         {
@@ -162,7 +162,7 @@
             "type": "fill_blank",
             "sentence": "Si ___ l'adreça, t'hi aniria a visitar.",
             "translation": "Si supiera la dirección, iría a visitarte.",
-            "options": ["sabés", "sabia", "sabré"],
+            "options": ["sabés", "sabia"],
             "answer": "sabés"
           }
         ]

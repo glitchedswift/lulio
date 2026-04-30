@@ -33,7 +33,7 @@
         { "type": "fill_blank",
           "sentence": "Espero que ___ bé.",
           "translation": "Espero que estés bien.",
-          "options": ["estiguis", "estés", "estás", "siguis"],
+          "options": ["estiguis", "siguis"],
           "answer": "estiguis" },
         { "type": "multiple_choice", "direction": "es-ca", "prompt": "que (yo) coma", "options": ["que mengi", "que como", "que menjo", "que mengo"], "answer": "que mengi" }
       ]
@@ -67,7 +67,7 @@
         { "type": "fill_blank",
           "sentence": "Quan ___ a casa, dutxa't.",
           "translation": "Cuando llegues a casa, dúchate.",
-          "options": ["arribis", "arribes", "arribaràs", "arriba"],
+          "options": ["arribis", "arribes"],
           "answer": "arribis" },
         { "type": "translate", "direction": "es-ca",
           "prompt": "Espero que estés bien",
@@ -103,7 +103,7 @@
         { "type": "fill_blank",
           "sentence": "Si ___ temps, aniríem al teatre.",
           "translation": "Si tuviéramos tiempo, iríamos al teatro.",
-          "options": ["tinguéssim", "teníem", "tindríem", "tinguem"],
+          "options": ["tinguéssim", "tinguem"],
           "answer": "tinguéssim" },
         { "type": "translate", "direction": "es-ca",
           "prompt": "Si pudieras, vendrías",
@@ -131,7 +131,7 @@
         { "type": "fill_blank",
           "sentence": "Vull que ___ feliç.",
           "translation": "Quiero que seas feliz.",
-          "options": ["siguis", "ets", "ser", "sigues"],
+          "options": ["siguis", "ets"],
           "answer": "siguis" }
       ]
     }

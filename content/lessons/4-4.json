@@ -47,7 +47,7 @@
         { "type": "fill_blank",
           "sentence": "M'he fet mal a la ___ esquerra.",
           "translation": "Me he hecho daño en la mano izquierda.",
-          "options": ["mà", "ma", "mano", "man"],
+          "options": ["mà", "mano"],
           "answer": "mà" },
         { "type": "multiple_choice", "direction": "es-ca", "prompt": "la espalda", "options": ["l'esquena", "la espalda", "l'esquenà", "el costat"], "answer": "l'esquena" }
       ]
@@ -100,7 +100,7 @@
         { "type": "fill_blank",
           "sentence": "El nen està ___, té febre.",
           "translation": "El niño está enfermo, tiene fiebre.",
-          "options": ["malalt", "enfermo", "refredat", "malament"],
+          "options": ["malalt", "refredat"],
           "answer": "malalt" },
         { "type": "multiple_choice", "direction": "ca-es", "prompt": "Em fa mal el ventre", "options": ["Me duele la barriga", "Me duele la espalda", "Me duele el viento", "Me duele el cuello"], "answer": "Me duele la barriga" }
       ]
@@ -133,7 +133,7 @@
         { "type": "fill_blank",
           "sentence": "Necessito una ___ per a aquest medicament.",
           "translation": "Necesito una receta para este medicamento.",
-          "options": ["recepta", "receta", "recepción", "recipi"],
+          "options": ["recepta", "receta"],
           "answer": "recepta" },
         { "type": "multiple_choice", "direction": "es-ca", "prompt": "urgencias", "options": ["urgències", "urgencias", "urgéncies", "urgentes"], "answer": "urgències" }
       ]

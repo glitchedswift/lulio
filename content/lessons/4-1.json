@@ -44,7 +44,7 @@
         { "type": "fill_blank",
           "sentence": "La meva germana és ___.",
           "translation": "Mi hermana es enfermera.",
-          "options": ["infermera", "enfermera", "infermer", "infermería"],
+          "options": ["infermera", "enfermera"],
           "answer": "infermera" },
         { "type": "multiple_choice", "direction": "es-ca", "prompt": "el médico", "options": ["el metge", "el médic", "el doctor", "el metga"], "answer": "el metge" }
       ]
@@ -88,7 +88,7 @@
         { "type": "fill_blank",
           "sentence": "Aquest mes hi ha un ___ nou al departament.",
           "translation": "Este mes hay un proyecto nuevo en el departamento.",
-          "options": ["projecte", "proyecto", "projet", "projector"],
+          "options": ["projecte", "proyecto"],
           "answer": "projecte" },
         { "type": "multiple_choice", "direction": "ca-es", "prompt": "el sou", "options": ["el sueldo", "el suelo", "el solo", "el suero"], "answer": "el sueldo" }
       ]
@@ -128,7 +128,7 @@
         { "type": "fill_blank",
           "sentence": "Estic ___ feina nova.",
           "translation": "Estoy buscando trabajo nuevo.",
-          "options": ["buscant", "buscando", "trobant", "veient"],
+          "options": ["buscant", "buscando"],
           "answer": "buscant" },
         { "type": "multiple_choice", "direction": "es-ca", "prompt": "una entrevista de trabajo", "options": ["una entrevista de feina", "una entrevista de trabajo", "una entrevista de treball", "una entrevista de laboral"], "answer": "una entrevista de feina" }
       ]

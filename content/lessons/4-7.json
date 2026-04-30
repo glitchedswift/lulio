@@ -35,7 +35,7 @@
         { "type": "fill_blank",
           "sentence": "Avui fa ___ calor que ahir.",
           "translation": "Hoy hace más calor que ayer.",
-          "options": ["més", "menys", "molt", "tan"],
+          "options": ["més", "menys"],
           "answer": "més" },
         { "type": "translate", "direction": "es-ca",
           "prompt": "Es más barato que en el centro",
@@ -74,7 +74,7 @@
         { "type": "fill_blank",
           "sentence": "Ell canta ___ bé com ella.",
           "translation": "Él canta tan bien como ella.",
-          "options": ["tan", "tant", "tant de", "tanta"],
+          "options": ["tan", "tant"],
           "answer": "tan" },
         { "type": "translate", "direction": "es-ca",
           "prompt": "Tengo tantos libros como tú",
@@ -111,7 +111,7 @@
         { "type": "fill_blank",
           "sentence": "Avui ha estat el ___ dia de la meva vida.",
           "translation": "Hoy ha sido el mejor día de mi vida.",
-          "options": ["millor", "pitjor", "més bo", "major"],
+          "options": ["millor", "pitjor"],
           "answer": "millor" },
         { "type": "translate", "direction": "es-ca",
           "prompt": "La peor noticia del año",
@@ -149,7 +149,7 @@
         { "type": "fill_blank",
           "sentence": "El meu germà gran és ___ que jo.",
           "translation": "Mi hermano mayor es mayor que yo.",
-          "options": ["major", "millor", "pitjor", "més gran"],
+          "options": ["major", "més gran"],
           "answer": "major" }
       ]
     }

@@ -25,14 +25,14 @@
           "type": "fill_blank",
           "sentence": "La pel·lícula ___ hem vist és fantàstica.",
           "translation": "La película que hemos visto es fantástica.",
-          "options": ["que", "qui", "on"],
+          "options": ["que", "qui"],
           "answer": "que"
         },
         {
           "type": "fill_blank",
           "sentence": "La persona ___ m'ha trucat és la meva amiga.",
           "translation": "La persona que me ha llamado es mi amiga.",
-          "options": ["que", "qui", "on"],
+          "options": ["que", "qui"],
           "answer": "que"
         },
         {
@@ -74,14 +74,14 @@
           "type": "fill_blank",
           "sentence": "El país ___ vaig néixer és molt bonic.",
           "translation": "El país donde nací es muy bonito.",
-          "options": ["on", "que", "qui"],
+          "options": ["on", "que"],
           "answer": "on"
         },
         {
           "type": "fill_blank",
           "sentence": "L'amic de ___ et parlo viu a Berlín.",
           "translation": "El amigo del que te hablo vive en Berlín.",
-          "options": ["qui", "que", "on"],
+          "options": ["qui", "que"],
           "answer": "qui"
         },
         {
@@ -127,14 +127,14 @@
           "type": "fill_blank",
           "sentence": "La llei ___ es va aprovar ahir és important.",
           "translation": "La ley que se aprobó ayer es importante.",
-          "options": ["que", "la qual", "on"],
+          "options": ["que", "la qual"],
           "answer": "que"
         },
         {
           "type": "fill_blank",
           "sentence": "L'informe del ___ et parlo és confidencial.",
           "translation": "El informe del que te hablo es confidencial.",
-          "options": ["qual", "que", "qui"],
+          "options": ["qual", "que"],
           "answer": "qual"
         },
         {

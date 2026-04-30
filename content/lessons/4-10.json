@@ -37,14 +37,14 @@
           "type": "fill_blank",
           "sentence": "___ dormir vuit hores cada nit.",
           "translation": "Hay que dormir ocho horas cada noche.",
-          "options": ["Cal", "Calen", "Calem", "Caleu"],
+          "options": ["Cal", "Calen"],
           "answer": "Cal"
         },
         {
           "type": "fill_blank",
           "sentence": "Si vols aprovar, ___ estudiar molt.",
           "translation": "Si quieres aprobar, habrá que estudiar mucho.",
-          "options": ["caldrà", "caldran", "caldriem", "caldrieu"],
+          "options": ["caldrà", "caldran"],
           "answer": "caldrà"
         },
         {
@@ -107,14 +107,14 @@
           "type": "fill_blank",
           "sentence": "Cal que el metge ___ el pacient aviat.",
           "translation": "Es necesario que el médico vea al paciente pronto.",
-          "options": ["vegi", "veu", "veure", "veig"],
+          "options": ["vegi", "veu"],
           "answer": "vegi"
         },
         {
           "type": "fill_blank",
           "sentence": "No cal que ___ ara; pots esperar.",
           "translation": "No hace falta que te vayas ahora; puedes esperar.",
-          "options": ["marxis", "marxar", "marxa", "marxes"],
+          "options": ["marxis", "marxes"],
           "answer": "marxis"
         },
         {
@@ -164,14 +164,14 @@
           "type": "fill_blank",
           "sentence": "Si estàs cansat, ___ descansar una estona.",
           "translation": "Si estás cansado, conviene descansar un rato.",
-          "options": ["convé", "cal", "has de", "vols"],
+          "options": ["convé", "cal"],
           "answer": "convé"
         },
         {
           "type": "fill_blank",
           "sentence": "He ___ trucar a la meva mare avui.",
           "translation": "Tengo que llamar a mi madre hoy.",
-          "options": ["de", "que", "a", "per"],
+          "options": ["de", "que"],
           "answer": "de"
         },
         {
@@ -223,14 +223,14 @@
           "type": "fill_blank",
           "sentence": "___ cal més temps per acabar el projecte.",
           "translation": "Necesitamos más tiempo para acabar el proyecto. (formal)",
-          "options": ["Ens", "Em", "Et", "Els"],
+          "options": ["Ens", "Em"],
           "answer": "Ens"
         },
         {
           "type": "fill_blank",
           "sentence": "Li ___ un diccionari per fer la traducció.",
           "translation": "Necesita un diccionario para hacer la traducción. (formal)",
-          "options": ["cal", "calen", "calia", "caldrà"],
+          "options": ["cal", "calen"],
           "answer": "cal"
         }
       ]

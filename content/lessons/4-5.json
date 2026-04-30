@@ -33,7 +33,7 @@
         { "type": "fill_blank",
           "sentence": "Demà ___ pluja a tot Catalunya.",
           "translation": "Mañana habrá lluvia en toda Cataluña.",
-          "options": ["hi haurà", "habrá", "hi ha", "hi haver"],
+          "options": ["hi haurà", "hi ha"],
           "answer": "hi haurà" },
         { "type": "multiple_choice", "direction": "es-ca", "prompt": "iré", "options": ["aniré", "iré", "anaré", "anirà"], "answer": "aniré" },
         { "type": "translate", "direction": "es-ca",
@@ -66,7 +66,7 @@
         { "type": "fill_blank",
           "sentence": "Aquesta nit ___ amb tu.",
           "translation": "Esta noche vendré contigo.",
-          "options": ["vindré", "vendré", "veniré", "vindra"],
+          "options": ["vindré", "vindra"],
           "answer": "vindré" },
         { "type": "multiple_choice", "direction": "es-ca", "prompt": "haré", "options": ["faré", "haré", "fer", "fereé"], "answer": "faré" },
         { "type": "translate", "direction": "es-ca",
@@ -102,7 +102,7 @@
         { "type": "fill_blank",
           "sentence": "___ un got d'aigua, si us plau.",
           "translation": "Querría un vaso de agua, por favor.",
-          "options": ["Voldria", "Vull", "Querría", "Volia"],
+          "options": ["Voldria", "Vull"],
           "answer": "Voldria" },
         { "type": "translate", "direction": "es-ca",
           "prompt": "Iría a la playa",
@@ -136,7 +136,7 @@
         { "type": "fill_blank",
           "sentence": "Si plogués, ___ a casa.",
           "translation": "Si lloviera, me quedaría en casa.",
-          "options": ["em quedaria", "me quedaría", "em quedo", "em quedaré"],
+          "options": ["em quedaria", "em quedaré"],
           "answer": "em quedaria" }
       ]
     }

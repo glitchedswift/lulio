@@ -44,7 +44,7 @@
         { "type": "fill_blank",
           "sentence": "Avui estic una mica ___.",
           "translation": "Hoy estoy un poco triste.",
-          "options": ["trist", "triste", "tristo", "tristos"],
+          "options": ["trist", "triste"],
           "answer": "trist" },
         { "type": "multiple_choice", "direction": "es-ca", "prompt": "asustada", "options": ["espantada", "asustada", "espantat", "espantosa"], "answer": "espantada" }
       ]
@@ -92,7 +92,7 @@
         { "type": "fill_blank",
           "sentence": "Anem a dormir, tinc molta ___.",
           "translation": "Vamos a dormir, tengo mucho sueño.",
-          "options": ["son", "sueño", "soni", "somni"],
+          "options": ["son", "somni"],
           "answer": "son" },
         { "type": "multiple_choice", "direction": "es-ca", "prompt": "tener prisa", "options": ["tenir pressa", "tenir prisa", "tenir prèssa", "tenir presa"], "answer": "tenir pressa" }
       ]
@@ -125,7 +125,7 @@
         { "type": "fill_blank",
           "sentence": "No pateixis, tot anirà bé. ___!",
           "translation": "No sufras, todo irá bien. ¡Ánimo!",
-          "options": ["Ànims", "Ánimo", "Anim", "Animos"],
+          "options": ["Ànims", "Ánimo"],
           "answer": "Ànims" },
         { "type": "multiple_choice", "direction": "ca-es", "prompt": "Quina llàstima!", "options": ["¡Qué pena!", "¡Qué llanto!", "¡Qué locura!", "¡Qué bien!"], "answer": "¡Qué pena!" }
       ]
