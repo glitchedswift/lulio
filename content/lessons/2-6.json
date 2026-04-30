@@ -28,7 +28,7 @@
         { "type": "fill_blank",
           "sentence": "Nosaltres ___ a la platja.",
           "translation": "Nosotros vamos a la playa.",
-          "options": ["anem", "vamos", "anam", "anim"],
+          "options": ["anem", "anam"],
           "answer": "anem" },
         { "type": "multiple_choice", "direction": "es-ca", "prompt": "vais", "options": ["aneu", "anau", "vais", "aneis"], "answer": "aneu" },
         { "type": "listen", "ca": "Van al cinema", "options": ["Van al cinema", "Vénen al cinema", "Anem al cinema"] }
@@ -65,7 +65,7 @@
         { "type": "fill_blank",
           "sentence": "Vaig ___ Girona aquest cap de setmana.",
           "translation": "Voy a Girona este fin de semana.",
-          "options": ["a", "en", "al", "cap"],
+          "options": ["a", "en"],
           "answer": "a" },
         { "type": "multiple_choice", "direction": "es-ca", "prompt": "Vamos a la playa", "options": ["Anem a la platja", "Vamos a la platja", "Anem en la platja", "Anem la platja"], "answer": "Anem a la platja" }
       ]

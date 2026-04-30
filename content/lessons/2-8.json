@@ -31,7 +31,7 @@
         { "type": "fill_blank",
           "sentence": "Com es diu ___ pare?",
           "translation": "¿Cómo se llama tu padre?",
-          "options": ["el teu", "teu", "ta", "el tu"],
+          "options": ["el teu", "teu"],
           "answer": "el teu" },
         { "type": "multiple_choice", "direction": "es-ca", "prompt": "mis llaves", "options": ["les meves claus", "les mes claus", "mis claus", "les meva claus"], "answer": "les meves claus" },
         { "type": "translate", "direction": "es-ca",
@@ -64,7 +64,7 @@
         { "type": "fill_blank",
           "sentence": "La ___ professora és molt bona.",
           "translation": "Vuestra profesora es muy buena.",
-          "options": ["vostra", "vostre", "vostres", "sua"],
+          "options": ["vostra", "vostre"],
           "answer": "vostra" },
         { "type": "multiple_choice", "direction": "es-ca", "prompt": "su perro (de ellos)", "options": ["el seu gos", "el lor gos", "el de gos", "els seus gossos"], "answer": "el seu gos" },
         { "type": "translate", "direction": "es-ca",
@@ -102,12 +102,12 @@
         { "type": "fill_blank",
           "sentence": "Aquesta maleta és ___.",
           "translation": "Esta maleta es mía.",
-          "options": ["meva", "la meva", "mi", "meves"],
+          "options": ["meva", "la meva"],
           "answer": "meva" },
         { "type": "fill_blank",
           "sentence": "He perdut ___ mòbil.",
           "translation": "He perdido mi móvil.",
-          "options": ["el meu", "meu", "mon", "mi"],
+          "options": ["el meu", "meu"],
           "answer": "el meu" },
         { "type": "multiple_choice", "direction": "ca-es", "prompt": "La decisió és vostra", "options": ["La decisión es vuestra", "La decisión vuestra", "Vuestra decisión", "La decisión es vuestros"], "answer": "La decisión es vuestra" },
         { "type": "listen", "ca": "El meu gat és gris", "options": ["El meu gat és gris", "El teu gat és gris", "La meva gata és grisa"] }
@@ -135,7 +135,7 @@
         { "type": "fill_blank",
           "sentence": "Quedem a ___ o a ___?",
           "translation": "¿Quedamos en mi casa o en la tuya?",
-          "options": ["casa meva / casa teva", "la meva casa / la teva", "mon / ton", "mi casa / tu casa"],
+          "options": ["casa meva / casa teva", "la meva casa / la teva"],
           "answer": "casa meva / casa teva" }
       ]
     }

@@ -96,15 +96,15 @@
           "type": "fill_blank",
           "sentence": "La festa és el 5 de ___.",
           "translation": "La fiesta es el 5 de febrero.",
-          "options": ["febrer", "febrero", "al febrer", "en febrer"],
+          "options": ["febrer", "al febrer"],
           "answer": "febrer"
         },
         {
           "type": "fill_blank",
           "sentence": "Estem a 20 ___ octubre.",
           "translation": "Estamos a 20 de octubre.",
-          "options": ["de", "del", "d'", "al"],
-          "answer": "de"
+          "options": ["d'", "del"],
+          "answer": "d'"
         },
         {
           "type": "translate",
@@ -158,14 +158,14 @@
           "type": "fill_blank",
           "sentence": "___ cinc anys vaig estudiar a Barcelona.",
           "translation": "Hace cinco años estudié en Barcelona.",
-          "options": ["Fa", "D'aquí a", "Avui fa", "Dins de"],
+          "options": ["Fa", "D'aquí a"],
           "answer": "Fa"
         },
         {
           "type": "fill_blank",
           "sentence": "El concert és ___ dues setmanes.",
           "translation": "El concierto es dentro de dos semanas.",
-          "options": ["d'aquí a", "fa", "en", "dintre"],
+          "options": ["d'aquí a", "en"],
           "answer": "d'aquí a"
         },
         {

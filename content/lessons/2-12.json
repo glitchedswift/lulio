@@ -56,14 +56,14 @@
           "type": "fill_blank",
           "sentence": "___ cotxe és nou.",
           "translation": "Este coche es nuevo.",
-          "options": ["Aquest", "Aquesta", "Aquell", "Aquella"],
+          "options": ["Aquest", "Aquell"],
           "answer": "Aquest"
         },
         {
           "type": "fill_blank",
           "sentence": "___ cases són grans.",
           "translation": "Estas casas son grandes.",
-          "options": ["Aquestes", "Aquells", "Aquelles", "Aquests"],
+          "options": ["Aquestes", "Aquelles"],
           "answer": "Aquestes"
         }
       ]
@@ -118,14 +118,14 @@
           "type": "fill_blank",
           "sentence": "___ muntanya és molt alta.",
           "translation": "Esa/Aquella montaña es muy alta.",
-          "options": ["Aquella", "Aquell", "Aquesta", "Aquest"],
+          "options": ["Aquella", "Aquesta"],
           "answer": "Aquella"
         },
         {
           "type": "fill_blank",
           "sentence": "Qui és ___ home?",
           "translation": "¿Quién es ese/aquel hombre?",
-          "options": ["aquell", "aquest", "aquella", "aquesta"],
+          "options": ["aquell", "aquest"],
           "answer": "aquell"
         },
         {

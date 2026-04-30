@@ -41,7 +41,7 @@
         { "type": "fill_blank",
           "sentence": "Dormo a ___ habitació.",
           "translation": "Duermo en la habitación.",
-          "options": ["l'", "la", "el", "les"],
+          "options": ["l'", "la"],
           "answer": "l'" },
         { "type": "listen", "ca": "El menjador és gran", "options": ["El menjador és gran", "El menjar és gran", "La menjadora és gran"] }
       ]
@@ -86,7 +86,7 @@
         { "type": "fill_blank",
           "sentence": "El ___ és tou i còmode.",
           "translation": "El sofá es blando y cómodo.",
-          "options": ["sofà", "sofá", "soffà", "sufa"],
+          "options": ["sofà", "sofá"],
           "answer": "sofà" },
         { "type": "multiple_choice", "direction": "ca-es", "prompt": "el llit", "options": ["la cama", "la silla", "la mesa", "la habitación"], "answer": "la cama" }
       ]
@@ -132,7 +132,7 @@
         { "type": "fill_blank",
           "sentence": "On són ___ claus?",
           "translation": "¿Dónde están las llaves?",
-          "options": ["les", "las", "els", "les claus"],
+          "options": ["les", "las"],
           "answer": "les" }
       ]
     }
@@ -160,7 +160,7 @@
         { "type": "fill_blank",
           "sentence": "On ___ el meu mòbil?",
           "translation": "¿Dónde está mi móvil?",
-          "options": ["és", "está", "es", "ha"],
+          "options": ["és", "està"],
           "answer": "és" }
       ]
     }

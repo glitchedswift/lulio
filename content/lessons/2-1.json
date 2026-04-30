@@ -37,12 +37,13 @@
         { "type": "fill_blank",
           "sentence": "El meu ___ es diu Pau.",
           "translation": "Mi hermano se llama Pau.",
-          "options": ["germà", "hermano", "germana", "ger"],
+          "options": ["germà", "hermano"],
           "answer": "germà" },
         { "type": "translate", "direction": "es-ca",
           "prompt": "Mis padres están en casa",
           "answer": "Els meus pares són a casa",
-          "bank": ["Els", "meus", "pares", "són", "a", "casa", "estan", "padres"] }
+          "bank": ["Els", "meus", "pares", "són", "a", "casa"],
+          "distractors": ["estan", "padres"] }
       ]
     },
     {
@@ -98,7 +99,7 @@
         { "type": "fill_blank",
           "sentence": "El meu ___ es diu Marc.",
           "translation": "Mi primo se llama Marc.",
-          "options": ["cosí", "primo", "cosin", "cusí"],
+          "options": ["cosí", "primo"],
           "answer": "cosí" },
         { "type": "translate", "direction": "es-ca",
           "prompt": "Mi tía y mi prima",

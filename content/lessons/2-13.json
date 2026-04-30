@@ -103,14 +103,14 @@
           "type": "fill_blank",
           "sentence": "___ no véns a la festa?",
           "translation": "¿Por qué no vienes a la fiesta?",
-          "options": ["Per què", "Perquè", "Quan", "Com"],
+          "options": ["Per què", "Perquè"],
           "answer": "Per què"
         },
         {
           "type": "fill_blank",
           "sentence": "No vinc ___ estic cansat.",
           "translation": "No vengo porque estoy cansado.",
-          "options": ["perquè", "per què", "quan", "com"],
+          "options": ["perquè", "per què"],
           "answer": "perquè"
         },
         {
@@ -160,14 +160,14 @@
           "type": "fill_blank",
           "sentence": "___ diners tens?",
           "translation": "¿Cuánto dinero tienes?",
-          "options": ["Quants", "Quantes", "Quant", "Quanta"],
+          "options": ["Quants", "Quant"],
           "answer": "Quants"
         },
         {
           "type": "fill_blank",
           "sentence": "___ llengua parles a casa?",
           "translation": "¿Qué lengua hablas en casa?",
-          "options": ["Quina", "Quin", "Quines", "Quins"],
+          "options": ["Quina", "Quin"],
           "answer": "Quina"
         },
         {
@@ -221,14 +221,14 @@
           "type": "fill_blank",
           "sentence": "No sé ___ viu la Maria.",
           "translation": "No sé dónde vive la María.",
-          "options": ["on", "qui", "quan", "perquè"],
+          "options": ["on", "qui"],
           "answer": "on"
         },
         {
           "type": "fill_blank",
           "sentence": "Em pregunta ___ arribo.",
           "translation": "Me pregunta cuándo llego.",
-          "options": ["quan", "com", "on", "per què"],
+          "options": ["quan", "com"],
           "answer": "quan"
         },
         {

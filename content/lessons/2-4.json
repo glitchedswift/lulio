@@ -30,7 +30,7 @@
         { "type": "fill_blank",
           "sentence": "Cada dia ___ a les set.",
           "translation": "Cada día me levanto a las siete.",
-          "options": ["m'aixeco", "me llevanto", "m'alço", "aixeco"],
+          "options": ["m'aixeco", "m'alço"],
           "answer": "m'aixeco" },
         { "type": "multiple_choice", "direction": "es-ca", "prompt": "trabajar", "options": ["treballar", "trabajar", "trebajar", "treballer"], "answer": "treballar" },
         { "type": "listen", "ca": "Em dutxo cada matí", "options": ["Em dutxo cada matí", "Em ducho cada matí", "Et dutxes cada matí"] }
@@ -60,7 +60,7 @@
         { "type": "fill_blank",
           "sentence": "El ___ vaig al mercat.",
           "translation": "El sábado voy al mercado.",
-          "options": ["dissabte", "sàbat", "dissabt", "sabado"],
+          "options": ["dissabte", "sabado"],
           "answer": "dissabte" },
         { "type": "listen", "ca": "Avui és dijous", "options": ["Avui és dijous", "Avui és dijos", "Avui és divendres"] }
       ]
@@ -93,7 +93,7 @@
         { "type": "fill_blank",
           "sentence": "No surto ___ entre setmana.",
           "translation": "Nunca salgo entre semana.",
-          "options": ["mai", "nunca", "sempre", "sovint"],
+          "options": ["mai", "sempre"],
           "answer": "mai" },
         { "type": "translate", "direction": "es-ca",
           "prompt": "Siempre desayuno café",
@@ -119,7 +119,7 @@
         { "type": "fill_blank",
           "sentence": "___ Maria.",
           "translation": "Me llamo Maria.",
-          "options": ["Em dic", "Me llamo", "Et dic", "Es dic"],
+          "options": ["Em dic", "Et dic"],
           "answer": "Em dic" }
       ]
     }

@@ -35,7 +35,7 @@
         { "type": "fill_blank",
           "sentence": "Avui ___ pasta amb tomàquet.",
           "translation": "Hoy comemos pasta con tomate.",
-          "options": ["dinem", "sopem", "esmorzem", "berenem"],
+          "options": ["dinem", "sopem"],
           "answer": "dinem" }
       ]
     },
@@ -130,7 +130,7 @@
         { "type": "fill_blank",
           "sentence": "Vull un ___ amb gel.",
           "translation": "Quiero un zumo con hielo.",
-          "options": ["suc", "zumo", "sucre", "saç"],
+          "options": ["suc", "zumo"],
           "answer": "suc" },
         { "type": "listen", "ca": "Una aigua sense gas", "options": ["Una aigua sense gas", "Una agua sin gas", "Una aigua amb gas"] }
       ]

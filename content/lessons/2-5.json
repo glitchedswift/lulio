@@ -30,7 +30,7 @@
         { "type": "fill_blank",
           "sentence": "___ la una en punt.",
           "translation": "Es la una en punto.",
-          "options": ["És", "Són", "Es", "Hi ha"],
+          "options": ["És", "Són"],
           "answer": "És" },
         { "type": "listen", "ca": "Són les set", "options": ["Són les set", "Són les sis", "És les set"] }
       ]
@@ -65,7 +65,7 @@
         { "type": "fill_blank",
           "sentence": "Quedem a ___ de set.",
           "translation": "Quedamos a las seis y media.",
-          "options": ["dos quarts", "un quart", "tres quarts", "mig"],
+          "options": ["dos quarts", "un quart"],
           "answer": "dos quarts" },
         { "type": "listen", "ca": "Són un quart de cinc", "options": ["Són un quart de cinc", "Són dos quarts de cinc", "Són tres quarts de cinc"] }
       ]
@@ -100,7 +100,7 @@
         { "type": "fill_blank",
           "sentence": "Sopem a les nou del ___.",
           "translation": "Cenamos a las nueve de la noche.",
-          "options": ["vespre", "nit", "tarda", "matí"],
+          "options": ["vespre", "nit"],
           "answer": "vespre" }
       ]
     }

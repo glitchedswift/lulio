@@ -53,21 +53,21 @@
           "type": "fill_blank",
           "sentence": "Cada dia jo ___ les claus.",
           "translation": "Cada día yo pierdo las llaves.",
-          "options": ["perdo", "perds", "perd", "perdem"],
+          "options": ["perdo", "perd"],
           "answer": "perdo"
         },
         {
           "type": "fill_blank",
           "sentence": "Vosaltres ___ el partit.",
           "translation": "Vosotros perdéis el partido.",
-          "options": ["perdeu", "perden", "perdem", "perds"],
+          "options": ["perdeu", "perden"],
           "answer": "perdeu"
         },
         {
           "type": "fill_blank",
           "sentence": "La Maria ___ aigua.",
           "translation": "La María bebe agua.",
-          "options": ["beu", "bec", "beus", "bevem"],
+          "options": ["beu", "bec"],
           "answer": "beu"
         },
         {
@@ -117,21 +117,21 @@
           "type": "fill_blank",
           "sentence": "Jo ___ molt cada nit.",
           "translation": "Yo duermo mucho cada noche.",
-          "options": ["dormo", "dormeixo", "dorms", "dorm"],
+          "options": ["dormo", "dormeixo"],
           "answer": "dormo"
         },
         {
           "type": "fill_blank",
           "sentence": "Ella ___ el diari cada dia.",
           "translation": "Ella lee el periódico cada día.",
-          "options": ["llegeix", "llegeixo", "llegim", "llegiu"],
+          "options": ["llegeix", "llegeixo"],
           "answer": "llegeix"
         },
         {
           "type": "fill_blank",
           "sentence": "Nosaltres ___ a les vuit del vespre.",
           "translation": "Nosotros salimos a las ocho de la tarde.",
-          "options": ["sortim", "surto", "surten", "sortiu"],
+          "options": ["sortim", "surto"],
           "answer": "sortim"
         },
         {
@@ -201,21 +201,21 @@
           "type": "fill_blank",
           "sentence": "Jo ___ molt esport.",
           "translation": "Yo hago mucho deporte.",
-          "options": ["faig", "fas", "fa", "fan"],
+          "options": ["faig", "fas"],
           "answer": "faig"
         },
         {
           "type": "fill_blank",
           "sentence": "Ells ___ que no saben res.",
           "translation": "Ellos dicen que no saben nada.",
-          "options": ["diuen", "diu", "dic", "diem"],
+          "options": ["diuen", "diu"],
           "answer": "diuen"
         },
         {
           "type": "fill_blank",
           "sentence": "Quants anys ___ tu?",
           "translation": "¿Cuántos años tienes tú?",
-          "options": ["tens", "tinc", "té", "teniu"],
+          "options": ["tens", "té"],
           "answer": "tens"
         },
         {

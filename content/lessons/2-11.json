@@ -60,14 +60,14 @@
           "type": "fill_blank",
           "sentence": "La Maria ___ de Girona.",
           "translation": "La Maria es de Girona.",
-          "options": ["és", "està", "estic", "som"],
+          "options": ["és", "està"],
           "answer": "és"
         },
         {
           "type": "fill_blank",
           "sentence": "Nosaltres ___ professors.",
           "translation": "Nosotros somos profesores.",
-          "options": ["som", "estem", "sóc", "estan"],
+          "options": ["som", "estem"],
           "answer": "som"
         }
       ]
@@ -126,14 +126,14 @@
           "type": "fill_blank",
           "sentence": "La finestra ___ trencada.",
           "translation": "La ventana está rota.",
-          "options": ["està", "és", "estic", "som"],
+          "options": ["està", "és"],
           "answer": "està"
         },
         {
           "type": "fill_blank",
           "sentence": "On ___ en Jordi?",
           "translation": "¿Dónde está Jordi?",
-          "options": ["està", "és", "estic", "ets"],
+          "options": ["està", "és"],
           "answer": "està"
         }
       ]
@@ -189,14 +189,14 @@
           "type": "fill_blank",
           "sentence": "El museu ___ al centre de la ciutat.",
           "translation": "El museo está en el centro de la ciudad.",
-          "options": ["és", "està", "estic", "ets"],
+          "options": ["és", "està"],
           "answer": "és"
         },
         {
           "type": "fill_blank",
           "sentence": "Avui ___ a casa perquè estic malalt.",
           "translation": "Hoy estoy en casa porque estoy enfermo.",
-          "options": ["estic", "sóc", "és", "som"],
+          "options": ["estic", "sóc"],
           "answer": "estic"
         }
       ]
@@ -230,14 +230,14 @@
           "type": "fill_blank",
           "sentence": "Ara ___ treballant des de casa.",
           "translation": "Ahora estoy trabajando desde casa.",
-          "options": ["estic", "sóc", "estem", "estan"],
+          "options": ["estic", "sóc"],
           "answer": "estic"
         },
         {
           "type": "fill_blank",
           "sentence": "Ells ___ parlant per telèfon.",
           "translation": "Ellos están hablando por teléfono.",
-          "options": ["estan", "són", "estic", "esteu"],
+          "options": ["estan", "són"],
           "answer": "estan"
         },
         {

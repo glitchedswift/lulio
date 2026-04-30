@@ -48,7 +48,7 @@
         { "type": "fill_blank",
           "sentence": "A ___ hi ha molta neu als Pirineus.",
           "translation": "En invierno hay mucha nieve en los Pirineos.",
-          "options": ["l'hivern", "la tardor", "l'estiu", "la primavera"],
+          "options": ["l'hivern", "l'estiu"],
           "answer": "l'hivern" },
         { "type": "multiple_choice", "direction": "es-ca", "prompt": "el otoño", "options": ["la tardor", "la tardança", "l'hivern", "l'estiu"], "answer": "la tardor" },
         { "type": "listen", "ca": "A la primavera plou molt", "options": ["A la primavera plou molt", "A l'estiu plou molt", "A l'hivern plou molt"] }
@@ -92,7 +92,7 @@
         { "type": "fill_blank",
           "sentence": "Avui ___ molt. Porta paraigua!",
           "translation": "Hoy llueve mucho. ¡Lleva paraguas!",
-          "options": ["plou", "neva", "fa sol", "fa vent"],
+          "options": ["plou", "neva"],
           "answer": "plou" },
         { "type": "multiple_choice", "direction": "es-ca", "prompt": "hace viento", "options": ["fa vent", "fa ventosa", "hi ha vent", "plou vent"], "answer": "fa vent" },
         { "type": "listen", "ca": "Avui fa molt de fred", "options": ["Avui fa molt de fred", "Avui fa molt de calor", "Avui fa molt de vent"] }
@@ -144,7 +144,7 @@
         { "type": "fill_blank",
           "sentence": "La primavera comença al ___.",
           "translation": "La primavera empieza en marzo.",
-          "options": ["març", "abril", "febrer", "juny"],
+          "options": ["març", "abril"],
           "answer": "març" },
         { "type": "multiple_choice", "direction": "es-ca", "prompt": "mayo", "options": ["maig", "mayo", "may", "maigs"], "answer": "maig" }
       ]

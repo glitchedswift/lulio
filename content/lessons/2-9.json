@@ -101,14 +101,14 @@
           "type": "fill_blank",
           "sentence": "El dimecres vaig a la piscina, però ___ dimecres no hi puc anar.",
           "translation": "Los miércoles voy a la piscina, pero este miércoles no puedo ir.",
-          "options": ["aquest", "el", "aquell", "un"],
+          "options": ["aquest", "el"],
           "answer": "aquest"
         },
         {
           "type": "fill_blank",
           "sentence": "___ vaig al mercat.",
           "translation": "Ayer fui al mercado.",
-          "options": ["Ahir", "Avui", "Demà", "Dilluns"],
+          "options": ["Ahir", "Demà"],
           "answer": "Ahir"
         }
       ]
@@ -153,7 +153,7 @@
           "type": "fill_blank",
           "sentence": "___ és avui? — Avui és dilluns.",
           "translation": "¿Qué día es hoy? — Hoy es lunes.",
-          "options": ["Quin dia", "Quina hora", "Quin mes", "Quan"],
+          "options": ["Quin dia", "Quin mes"],
           "answer": "Quin dia"
         }
       ]
