@@ -104,14 +104,14 @@
           "type": "fill_blank",
           "sentence": "Porta un jersei perquè tinc molt de ___.",
           "translation": "Trae un jersey porque tengo mucho frío.",
-          "options": ["fred", "calor", "son", "por"],
+          "options": ["fred", "calor"],
           "answer": "fred"
         },
         {
           "type": "fill_blank",
           "sentence": "Els nens tenen ___ de menjar pizza.",
           "translation": "Los niños tienen ganas de comer pizza.",
-          "options": ["ganes", "gana", "son", "set"],
+          "options": ["ganes", "gana"],
           "answer": "ganes"
         }
       ]
@@ -149,21 +149,21 @@
           "type": "fill_blank",
           "sentence": "___ fa mal el genoll des d'ahir.",
           "translation": "Le duele la rodilla desde ayer.",
-          "options": ["Li", "Em", "Et", "Ens"],
+          "options": ["Li", "Em"],
           "answer": "Li"
         },
         {
           "type": "fill_blank",
           "sentence": "Ens ___ mal els peus després de caminar tant.",
           "translation": "Nos duelen los pies después de caminar tanto.",
-          "options": ["fan", "fa", "fan molt", "feu"],
+          "options": ["fan", "fa"],
           "answer": "fan"
         },
         {
           "type": "fill_blank",
           "sentence": "Em fa mal ___.",
           "translation": "Me duele la garganta.",
-          "options": ["la gola", "el pit", "el nas", "l'orella"],
+          "options": ["la gola", "el pit"],
           "answer": "la gola"
         },
         {

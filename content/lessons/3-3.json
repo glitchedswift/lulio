@@ -46,7 +46,7 @@
         { "type": "fill_blank",
           "sentence": "Compro pa a la ___.",
           "translation": "Compro pan en la panadería.",
-          "options": ["fleca", "panadería", "fruiteria", "fruita"],
+          "options": ["fleca", "fruiteria"],
           "answer": "fleca" }
       ]
     },
@@ -80,7 +80,7 @@
         { "type": "fill_blank",
           "sentence": "Aquesta camisa és molt ___.",
           "translation": "Esta camisa es muy cara.",
-          "options": ["cara", "caro", "car", "cars"],
+          "options": ["cara", "car"],
           "answer": "cara" },
         { "type": "multiple_choice", "direction": "ca-es", "prompt": "Quant val?", "options": ["¿Cuánto vale?", "¿Cuánto pesa?", "¿Cuánto sobra?", "¿Cuántos hay?"], "answer": "¿Cuánto vale?" }
       ]
@@ -113,7 +113,7 @@
         { "type": "fill_blank",
           "sentence": "Quina ___ fas de pantalons?",
           "translation": "¿Qué talla usas de pantalones?",
-          "options": ["talla", "número", "mida", "talles"],
+          "options": ["talla", "mida"],
           "answer": "talla" },
         { "type": "translate", "direction": "es-ca",
           "prompt": "Pago en efectivo",
@@ -143,7 +143,7 @@
         { "type": "fill_blank",
           "sentence": "Vull la samarreta ___.",
           "translation": "Quiero la camiseta roja.",
-          "options": ["vermella", "roja", "vermell", "roija"],
+          "options": ["vermella", "vermell"],
           "answer": "vermella" }
       ]
     }

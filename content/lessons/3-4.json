@@ -32,7 +32,7 @@
         { "type": "fill_blank",
           "sentence": "Voldríem una taula a la ___.",
           "translation": "Querríamos una mesa en la terraza.",
-          "options": ["terrassa", "terraza", "fora", "dins"],
+          "options": ["terrassa", "terraza"],
           "answer": "terrassa" },
         { "type": "multiple_choice", "direction": "es-ca", "prompt": "una mesa para tres", "options": ["una taula per a tres", "una mesa per a tres", "una taula para tres", "una taula tres"], "answer": "una taula per a tres" }
       ]
@@ -66,7 +66,7 @@
         { "type": "fill_blank",
           "sentence": "De segon, ___ peix al forn.",
           "translation": "De segundo, pediré pescado al horno.",
-          "options": ["demanaré", "pediré", "demano", "demanare"],
+          "options": ["demanaré", "demano"],
           "answer": "demanaré" },
         { "type": "multiple_choice", "direction": "ca-es", "prompt": "les postres", "options": ["el postre", "los postres", "los entrantes", "la cena"], "answer": "el postre" }
       ]
@@ -120,7 +120,7 @@
         { "type": "fill_blank",
           "sentence": "El sopar era ___.",
           "translation": "La cena estaba buenísima.",
-          "options": ["boníssim", "molt bo", "buenísimo", "millor"],
+          "options": ["boníssim", "molt bo"],
           "answer": "boníssim" }
       ]
     }

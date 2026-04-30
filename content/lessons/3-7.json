@@ -33,7 +33,7 @@
         { "type": "fill_blank",
           "sentence": "De petit, el meu avi ___ cada dia a la plaça.",
           "translation": "De pequeño, mi abuelo iba todos los días a la plaza.",
-          "options": ["anava", "va anar", "anirà", "va"],
+          "options": ["anava", "va anar"],
           "answer": "anava" },
         { "type": "multiple_choice", "direction": "es-ca", "prompt": "tenía", "options": ["tenia", "va tenir", "tindrà", "té"], "answer": "tenia" },
         { "type": "multiple_choice", "direction": "es-ca", "prompt": "hablaban", "options": ["parlaven", "van parlar", "parlaran", "parlen"], "answer": "parlaven" }
@@ -68,7 +68,7 @@
         { "type": "fill_blank",
           "sentence": "De jove, ___ molt al tennis.",
           "translation": "De joven, jugaba mucho al tenis.",
-          "options": ["jugava", "va jugar", "jugaré", "juga"],
+          "options": ["jugava", "va jugar"],
           "answer": "jugava" },
         { "type": "multiple_choice", "direction": "ca-es", "prompt": "Cada nit llegia un llibre", "options": ["Cada noche leía un libro", "Cada noche leyó un libro", "Cada noche leerá un libro", "Cada noche leo un libro"], "answer": "Cada noche leía un libro" }
       ]
@@ -101,7 +101,7 @@
         { "type": "fill_blank",
           "sentence": "Mentre ___ la dutxa, va arribar la mare.",
           "translation": "Mientras me duchaba, llegó mi madre.",
-          "options": ["em dutxava", "em vaig dutxar", "em dutxaré", "em dutxo"],
+          "options": ["em dutxava", "em vaig dutxar"],
           "answer": "em dutxava" },
         { "type": "multiple_choice", "direction": "ca-es", "prompt": "Sempre menjava aquí quan era petit", "options": ["Siempre comía aquí cuando era pequeño", "Siempre comió aquí cuando era pequeño", "Siempre comerá aquí cuando era pequeño", "Siempre como aquí cuando era pequeño"], "answer": "Siempre comía aquí cuando era pequeño" },
         { "type": "translate", "direction": "es-ca",

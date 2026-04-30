@@ -47,7 +47,7 @@
         { "type": "fill_blank",
           "sentence": "El museu és ___ del riu.",
           "translation": "El museo está cerca del río.",
-          "options": ["a prop", "lluny", "davant", "darrere"],
+          "options": ["a prop", "lluny"],
           "answer": "a prop" }
       ]
     },
@@ -83,7 +83,7 @@
         { "type": "fill_blank",
           "sentence": "___ em pots dir on és la catedral?",
           "translation": "¿Me puedes decir dónde está la catedral?",
-          "options": ["Em", "Me", "T'", "Es"],
+          "options": ["Em", "Me"],
           "answer": "Em" },
         { "type": "listen", "ca": "On és la parada de bus?", "options": ["On és la parada de bus?", "On és la para de bus?", "On són la parada de bus?"] }
       ]
@@ -123,7 +123,7 @@
         { "type": "fill_blank",
           "sentence": "Visc al ___ de la Pau.",
           "translation": "Vivo en la calle de la Paz.",
-          "options": ["carrer", "calle", "carre", "carrera"],
+          "options": ["carrer", "calle"],
           "answer": "carrer" },
         { "type": "translate", "direction": "es-ca",
           "prompt": "El parque está cerca",

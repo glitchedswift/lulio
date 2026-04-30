@@ -31,7 +31,7 @@
         { "type": "fill_blank",
           "sentence": "—Has anat al mercat? —Sí, ___ he anat.",
           "translation": "—¿Has ido al mercado? —Sí, he ido.",
-          "options": ["hi", "en", "ho", "li"],
+          "options": ["hi", "en"],
           "answer": "hi" },
         { "type": "translate", "direction": "es-ca",
           "prompt": "Voy ahora",
@@ -70,7 +70,7 @@
         { "type": "fill_blank",
           "sentence": "—Vols pa? —Sí, ___ vull.",
           "translation": "—¿Quieres pan? —Sí, quiero.",
-          "options": ["en", "hi", "el", "ho"],
+          "options": ["en", "hi"],
           "answer": "en" },
         { "type": "translate", "direction": "es-ca",
           "prompt": "Tengo tres",
@@ -110,7 +110,7 @@
         { "type": "fill_blank",
           "sentence": "___ ha gent al carrer.",
           "translation": "Hay gente en la calle.",
-          "options": ["N'hi", "Hi", "En", "Ho"],
+          "options": ["N'hi", "Hi"],
           "answer": "N'hi" },
         { "type": "translate", "direction": "es-ca",
           "prompt": "Me voy a casa",
@@ -143,7 +143,7 @@
         { "type": "fill_blank",
           "sentence": "—Tens cotxe? —Sí, ___ tinc un.",
           "translation": "—¿Tienes coche? —Sí, tengo uno.",
-          "options": ["en", "hi", "el", "li"],
+          "options": ["en", "hi"],
           "answer": "en" }
       ]
     }

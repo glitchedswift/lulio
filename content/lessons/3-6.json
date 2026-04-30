@@ -30,7 +30,7 @@
         { "type": "fill_blank",
           "sentence": "Ahir nosaltres ___ anar al teatre.",
           "translation": "Ayer nosotros fuimos al teatro.",
-          "options": ["vam", "vau", "van", "vaig"],
+          "options": ["vam", "van"],
           "answer": "vam" },
         { "type": "multiple_choice", "direction": "ca-es", "prompt": "Va arribar tard", "options": ["Llegó tarde", "Va a llegar tarde", "Ha llegado tarde", "Llegará tarde"], "answer": "Llegó tarde" },
         { "type": "listen", "ca": "Vam veure els teus pares", "options": ["Vam veure els teus pares", "Veiem els teus pares", "Vam venir els teus pares"] }
@@ -65,7 +65,7 @@
         { "type": "fill_blank",
           "sentence": "L'any passat ___ visitar Roma.",
           "translation": "El año pasado visité Roma.",
-          "options": ["vaig", "voy a", "vag", "vam"],
+          "options": ["vaig", "vam"],
           "answer": "vaig" },
         { "type": "translate", "direction": "es-ca",
           "prompt": "Ayer vimos una película",
@@ -102,7 +102,7 @@
         { "type": "fill_blank",
           "sentence": "___ una setmana vam anar a Sitges.",
           "translation": "Hace una semana fuimos a Sitges.",
-          "options": ["Fa", "Hace", "Ha", "Des de"],
+          "options": ["Fa", "Hace"],
           "answer": "Fa" },
         { "type": "multiple_choice", "direction": "es-ca", "prompt": "anteayer", "options": ["abans-d'ahir", "anteayer", "ahir-ahir", "abans dahir"], "answer": "abans-d'ahir" }
       ]

@@ -93,14 +93,14 @@
           "type": "fill_blank",
           "sentence": "Cada dia ___ a les set del matí.",
           "translation": "Cada día me levanto a las siete de la mañana.",
-          "options": ["m'aixeco", "em dutxo", "m'assec", "em quedo"],
+          "options": ["m'aixeco", "em dutxo"],
           "answer": "m'aixeco"
         },
         {
           "type": "fill_blank",
           "sentence": "Es ___ la jaqueta perquè fa fred.",
           "translation": "Se pone la chaqueta porque hace frío.",
-          "options": ["posa", "queda", "dutxa", "vesteix"],
+          "options": ["posa", "vesteix"],
           "answer": "posa"
         },
         {
@@ -155,14 +155,14 @@
           "type": "fill_blank",
           "sentence": "Vull ___ els cabells abans de sortir.",
           "translation": "Quiero lavarme el pelo antes de salir.",
-          "options": ["rentar-me", "em rentar", "rentant-me", "rento"],
+          "options": ["rentar-me", "em rentar"],
           "answer": "rentar-me"
         },
         {
           "type": "fill_blank",
           "sentence": "No ___ poso les sabates noves avui.",
           "translation": "No me pongo los zapatos nuevos hoy.",
-          "options": ["em", "me", "es", "et"],
+          "options": ["em", "me"],
           "answer": "em"
         },
         {

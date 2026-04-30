@@ -51,7 +51,7 @@
         { "type": "fill_blank",
           "sentence": "Vaig ___ tren a Tarragona.",
           "translation": "Voy en tren a Tarragona.",
-          "options": ["en", "a", "amb", "de"],
+          "options": ["en", "amb"],
           "answer": "en" }
       ]
     },
@@ -93,7 +93,7 @@
         { "type": "fill_blank",
           "sentence": "El tren ___ de l'andana 4.",
           "translation": "El tren sale del andén 4.",
-          "options": ["surt", "sale", "ix", "para"],
+          "options": ["surt", "sale"],
           "answer": "surt" },
         { "type": "multiple_choice", "direction": "ca-es", "prompt": "el bitllet", "options": ["el billete", "el ticket", "el cambio", "el viaje"], "answer": "el billete" },
         { "type": "listen", "ca": "Dos bitllets per a Lleida", "options": ["Dos bitllets per a Lleida", "Dos billetes para Lleida", "Dos bitllets de Lleida"] }
@@ -127,7 +127,7 @@
         { "type": "fill_blank",
           "sentence": "El metro ___ a les set del matí.",
           "translation": "El metro sale a las siete de la mañana.",
-          "options": ["surt", "sale", "arriba", "passa"],
+          "options": ["surt", "sale"],
           "answer": "surt" },
         { "type": "multiple_choice", "direction": "es-ca", "prompt": "esperar el bus", "options": ["esperar el bus", "esperar al bus", "esperar el autobus", "esperar bus"], "answer": "esperar el bus" }
       ]

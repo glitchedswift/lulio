@@ -35,7 +35,7 @@
           "type": "fill_blank",
           "sentence": "___ porto un regal, de part meva.",
           "translation": "Le traigo un regalo, de mi parte.",
-          "options": ["Li", "Els", "Em"],
+          "options": ["Li", "Els"],
           "answer": "Li"
         },
         {
@@ -69,14 +69,14 @@
           "type": "fill_blank",
           "sentence": "Quan ___ truques?",
           "translation": "¿Cuándo me llamas?",
-          "options": ["em", "et", "li"],
+          "options": ["em", "et"],
           "answer": "em"
         },
         {
           "type": "fill_blank",
           "sentence": "La mestra ___ explica la lliçó.",
           "translation": "La maestra nos explica la lección.",
-          "options": ["ens", "em", "us"],
+          "options": ["ens", "us"],
           "answer": "ens"
         },
         {
@@ -124,7 +124,7 @@
           "type": "fill_blank",
           "sentence": "La cartera? ___ porto demà.",
           "translation": "¿La cartera? Te la traigo mañana.",
-          "options": ["Te la", "Te'l", "Me la"],
+          "options": ["Te la", "Te'l"],
           "answer": "Te la"
         },
         {
@@ -154,7 +154,7 @@
           "type": "fill_blank",
           "sentence": "___ he dit moltes vegades.",
           "translation": "Te lo he dicho muchas veces.",
-          "options": ["T'ho", "Te'l", "Li ho"],
+          "options": ["T'ho", "Li ho"],
           "answer": "T'ho"
         },
         {
