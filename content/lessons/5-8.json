@@ -31,14 +31,14 @@
           "type": "fill_blank",
           "sentence": "___ molta gent a la plaça.",
           "translation": "Hay mucha gente en la plaza.",
-          "options": ["Hi ha", "Estic", "És"],
+          "options": ["Hi ha", "És"],
           "answer": "Hi ha"
         },
         {
           "type": "fill_blank",
           "sentence": "No ___ prou temps per acabar.",
           "translation": "No hay suficiente tiempo para terminar.",
-          "options": ["hi ha", "hi havia", "hi haurà"],
+          "options": ["hi ha", "hi havia"],
           "answer": "hi ha"
         },
         {
@@ -80,14 +80,14 @@
           "type": "fill_blank",
           "sentence": "Demà ___ una reunió important.",
           "translation": "Mañana habrá una reunión importante.",
-          "options": ["hi haurà", "hi ha", "hi havia"],
+          "options": ["hi haurà", "hi ha"],
           "answer": "hi haurà"
         },
         {
           "type": "fill_blank",
           "sentence": "Dubto que ___ prou lloc per a tothom.",
           "translation": "Dudo que haya suficiente sitio para todos.",
-          "options": ["hi hagi", "hi ha", "hi haurà"],
+          "options": ["hi hagi", "hi ha"],
           "answer": "hi hagi"
         },
         {
@@ -121,14 +121,14 @@
           "type": "fill_blank",
           "sentence": "Quants alumnes ___?",
           "translation": "¿Cuántos alumnos hay?",
-          "options": ["n'hi ha", "hi ha", "els hi ha"],
+          "options": ["n'hi ha", "hi ha"],
           "answer": "n'hi ha"
         },
         {
           "type": "fill_blank",
           "sentence": "De pa, no ___ gens.",
           "translation": "De pan, no hay nada.",
-          "options": ["n'hi ha", "hi ha", "hi havia"],
+          "options": ["n'hi ha", "hi ha"],
           "answer": "n'hi ha"
         },
         {
@@ -159,7 +159,7 @@
           "type": "fill_blank",
           "sentence": "Avui ___ molta feina a l'oficina.",
           "translation": "Hoy ha habido mucho trabajo en la oficina.",
-          "options": ["hi ha hagut", "hi havia", "hi haurà"],
+          "options": ["hi ha hagut", "hi havia"],
           "answer": "hi ha hagut"
         },
         {

@@ -32,7 +32,7 @@
         { "type": "fill_blank",
           "sentence": "L'examen és d'___.",
           "translation": "El examen es de historia.",
-          "options": ["història", "historia", "histori", "historiar"],
+          "options": ["història", "historia"],
           "answer": "història" },
         { "type": "multiple_choice", "direction": "es-ca", "prompt": "más", "options": ["més", "más", "mes", "méss"], "answer": "més" },
         { "type": "compare",
@@ -70,7 +70,7 @@
         { "type": "fill_blank",
           "sentence": "___ aigua és freda.",
           "translation": "El agua está fría.",
-          "options": ["L'", "La", "El", "Lo"],
+          "options": ["L'", "La"],
           "answer": "L'" },
         { "type": "translate", "direction": "es-ca",
           "prompt": "Tráemelo, por favor",
@@ -108,7 +108,7 @@
         { "type": "fill_blank",
           "sentence": "___ que arribis a temps.",
           "translation": "Es necesario que llegues a tiempo.",
-          "options": ["Cal", "Hay", "Calle", "Té"],
+          "options": ["Cal", "Hay"],
           "answer": "Cal" },
         { "type": "translate", "direction": "es-ca",
           "prompt": "Hay que esperar",
@@ -141,7 +141,7 @@
         { "type": "fill_blank",
           "sentence": "___ has dit?",
           "translation": "¿Qué has dicho?",
-          "options": ["Què", "Que", "Qué", "Quee"],
+          "options": ["Què", "Que"],
           "answer": "Què" }
       ]
     }

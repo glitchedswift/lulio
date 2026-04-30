@@ -46,7 +46,7 @@
         { "type": "fill_blank",
           "sentence": "Per ___ regalem un llibre i una rosa.",
           "translation": "Por San Jorge regalamos un libro y una rosa.",
-          "options": ["Sant Jordi", "San Jorge", "Sant Jorge", "Sant Jordí"],
+          "options": ["Sant Jordi", "Sant Jorge"],
           "answer": "Sant Jordi" },
         { "type": "multiple_choice", "direction": "es-ca", "prompt": "los castillos humanos", "options": ["els castells", "los castells", "els castillos", "les castelles"], "answer": "els castells" }
       ]
@@ -86,7 +86,7 @@
         { "type": "fill_blank",
           "sentence": "L'Ebre és el riu més important de les ___ del sud.",
           "translation": "El Ebro es el río más importante de las tierras del sur.",
-          "options": ["terres", "tierras", "comarques", "terras"],
+          "options": ["terres", "comarques"],
           "answer": "terres" },
         { "type": "multiple_choice", "direction": "ca-es", "prompt": "la comarca del Bages", "options": ["la comarca del Bages", "el municipio del Bages", "la provincia del Bages", "el país del Bages"], "answer": "la comarca del Bages" }
       ]
@@ -122,7 +122,7 @@
         { "type": "fill_blank",
           "sentence": "La ___ del meu poble és al juliol.",
           "translation": "La fiesta mayor de mi pueblo es en julio.",
-          "options": ["festa major", "fiesta mayor", "festa gran", "festa nova"],
+          "options": ["festa major", "fiesta mayor"],
           "answer": "festa major" },
         { "type": "translate", "direction": "es-ca",
           "prompt": "Los gigantes bailan en la plaza",

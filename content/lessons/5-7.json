@@ -42,14 +42,14 @@
           "type": "fill_blank",
           "sentence": "Els documents van ser _____ ahir.",
           "translation": "Los documentos fueron firmados ayer.",
-          "options": ["signats", "signada", "signat", "signades"],
+          "options": ["signats", "signat"],
           "answer": "signats"
         },
         {
           "type": "fill_blank",
           "sentence": "La llei ha estat _____ pel Parlament.",
           "translation": "La ley ha sido aprobada por el Parlamento.",
-          "options": ["aprovada", "aprovat", "aprovats", "aprovades"],
+          "options": ["aprovada", "aprovat"],
           "answer": "aprovada"
         },
         {
@@ -121,14 +121,14 @@
           "type": "fill_blank",
           "sentence": "Es _____ molt de cafè a Catalunya.",
           "translation": "Se consume mucho café en Cataluña.",
-          "options": ["consumeix", "consumeixen", "consumit", "consumida"],
+          "options": ["consumeix", "consumeixen"],
           "answer": "consumeix"
         },
         {
           "type": "fill_blank",
           "sentence": "S'_____ molts llibres cada any.",
           "translation": "Se publican muchos libros cada año.",
-          "options": ["publiquen", "publica", "publicat", "publicada"],
+          "options": ["publiquen", "publica"],
           "answer": "publiquen"
         },
         {
@@ -227,14 +227,14 @@
           "type": "fill_blank",
           "sentence": "La constitució va ser _____ l'any 1978.",
           "translation": "La constitución fue aprobada en el año 1978.",
-          "options": ["aprovada", "aprovades", "aprovat", "aprovats"],
+          "options": ["aprovada", "aprovat"],
           "answer": "aprovada"
         },
         {
           "type": "fill_blank",
           "sentence": "_____ moltes llengües a Europa.",
           "translation": "Se hablan muchas lenguas en Europa.",
-          "options": ["Es parlen", "Es parla", "Va ser parlat", "Va ser parlada"],
+          "options": ["Es parlen", "Es parla"],
           "answer": "Es parlen"
         }
       ]
@@ -272,14 +272,14 @@
           "type": "fill_blank",
           "sentence": "La porta _____ tancada. No podem entrar.",
           "translation": "La puerta está cerrada. No podemos entrar.",
-          "options": ["està", "va ser", "és", "va estar"],
+          "options": ["està", "va ser"],
           "answer": "està"
         },
         {
           "type": "fill_blank",
           "sentence": "El museu va ser _____ l'any 1929.",
           "translation": "El museo fue inaugurado en el año 1929.",
-          "options": ["inaugurat", "inaugurada", "inaugurats", "inaugurades"],
+          "options": ["inaugurat", "inaugurada"],
           "answer": "inaugurat"
         }
       ]

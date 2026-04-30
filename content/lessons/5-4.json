@@ -41,7 +41,7 @@
         { "type": "fill_blank",
           "sentence": "M'he ___ a portar el projecte.",
           "translation": "Me he comprometido a entregar el proyecto.",
-          "options": ["compromès", "comprometido", "comprometido", "comproms"],
+          "options": ["compromès", "comprometido"],
           "answer": "compromès" },
         { "type": "multiple_choice", "direction": "es-ca", "prompt": "comprometerse", "options": ["comprometre's", "compromise", "comprometre", "comprometirse"], "answer": "comprometre's" }
       ]
@@ -80,7 +80,7 @@
         { "type": "fill_blank",
           "sentence": "Has de ___ taula abans del sopar.",
           "translation": "Tienes que poner la mesa antes de la cena.",
-          "options": ["parar", "posar", "ficar", "poner"],
+          "options": ["parar", "posar"],
           "answer": "parar" },
         { "type": "translate", "direction": "es-ca",
           "prompt": "Vuelvo en cinco minutos",
@@ -133,7 +133,7 @@
         { "type": "fill_blank",
           "sentence": "Tinc un ___ molt fort.",
           "translation": "Tengo un dolor muy fuerte.",
-          "options": ["dolor", "dolora", "doló", "doloro"],
+          "options": ["dolor", "dolora"],
           "answer": "dolor" },
         { "type": "multiple_choice", "direction": "es-ca", "prompt": "el síndrome", "options": ["la síndrome", "el síndrome", "la síndroma", "la síndromia"], "answer": "la síndrome" }
       ]
@@ -166,7 +166,7 @@
         { "type": "fill_blank",
           "sentence": "Em vaig casar ___ la Joana fa cinc anys.",
           "translation": "Me casé con Joana hace cinco años.",
-          "options": ["amb", "con", "a", "de"],
+          "options": ["amb", "con"],
           "answer": "amb" }
       ]
     }

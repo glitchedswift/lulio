@@ -37,7 +37,7 @@
           "type": "fill_blank",
           "sentence": "En balear, 'el cotxe' es diu ___.",
           "translation": "En balear, 'el coche' se dice ___.",
-          "options": ["es cotxe", "sa cotxe", "lo cotxe"],
+          "options": ["es cotxe", "sa cotxe"],
           "answer": "es cotxe"
         }
       ]
@@ -76,7 +76,7 @@
           "type": "fill_blank",
           "sentence": "En valencià, 'sortir' es diu ___.",
           "translation": "En valenciano, 'sortir' (salir) se dice ___.",
-          "options": ["eixir", "anar", "venir"],
+          "options": ["eixir", "anar"],
           "answer": "eixir"
         }
       ]
@@ -117,7 +117,7 @@
           "type": "fill_blank",
           "sentence": "En la variant balear, 'la casa' es diu ___.",
           "translation": "En la variante balear, 'la casa' se dice ___.",
-          "options": ["sa casa", "es casa", "la casa"],
+          "options": ["sa casa", "es casa"],
           "answer": "sa casa"
         }
       ]

@@ -39,7 +39,7 @@
         { "type": "fill_blank",
           "sentence": "Val més ___ que mai.",
           "translation": "Más vale tarde que nunca.",
-          "options": ["tard", "tarde", "tardar", "tardança"],
+          "options": ["tard", "tarde"],
           "answer": "tard" },
         { "type": "multiple_choice", "direction": "es-ca", "prompt": "Quien madruga, hace harina", "options": ["Qui matina fa farina", "Quien matina fa farina", "Qui mati farina fa", "Qui es matina farina"], "answer": "Qui matina fa farina" }
       ]
@@ -67,7 +67,7 @@
         { "type": "fill_blank",
           "sentence": "___! Anem-hi!",
           "translation": "¡Vamos! ¡Vamos allá!",
-          "options": ["Som-hi", "Vamos", "Anem", "Hi"],
+          "options": ["Som-hi", "Anem"],
           "answer": "Som-hi" },
         { "type": "multiple_choice", "direction": "ca-es", "prompt": "Déu n'hi do", "options": ["¡Caramba!", "Adiós", "¡Hola!", "¡Por favor!"], "answer": "¡Caramba!" }
       ]
@@ -101,7 +101,7 @@
         { "type": "fill_blank",
           "sentence": "Després del càstig, fa cara de ___.",
           "translation": "Después del castigo, pone cara de pocos amigos.",
-          "options": ["pomes agres", "manzanas agrias", "pommes", "tomàquets"],
+          "options": ["pomes agres", "manzanas agrias"],
           "answer": "pomes agres" },
         { "type": "multiple_choice", "direction": "ca-es", "prompt": "Toca el dos!", "options": ["¡Lárgate!", "¡Toca dos veces!", "¡Mira los dos!", "¡Doblega!"], "answer": "¡Lárgate!" }
       ]
