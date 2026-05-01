@@ -22,7 +22,7 @@ export function renderHome(el) {
               <p>${t("home.fc1.body")}</p>
             </div>
           </div>
-          <img src="assets/logo.svg" alt="Lulio" class="home-mascot" />
+          <img src="assets/logo.png" alt="Lulio" class="home-mascot" />
           <div class="home-fc-right-group">
             <div class="home-fc">
               <span class="home-fc-icon">🧠</span>

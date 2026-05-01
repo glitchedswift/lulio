@@ -205,7 +205,7 @@ export async function renderExam(el, params) {
 
       el.innerHTML = `
         <section class="completion">
-          <img src="assets/logo.svg" alt="Lulio" class="completion-mascot" />
+          <img src="assets/logo.png" alt="Lulio" class="completion-mascot" />
           <h1>${passed ? t("exam.pass.title") : t("exam.fail.title")}</h1>
           <p>${passed ? t("exam.pass.subtitle") : t("exam.fail.subtitle")}</p>
           <span class="xp-gain">${scoreLabel}</span>

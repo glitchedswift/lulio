@@ -30,7 +30,7 @@ This document is the canonical brief for any LLM (or human) maintaining **Lulio*
 - **Pure static site** served by GitHub Pages from the repo root of `main`.
 - **No build step**, **no bundler**, **no npm**, **no server**. The site is HTML + CSS + ES-module JS + JSON.
 - All third-party libraries are loaded from public CDNs (jsDelivr). Don't vendor copies.
-- Use **relative URLs** everywhere (e.g. `assets/logo.svg`, never `/assets/...`) so Pages project sites under `/<repo>/` work.
+- Use **relative URLs** everywhere (e.g. `assets/logo.png`, never `/assets/...`) so Pages project sites under `/<repo>/` work.
 - A `.nojekyll` file is present so GitHub Pages serves files starting with `_` correctly. Keep it.
 
 ## Repo layout
@@ -61,7 +61,7 @@ This document is the canonical brief for any LLM (or human) maintaining **Lulio*
 │   ├── index.json            # Manifest of blocks → lessons (with placeholder flags)
 │   └── lessons/<block>-<lesson>.json
 └── assets/
-    └── logo.svg              # Lulio mascot
+    └── logo.png              # Lulio mascot
 ```
 
 ## Local development

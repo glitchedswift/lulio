@@ -81,7 +81,7 @@ Full schema, exercise-type specs, and rendering behaviour in `CLAUDE.md`.
 │   ├── index.json          # Block/lesson manifest
 │   └── lessons/            # <block>-<lesson>.json (57 files)
 └── assets/
-    └── logo.svg
+    └── logo.png
 ```
 
 ## License

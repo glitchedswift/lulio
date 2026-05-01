@@ -294,7 +294,7 @@ export async function renderLesson(el, params) {
     progressPct.textContent = "100%";
     el.innerHTML = `
       <section class="completion">
-        <img src="assets/logo.svg" alt="Lulio" class="completion-mascot" />
+        <img src="assets/logo.png" alt="Lulio" class="completion-mascot" />
         <h1>${t("completion.title")}</h1>
         <p>${t("completion.subtitle")}</p>
         <span class="xp-gain">★ +${topics.reduce((s, tp) => s + (tp.xp || 10), 0)} XP</span>
