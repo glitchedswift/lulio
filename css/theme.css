@@ -2,6 +2,8 @@
   color-scheme: light dark;
 
   --font: "Nunito", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  /* Outfit is used for all headings — cleaner geometry, makes titles pop */
+  --font-display: "Outfit", "Nunito", system-ui, sans-serif;
 
   /* Warm amber-gold base */
   --bg: #fef4e4;
