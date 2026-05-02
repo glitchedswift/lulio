@@ -2,59 +2,57 @@
   color-scheme: light dark;
 
   --font: "Nunito", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-  /* Outfit is used for all headings — cleaner geometry, makes titles pop */
   --font-display: "Outfit", "Nunito", system-ui, sans-serif;
 
-  /* Warm amber-gold base */
-  --bg: #fef4e4;
-  --bg-soft: #fffaf2;
-  --ink: #2c1b07;
-  --ink-soft: #7b5a35;
-  --line: #ebd6a8;
+  /* Paper base — off-white avoids pure-white glare, easier on sensitive eyes */
+  --bg: #f9f9f9;
+  --bg-soft: #ffffff;
+  --ink: #333333;
+  --ink-soft: #6a8878;
+  --line: #dce8e2;
 
-  /* Brand amber — logo colour #F59B11.
-     Button text uses --ink (dark brown) for 8:1 contrast. */
-  --primary: #f59b11;
-  --primary-dark: #c97e0a;
-  --primary-soft: #fde8b0;
+  /* Primary — Sage green (calm, focus, correct feedback, CTAs)
+     #A8D5BA from the spec is too pale for buttons; #72B896 is the
+     actionable mid-sage while --primary-soft holds the spec value. */
+  --primary: #72b896;
+  --primary-dark: #4a8c68;
+  --primary-soft: #d4eee1;
 
-  /* Success / correct feedback — vivid emerald, keeps green = correct convention */
-  --success: #1dbb7a;
-  --success-dark: #0d8c58;
-  --success-soft: #b4f0d4;
+  /* Success / correct feedback — same sage family, keeps green = correct */
+  --success: #72b896;
+  --success-dark: #4a8c68;
+  --success-soft: #d4eee1;
+
+  /* Accent — Soft coral/terracotta (energy, logo identity, brand titles)
+     #FF8A65 as specified — less aggressive than pure orange */
+  --accent: #ff8a65;
+  --accent-dark: #d95f35;
 
   /* Wrong / danger */
   --danger: #ef4444;
   --danger-soft: #ffe5e5;
 
-  /* TTS / info */
-  --info: #0ea8d8;
+  /* TTS / info — calm sky blue */
+  --info: #5ba4cf;
 
   /* XP reward gold */
   --gold: #ffc800;
   --gold-text: #5a4500;
 
-  /* Decorative accent — vivid terracotta, matches --block-4 */
-  --accent: #e8681c;
-  --accent-dark: #c04e10;
-
-  --shadow-sm: 0 2px 0 rgba(0, 0, 0, 0.08);
-  --shadow-btn: 0 4px 0 rgba(0, 0, 0, 0.18);
-  --shadow-card: 0 12px 32px rgba(44, 27, 7, 0.08);
+  --shadow-sm: 0 2px 0 rgba(0, 0, 0, 0.06);
+  --shadow-btn: 0 4px 0 rgba(0, 0, 0, 0.14);
+  --shadow-card: 0 12px 32px rgba(50, 80, 65, 0.08);
 
   --radius-sm: 10px;
   --radius: 16px;
   --radius-lg: 24px;
 
   /*
-   * Block progression — vivid jewel tones, each hue clearly distinct.
-   * None duplicates the amber primary so block UI never competes with CTAs.
+   * Block progression — vivid jewel tones (unchanged per user feedback).
    *
-   *  1 — vivid emerald     (fresh start, A1)
-   *  2 — vivid sky blue    (expanding vocabulary, A1+/A2)
-   *  3 — vivid violet      (deeper structures, A2/B1)
-   *  4 — vivid terracotta  (personal expression, B1/B2)   ← matches --accent
-   *  5 — vivid berry       (mastery, B2+)
+   *  1 — vivid emerald     2 — sky blue
+   *  3 — vivid violet      4 — terracotta
+   *  5 — vivid berry
    */
   --block-1: #0ea86e;
   --block-2: #1a9fd4;
@@ -71,23 +69,23 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #1e1608;
-    --bg-soft: #261e0d;
-    --ink: #fff5e6;
-    --ink-soft: #c4a572;
-    --line: #3d2e14;
+    --bg: #1a1f1c;
+    --bg-soft: #232b27;
+    --ink: #f0f5f2;
+    --ink-soft: #9db8a8;
+    --line: #2e4038;
     --shadow-sm: 0 2px 0 rgba(0, 0, 0, 0.25);
     --shadow-btn: 0 4px 0 rgba(0, 0, 0, 0.4);
     --shadow-card: 0 12px 32px rgba(0, 0, 0, 0.4);
 
-    --primary-soft: #3d2600;
-    --success-soft: #083320;
+    --primary-soft: #1a3828;
+    --success-soft: #1a3828;
     --danger-soft: #3a0808;
 
-    --block-1-soft: #083320;
-    --block-2-soft: #042840;
-    --block-3-soft: #1a0e48;
-    --block-4-soft: #3a1808;
-    --block-5-soft: #380c20;
+    --block-1-soft: #0b2a18;
+    --block-2-soft: #052535;
+    --block-3-soft: #1e0e40;
+    --block-4-soft: #3a1a08;
+    --block-5-soft: #350c20;
   }
 }
