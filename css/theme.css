@@ -3,62 +3,92 @@
 
   --font: "Nunito", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 
-  --bg: #fff8ec;
-  --bg-soft: #fffdf6;
-  --ink: #2b1d0e;
-  --ink-soft: #6b5942;
-  --line: #e9dcc1;
+  /* Warm neutral base — softer than pure white, easier on ADHD eyes */
+  --bg: #fef7ed;
+  --bg-soft: #fffcf6;
+  --ink: #2c1b07;
+  --ink-soft: #7b5a35;
+  --line: #edd9b5;
 
-  --primary: #58cc02;
-  --primary-dark: #46a302;
-  --primary-soft: #d7f5b1;
-  --accent: #ff9600;
-  --accent-dark: #d57e00;
-  --danger: #ef4444;
-  --danger-soft: #ffe5e5;
-  --info: #1cb0f6;
-  --gold: #ffc800;
-  --gold-text: #5a4500;
+  /* Brand amber — logo colour #F59B11, used for CTAs, progress, highlights.
+     Button text is --ink (dark brown) for 8:1 contrast vs white-on-amber (~2.2:1). */
+  --primary: #f59b11;
+  --primary-dark: #c97e0a;
+  --primary-soft: #fee9bc;
+
+  /* Success / correct feedback — green stays green (universal convention) */
+  --success: #288759;
+  --success-dark: #1a5e3d;
+  --success-soft: #cdf0dc;
+
+  /* Wrong / danger */
+  --danger: #e05050;
+  --danger-soft: #fceaea;
+
+  /* TTS / info — calm sky blue, distinct from block-2 */
+  --info: #2090be;
+
+  /* XP reward gold */
+  --gold: #f5c030;
+  --gold-text: #6b4700;
+
+  /* Decorative accent — terracotta, pattern arrows, streak badges.
+     Intentionally matches --block-4 (same design philosophy as original). */
+  --accent: #c96030;
+  --accent-dark: #a0481e;
 
   --shadow-sm: 0 2px 0 rgba(0, 0, 0, 0.08);
   --shadow-btn: 0 4px 0 rgba(0, 0, 0, 0.18);
-  --shadow-card: 0 12px 32px rgba(43, 29, 14, 0.08);
+  --shadow-card: 0 12px 32px rgba(44, 27, 7, 0.08);
 
   --radius-sm: 10px;
   --radius: 16px;
   --radius-lg: 24px;
 
-  --block-1: #58cc02;
-  --block-2: #1cb0f6;
-  --block-3: #a560e8;
-  --block-4: #ff9600;
-  --block-5: #ff4b4b;
+  /*
+   * Block progression — each block has a distinct hue, none duplicates the
+   * amber primary so block UI never competes with action elements.
+   * Colours are muted/deep enough for 3:1+ contrast with white text on
+   * large-bold labels (block headers, lesson nodes, topic pills).
+   *
+   *  1 — deep sage green   (fresh start, A1)
+   *  2 — sky blue          (expanding vocabulary, A1+/A2)
+   *  3 — soft violet       (deeper structures, A2/B1)
+   *  4 — terracotta        (personal expression, B1/B2)   ← matches --accent
+   *  5 — dusty rose        (mastery, B2+)
+   */
+  --block-1: #288759;
+  --block-2: #2988b8;
+  --block-3: #9468d0;
+  --block-4: #c96030;
+  --block-5: #c05575;
 
-  --block-1-soft: #d7f5b1;
-  --block-2-soft: #c6e9fb;
-  --block-3-soft: #e3d2f7;
-  --block-4-soft: #ffe1b8;
-  --block-5-soft: #ffd2d2;
+  --block-1-soft: #cdf0dc;
+  --block-2-soft: #c4e8f5;
+  --block-3-soft: #dfd0f5;
+  --block-4-soft: #f8dbc8;
+  --block-5-soft: #f5d0de;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #1a160e;
-    --bg-soft: #221d12;
-    --ink: #fff7e6;
-    --ink-soft: #b9a884;
-    --line: #3a2f1c;
+    --bg: #1e1608;
+    --bg-soft: #261e0d;
+    --ink: #fff5e6;
+    --ink-soft: #c4a572;
+    --line: #3d2e14;
     --shadow-sm: 0 2px 0 rgba(0, 0, 0, 0.25);
     --shadow-btn: 0 4px 0 rgba(0, 0, 0, 0.4);
     --shadow-card: 0 12px 32px rgba(0, 0, 0, 0.4);
 
-    --primary-soft: #1d3f08;
+    --primary-soft: #3d2600;
+    --success-soft: #0b2a18;
     --danger-soft: #3a0808;
 
-    --block-1-soft: #1d3f08;
-    --block-2-soft: #053545;
-    --block-3-soft: #2a1248;
-    --block-4-soft: #3a1f00;
-    --block-5-soft: #3a0808;
+    --block-1-soft: #0b2a18;
+    --block-2-soft: #052535;
+    --block-3-soft: #1e0e40;
+    --block-4-soft: #3a1a08;
+    --block-5-soft: #350c20;
   }
 }

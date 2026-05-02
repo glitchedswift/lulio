@@ -52,7 +52,8 @@ a { color: inherit; text-decoration: none; }
   border: none; border-radius: 14px;
   padding: 14px 22px; min-height: 52px;
   font-size: 15px; letter-spacing: 0.5px; text-transform: uppercase;
-  background: var(--primary); color: white;
+  /* Dark text on amber gives 8:1 contrast; white on #F59B11 would fail WCAG */
+  background: var(--primary); color: var(--ink);
   box-shadow: var(--shadow-btn);
   transition: transform 0.08s ease, filter 0.15s ease, box-shadow 0.08s ease;
 }
@@ -62,8 +63,9 @@ a { color: inherit; text-decoration: none; }
 .btn.btn-ghost { background: transparent; color: var(--ink-soft); box-shadow: none; }
 .btn.btn-ghost:hover { background: var(--line); }
 .btn.btn-secondary { background: var(--bg-soft); color: var(--ink); border: 2px solid var(--line); box-shadow: var(--shadow-sm); }
-.btn.btn-info { background: var(--info); }
-.btn.btn-accent { background: var(--accent); }
+/* Darker-background variants can use white text */
+.btn.btn-info { background: var(--info); color: white; }
+.btn.btn-accent { background: var(--accent); color: white; }
 .btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; box-shadow: var(--shadow-btn); }
 
 /* ---------- Home ---------- */
@@ -342,7 +344,7 @@ a { color: inherit; text-decoration: none; }
   border-color: var(--block-color, var(--primary));
   background: var(--block-soft, var(--primary-soft));
 }
-.choice.correct { border-color: var(--primary); background: var(--primary-soft); }
+.choice.correct { border-color: var(--success); background: var(--success-soft); }
 .choice.incorrect { border-color: var(--danger); background: var(--danger-soft); }
 .choice:disabled { cursor: default; }
 
@@ -392,10 +394,10 @@ a { color: inherit; text-decoration: none; }
   transform: translateY(100%); transition: transform 0.3s ease;
 }
 .feedback.shown { transform: translateY(0); }
-.feedback.correct { background: var(--primary-soft); border-color: var(--primary); }
+.feedback.correct { background: var(--success-soft); border-color: var(--success); }
 .feedback.incorrect { background: var(--danger-soft); border-color: var(--danger); }
 .feedback-text { flex: 1; font-weight: 900; }
-.feedback.correct .feedback-text { color: var(--primary-dark); }
+.feedback.correct .feedback-text { color: var(--success-dark); }
 .feedback.incorrect .feedback-text { color: var(--danger); }
 
 .lesson-footer {
